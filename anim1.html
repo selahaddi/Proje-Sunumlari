@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ötegezegen Işık Eğrisi Animasyonu</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 20px;
+        }
+        .canvas-container {
+            position: relative;
+            background-color: #1e1e1e;
+            border: 1px solid #333;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            padding: 20px;
+        }
+        canvas {
+            background-color: #121212;
+            border-bottom: 2px solid #555;
+            border-left: 2px solid #555;
+        }
+        .labels {
+            display: flex;
+            justify-content: space-between;
+            width: 800px;
+            margin-top: 5px;
+            color: #aaa;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="canvas-container">
+        <h2 style="text-align: center; margin-top: 0;">Geçiş Zamanı (Transit) Işık Eğrisi</h2>
+        <canvas id="lightcurveCanvas" width="800" height="400"></canvas>
+        <div class="labels">
+            <span>Zaman / Evre</span>
+            <span>Göreceli Akı</span>
+        </div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('lightcurveCanvas');
+        const ctx = canvas.getContext('2d');
+        const width = canvas.width;
+        const height = canvas.height;
+
+        let points = [];
+        let animationFrameId;
+        let currentPointIndex = 0;
+
+        // Veri Setini Oluşturma (Gauss Çukuru ve Rastgele Gürültü)
+        function generateData() {
+            points = [];
+            const numPoints = 400; // Veri noktası sayısını artırdık, animasyon daha uzun sürecek
+            const baselineY = height * 0.2; 
+            const dipDepth = height * 0.6; 
+            const dipCenter = numPoints / 2;
+            const dipWidth = 35; // Çukur genişliğini biraz artırdık
+
+            for (let i = 0; i < numPoints; i++) {
+                let noise = (Math.random() - 0.5) * 15; 
+                let dip = dipDepth * Math.exp(-Math.pow(i - dipCenter, 2) / (2 * Math.pow(dipWidth, 2)));
+                
+                let y = baselineY + dip + noise;
+                let x = i * (width / numPoints);
+                points.push({ x: x, y: y });
+            }
+        }
+
+        // Noktaları Çizme Animasyonu
+        function drawCurve() {
+            if (currentPointIndex === 0) {
+                ctx.clearRect(0, 0, width, height);
+                drawGrid();
+            }
+
+            ctx.beginPath();
+            ctx.strokeStyle = '#00e5ff';
+            ctx.lineWidth = 2;
+            
+            if (currentPointIndex > 0) {
+                ctx.moveTo(points[currentPointIndex - 1].x, points[currentPointIndex - 1].y);
+                ctx.lineTo(points[currentPointIndex].x, points[currentPointIndex].y);
+                ctx.stroke();
+            }
+
+            // Hızı yavaşlatmak için 2 yerine 1 nokta çiziyoruz
+            currentPointIndex += 1; 
+
+            if (currentPointIndex < points.length) {
+                // Ekstra yavaşlık katmak isterseniz buradaki gecikmeyi artırabilirsiniz
+                setTimeout(() => {
+                    animationFrameId = requestAnimationFrame(drawCurve);
+                }, 10); 
+            } else {
+                findAndHighlightMinimum();
+                
+                // Animasyon bittikten 3.5 saniye (3500 ms) sonra döngüyü tekrar başlatır
+                setTimeout(startAnimation, 3500); 
+            }
+        }
+
+        // Izgarayı (Arkaplan) Çizme
+        function drawGrid() {
+            ctx.strokeStyle = '#333';
+            ctx.lineWidth = 1;
+            for(let i=0; i<width; i+=50) {
+                ctx.beginPath(); ctx.moveTo(i, 0); ctx.lineTo(i, height); ctx.stroke();
+            }
+            for(let j=0; j<height; j+=50) {
+                ctx.beginPath(); ctx.moveTo(0, j); ctx.lineTo(width, j); ctx.stroke();
+            }
+        }
+
+        // Minimum Çukurunu Tespit Etme
+        function findAndHighlightMinimum() {
+            let minPoint = points[0];
+            for (let i = 1; i < points.length; i++) {
+                if (points[i].y > minPoint.y) {
+                    minPoint = points[i];
+                }
+            }
+
+            // Kırmızı daire
+            ctx.beginPath();
+            ctx.arc(minPoint.x, minPoint.y, 8, 0, Math.PI * 2);
+            ctx.fillStyle = '#ff3b30';
+            ctx.fill();
+            ctx.strokeStyle = '#fff';
+            ctx.lineWidth = 2;
+            ctx.stroke();
+
+            // Kılavuz çizgi
+            ctx.setLineDash([5, 5]);
+            ctx.beginPath();
+            ctx.moveTo(minPoint.x, minPoint.y);
+            ctx.lineTo(minPoint.x, height); 
+            ctx.strokeStyle = '#ff3b30';
+            ctx.stroke();
+            ctx.setLineDash([]); 
+
+            // Metin kutusu ve yazı
+            ctx.fillStyle = 'rgba(0,0,0,0.7)';
+            ctx.fillRect(minPoint.x - 70, minPoint.y + 15, 140, 30);
+            
+            ctx.fillStyle = '#ff3b30';
+            ctx.font = 'bold 16px Arial';
+            ctx.textAlign = 'center';
+            ctx.fillText("Minimum Noktası", minPoint.x, minPoint.y + 35);
+        }
+
+        // Animasyonu Başlatıcı
+        function startAnimation() {
+            if (animationFrameId) {
+                cancelAnimationFrame(animationFrameId);
+            }
+            generateData();
+            currentPointIndex = 0;
+            drawCurve();
+        }
+
+        // Sayfa yüklendiğinde başlat
+        window.onload = startAnimation;
+    </script>
+</body>
+</html>
