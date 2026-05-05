@@ -238,6 +238,39 @@
   .project-modal::-webkit-scrollbar { width: 6px; }
   .project-modal::-webkit-scrollbar-track { background: transparent; }
   .project-modal::-webkit-scrollbar-thumb { background: rgba(1,75,61,0.2); border-radius: 3px; }
+
+  /* MOBILE RESPONSIVE OVERRIDES */
+  @media (max-width: 767px) {
+    .tactile-card { transform: none !important; }
+    .tactile-card:hover { transform: translateY(-4px) !important; }
+    .aspect-video > button,
+    .aspect-video > a {
+      opacity: 1 !important;
+      transform: scale(1) !important;
+    }
+    .space-y-section-gap > * + * {
+      margin-top: 60px !important;
+    }
+  }
+
+  /* Mobile menu */
+  .mobile-menu-overlay {
+    position: fixed; inset: 0; z-index: 45;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+    opacity: 0; pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+  .mobile-menu-overlay.active { opacity: 1; pointer-events: auto; }
+  .mobile-menu-panel {
+    position: fixed; top: 0; right: 0; z-index: 46;
+    width: 280px; height: 100%; background: #ffffff;
+    box-shadow: -10px 0 40px rgba(0,0,0,0.1);
+    transform: translateX(100%);
+    transition: transform 0.35s cubic-bezier(0.23, 1, 0.32, 1);
+    overflow-y: auto;
+  }
+  .mobile-menu-panel.active { transform: translateX(0); }
 </style>
 
 <style>
@@ -251,24 +284,45 @@
 <div class="bg-blob blob-mint"></div>
 <div class="bg-blob blob-cream"></div>
 <!-- NAV -->
-<nav class="fixed top-8 left-1/2 -translate-x-1/2 w-[90%] max-w-6xl premium-glass rounded-full z-50 flex justify-between items-center px-10 py-4 shadow-[0_15px_35px_rgba(0,0,0,0.05)]">
-<div class="text-xl font-bold text-[#014B3D] tracking-tighter">SELAHADDİN SERTTAŞ</div>
+<nav class="fixed top-4 md:top-8 left-1/2 -translate-x-1/2 w-[95%] md:w-[90%] max-w-6xl premium-glass rounded-full z-50 flex justify-between items-center px-4 md:px-10 py-2.5 md:py-4 shadow-[0_15px_35px_rgba(0,0,0,0.05)]">
+<div class="text-sm md:text-xl font-bold text-[#014B3D] tracking-tighter">SELAHADDİN SERTTAŞ</div>
 <div class="hidden md:flex items-center gap-10">
 <a class="text-on-surface-variant font-medium hover:text-primary transition-colors text-sm" href="#projects"><span class="lang-tr">Projeler</span><span class="lang-en">Projects</span></a>
 <a class="text-on-surface-variant font-medium hover:text-primary transition-colors text-sm" href="#about"><span class="lang-tr">Deneyim</span><span class="lang-en">Experience</span></a>
 <a class="text-on-surface-variant font-medium hover:text-primary transition-colors text-sm" href="#about"><span class="lang-tr">Hakkımda</span><span class="lang-en">About</span></a>
 <a class="text-on-surface-variant font-medium hover:text-primary transition-colors text-sm" href="#contact"><span class="lang-tr">İletişim</span><span class="lang-en">Contact</span></a>
 </div>
-<div class="flex items-center gap-4">
+<div class="flex items-center gap-2 md:gap-4">
 <button id="langToggle" onclick="toggleLanguage()" class="volumetric-btn-secondary px-3 py-2 rounded-full text-xs font-bold flex items-center gap-2 border border-surface-variant hover:bg-surface-dim transition-colors">
   <span class="material-symbols-outlined text-[16px]">language</span>
   <span id="langLabel">EN</span>
 </button>
-<a class="volumetric-btn text-white px-7 py-2.5 rounded-full text-sm font-semibold" href="mailto:serttas2001@gmail.com"><span class="lang-tr">İletişime Geç</span><span class="lang-en">Get in Touch</span></a>
+<a class="volumetric-btn text-white px-7 py-2.5 rounded-full text-sm font-semibold hidden md:inline-flex" href="mailto:serttas2001@gmail.com"><span class="lang-tr">İletişime Geç</span><span class="lang-en">Get in Touch</span></a>
+<button id="mobileMenuBtn" onclick="toggleMobileMenu()" class="md:hidden w-9 h-9 rounded-full bg-surface-container-high flex items-center justify-center text-primary">
+  <span class="material-symbols-outlined text-[22px]" id="mobileMenuIcon">menu</span>
+</button>
 </div>
 </nav>
+<!-- MOBILE MENU -->
+<div class="mobile-menu-overlay md:hidden" id="mobileMenuOverlay" onclick="toggleMobileMenu()"></div>
+<div class="mobile-menu-panel md:hidden" id="mobileMenuPanel">
+  <div class="p-8 pt-24">
+    <div class="flex flex-col gap-1">
+      <a href="#projects" onclick="toggleMobileMenu()" class="text-on-surface font-semibold text-lg py-3 px-4 rounded-xl hover:bg-surface-container transition-colors"><span class="lang-tr">Projeler</span><span class="lang-en">Projects</span></a>
+      <a href="#about" onclick="toggleMobileMenu()" class="text-on-surface font-semibold text-lg py-3 px-4 rounded-xl hover:bg-surface-container transition-colors"><span class="lang-tr">Deneyim</span><span class="lang-en">Experience</span></a>
+      <a href="#skills" onclick="toggleMobileMenu()" class="text-on-surface font-semibold text-lg py-3 px-4 rounded-xl hover:bg-surface-container transition-colors"><span class="lang-tr">Hakkımda</span><span class="lang-en">About</span></a>
+      <a href="#contact" onclick="toggleMobileMenu()" class="text-on-surface font-semibold text-lg py-3 px-4 rounded-xl hover:bg-surface-container transition-colors"><span class="lang-tr">İletişim</span><span class="lang-en">Contact</span></a>
+    </div>
+    <div class="mt-8 pt-8 border-t border-surface-variant">
+      <a class="volumetric-btn text-white px-7 py-3 rounded-full text-sm font-semibold flex items-center justify-center gap-2 w-full" href="mailto:serttas2001@gmail.com">
+        <span class="material-symbols-outlined text-[18px]">mail</span>
+        <span class="lang-tr">İletişime Geç</span><span class="lang-en">Get in Touch</span>
+      </a>
+    </div>
+  </div>
+</div>
 <!-- HERO -->
-<section class="relative min-h-screen flex flex-col justify-center items-center text-center px-container-padding overflow-hidden" id="hero">
+<section class="relative min-h-screen flex flex-col justify-center items-center text-center px-4 md:px-container-padding overflow-hidden" id="hero">
 <!-- Floating 3D Shapes -->
 <div class="decor-shape sphere w-32 h-32 top-[20%] left-[15%] opacity-40 blur-[2px]"></div>
 <div class="decor-shape torus w-48 h-48 bottom-[15%] right-[10%] opacity-30 rotate-12"></div>
@@ -278,24 +332,24 @@
 <span class="material-symbols-outlined text-[18px] text-secondary">public</span>
 <span class="text-xs font-bold uppercase tracking-[0.2em] text-primary"><span class="lang-tr">Yapay Zeka Geliştiricisi &amp; Astronom — Türkiye</span><span class="lang-en">AI Developer &amp; Astronomer — Turkey</span></span>
 </div>
-<h1 class="text-7xl md:text-8xl font-bold text-on-background mb-8 tracking-tight reveal">
+<h1 class="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold text-on-background mb-8 tracking-tight reveal">
 <span class="opacity-30 font-light">Selahaddin</span><br/>
 <strong class="text-primary">Serttaş</strong>
 </h1>
-<p class="text-xl md:text-2xl text-on-surface-variant max-w-2xl mx-auto mb-16 leading-relaxed reveal">
+<p class="text-base md:text-xl lg:text-2xl text-on-surface-variant max-w-2xl mx-auto mb-10 md:mb-16 leading-relaxed reveal">
 <span class="lang-tr">Astronominin hassasiyetini kodun ölçeğiyle birleştiren <strong>otonom yapay zeka</strong> sistemleri inşa ediyorum.</span><span class="lang-en">Building <strong>autonomous AI</strong> where the precision of astronomy meets the scale of code.</span>
 </p>
-<div class="flex justify-center gap-16 reveal">
+<div class="flex justify-center gap-8 md:gap-16 reveal">
 <div class="group">
-<div class="text-5xl font-bold text-primary mb-2 transition-transform group-hover:scale-110">7+</div>
+<div class="text-3xl md:text-5xl font-bold text-primary mb-2 transition-transform group-hover:scale-110">7+</div>
 <div class="text-[11px] font-bold text-outline uppercase tracking-widest"><span class="lang-tr">Yapay Zeka Projeleri</span><span class="lang-en">AI Projects</span></div>
 </div>
 <div class="group">
-<div class="text-5xl font-bold text-primary mb-2 transition-transform group-hover:scale-110">4</div>
+<div class="text-3xl md:text-5xl font-bold text-primary mb-2 transition-transform group-hover:scale-110">4</div>
 <div class="text-[11px] font-bold text-outline uppercase tracking-widest"><span class="lang-tr">Sertifikalar</span><span class="lang-en">Certifications</span></div>
 </div>
 <div class="group">
-<div class="text-5xl font-bold text-primary mb-2 transition-transform group-hover:scale-110">1</div>
+<div class="text-3xl md:text-5xl font-bold text-primary mb-2 transition-transform group-hover:scale-110">1</div>
 <div class="text-[11px] font-bold text-outline uppercase tracking-widest"><span class="lang-tr">Yayın</span><span class="lang-en">Publication</span></div>
 </div>
 </div>
@@ -320,22 +374,22 @@
 <div class="text-xs font-bold uppercase tracking-[0.2em] text-on-surface flex items-center gap-6"><span class="w-3 h-3 rounded-full bg-[#5AF5C8]"></span> Astronomical Data</div>
 </div>
 </div>
-<main class="max-w-7xl mx-auto px-container-padding space-y-section-gap pb-section-gap">
+<main class="max-w-7xl mx-auto px-4 md:px-container-padding space-y-section-gap pb-section-gap">
 <!-- ABOUT -->
-<section class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-start" id="about">
+<section class="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-20 items-start" id="about">
 <div class="reveal">
 <div class="text-xs font-bold uppercase tracking-[0.3em] text-primary mb-8 flex items-center gap-5">
       <span class="lang-tr">01 — Profil</span><span class="lang-en">01 — Profile</span>
       <div class="h-[1px] bg-primary/20 w-24"></div>
 </div>
-<h2 class="text-5xl font-bold text-on-background mb-10 leading-tight"><span class="lang-tr">Analiz ve Otomasyonun <em class="text-primary not-italic opacity-40 font-light">Mimarisi</em></span><span class="lang-en">The <em class="text-primary not-italic opacity-40 font-light">Architecture</em> of Analysis and Automation</span></h2>
+<h2 class="text-3xl md:text-3xl md:text-5xl font-bold text-on-background mb-6 md:mb-10 leading-tight"><span class="lang-tr">Analiz ve Otomasyonun <em class="text-primary not-italic opacity-40 font-light">Mimarisi</em></span><span class="lang-en">The <em class="text-primary not-italic opacity-40 font-light">Architecture</em> of Analysis and Automation</span></h2>
 <div class="text-lg text-on-surface-variant space-y-8 leading-relaxed">
 <p>
         <span class="lang-tr">Yüksek hassasiyetli veri analizi ve yapay zeka destekli otomasyon konularına güçlü bir şekilde odaklanan bir Astronomi ve Uzay Bilimleri öğrencisiyim. N8N ve Python kullanarak otonom iş akışları inşa etme konusunda uzmanım; aynı zamanda büyük dil modelleri (LLM) ve görüntü işleme (Vision AI) gibi yapay zeka çıktılarını doğruluk ve kültürel uygunluk açısından değerlendirip geliştirme yeteneğine sahibim. Ana dili Türkçe olan ve B1 seviyesinde İngilizce bilen biri olarak, içerik değerlendirmesi ve multimedya analizlerinde hassas ve detaylı analizler sunabiliyorum.</span><span class="lang-en">I am an Astronomy and Space Sciences student with a strong focus on high-precision data analysis and AI-powered automation. I specialize in building autonomous workflows using n8n and Python; I also possess the ability to evaluate and improve AI outputs such as Large Language Models (LLMs) and Vision AI for accuracy and cultural relevance. As a native Turkish speaker with B1 level English, I provide precise and detailed analyses in content evaluation and multimedia processing.</span>
 </p>
 </div>
 </div>
-<div class="tactile-card p-12 reveal">
+<div class="tactile-card p-6 md:p-12 reveal">
 <h3 class="text-2xl font-bold text-on-background mb-10"><span class="lang-tr">Sertifikalar</span><span class="lang-en">Certifications</span></h3>
 <div class="space-y-8">
 <div class="flex gap-6 items-start pb-8 border-b border-surface-variant">
@@ -377,11 +431,11 @@
       <span class="lang-tr">02 — Projeler</span><span class="lang-en">02 — Projects</span>
       <div class="h-[1px] bg-primary/20 w-12"></div>
 </div>
-<h2 class="text-6xl font-bold text-on-background"><span class="lang-tr">Yapay zeka odaklı <em class="text-primary not-italic opacity-40 font-light">sistemler</em></span><span class="lang-en">AI-powered <em class="text-primary not-italic opacity-40 font-light">builds</em></span></h2>
+<h2 class="text-3xl sm:text-4xl md:text-6xl font-bold text-on-background"><span class="lang-tr">Yapay zeka odaklı <em class="text-primary not-italic opacity-40 font-light">sistemler</em></span><span class="lang-en">AI-powered <em class="text-primary not-italic opacity-40 font-light">builds</em></span></h2>
 </div>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-<article class="tactile-card p-10 reveal flex flex-col">
-<div class="aspect-video rounded-3xl mb-8 relative overflow-hidden group shadow-lg border border-black/5">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10">
+<article class="tactile-card p-5 md:p-10 reveal flex flex-col">
+<div class="aspect-video rounded-2xl md:rounded-3xl mb-5 md:mb-8 relative overflow-hidden group shadow-lg border border-black/5">
   <div class="w-full h-full flex transition-transform duration-500 ease-in-out slider-track" id="slider-Rag_Python_Proje_Detayi" data-slide="0">
     <img src="project_slides/Rag_Python_Proje_Detayi/page_1.webp" class="w-full h-full object-contain bg-white shrink-0" loading="lazy" alt="Slide" />
     <img src="project_slides/Rag_Python_Proje_Detayi/page_2.webp" class="w-full h-full object-contain bg-white shrink-0" loading="lazy" alt="Slide" />
@@ -407,7 +461,7 @@
     <span class="material-symbols-outlined text-[20px]">picture_as_pdf</span>
   </a>
 </div>
-<h3 class="text-2xl font-bold text-on-background mb-4 line-clamp-2"><span class="lang-tr">Rag Python: Esnek Kurumsal RAG (Retrieval-Augmented Generation) Sistemi</span><span class="lang-en">Rag Python: Esnek Kurumsal RAG (Retrieval-Augmented Generation) Sistemi</span></h3>
+<h3 class="text-lg md:text-2xl font-bold text-on-background mb-3 md:mb-4 line-clamp-2"><span class="lang-tr">Rag Python: Esnek Kurumsal RAG (Retrieval-Augmented Generation) Sistemi</span><span class="lang-en">Rag Python: Esnek Kurumsal RAG (Retrieval-Augmented Generation) Sistemi</span></h3>
 <p class="text-on-surface-variant mb-6 leading-relaxed text-sm line-clamp-3 flex-grow" title="Bu proje, her türlü şirket ortamına ve farklı kurumsal departman ihtiyaçlarına (İK, Hukuk, Teknik Destek, Yönetim) anında uyarlanabilen esnek bir RAG altyapısıdır. Şirketlere ait özel dokümanların (kılavuzlar, pdf'ler) güvenli bir şekilde okunarak vektörel veritabanlarına kaydedilmesini ve ardından n8n üzerinden yönetilen yapay zeka ajanlarının bu verileri referans alarak halüsinasyonsuz, kuruma özel ve %100 doğru cevaplar üretmesini sağlar."><span class="lang-tr">Bu proje, her türlü şirket ortamına ve farklı kurumsal departman ihtiyaçlarına (İK, Hukuk, Teknik Destek, Yönetim) anında uyarlanabilen esnek bir RAG altyapısıdır. Şirketlere ait özel dokümanların (kılavuzlar, pdf'ler) güvenli bir şekilde okunarak vektörel veritabanlarına kaydedilmesini ve ardından n8n üzerinden yönetilen yapay zeka ajanlarının bu verileri referans alarak halüsinasyonsuz, kuruma özel ve %100 doğru cevaplar üretmesini sağlar.</span><span class="lang-en">Bu proje, her türlü şirket ortamına ve farklı kurumsal departman ihtiyaçlarına (İK, Hukuk, Teknik Destek, Yönetim) anında uyarlanabilen esnek bir RAG altyapısıdır. Şirketlere ait özel dokümanların (kılavuzlar, pdf'ler) güvenli bir şekilde okunarak vektörel veritabanlarına kaydedilmesini ve ardından n8n üzerinden yönetilen yapay zeka ajanlarının bu verileri referans alarak halüsinasyonsuz, kuruma özel ve %100 doğru cevaplar üretmesini sağlar.</span></p>
 <div class="flex flex-wrap gap-2 mt-auto">
 <span class="px-4 py-1.5 rounded-full bg-surface-variant text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">Veri Yükleme ve İşleme</span>
@@ -416,8 +470,8 @@
 <span class="px-4 py-1.5 rounded-full bg-surface-variant text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">Yapay Zeka Modelleri</span>
 </div>
 </article>
-<article class="tactile-card p-10 reveal flex flex-col">
-<div class="aspect-video rounded-3xl mb-8 relative overflow-hidden group shadow-lg border border-black/5">
+<article class="tactile-card p-5 md:p-10 reveal flex flex-col">
+<div class="aspect-video rounded-2xl md:rounded-3xl mb-5 md:mb-8 relative overflow-hidden group shadow-lg border border-black/5">
   <div class="w-full h-full flex transition-transform duration-500 ease-in-out slider-track" id="slider-N8N_SatışDanışmanı_Proje_Detayi" data-slide="0">
     <img src="project_slides/N8N_SatışDanışmanı_Proje_Detayi/page_1.webp" class="w-full h-full object-contain bg-white shrink-0" loading="lazy" alt="Slide" />
     <img src="project_slides/N8N_SatışDanışmanı_Proje_Detayi/page_2.webp" class="w-full h-full object-contain bg-white shrink-0" loading="lazy" alt="Slide" />
@@ -442,7 +496,7 @@
     <span class="material-symbols-outlined text-[20px]">picture_as_pdf</span>
   </a>
 </div>
-<h3 class="text-2xl font-bold text-on-background mb-4 line-clamp-2"><span class="lang-tr">N8N Satış Danışmanı: Akıllı B2B Teklif Hazırlama ve Takip Sistemi</span><span class="lang-en">N8N Satış Danışmanı: Akıllı B2B Teklif Hazırlama ve Takip Sistemi</span></h3>
+<h3 class="text-lg md:text-2xl font-bold text-on-background mb-3 md:mb-4 line-clamp-2"><span class="lang-tr">N8N Satış Danışmanı: Akıllı B2B Teklif Hazırlama ve Takip Sistemi</span><span class="lang-en">N8N Satış Danışmanı: Akıllı B2B Teklif Hazırlama ve Takip Sistemi</span></h3>
 <p class="text-on-surface-variant mb-6 leading-relaxed text-sm line-clamp-3 flex-grow" title="Bu proje; B2B (İşletmeden İşletmeye) formatında çalışan firmaların web üzerinden aldıkları sipariş veya fiyat teklifi taleplerini tamamen otomatize eden bir sistemdir. Gelen müşteri taleplerini otomatik olarak hesaplar, kurumsal bir PDF teklifine dönüştürür, müşteriye e-posta ile iletir ve yanıt alınamayan teklifler için (örneğin 3 gün sonra) satış temsilcisine Telegram üzerinden "satışı kapatması" için uyarı gönderir."><span class="lang-tr">Bu proje; B2B (İşletmeden İşletmeye) formatında çalışan firmaların web üzerinden aldıkları sipariş veya fiyat teklifi taleplerini tamamen otomatize eden bir sistemdir. Gelen müşteri taleplerini otomatik olarak hesaplar, kurumsal bir PDF teklifine dönüştürür, müşteriye e-posta ile iletir ve yanıt alınamayan teklifler için (örneğin 3 gün sonra) satış temsilcisine Telegram üzerinden "satışı kapatması" için uyarı gönderir.</span><span class="lang-en">Bu proje; B2B (İşletmeden İşletmeye) formatında çalışan firmaların web üzerinden aldıkları sipariş veya fiyat teklifi taleplerini tamamen otomatize eden bir sistemdir. Gelen müşteri taleplerini otomatik olarak hesaplar, kurumsal bir PDF teklifine dönüştürür, müşteriye e-posta ile iletir ve yanıt alınamayan teklifler için (örneğin 3 gün sonra) satış temsilcisine Telegram üzerinden "satışı kapatması" için uyarı gönderir.</span></p>
 <div class="flex flex-wrap gap-2 mt-auto">
 <span class="px-4 py-1.5 rounded-full bg-surface-variant text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">İş Akışı ve Otomasyon</span>
@@ -452,8 +506,8 @@
 <span class="px-4 py-1.5 rounded-full bg-surface-variant text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">İletişim Servisleri</span>
 </div>
 </article>
-<article class="tactile-card p-10 reveal flex flex-col">
-<div class="aspect-video rounded-3xl mb-8 relative overflow-hidden group shadow-lg border border-black/5">
+<article class="tactile-card p-5 md:p-10 reveal flex flex-col">
+<div class="aspect-video rounded-2xl md:rounded-3xl mb-5 md:mb-8 relative overflow-hidden group shadow-lg border border-black/5">
   <div class="w-full h-full flex transition-transform duration-500 ease-in-out slider-track" id="slider-N8N_Stok_Proje_Detayi" data-slide="0">
     <img src="project_slides/N8N_Stok_Proje_Detayi/page_1.webp" class="w-full h-full object-contain bg-white shrink-0" loading="lazy" alt="Slide" />
     <img src="project_slides/N8N_Stok_Proje_Detayi/page_2.webp" class="w-full h-full object-contain bg-white shrink-0" loading="lazy" alt="Slide" />
@@ -476,7 +530,7 @@
     <span class="material-symbols-outlined text-[20px]">picture_as_pdf</span>
   </a>
 </div>
-<h3 class="text-2xl font-bold text-on-background mb-4 line-clamp-2"><span class="lang-tr">N8N Stok: Süpermarket Stok Analiz Otomasyonu</span><span class="lang-en">N8N Stok: Süpermarket Stok Analiz Otomasyonu</span></h3>
+<h3 class="text-lg md:text-2xl font-bold text-on-background mb-3 md:mb-4 line-clamp-2"><span class="lang-tr">N8N Stok: Süpermarket Stok Analiz Otomasyonu</span><span class="lang-en">N8N Stok: Süpermarket Stok Analiz Otomasyonu</span></h3>
 <p class="text-on-surface-variant mb-6 leading-relaxed text-sm line-clamp-3 flex-grow" title="Bu proje, perakende işletmeleri ve süpermarketler için tasarlanmış yapay zeka destekli bir stok analiz otomasyonudur. N8n üzerinden kurulan bu sistem; buluta (Google Drive) yüklenen güncel stok verilerini otomatik olarak okur, verileri parçalara bölerek (batch processing) yapay zekaya (OpenAI) analiz ettirir ve "Hangi üründen kaç adet sipariş edilmeli?" sorusunun cevabını içeren yepyeni bir Excel raporu üreterek ilgili klasöre kaydeder."><span class="lang-tr">Bu proje, perakende işletmeleri ve süpermarketler için tasarlanmış yapay zeka destekli bir stok analiz otomasyonudur. N8n üzerinden kurulan bu sistem; buluta (Google Drive) yüklenen güncel stok verilerini otomatik olarak okur, verileri parçalara bölerek (batch processing) yapay zekaya (OpenAI) analiz ettirir ve "Hangi üründen kaç adet sipariş edilmeli?" sorusunun cevabını içeren yepyeni bir Excel raporu üreterek ilgili klasöre kaydeder.</span><span class="lang-en">Bu proje, perakende işletmeleri ve süpermarketler için tasarlanmış yapay zeka destekli bir stok analiz otomasyonudur. N8n üzerinden kurulan bu sistem; buluta (Google Drive) yüklenen güncel stok verilerini otomatik olarak okur, verileri parçalara bölerek (batch processing) yapay zekaya (OpenAI) analiz ettirir ve "Hangi üründen kaç adet sipariş edilmeli?" sorusunun cevabını içeren yepyeni bir Excel raporu üreterek ilgili klasöre kaydeder.</span></p>
 <div class="flex flex-wrap gap-2 mt-auto">
 <span class="px-4 py-1.5 rounded-full bg-surface-variant text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">Otomasyon Motoru</span>
@@ -486,8 +540,8 @@
 <span class="px-4 py-1.5 rounded-full bg-surface-variant text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">Test Aracı</span>
 </div>
 </article>
-<article class="tactile-card p-10 reveal flex flex-col">
-<div class="aspect-video rounded-3xl mb-8 relative overflow-hidden group shadow-lg border border-black/5">
+<article class="tactile-card p-5 md:p-10 reveal flex flex-col">
+<div class="aspect-video rounded-2xl md:rounded-3xl mb-5 md:mb-8 relative overflow-hidden group shadow-lg border border-black/5">
   <div class="w-full h-full flex transition-transform duration-500 ease-in-out slider-track" id="slider-N8N_Muhasebe_Proje_Detayi" data-slide="0">
     <img src="project_slides/N8N_Muhasebe_Proje_Detayi/page_1.webp" class="w-full h-full object-contain bg-white shrink-0" loading="lazy" alt="Slide" />
     <img src="project_slides/N8N_Muhasebe_Proje_Detayi/page_2.webp" class="w-full h-full object-contain bg-white shrink-0" loading="lazy" alt="Slide" />
@@ -511,7 +565,7 @@
     <span class="material-symbols-outlined text-[20px]">picture_as_pdf</span>
   </a>
 </div>
-<h3 class="text-2xl font-bold text-on-background mb-4 line-clamp-2"><span class="lang-tr">N8N Muhasebe: Fatura ve Gider Otomasyonu (OCR)</span><span class="lang-en">N8N Muhasebe: Fatura ve Gider Otomasyonu (OCR)</span></h3>
+<h3 class="text-lg md:text-2xl font-bold text-on-background mb-3 md:mb-4 line-clamp-2"><span class="lang-tr">N8N Muhasebe: Fatura ve Gider Otomasyonu (OCR)</span><span class="lang-en">N8N Muhasebe: Fatura ve Gider Otomasyonu (OCR)</span></h3>
 <p class="text-on-surface-variant mb-6 leading-relaxed text-sm line-clamp-3 flex-grow" title="Bu proje, işletmelerin ve mali müşavirlerin fatura giriş süreçlerini tamamen otomatize etmek için tasarlanmış akıllı bir muhasebe çözümüdür. E-posta yoluyla gelen fatura dosyalarını (PDF, görsel vb.) yakalar, OCR (Optik Karakter Tanıma) ve yapay zeka (LLM) kullanarak içeriğini okur ve anlamlandırılmış verileri anında Google Sheets gibi tablolara kaydeder."><span class="lang-tr">Bu proje, işletmelerin ve mali müşavirlerin fatura giriş süreçlerini tamamen otomatize etmek için tasarlanmış akıllı bir muhasebe çözümüdür. E-posta yoluyla gelen fatura dosyalarını (PDF, görsel vb.) yakalar, OCR (Optik Karakter Tanıma) ve yapay zeka (LLM) kullanarak içeriğini okur ve anlamlandırılmış verileri anında Google Sheets gibi tablolara kaydeder.</span><span class="lang-en">Bu proje, işletmelerin ve mali müşavirlerin fatura giriş süreçlerini tamamen otomatize etmek için tasarlanmış akıllı bir muhasebe çözümüdür. E-posta yoluyla gelen fatura dosyalarını (PDF, görsel vb.) yakalar, OCR (Optik Karakter Tanıma) ve yapay zeka (LLM) kullanarak içeriğini okur ve anlamlandırılmış verileri anında Google Sheets gibi tablolara kaydeder.</span></p>
 <div class="flex flex-wrap gap-2 mt-auto">
 <span class="px-4 py-1.5 rounded-full bg-surface-variant text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">Otomasyon Platformu</span>
@@ -521,8 +575,8 @@
 <span class="px-4 py-1.5 rounded-full bg-surface-variant text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">Sunucu & Altyapı</span>
 </div>
 </article>
-<article class="tactile-card p-10 reveal flex flex-col">
-<div class="aspect-video rounded-3xl mb-8 relative overflow-hidden group shadow-lg border border-black/5">
+<article class="tactile-card p-5 md:p-10 reveal flex flex-col">
+<div class="aspect-video rounded-2xl md:rounded-3xl mb-5 md:mb-8 relative overflow-hidden group shadow-lg border border-black/5">
   <div class="w-full h-full flex transition-transform duration-500 ease-in-out slider-track" id="slider-N8N_Mağaza_Proje_Detayi" data-slide="0">
     <img src="project_slides/N8N_Mağaza_Proje_Detayi/page_1.webp" class="w-full h-full object-contain bg-white shrink-0" loading="lazy" alt="Slide" />
     <img src="project_slides/N8N_Mağaza_Proje_Detayi/page_2.webp" class="w-full h-full object-contain bg-white shrink-0" loading="lazy" alt="Slide" />
@@ -547,7 +601,7 @@
     <span class="material-symbols-outlined text-[20px]">picture_as_pdf</span>
   </a>
 </div>
-<h3 class="text-2xl font-bold text-on-background mb-4 line-clamp-2"><span class="lang-tr">N8N Mağaza: Kişiselleştirilmiş Satış Hunisi Optimizasyon Ajanı</span><span class="lang-en">N8N Mağaza: Kişiselleştirilmiş Satış Hunisi Optimizasyon Ajanı</span></h3>
+<h3 class="text-lg md:text-2xl font-bold text-on-background mb-3 md:mb-4 line-clamp-2"><span class="lang-tr">N8N Mağaza: Kişiselleştirilmiş Satış Hunisi Optimizasyon Ajanı</span><span class="lang-en">N8N Mağaza: Kişiselleştirilmiş Satış Hunisi Optimizasyon Ajanı</span></h3>
 <p class="text-on-surface-variant mb-6 leading-relaxed text-sm line-clamp-3 flex-grow" title="Bu proje, e-ticaret siteleri için geliştirilmiş, n8n (otomasyon platformu) üzerinde çalışan yapay zeka destekli bir satış ve pazarlama aracıdır. Sistem, müşterilerin e-ticaret sitesindeki davranışlarını (özellikle sepette bırakılan ürünler ve gezilen kategoriler) analiz ederek, onları satın almaya ikna edecek "hiper-kişiselleştirilmiş" e-posta içerikleri üretir."><span class="lang-tr">Bu proje, e-ticaret siteleri için geliştirilmiş, n8n (otomasyon platformu) üzerinde çalışan yapay zeka destekli bir satış ve pazarlama aracıdır. Sistem, müşterilerin e-ticaret sitesindeki davranışlarını (özellikle sepette bırakılan ürünler ve gezilen kategoriler) analiz ederek, onları satın almaya ikna edecek "hiper-kişiselleştirilmiş" e-posta içerikleri üretir.</span><span class="lang-en">Bu proje, e-ticaret siteleri için geliştirilmiş, n8n (otomasyon platformu) üzerinde çalışan yapay zeka destekli bir satış ve pazarlama aracıdır. Sistem, müşterilerin e-ticaret sitesindeki davranışlarını (özellikle sepette bırakılan ürünler ve gezilen kategoriler) analiz ederek, onları satın almaya ikna edecek "hiper-kişiselleştirilmiş" e-posta içerikleri üretir.</span></p>
 <div class="flex flex-wrap gap-2 mt-auto">
 <span class="px-4 py-1.5 rounded-full bg-surface-variant text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">Otomasyon Motoru</span>
@@ -557,8 +611,8 @@
 <span class="px-4 py-1.5 rounded-full bg-surface-variant text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">JavaScript</span>
 </div>
 </article>
-<article class="tactile-card p-10 reveal flex flex-col">
-<div class="aspect-video rounded-3xl mb-8 relative overflow-hidden group shadow-lg border border-black/5">
+<article class="tactile-card p-5 md:p-10 reveal flex flex-col">
+<div class="aspect-video rounded-2xl md:rounded-3xl mb-5 md:mb-8 relative overflow-hidden group shadow-lg border border-black/5">
   <div class="w-full h-full flex transition-transform duration-500 ease-in-out slider-track" id="slider-2kyap_Proje_Detayi" data-slide="0">
     <img src="project_slides/2kyap_Proje_Detayi/page_1.webp" class="w-full h-full object-contain bg-white shrink-0" loading="lazy" alt="Slide" />
     <img src="project_slides/2kyap_Proje_Detayi/page_2.webp" class="w-full h-full object-contain bg-white shrink-0" loading="lazy" alt="Slide" />
@@ -583,13 +637,13 @@
     <span class="material-symbols-outlined text-[20px]">picture_as_pdf</span>
   </a>
 </div>
-<h3 class="text-2xl font-bold text-on-background mb-4 line-clamp-2"><span class="lang-tr">2kyap Projesi: AI Image Upscaler (Yapay Zeka Destekli Görüntü Büyütme)</span><span class="lang-en">2kyap Projesi: AI Image Upscaler (Yapay Zeka Destekli Görüntü Büyütme)</span></h3>
+<h3 class="text-lg md:text-2xl font-bold text-on-background mb-3 md:mb-4 line-clamp-2"><span class="lang-tr">2kyap Projesi: AI Image Upscaler (Yapay Zeka Destekli Görüntü Büyütme)</span><span class="lang-en">2kyap Projesi: AI Image Upscaler (Yapay Zeka Destekli Görüntü Büyütme)</span></h3>
 <p class="text-on-surface-variant mb-6 leading-relaxed text-sm line-clamp-3 flex-grow" title="Bu proje, düşük çözünürlüklü görüntüleri yapay zeka kullanarak 4 katına (4x) kadar kaliteden ödün vermeden büyüten ve detaylandıran masaüstü tabanlı bir uygulamadır. Görüntü işleme motoru olarak **RealESRGAN** ve yüz iyileştirme işlemleri için **GFPGAN** modellerini kullanır. Arayüzü modern ve kullanıcı dostu olması adına `customtkinter` ile geliştirilmiştir."><span class="lang-tr">Bu proje, düşük çözünürlüklü görüntüleri yapay zeka kullanarak 4 katına (4x) kadar kaliteden ödün vermeden büyüten ve detaylandıran masaüstü tabanlı bir uygulamadır. Görüntü işleme motoru olarak **RealESRGAN** ve yüz iyileştirme işlemleri için **GFPGAN** modellerini kullanır. Arayüzü modern ve kullanıcı dostu olması adına `customtkinter` ile geliştirilmiştir.</span><span class="lang-en">Bu proje, düşük çözünürlüklü görüntüleri yapay zeka kullanarak 4 katına (4x) kadar kaliteden ödün vermeden büyüten ve detaylandıran masaüstü tabanlı bir uygulamadır. Görüntü işleme motoru olarak **RealESRGAN** ve yüz iyileştirme işlemleri için **GFPGAN** modellerini kullanır. Arayüzü modern ve kullanıcı dostu olması adına `customtkinter` ile geliştirilmiştir.</span></p>
 <div class="flex flex-wrap gap-2 mt-auto">
 </div>
 </article>
-<article class="tactile-card p-10 reveal flex flex-col">
-<div class="aspect-video rounded-3xl mb-8 relative overflow-hidden group shadow-lg border border-black/5">
+<article class="tactile-card p-5 md:p-10 reveal flex flex-col">
+<div class="aspect-video rounded-2xl md:rounded-3xl mb-5 md:mb-8 relative overflow-hidden group shadow-lg border border-black/5">
   <div class="w-full h-full flex transition-transform duration-500 ease-in-out slider-track" id="slider-AiÜrün_Proje_Detayi" data-slide="0">
     <img src="project_slides/AiÜrün_Proje_Detayi/page_1.webp" class="w-full h-full object-contain bg-white shrink-0" loading="lazy" alt="Slide" />
     <img src="project_slides/AiÜrün_Proje_Detayi/page_2.webp" class="w-full h-full object-contain bg-white shrink-0" loading="lazy" alt="Slide" />
@@ -613,7 +667,7 @@
     <span class="material-symbols-outlined text-[20px]">picture_as_pdf</span>
   </a>
 </div>
-<h3 class="text-2xl font-bold text-on-background mb-4 line-clamp-2"><span class="lang-tr">AiÜrün: AI Destekli Profesyonel Reklam Görseli Oluşturma Sistemi</span><span class="lang-en">AiÜrün: AI Destekli Profesyonel Reklam Görseli Oluşturma Sistemi</span></h3>
+<h3 class="text-lg md:text-2xl font-bold text-on-background mb-3 md:mb-4 line-clamp-2"><span class="lang-tr">AiÜrün: AI Destekli Profesyonel Reklam Görseli Oluşturma Sistemi</span><span class="lang-en">AiÜrün: AI Destekli Profesyonel Reklam Görseli Oluşturma Sistemi</span></h3>
 <p class="text-on-surface-variant mb-6 leading-relaxed text-sm line-clamp-3 flex-grow" title="Bu proje, kullanıcıların sıradan ürün fotoğraflarını yükleyerek yapay zeka desteğiyle profesyonel, stüdyo kalitesinde reklam görsellerine dönüştürmelerini sağlayan tam kapsamlı bir web uygulamasıdır. Sistem; Next.js tabanlı modern bir arayüz, Supabase destekli veritabanı, n8n otomasyonu, Google Gemini ve OpenAI DALL-E 3 yapay zeka modellerinin entegrasyonuyla çalışır."><span class="lang-tr">Bu proje, kullanıcıların sıradan ürün fotoğraflarını yükleyerek yapay zeka desteğiyle profesyonel, stüdyo kalitesinde reklam görsellerine dönüştürmelerini sağlayan tam kapsamlı bir web uygulamasıdır. Sistem; Next.js tabanlı modern bir arayüz, Supabase destekli veritabanı, n8n otomasyonu, Google Gemini ve OpenAI DALL-E 3 yapay zeka modellerinin entegrasyonuyla çalışır.</span><span class="lang-en">Bu proje, kullanıcıların sıradan ürün fotoğraflarını yükleyerek yapay zeka desteğiyle profesyonel, stüdyo kalitesinde reklam görsellerine dönüştürmelerini sağlayan tam kapsamlı bir web uygulamasıdır. Sistem; Next.js tabanlı modern bir arayüz, Supabase destekli veritabanı, n8n otomasyonu, Google Gemini ve OpenAI DALL-E 3 yapay zeka modellerinin entegrasyonuyla çalışır.</span></p>
 <div class="flex flex-wrap gap-2 mt-auto">
 <span class="px-4 py-1.5 rounded-full bg-surface-variant text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">Frontend</span>
@@ -623,8 +677,8 @@
 <span class="px-4 py-1.5 rounded-full bg-surface-variant text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">Google Gemini 2.0</span>
 </div>
 </article>
-<article class="tactile-card p-10 reveal flex flex-col">
-<div class="aspect-video rounded-3xl mb-8 relative overflow-hidden group shadow-lg border border-black/5">
+<article class="tactile-card p-5 md:p-10 reveal flex flex-col">
+<div class="aspect-video rounded-2xl md:rounded-3xl mb-5 md:mb-8 relative overflow-hidden group shadow-lg border border-black/5">
   <div class="w-full h-full flex transition-transform duration-500 ease-in-out slider-track" id="slider-FlyStory_Proje_Detayi" data-slide="0">
     <img src="project_slides/FlyStory_Proje_Detayi/page_1.webp" class="w-full h-full object-contain bg-white shrink-0" loading="lazy" alt="Slide" />
     <img src="project_slides/FlyStory_Proje_Detayi/page_2.webp" class="w-full h-full object-contain bg-white shrink-0" loading="lazy" alt="Slide" />
@@ -650,7 +704,7 @@
     <span class="material-symbols-outlined text-[20px]">picture_as_pdf</span>
   </a>
 </div>
-<h3 class="text-2xl font-bold text-on-background mb-4 line-clamp-2"><span class="lang-tr">FlyStory: Modern Havacılık Keşif Platformu</span><span class="lang-en">FlyStory: Modern Havacılık Keşif Platformu</span></h3>
+<h3 class="text-lg md:text-2xl font-bold text-on-background mb-3 md:mb-4 line-clamp-2"><span class="lang-tr">FlyStory: Modern Havacılık Keşif Platformu</span><span class="lang-en">FlyStory: Modern Havacılık Keşif Platformu</span></h3>
 <p class="text-on-surface-variant mb-6 leading-relaxed text-sm line-clamp-3 flex-grow" title="FlyStory, havacılık meraklıları için özel olarak geliştirilmiş, uçak modellerini, teknik verilerini ve anlık telemetri bilgilerini sunan görsel odaklı, tam donanımlı (Full-Stack) bir web uygulamasıdır. Arka planda yüksek performanslı Go (Golang) kullanılırken, ön yüzde React ve Tailwind CSS ile son derece modern, estetik ve akıcı bir kullanıcı deneyimi sunulmaktadır."><span class="lang-tr">FlyStory, havacılık meraklıları için özel olarak geliştirilmiş, uçak modellerini, teknik verilerini ve anlık telemetri bilgilerini sunan görsel odaklı, tam donanımlı (Full-Stack) bir web uygulamasıdır. Arka planda yüksek performanslı Go (Golang) kullanılırken, ön yüzde React ve Tailwind CSS ile son derece modern, estetik ve akıcı bir kullanıcı deneyimi sunulmaktadır.</span><span class="lang-en">FlyStory, havacılık meraklıları için özel olarak geliştirilmiş, uçak modellerini, teknik verilerini ve anlık telemetri bilgilerini sunan görsel odaklı, tam donanımlı (Full-Stack) bir web uygulamasıdır. Arka planda yüksek performanslı Go (Golang) kullanılırken, ön yüzde React ve Tailwind CSS ile son derece modern, estetik ve akıcı bir kullanıcı deneyimi sunulmaktadır.</span></p>
 <div class="flex flex-wrap gap-2 mt-auto">
 <span class="px-4 py-1.5 rounded-full bg-surface-variant text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">Frontend</span>
@@ -660,8 +714,8 @@
 <span class="px-4 py-1.5 rounded-full bg-surface-variant text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">Backend</span>
 </div>
 </article>
-<article class="tactile-card p-10 reveal flex flex-col">
-<div class="aspect-video rounded-3xl mb-8 relative overflow-hidden group shadow-lg border border-black/5">
+<article class="tactile-card p-5 md:p-10 reveal flex flex-col">
+<div class="aspect-video rounded-2xl md:rounded-3xl mb-5 md:mb-8 relative overflow-hidden group shadow-lg border border-black/5">
   <div class="w-full h-full flex transition-transform duration-500 ease-in-out slider-track" id="slider-N8N_Borsa_Proje_Detayi" data-slide="0">
     <img src="project_slides/N8N_Borsa_Proje_Detayi/page_1.webp" class="w-full h-full object-contain bg-white shrink-0" loading="lazy" alt="Slide" />
     <img src="project_slides/N8N_Borsa_Proje_Detayi/page_2.webp" class="w-full h-full object-contain bg-white shrink-0" loading="lazy" alt="Slide" />
@@ -687,7 +741,7 @@
     <span class="material-symbols-outlined text-[20px]">picture_as_pdf</span>
   </a>
 </div>
-<h3 class="text-2xl font-bold text-on-background mb-4 line-clamp-2"><span class="lang-tr">N8N Borsa: AI Destekli Hisse Senedi Analiz Platformu</span><span class="lang-en">N8N Borsa: AI Destekli Hisse Senedi Analiz Platformu</span></h3>
+<h3 class="text-lg md:text-2xl font-bold text-on-background mb-3 md:mb-4 line-clamp-2"><span class="lang-tr">N8N Borsa: AI Destekli Hisse Senedi Analiz Platformu</span><span class="lang-en">N8N Borsa: AI Destekli Hisse Senedi Analiz Platformu</span></h3>
 <p class="text-on-surface-variant mb-6 leading-relaxed text-sm line-clamp-3 flex-grow" title="N8N Borsa projesi; borsa verilerini takip eden, teknik göstergeleri (RSI, MACD vb.) hesaplayan ve yapay zeka (Google Gemini) yardımıyla hisseleri yorumlayan gelişmiş bir finansal otomasyon sistemidir. Proje gücünü N8N'in sunduğu otomasyon yeteneklerinden alırken, kullanıcılara Next.js ile geliştirilmiş modern bir web paneli sunmaktadır. Ek olarak, detaylı borsa analiz raporlarını periyodik olarak e-posta üzerinden de iletebilmektedir."><span class="lang-tr">N8N Borsa projesi; borsa verilerini takip eden, teknik göstergeleri (RSI, MACD vb.) hesaplayan ve yapay zeka (Google Gemini) yardımıyla hisseleri yorumlayan gelişmiş bir finansal otomasyon sistemidir. Proje gücünü N8N'in sunduğu otomasyon yeteneklerinden alırken, kullanıcılara Next.js ile geliştirilmiş modern bir web paneli sunmaktadır. Ek olarak, detaylı borsa analiz raporlarını periyodik olarak e-posta üzerinden de iletebilmektedir.</span><span class="lang-en">N8N Borsa projesi; borsa verilerini takip eden, teknik göstergeleri (RSI, MACD vb.) hesaplayan ve yapay zeka (Google Gemini) yardımıyla hisseleri yorumlayan gelişmiş bir finansal otomasyon sistemidir. Proje gücünü N8N'in sunduğu otomasyon yeteneklerinden alırken, kullanıcılara Next.js ile geliştirilmiş modern bir web paneli sunmaktadır. Ek olarak, detaylı borsa analiz raporlarını periyodik olarak e-posta üzerinden de iletebilmektedir.</span></p>
 <div class="flex flex-wrap gap-2 mt-auto">
 <span class="px-4 py-1.5 rounded-full bg-surface-variant text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">Frontend</span>
@@ -697,8 +751,8 @@
 <span class="px-4 py-1.5 rounded-full bg-surface-variant text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">NewsAPI</span>
 </div>
 </article>
-<article class="tactile-card p-10 reveal flex flex-col">
-<div class="aspect-video rounded-3xl mb-8 relative overflow-hidden group shadow-lg border border-black/5">
+<article class="tactile-card p-5 md:p-10 reveal flex flex-col">
+<div class="aspect-video rounded-2xl md:rounded-3xl mb-5 md:mb-8 relative overflow-hidden group shadow-lg border border-black/5">
   <div class="w-full h-full flex transition-transform duration-500 ease-in-out slider-track" id="slider-ocr_tarayici_Proje_Detayi" data-slide="0">
     <img src="project_slides/ocr_tarayici_Proje_Detayi/page_1.webp" class="w-full h-full object-contain bg-white shrink-0" loading="lazy" alt="Slide" />
     <img src="project_slides/ocr_tarayici_Proje_Detayi/page_2.webp" class="w-full h-full object-contain bg-white shrink-0" loading="lazy" alt="Slide" />
@@ -722,7 +776,7 @@
     <span class="material-symbols-outlined text-[20px]">picture_as_pdf</span>
   </a>
 </div>
-<h3 class="text-2xl font-bold text-on-background mb-4 line-clamp-2"><span class="lang-tr">OCR Tarayıcı: Yapay Zeka Destekli Not Derleyici</span><span class="lang-en">OCR Tarayıcı: Yapay Zeka Destekli Not Derleyici</span></h3>
+<h3 class="text-lg md:text-2xl font-bold text-on-background mb-3 md:mb-4 line-clamp-2"><span class="lang-tr">OCR Tarayıcı: Yapay Zeka Destekli Not Derleyici</span><span class="lang-en">OCR Tarayıcı: Yapay Zeka Destekli Not Derleyici</span></h3>
 <p class="text-on-surface-variant mb-6 leading-relaxed text-sm line-clamp-3 flex-grow" title="Bu proje, telefonla çekilmiş dağınık el yazısı notlarını, karışık ders fotoğraflarını veya taranmış PDF belgelerini dijital, düzenlenebilir ve net bir dokümana dönüştüren bir masaüstü yazılımıdır. "Stellar OCR & Note Compiler" olarak adlandırılan bu araç, kullanıcıya iki farklı motor seçeneği sunar: Karmaşık el yazıları için yüksek doğruluklu Google Gemini AI veya internetsiz ücretsiz kullanım için Tesseract OCR."><span class="lang-tr">Bu proje, telefonla çekilmiş dağınık el yazısı notlarını, karışık ders fotoğraflarını veya taranmış PDF belgelerini dijital, düzenlenebilir ve net bir dokümana dönüştüren bir masaüstü yazılımıdır. "Stellar OCR & Note Compiler" olarak adlandırılan bu araç, kullanıcıya iki farklı motor seçeneği sunar: Karmaşık el yazıları için yüksek doğruluklu Google Gemini AI veya internetsiz ücretsiz kullanım için Tesseract OCR.</span><span class="lang-en">Bu proje, telefonla çekilmiş dağınık el yazısı notlarını, karışık ders fotoğraflarını veya taranmış PDF belgelerini dijital, düzenlenebilir ve net bir dokümana dönüştüren bir masaüstü yazılımıdır. "Stellar OCR & Note Compiler" olarak adlandırılan bu araç, kullanıcıya iki farklı motor seçeneği sunar: Karmaşık el yazıları için yüksek doğruluklu Google Gemini AI veya internetsiz ücretsiz kullanım için Tesseract OCR.</span></p>
 <div class="flex flex-wrap gap-2 mt-auto">
 <span class="px-4 py-1.5 rounded-full bg-surface-variant text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">Görsel Arayüz</span>
@@ -732,8 +786,8 @@
 <span class="px-4 py-1.5 rounded-full bg-surface-variant text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">`PyMuPDF`</span>
 </div>
 </article>
-<article class="tactile-card p-10 reveal flex flex-col">
-<div class="aspect-video rounded-3xl mb-8 relative overflow-hidden group shadow-lg border border-black/5">
+<article class="tactile-card p-5 md:p-10 reveal flex flex-col">
+<div class="aspect-video rounded-2xl md:rounded-3xl mb-5 md:mb-8 relative overflow-hidden group shadow-lg border border-black/5">
   <div class="w-full h-full flex transition-transform duration-500 ease-in-out slider-track" id="slider-TTS_Proje_Detayi" data-slide="0">
     <img src="project_slides/TTS_Proje_Detayi/page_1.webp" class="w-full h-full object-contain bg-white shrink-0" loading="lazy" alt="Slide" />
     <img src="project_slides/TTS_Proje_Detayi/page_2.webp" class="w-full h-full object-contain bg-white shrink-0" loading="lazy" alt="Slide" />
@@ -758,7 +812,7 @@
     <span class="material-symbols-outlined text-[20px]">picture_as_pdf</span>
   </a>
 </div>
-<h3 class="text-2xl font-bold text-on-background mb-4 line-clamp-2"><span class="lang-tr">TTS: Piper TTS Ses Oluşturucu (Text-to-Speech)</span><span class="lang-en">TTS: Piper TTS Ses Oluşturucu (Text-to-Speech)</span></h3>
+<h3 class="text-lg md:text-2xl font-bold text-on-background mb-3 md:mb-4 line-clamp-2"><span class="lang-tr">TTS: Piper TTS Ses Oluşturucu (Text-to-Speech)</span><span class="lang-en">TTS: Piper TTS Ses Oluşturucu (Text-to-Speech)</span></h3>
 <p class="text-on-surface-variant mb-6 leading-relaxed text-sm line-clamp-3 flex-grow" title="Bu proje, yazılı metinleri (Text) yüksek kaliteli insan sesine (Speech) dönüştüren yerel bir masaüstü uygulamasıdır. Arka planda açık kaynaklı, hızlı ve düşük donanım gereksinimli **Piper TTS** motorunu kullanır. Modern ve kullanıcı dostu arayüzü sayesinde herkesin bilgisayarında, internet bağlantısına ihtiyaç duymadan (API maliyeti olmadan) profesyonel seslendirmeler yapabilmesini sağlar."><span class="lang-tr">Bu proje, yazılı metinleri (Text) yüksek kaliteli insan sesine (Speech) dönüştüren yerel bir masaüstü uygulamasıdır. Arka planda açık kaynaklı, hızlı ve düşük donanım gereksinimli **Piper TTS** motorunu kullanır. Modern ve kullanıcı dostu arayüzü sayesinde herkesin bilgisayarında, internet bağlantısına ihtiyaç duymadan (API maliyeti olmadan) profesyonel seslendirmeler yapabilmesini sağlar.</span><span class="lang-en">Bu proje, yazılı metinleri (Text) yüksek kaliteli insan sesine (Speech) dönüştüren yerel bir masaüstü uygulamasıdır. Arka planda açık kaynaklı, hızlı ve düşük donanım gereksinimli **Piper TTS** motorunu kullanır. Modern ve kullanıcı dostu arayüzü sayesinde herkesin bilgisayarında, internet bağlantısına ihtiyaç duymadan (API maliyeti olmadan) profesyonel seslendirmeler yapabilmesini sağlar.</span></p>
 <div class="flex flex-wrap gap-2 mt-auto">
 <span class="px-4 py-1.5 rounded-full bg-surface-variant text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">Kullanıcı Arayüzü</span>
@@ -767,8 +821,8 @@
 <span class="px-4 py-1.5 rounded-full bg-surface-variant text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">Dosya ve Medya</span>
 </div>
 </article>
-<article class="tactile-card p-10 reveal flex flex-col">
-<div class="aspect-video rounded-3xl mb-8 relative overflow-hidden group shadow-lg border border-black/5">
+<article class="tactile-card p-5 md:p-10 reveal flex flex-col">
+<div class="aspect-video rounded-2xl md:rounded-3xl mb-5 md:mb-8 relative overflow-hidden group shadow-lg border border-black/5">
   <div class="w-full h-full flex transition-transform duration-500 ease-in-out slider-track" id="slider-Şablon_Oluşturma_Proje_Detayi" data-slide="0">
     <img src="project_slides/Şablon_Oluşturma_Proje_Detayi/page_1.webp" class="w-full h-full object-contain bg-white shrink-0" loading="lazy" alt="Slide" />
     <img src="project_slides/Şablon_Oluşturma_Proje_Detayi/page_2.webp" class="w-full h-full object-contain bg-white shrink-0" loading="lazy" alt="Slide" />
@@ -794,7 +848,7 @@
     <span class="material-symbols-outlined text-[20px]">picture_as_pdf</span>
   </a>
 </div>
-<h3 class="text-2xl font-bold text-on-background mb-4 line-clamp-2"><span class="lang-tr">Şablon Oluşturma: Duvar Kağıdı (Wallpaper) Otomasyonu ve Satış Botu</span><span class="lang-en">Şablon Oluşturma: Duvar Kağıdı (Wallpaper) Otomasyonu ve Satış Botu</span></h3>
+<h3 class="text-lg md:text-2xl font-bold text-on-background mb-3 md:mb-4 line-clamp-2"><span class="lang-tr">Şablon Oluşturma: Duvar Kağıdı (Wallpaper) Otomasyonu ve Satış Botu</span><span class="lang-en">Şablon Oluşturma: Duvar Kağıdı (Wallpaper) Otomasyonu ve Satış Botu</span></h3>
 <p class="text-on-surface-variant mb-6 leading-relaxed text-sm line-clamp-3 flex-grow" title="Bu proje, dijital sanatçıların veya içerik üreticilerinin tasarladığı yüzlerce duvar kağıdını (wallpaper) otomatik olarak estetik sunum şablonlarına (mockup) dönüştüren ve bunları "Buy Me a Coffee" platformuna dijital ürün olarak kendi kendine yükleyen çift yönlü bir otomasyon sistemidir. Görüntü işleme (Python PIL) ve tarayıcı otomasyonunu (Playwright) birleştirerek saatler sürecek manuel ürün yükleme işlemlerini dakikalara indirir."><span class="lang-tr">Bu proje, dijital sanatçıların veya içerik üreticilerinin tasarladığı yüzlerce duvar kağıdını (wallpaper) otomatik olarak estetik sunum şablonlarına (mockup) dönüştüren ve bunları "Buy Me a Coffee" platformuna dijital ürün olarak kendi kendine yükleyen çift yönlü bir otomasyon sistemidir. Görüntü işleme (Python PIL) ve tarayıcı otomasyonunu (Playwright) birleştirerek saatler sürecek manuel ürün yükleme işlemlerini dakikalara indirir.</span><span class="lang-en">Bu proje, dijital sanatçıların veya içerik üreticilerinin tasarladığı yüzlerce duvar kağıdını (wallpaper) otomatik olarak estetik sunum şablonlarına (mockup) dönüştüren ve bunları "Buy Me a Coffee" platformuna dijital ürün olarak kendi kendine yükleyen çift yönlü bir otomasyon sistemidir. Görüntü işleme (Python PIL) ve tarayıcı otomasyonunu (Playwright) birleştirerek saatler sürecek manuel ürün yükleme işlemlerini dakikalara indirir.</span></p>
 <div class="flex flex-wrap gap-2 mt-auto">
 <span class="px-4 py-1.5 rounded-full bg-surface-variant text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">Görüntü İşleme</span>
@@ -806,9 +860,9 @@
 </div>
 </section>
 <!-- RESEARCH -->
-<section class="tactile-card p-12 md:p-20 overflow-hidden relative reveal" id="research">
+<section class="tactile-card p-6 md:p-12 lg:p-20 overflow-hidden relative reveal" id="research">
 <div class="decor-shape sphere w-64 h-64 -top-20 -left-20 opacity-10"></div>
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-20 items-center relative z-10">
 <div class="tactile-card aspect-square bg-primary/5 flex flex-col items-center justify-center relative overflow-hidden group p-6">
 <div class="text-[10px] font-black text-primary uppercase tracking-widest mb-4 opacity-60"><span class="lang-tr">Geçiş Zamanı (Transit) Işık Eğrisi</span><span class="lang-en">Transit Light Curve</span></div>
 <canvas class="w-full flex-1 rounded-xl" id="lightcurveCanvas"></canvas>
@@ -825,7 +879,7 @@
         <span class="lang-tr">03 — Araştırmalar</span><span class="lang-en">03 — Research</span>
         <div class="h-[1px] bg-primary/20 w-16"></div>
 </div>
-<h2 class="text-5xl font-bold text-on-background mb-8 leading-tight"><span class="lang-tr">Yeni <em class="text-primary not-italic opacity-40 font-light">dünyalar</em> keşfediyorum</span><span class="lang-en">Hunting <em class="text-primary not-italic opacity-40 font-light">worlds</em></span></h2>
+<h2 class="text-3xl md:text-5xl font-bold text-on-background mb-6 md:mb-8 leading-tight"><span class="lang-tr">Yeni <em class="text-primary not-italic opacity-40 font-light">dünyalar</em> keşfediyorum</span><span class="lang-en">Hunting <em class="text-primary not-italic opacity-40 font-light">worlds</em></span></h2>
 <p class="text-lg text-on-surface-variant mb-12 leading-relaxed">
         <span class="lang-tr">TÜBİTAK tarafından desteklenen araştırmam kapsamında, NASA'nın TESS uydusundan elde edilen geniş çaplı astronomik verileri işleyerek 33 aday ötegezegenin yörünge dinamiklerini inceledim. Bu karmaşık veri setleri üzerinde Python programlama dili ile MCMC (Monte Carlo - Markov Chain) optimizasyon algoritmaları ve istatistiksel frekans analizleri uygulayarak gezegenlerin geçiş zamanlarındaki sapmaları yüksek hassasiyetle modelledim. Bu bilimsel çalışma; büyük veri işleme, matematiksel modelleme ve algoritmik problem çözme yeteneklerimin pratik bir göstergesidir.</span><span class="lang-en">As part of my research supported by TÜBİTAK, I processed large-scale astronomical data from NASA's TESS satellite to investigate the orbital dynamics of 33 exoplanet candidates. By applying MCMC (Monte Carlo - Markov Chain) optimization algorithms and statistical frequency analyses using Python on these complex datasets, I modeled transit timing variations with high precision. This scientific work is a practical demonstration of my expertise in big data processing, mathematical modeling, and algorithmic problem-solving.</span>
       </p>
@@ -853,7 +907,7 @@
 <h2 class="text-5xl font-bold text-on-background"><span class="lang-tr">Teknoloji <em class="text-primary not-italic opacity-40 font-light">yığını</em></span><span class="lang-en">Technical <em class="text-primary not-italic opacity-40 font-light">stack</em></span></h2>
 </div>
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-<div class="tactile-card p-10 hover:translate-y-[-4px]">
+<div class="tactile-card p-6 md:p-10 hover:translate-y-[-4px]">
 <div class="text-xs font-black text-primary uppercase tracking-[0.2em] mb-8 pb-4 border-b border-surface-variant"><span class="lang-tr">Diller</span><span class="lang-en">Languages</span></div>
 <ul class="space-y-5">
 <li class="flex items-center gap-4 text-sm font-bold text-on-surface-variant"><span class="w-2 h-2 rounded-full bg-[#5AF5C8]"></span> Python</li>
@@ -862,7 +916,7 @@
 <li class="flex items-center gap-4 text-sm font-bold text-on-surface-variant"><span class="w-2 h-2 rounded-full bg-primary/30"></span> React</li>
 </ul>
 </div>
-<div class="tactile-card p-10 hover:translate-y-[-4px]">
+<div class="tactile-card p-6 md:p-10 hover:translate-y-[-4px]">
 <div class="text-xs font-black text-primary uppercase tracking-[0.2em] mb-8 pb-4 border-b border-surface-variant"><span class="lang-tr">Yapay Zeka &amp; Makine Öğrenimi</span><span class="lang-en">AI &amp; ML</span></div>
 <ul class="space-y-5">
 <li class="flex items-center gap-4 text-sm font-bold text-on-surface-variant"><span class="w-2 h-2 rounded-full bg-[#5AF5C8]"></span> GPT-4o Vision</li>
@@ -871,7 +925,7 @@
 <li class="flex items-center gap-4 text-sm font-bold text-on-surface-variant"><span class="w-2 h-2 rounded-full bg-primary/30"></span> LangChain</li>
 </ul>
 </div>
-<div class="tactile-card p-10 hover:translate-y-[-4px]">
+<div class="tactile-card p-6 md:p-10 hover:translate-y-[-4px]">
 <div class="text-xs font-black text-primary uppercase tracking-[0.2em] mb-8 pb-4 border-b border-surface-variant"><span class="lang-tr">Araçlar</span><span class="lang-en">Tools</span></div>
 <ul class="space-y-5">
 <li class="flex items-center gap-4 text-sm font-bold text-on-surface-variant"><span class="w-2 h-2 rounded-full bg-[#5AF5C8]"></span> n8n Automation</li>
@@ -880,7 +934,7 @@
 <li class="flex items-center gap-4 text-sm font-bold text-on-surface-variant"><span class="w-2 h-2 rounded-full bg-primary/30"></span> Git / GitHub</li>
 </ul>
 </div>
-<div class="tactile-card p-10 hover:translate-y-[-4px]">
+<div class="tactile-card p-6 md:p-10 hover:translate-y-[-4px]">
 <div class="text-xs font-black text-primary uppercase tracking-[0.2em] mb-8 pb-4 border-b border-surface-variant"><span class="lang-tr">Astronomi</span><span class="lang-en">Astronomy</span></div>
 <ul class="space-y-5">
 <li class="flex items-center gap-4 text-sm font-bold text-on-surface-variant"><span class="w-2 h-2 rounded-full bg-[#5AF5C8]"></span> TESS Data</li>
@@ -895,9 +949,9 @@
 <!-- CONTACT & FOOTER -->
 <footer class="w-full pt-section-gap pb-12 mt-auto relative overflow-hidden">
 <div class="decor-shape torus w-64 h-64 -bottom-32 -left-32 opacity-20 rotate-45"></div>
-<div class="max-w-4xl mx-auto text-center px-8 mb-32 reveal">
-<h2 class="text-6xl font-bold text-on-background mb-10 leading-tight"><span class="lang-tr">Birlikte<br/><em class="text-primary not-italic opacity-40 font-light">harika</em> bir şeyler inşa edelim.</span><span class="lang-en">Let's build<br/>something <em class="text-primary not-italic opacity-40 font-light">remarkable.</em></span></h2>
-<p class="text-xl text-on-surface-variant mb-14"><span class="lang-tr">Yapay zeka otomasyon projelerine, freelance çalışmalara ve işbirliklerine açığım.</span><span class="lang-en">Open to AI automation projects, freelance work, and collaboration.</span></p>
+<div class="max-w-4xl mx-auto text-center px-4 md:px-8 mb-16 md:mb-32 reveal">
+<h2 class="text-3xl sm:text-4xl md:text-6xl font-bold text-on-background mb-8 md:mb-10 leading-tight"><span class="lang-tr">Birlikte<br/><em class="text-primary not-italic opacity-40 font-light">harika</em> bir şeyler inşa edelim.</span><span class="lang-en">Let's build<br/>something <em class="text-primary not-italic opacity-40 font-light">remarkable.</em></span></h2>
+<p class="text-base md:text-xl text-on-surface-variant mb-8 md:mb-14"><span class="lang-tr">Yapay zeka otomasyon projelerine, freelance çalışmalara ve işbirliklerine açığım.</span><span class="lang-en">Open to AI automation projects, freelance work, and collaboration.</span></p>
 <div class="flex justify-center gap-6 flex-wrap">
 <a class="volumetric-btn text-white px-10 py-4 rounded-full text-sm font-bold flex items-center gap-3" href="mailto:serttas2001@gmail.com">
 <span class="material-symbols-outlined text-[20px]">mail</span> serttas2001@gmail.com
@@ -907,7 +961,7 @@
       </a>
 </div>
 </div>
-<div class="max-w-7xl mx-auto px-8 py-12 border-t border-surface-variant flex flex-col md:flex-row justify-between items-center gap-10">
+<div class="max-w-7xl mx-auto px-4 md:px-8 py-8 md:py-12 border-t border-surface-variant flex flex-col md:flex-row justify-between items-center gap-6 md:gap-10">
 <div class="font-black text-primary text-xl tracking-tighter">SELAHADDİN SERTTAŞ</div>
 <div class="flex gap-10">
 <a class="text-outline hover:text-primary transition-colors text-sm font-bold" href="https://www.linkedin.com/in/selahaddin-sertta%C5%9F-14a99a1aa/" target="_blank">LinkedIn</a>
@@ -1068,11 +1122,68 @@ reveals.forEach(el => observer.observe(el));
   }
 </script>
 
+<script>
+// Mobile menu toggle
+function toggleMobileMenu() {
+  var overlay = document.getElementById('mobileMenuOverlay');
+  var panel = document.getElementById('mobileMenuPanel');
+  var icon = document.getElementById('mobileMenuIcon');
+  if (!panel) return;
+  var isOpen = panel.classList.contains('active');
+  if (isOpen) {
+    overlay.classList.remove('active');
+    panel.classList.remove('active');
+    icon.textContent = 'menu';
+    document.body.style.overflow = '';
+  } else {
+    overlay.classList.add('active');
+    panel.classList.add('active');
+    icon.textContent = 'close';
+    document.body.style.overflow = 'hidden';
+  }
+}
+</script>
+
+<script>
+// Touch swipe support for sliders
+(function() {
+  document.querySelectorAll('.aspect-video').forEach(function(container) {
+    var startX = 0;
+    container.addEventListener('touchstart', function(e) {
+      startX = e.touches[0].clientX;
+    }, { passive: true });
+    container.addEventListener('touchend', function(e) {
+      var dx = e.changedTouches[0].clientX - startX;
+      if (Math.abs(dx) > 50) {
+        var track = container.querySelector('.slider-track, [id^="modal-slider"]');
+        if (!track) return;
+        var id = track.id.replace('slider-', '');
+        if (dx < 0) nextSlide(id);
+        else prevSlide(id);
+      }
+    }, { passive: true });
+  });
+  // Modal slider swipe
+  var modalSlider = document.querySelector('#projectModal .aspect-video');
+  if (modalSlider) {
+    var sx = 0;
+    modalSlider.addEventListener('touchstart', function(e) { sx = e.touches[0].clientX; }, { passive: true });
+    modalSlider.addEventListener('touchend', function(e) {
+      var dx = e.changedTouches[0].clientX - sx;
+      if (Math.abs(dx) > 50) {
+        if (dx < 0) modalNextSlide();
+        else modalPrevSlide();
+      }
+    }, { passive: true });
+  }
+})();
+</script>
+
 <!-- PROJECT DETAIL MODAL -->
 <div class="project-modal-overlay" id="projectModal">
   <div class="project-modal p-8 md:p-12">
     <div class="flex justify-between items-start mb-8">
-      <h2 class="text-3xl md:text-4xl font-bold text-on-background leading-tight pr-8" id="modalTitle"></h2>
+      <h2 class="text-xl sm:text-3xl md:text-4xl font-bold text-on-background leading-tight pr-8" id="modalTitle"></h2>
       <button onclick="closeProjectModal()" class="shrink-0 w-12 h-12 rounded-full bg-surface-variant hover:bg-surface-dim flex items-center justify-center transition-colors">
         <span class="material-symbols-outlined text-[24px] text-on-surface-variant">close</span>
       </button>
