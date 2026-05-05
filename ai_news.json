@@ -1,16 +1,135 @@
 [
   {
-    "baslik": "Operation Sindoor prime example of technological warfare and nation’s readiness: Defence Minister Rajnath Singh",
-    "ozet": "Savunma Bakanı Rajnath Singh, Operasyon Sindoor'u teknolojik savaşın ve ülkenin hazırlık seviyesinin önemli bir örneği olarak nitelendirdi. Hindistan'ın askeri teknolojideki ilerlemesini ve operasyonel hazırlığını vurguladı.",
+    "baslik": "Operation Sindoor prime example of technological warfare and nation's readiness: Defence Minister Rajnath Singh",
+    "ozet": "Hindistan Savunma Bakanı Rajnath Singh, 'Operation Sindoor' operasyonunu teknolojik savaş ve ülkenin hazır bulunuşluğunun önemli bir örneği olarak nitelendirdi. Açıklama, modern savaşta teknolojinin kritik rolünü ve Hindistan'ın savunma kabiliyetlerindeki gelişmeleri vurgulamaktadır.",
     "onem_skoru": "8",
     "kategori": "Teknoloji",
     "url": "https://indianexpress.com/article/india/operation-sindoor-prime-example-of-technological-warfare-and-nations-readiness-defence-minister-rajnath-singh-10672108/"
   },
   {
-    "baslik": "As Formula One evolves, AI becomes part of the race",
-    "ozet": "Formula 1, yarış stratejilerinden araç tasarımına, sürücü performans analizinden taraftar deneyimine kadar pek çok alanda yapay zekayı entegre ediyor. Yapay zeka, sensörlerden gelen büyük veriyi gerçek zamanlı analiz ederek takımların anlık kararlar almasına yardımcı olurken, tahmini bakım sayesinde araç güvenilirliğini artırıyor. Bu teknolojik dönüşüm, Formula 1'in hem pistte hem de pist dışında daha rekabetçi ve verimli hale gelmesini sağlıyor.",
+    "baslik": "Headway must in emerging domains like directed energy & hypersonic weapons, underwater & Space: Rajnath to industry",
+    "ozet": "Hindistan Savunma Bakanı Rajnath Singh, savunma sanayisine yönelik yaptığı açıklamada, yönlendirilmiş enerji silahları, hipersonik füzeler, denizaltı ve uzay gibi yeni nesil savunma alanlarında mutlaka ilerleme kaydedilmesi gerektiğini vurguladı. Sanayi sektörünü bu kritik teknolojilere yatırım yapmaya ve bu alanlarda atılım gerçekleştirmeye çağırdı.",
     "onem_skoru": "8",
-    "kategori": "Yapay Zeka",
+    "kategori": "teknoloji",
+    "url": "https://www.thehindubusinessline.com/news/headway-must-in-emerging-domains-like-directed-energy-hypersonic-weapons-underwater-space-rajnath-to-industry/article70938096.ece"
+  },
+  {
+    "baslik": "Global Education Leaders Gather In Singapore For Landmark Ai In Education Summit",
+    "ozet": "Singapur'da düzenlenen çığır açıcı Yapay Zeka ve Eğitim Zirvesi'nde dünyanın dört bir yanından eğitim liderleri bir araya geldi. Zirve, yapay zekanın eğitim sektöründe nasıl dönüştürücü bir rol oynayabileceğini, yeni öğrenme modelleri ve dijital pedagojileri tartışmak üzere küresel bir platform sağladı. Katılımcılar, yapay zekanın eğitimde fırsat eşitliği yaratma potansiyeli ve beraberinde getirdiği etik sorumluluklar üzerine görüş alışverişinde bulundu.",
+    "onem_skoru": "8",
+    "kategori": "Teknoloji",
+    "url": "https://en.antaranews.com/news/414559/global-education-leaders-gather-in-singapore-for-landmark-ai-in-education-summit"
+  },
+  {
+    "baslik": "A decade after the ‘Godfather of AI’ said radiologists were obsolete, their salaries are up to $571K and demand is growing fast",
+    "ozet": "Yapay zekanın babası olarak bilinen Geoffrey Hinton, 10 yıl önce yapay zeka nedeniyle radyologların mesleğinin ortadan kalkacağını öngörmüştü. Ancak gerçekleşen tam tersi oldu: Radyologlara olan talep hızla artarken, maaşları 571.000 dolara kadar yükseldi. Bu durum, yapay zekanın insan iş gücünü tamamen ikame etmek yerine tamamlayıcı bir rol oynadığını ve 'işsizlik kıyameti' senaryolarının abartılı olduğunu gösteriyor.",
+    "onem_skoru": "8",
+    "kategori": "Teknoloji & Yapay Zeka",
+    "url": "https://fortune.com/2026/05/04/godfather-of-ai-geoffrey-hinton-radiologists-future-of-work-tech-ai-job-anxiety/"
+  },
+  {
+    "baslik": "Gemini will get new third-party smart speakers, early listing reveals ahead of Google Home Speaker - 9to5Google",
+    "ozet": "Google'ın yapay zeka asistanı Gemini'nin, üçüncü taraf akıllı hoparlörlerde de kullanıma sunulacağı ortaya çıktı. Walmart üzerinden yapılan erken bir listelemeye göre, Google Home Speaker öncesinde üçüncü taraf üreticilerin Gemini destekli hoparlörler piyasaya süreceği görülüyor. Bu hamle, Google'ın Gemini ekosistemini genişleterek daha fazla donanım ortağıyla çalışma stratejisini işaret ediyor.",
+    "onem_skoru": "8",
+    "kategori": "Teknoloji",
+    "url": "http://9to5google.com/2026/05/03/google-gemini-smart-speakers-third-party-walmart/"
+  },
+  {
+    "baslik": "Instructure confirms data breach, ShinyHunters claims attack - BleepingComputer",
+    "ozet": "Instructure (Canvas öğrenme yönetim sisteminin sahibi) bir veri ihlalini resmen doğruladı. ShinyHunters adlı tehdit grubu saldırıyı üstlendi. Bu ihlal, eğitim teknolojisi sektöründe yaygın olarak kullanılan bir platformu etkilediği için önem taşımaktadır.",
+    "onem_skoru": "8",
+    "kategori": "Güvenlik",
+    "url": "https://www.bleepingcomputer.com/news/security/instructure-confirms-data-breach-shinyhunters-claims-attack/"
+  },
+  {
+    "baslik": "PS6 Early Info on Cloud Streaming, Machine Learning, and New Horror Game Uncovered - MP1st",
+    "ozet": "Sony'nin PlayStation 6'sına dair erken bilgiler ortaya çıktı. Yeni nesil konsolun bulut akış (cloud streaming) ve makine öğrenimi (machine learning) teknolojilerine odaklanacağı belirtiliyor. Ayrıca yeni bir korku oyunu projesinin de gündemde olduğu ifade ediliyor. PS6'nın bu teknolojilerle oyun deneyimini dönüştürmesi bekleniyor.",
+    "onem_skoru": "8",
+    "kategori": "Teknoloji",
+    "url": "https://mp1st.com/news/ps6-early-info-cloud-streaming-machine-learning-new-horror-game-uncovered"
+  },
+  {
+    "baslik": "Microsoft Defender wrongly flags DigiCert certs as Trojan:Win32/Cerdigent.A!dha - BleepingComputer",
+    "ozet": "Microsoft Defender, DigiCert tarafından yayınlanan meşru dijital sertifikaları yanlışlıkla 'Trojan:Win32/Cerdigent.A!dha' adlı bir trojan olarak algıladı. Bu hatalı tespit, kullanıcıların güvenilir yazılımlara erişimini engelledi ve yanlış pozitif uyarılarına yol açtı. Microsoft, sorunu kabul ederek çözüm üzerinde çalıştığını duyurdu.",
+    "onem_skoru": "8",
+    "kategori": "Güvenlik",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/"
+  },
+  {
+    "baslik": "As Formula One evolves, AI becomes part of the race",
+    "ozet": "Formula 1, yapay zeka teknolojilerini yarış stratejilerinden araç performansına, veri analizinden taraftar deneyimine kadar birçok alanda kullanmaya başladı. Yapay zeka, yarış ekiplerinin anlık karar alma süreçlerini hızlandırırken, araç optimizasyonu ve güvenlik sistemlerinde de önemli bir rol oynuyor. Bu dönüşüm, Formula 1'in hem rekabetçi yapısını hem de izleyici deneyimini kökten değiştiriyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
     "url": "https://www.channelnewsasia.com/business/formula-one-evolves-ai-becomes-part-race-6098326"
+  },
+  {
+    "baslik": "Motor racing-As Formula One evolves, AI becomes part of the race",
+    "ozet": "Formula 1, yarış stratejilerinden araç tasarımına, sürücü performansı optimizasyonundan güvenlik iyileştirmelerine kadar pek çok alanda yapay zekayı entegre ederek evrimleşiyor. AI, büyük veri analizi sayesinde takımların daha hızlı kararlar almasını sağlarken, pist üstü ve pist dışı operasyonlarda devrim yaratıyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://sports.yahoo.com/articles/motor-racing-formula-one-evolves-093211953.html"
+  },
+  {
+    "baslik": "Credit Unions Need Data Maps Before AI Guardrails",
+    "ozet": "Kredi birliklerinin (credit unions) yapay zeka güvenlik önlemleri (AI guardrails) uygulamadan önce mutlaka veri haritaları (data maps) oluşturmaları gerektiğini vurgulayan bir görüş yazısı. Veri haritalaması, kurumların hangi verilere sahip olduğunu, bu verilerin nerede depolandığını ve nasıl kullanıldığını anlamalarını sağlayarak yapay zeka sistemlerinin güvenli ve uyumlu bir şekilde devreye alınmasının temelini oluşturuyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://www.pymnts.com/opinion/2026/credit-unions-need-data-maps-before-ai-guardrails/"
+  },
+  {
+    "baslik": "Biosimulation Market to Grow at 16%+ CAGR Reaching USD 11.3 Billion by 2031, Driven by Increasing Adoption in Drug Development and Regulatory Applications: Mordor Intelligence",
+    "ozet": "Biyosimülasyon pazarının, ilaç geliştirme ve düzenleyici uygulamalarda artan benimsenme sayesinde 2031 yılına kadar 11,3 milyar ABD dolarına ulaşarak %16'nın üzerinde bileşik yıllık büyüme oranıyla (CAGR) büyümesi bekleniyor. Mordor Intelligence raporuna göre bu büyüme, ilaç keşfi ve klinik deney süreçlerinde biyosimülasyon teknolojilerinin daha yaygın kullanılmasıyla destekleniyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://www.globenewswire.com/news-release/2026/05/04/3286456/0/en/Biosimulation-Market-to-Grow-at-16-CAGR-Reaching-USD-11-3-Billion-by-2031-Driven-by-Increasing-Adoption-in-Drug-Development-and-Regulatory-Applications-Mordor-Intelligence.html"
+  },
+  {
+    "baslik": "Leaker claims Dark Souls trilogy remake in development",
+    "ozet": "Bir sızıntı kaynağı, FromSoftware'in Dark Souls üçlemesinin tamamen yeniden yapım (remake) üzerinde çalıştığını iddia ediyor. My Nintendo News'in aktardığı bu iddiaya göre, üç oyunu da kapsayacak büyük bir remake projesi geliştirme aşamasında. Henüz resmi bir doğrulama bulunmuyor.",
+    "onem_skoru": "7",
+    "kategori": "Oyun",
+    "url": "https://mynintendonews.com/2026/05/03/leaker-claims-dark-souls-trilogy-remake-in-development/"
+  },
+  {
+    "baslik": "Gemini app getting full redesign that overhauls every part of the UI - 9to5Google",
+    "ozet": "Google'ın yapay zeka asistanı Gemini uygulaması, kapsamlı bir yeniden tasarım geçiriyor. Kullanıcı arayüzünün her bölümünü elden geçiren bu güncelleme, uygulamanın görünümünü ve kullanıcı deneyimini baştan aşağı değiştiriyor. Yeni tasarımın detayları 9to5Google tarafından paylaşıldı.",
+    "onem_skoru": "7",
+    "kategori": "Yapay Zeka",
+    "url": "http://9to5google.com/2026/05/03/gemini-full-redesign/"
+  },
+  {
+    "baslik": "Marvel Snap stüdyosu: 'Bu, devam etmek için zor kararlar alıyoruz, kapanma işareti değil'",
+    "ozet": "Marvel Snap'in geliştirici stüdyosu, oyunun kapanacağına dair spekülasyonlara yanıt vererek, alınan zor kararların kapanma değil, sürdürülebilirlik için olduğunu belirtti. Stüdyo, bu adımların oyunun uzun vadede devam etmesini sağlamak için atıldığını vurguluyor.",
+    "onem_skoru": "7",
+    "kategori": "Oyun",
+    "url": "https://www.eurogamer.net/marvel-snap-studio-insists-this-is-us-making-hard-decisions-to-keep-going-not-a-sign-were-winding-down"
+  },
+  {
+    "baslik": "Modern Warfare 4 Being Playtested on PS4, It’s Claimed - Insider Gaming",
+    "ozet": "Insider Gaming'in haberine göre, Call of Duty serisinin yeni oyunu Modern Warfare 4'ün PlayStation 4 üzerinde test edildiği iddia ediliyor. Bu iddia, oyunun hala bir önceki nesil konsol için optimize edildiğini ve Activision'ın geniş kitleye hitap etme stratejisini sürdürdüğünü gösteriyor. Henüz resmi bir doğrulama bulunmamakla birlikte, sızıntılar oyunun geliştirme aşamasında olduğuna işaret ediyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://insider-gaming.com/modern-warfare-4-being-playtested-on-ps4-its-claimed/"
+  },
+  {
+    "baslik": "Health Worker Administers Oral Polio Vaccine to Children in Malawi",
+    "ozet": "Malavi'de bir sağlık çalışanı, çocuklara ağızdan çocuk felci (polio) aşısı uyguluyor. Bu haber, gelişmekte olan ülkelerde çocuk felcinin eradikasyonu için yürütülen aşılama kampanyalarını ve sağlık çalışanlarının sahada yaptığı kritik çalışmaları vurguluyor.",
+    "onem_skoru": "6",
+    "kategori": "Sağlık Teknolojisi",
+    "url": "https://www.lifetechnology.com/blogs/life-technology-medical-news/health-worker-administers-oral-polio-vaccine-to-children-in-malawi"
+  },
+  {
+    "baslik": "Valve: 67.74% of Steam users run Windows 11 - Neowin",
+    "ozet": "Valve'ın yayınladığı Steam donanım ve yazılım anketine göre, Steam kullanıcılarının %67,74'ü Windows 11 işletim sistemini kullanıyor. Bu, Windows 11'in oyun platformunda önemli bir benimseme oranına ulaştığını gösteriyor.",
+    "onem_skoru": "5",
+    "kategori": "Teknoloji",
+    "url": "https://www.neowin.net/news/valve-6774-of-steam-users-run-windows-11/"
+  },
+  {
+    "baslik": "Today’s NYT Strands Hints, Spangram, Answers For Monday, May 4 (May The Forest Be With You) - Forbes",
+    "ozet": "Forbes yazarı Paul Tassi, New York Times'ın popüler kelime bulmaca oyunu Strands için 4 Mayıs 2026 Pazartesi gününe ait ipuçlarını, spangram çözümünü ve tüm cevapları paylaşıyor. 'May the Forest Be With You' temalı bu bölümde oyunculara orman ve doğa temalı kelimeleri bulmaları için rehberlik ediliyor.",
+    "onem_skoru": "2",
+    "kategori": "Teknoloji",
+    "url": "https://www.forbes.com/sites/paultassi/2026/05/03/todays-nyt-strands-hints-spangram-answers-for-monday-may-4-may-the-forest-be-with-you/"
   }
 ]
