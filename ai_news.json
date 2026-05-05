@@ -1,23 +1,16 @@
 [
   {
-    "baslik": "OpenAI Yeni Dil Modelini Duyurdu: Daha Hızlı ve Verimli",
-    "ozet": "Yapay zeka devi OpenAI, yeni nesil dil modelini piyasaya sürdü. Yeni modelin önceki versiyonlara göre çok daha az enerji tüketerek yüksek performans sağladığı açıklandı.",
-    "onem_skoru": "9",
-    "kategori": "Yapay Zeka",
-    "url": "https://newsapi.org"
-  },
-  {
-    "baslik": "Sağlıkta Yapay Zeka: Erken Teşhis Oranları Artıyor",
-    "ozet": "Yeni bir makine öğrenmesi algoritması, kanser taramalarında doktorlardan çok daha erken aşamada belirtileri saptayarak başarı oranını artırdı.",
+    "baslik": "Operation Sindoor prime example of technological warfare and nation’s readiness: Defence Minister Rajnath Singh",
+    "ozet": "Savunma Bakanı Rajnath Singh, Operasyon Sindoor'u teknolojik savaşın ve ülkenin hazırlık seviyesinin önemli bir örneği olarak nitelendirdi. Hindistan'ın askeri teknolojideki ilerlemesini ve operasyonel hazırlığını vurguladı.",
     "onem_skoru": "8",
-    "kategori": "Sağlık ve Teknoloji",
-    "url": "https://newsapi.org"
+    "kategori": "Teknoloji",
+    "url": "https://indianexpress.com/article/india/operation-sindoor-prime-example-of-technological-warfare-and-nations-readiness-defence-minister-rajnath-singh-10672108/"
   },
   {
-    "baslik": "Kodlama Asistanları Geliştiricilerin %70'i Tarafından Kullanılıyor",
-    "ozet": "Yapılan yeni bir ankete göre yazılım geliştiricilerinin büyük bir kısmı günlük iş akışlarında en az bir adet yapay zeka kod asistanından faydalanıyor.",
-    "onem_skoru": "7",
-    "kategori": "Yazılım",
-    "url": "https://newsapi.org"
+    "baslik": "As Formula One evolves, AI becomes part of the race",
+    "ozet": "Formula 1, yarış stratejilerinden araç tasarımına, sürücü performans analizinden taraftar deneyimine kadar pek çok alanda yapay zekayı entegre ediyor. Yapay zeka, sensörlerden gelen büyük veriyi gerçek zamanlı analiz ederek takımların anlık kararlar almasına yardımcı olurken, tahmini bakım sayesinde araç güvenilirliğini artırıyor. Bu teknolojik dönüşüm, Formula 1'in hem pistte hem de pist dışında daha rekabetçi ve verimli hale gelmesini sağlıyor.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka",
+    "url": "https://www.channelnewsasia.com/business/formula-one-evolves-ai-becomes-part-race-6098326"
   }
 ]
