@@ -1,135 +1,142 @@
 [
   {
-    "baslik": "Operation Sindoor prime example of technological warfare and nation's readiness: Defence Minister Rajnath Singh",
-    "ozet": "Hindistan Savunma Bakanı Rajnath Singh, 'Operation Sindoor' operasyonunu teknolojik savaş ve ülkenin hazır bulunuşluğunun önemli bir örneği olarak nitelendirdi. Açıklama, modern savaşta teknolojinin kritik rolünü ve Hindistan'ın savunma kabiliyetlerindeki gelişmeleri vurgulamaktadır.",
-    "onem_skoru": "8",
-    "kategori": "Teknoloji",
-    "url": "https://indianexpress.com/article/india/operation-sindoor-prime-example-of-technological-warfare-and-nations-readiness-defence-minister-rajnath-singh-10672108/"
+    "baslik": "Forget GPUs — China unveils 2 ExaFLOPS supercomputer using only CPUs, packing 47,000 processors into 92 compute cabinets as it looks to supersede the US once again",
+    "ozet": "Çin, GPU yerine yalnızca CPU kullanarak 2 ExaFLOPS işlem gücüne sahip dev bir süper bilgisayarını tanıttı. 92 bilgisayar kabinine yerleştirilmiş 47.000 işlemciden oluşan bu sistem, ABD'yi geride bırakmayı hedefliyor. Bu hamle, yarı iletken teknolojisinde ABD'nin uyguladığı kısıtlamalara rağmen Çin'in kendi başına ileri düzey bilgi işlem sistemleri geliştirebildiğini gösteriyor.",
+    "onem_skoru": "9",
+    "kategori": "teknoloji",
+    "url": "https://www.techradar.com/pro/forget-gpus-china-unveils-2-exaflops-supercomputer-using-only-cpu-packing-47-000-processors-into-92-compute-cabinets-as-it-looks-to-supercede-the-us-once-again"
   },
   {
-    "baslik": "Headway must in emerging domains like directed energy & hypersonic weapons, underwater & Space: Rajnath to industry",
-    "ozet": "Hindistan Savunma Bakanı Rajnath Singh, savunma sanayisine yönelik yaptığı açıklamada, yönlendirilmiş enerji silahları, hipersonik füzeler, denizaltı ve uzay gibi yeni nesil savunma alanlarında mutlaka ilerleme kaydedilmesi gerektiğini vurguladı. Sanayi sektörünü bu kritik teknolojilere yatırım yapmaya ve bu alanlarda atılım gerçekleştirmeye çağırdı.",
+    "baslik": "Eski iRobot CEO'su, olağanüstü 'Familiar' AI arkadaş robotunu tanıttı",
+    "ozet": "Eski iRobot CEO'su, 'her zaman yapmak istediği robot' olarak tanımladığı yeni bir yapay zeka arkadaş robotu olan 'Familiar'ı tanıttı. Robot, kullanıcılarıyla duygusal bağ kurabilen, günlük yaşamda rehberlik ve arkadaşlık sağlayabilen ileri düzey bir AI asistanı olarak öne çıkıyor. İnsan benzeri etkileşim yetenekleri ve kişiselleştirilmiş kullanıcı deneyimi sunan Familiar, ev robotiği ve yapay zeka alanında çığır açıcı bir yenilik olarak değerlendiriliyor.",
+    "onem_skoru": "9",
+    "kategori": "Yapay Zeka",
+    "url": "https://www.techradar.com/ai-platforms-assistants/this-is-the-robot-i-wanted-to-build-forever-former-irobot-chief-on-his-extraordinary-familiar-ai-companion"
+  },
+  {
+    "baslik": "⚡ Weekly Recap: AI-Powered Phishing, Android Spying Tool, Linux Exploit, GitHub RCE & More",
+    "ozet": "TheHackerNews'in haftalık özetinde yapay zeka destekli kimlik avı (phishing) saldırıları, Android casusluk aracı, Linux güvenlik açığı, GitHub'da uzaktan kod çalıştırma (RCE) zafiyeti ve diğer önemli siber güvenlik gelişmeleri ele alınıyor. Haberde, siber tehdit aktörlerinin yapay zekayı nasıl daha sofistike saldırılar için kullandığı, mobil cihazları hedef alan yeni casusluk yazılımları ve kritik açıkların detayları paylaşılıyor.",
+    "onem_skoru": "9",
+    "kategori": "Siber Güvenlik",
+    "url": "https://thehackernews.com/2026/05/weekly-recap-ai-powered-phishing.html"
+  },
+  {
+    "baslik": "Intel Core 9 273PQE with 12 P-cores beats Core i9-14900K in several gaming tests - VideoCardz.com",
+    "ozet": "Intel'in yeni nesil Core 9 273PQE işlemcisi, 12 adet performans çekirdeği (P-core) ile dikkat çekiyor. Yapılan oyun testlerinde, mevcut nesil amiral gemisi Core i9-14900K'yı geride bırakmayı başaran bu işlemci, Intel'in yeni nesil mimarisinin oyun performansında önemli bir sıçrama yapacağının sinyallerini veriyor. Özellikle çok çekirdekli performans gerektiren oyunlarda üstünlük sağlayan işlemci, teknoloji meraklıları için heyecan verici bir gelişme olarak öne çıkıyor.",
+    "onem_skoru": "9",
+    "kategori": "Donanım",
+    "url": "https://videocardz.com/newz/intel-core-9-273pqe-with-12-p-cores-beats-core-i9-14900k-in-several-gaming-tests"
+  },
+  {
+    "baslik": "AI Brings Met Gala Styling Power to Every Closet",
+    "ozet": "Yapay zeka, Met Gala'nın ünlü stilistlik gücünü herkesin kullanımına sunarak kişisel moda ve stil önerileri sunuyor. Yapay zeka destekli bu teknoloji, kullanıcıların kendi dolaplarından Met Gala seviyesinde kombinler oluşturmasına yardımcı oluyor.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka",
+    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/ai-brings-met-gala-styling-power-to-every-closet/"
+  },
+  {
+    "baslik": "OpenAI, Google, and Microsoft Back Bill to Fund 'AI Literacy' in Schools",
+    "ozet": "OpenAI, Google ve Microsoft, okullarda yapay zeka okuryazarlığını finanse etmeyi amaçlayan iki partili bir yasa tasarısını destekliyor. Temsilciler Adam Schiff ve Mike Rounds tarafından sunulan bu yasa tasarısı, öğrencilerin yapay zeka teknolojilerini anlamalarına ve etik kullanımlarını öğrenmelerine yardımcı olacak eğitim programlarına fon sağlamayı hedefliyor. Büyük teknoloji şirketlerinin bu girişime verdiği destek, yapay zeka eğitiminin gelecek nesiller için kritik öneme sahip olduğu görüşünü yansıtıyor.",
+    "onem_skoru": "8",
+    "kategori": "Teknoloji",
+    "url": "https://www.404media.co/literacy-in-future-technologies-artificial-intelligence-act-adam-schiff-mike-rounds/"
+  },
+  {
+    "baslik": "Capacity-aware inference: Automatic instance fallback for SageMaker AI endpoints",
+    "ozet": "AWS, SageMaker AI endpoint'leri için kapasite bilincinde çıkarım (capacity-aware inference) özelliğini duyurdu. Bu özellik sayesinde, bir endpoint'te kullanılan instance tipi kapasite sınırına ulaştığında sistem otomatik olarak yedek (fallback) instance tipine geçiş yapabiliyor. Böylece yapay zeka modellerinin kesintisiz ve güvenilir bir şekilde çalıştırılması sağlanırken, kapasite yönetimi de otomatize ediliyor. Bu özellik özellikle yoğun talep dönemlerinde veya beklenmedik kapasite sorunlarında kullanıcılara esneklik ve yüksek kullanılabilirlik sunuyor.",
+    "onem_skoru": "8",
+    "kategori": "Teknoloji",
+    "url": "https://aws.amazon.com/blogs/machine-learning/capacity-aware-inference-automatic-instance-fallback-for-sagemaker-ai-endpoints/"
+  },
+  {
+    "baslik": "Explainable AI-driven diagnosis model for early glaucoma detection using grey-wolf optimized extreme learning machine approach",
+    "ozet": "PLOS Computational Biology'de yayımlanan bu çalışmada, erken glokom tespiti için açıklanabilir yapay zeka (XAI) tabanlı bir teşhis modeli geliştirilmiştir. Model, gri kurt optimizasyonu (GWO) ile optimize edilmiş aşırı öğrenme makinesi (ELM) yaklaşımını kullanarak glokomun erken evrede tespitini hedefliyor. Açıklanabilir yapay zeka teknikleri sayesinde modelin karar verme süreci şeffaf hale getirilerek, doktorların ve hastaların tanıya güven duyması amaçlanıyor. Bu yenilikçi yaklaşım, göz hastalıklarının erken teşhisinde yapay zekanın güvenilir ve anlaşılır bir şekilde kullanılabileceğini gösteriyor.",
     "onem_skoru": "8",
     "kategori": "teknoloji",
-    "url": "https://www.thehindubusinessline.com/news/headway-must-in-emerging-domains-like-directed-energy-hypersonic-weapons-underwater-space-rajnath-to-industry/article70938096.ece"
+    "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013139"
   },
   {
-    "baslik": "Global Education Leaders Gather In Singapore For Landmark Ai In Education Summit",
-    "ozet": "Singapur'da düzenlenen çığır açıcı Yapay Zeka ve Eğitim Zirvesi'nde dünyanın dört bir yanından eğitim liderleri bir araya geldi. Zirve, yapay zekanın eğitim sektöründe nasıl dönüştürücü bir rol oynayabileceğini, yeni öğrenme modelleri ve dijital pedagojileri tartışmak üzere küresel bir platform sağladı. Katılımcılar, yapay zekanın eğitimde fırsat eşitliği yaratma potansiyeli ve beraberinde getirdiği etik sorumluluklar üzerine görüş alışverişinde bulundu.",
+    "baslik": "Predicting protein cascade expression from H&E images",
+    "ozet": "PLOS Computational Biology'de yayınlanan bu çalışma, standart H&E (Hematoksilen ve Eozin) boyalı doku görüntülerinden protein kaskadı ifadesini tahmin etmek için yapay zeka ve makine öğrenimi yöntemlerinin kullanıldığını ortaya koyuyor. Geleneksel olarak protein ekspresyonunu analiz etmek için immünohistokimya (IHC) gibi özel boyama teknikleri gerekirken, bu yöntem sayesinde rutin patoloji preparatlarından protein düzeyleri hakkında çıkarım yapılabiliyor. Bu yaklaşım, biyomedikal araştırmalarda ve patolojik teşhislerde maliyeti düşürme, süreci hızlandırma ve mevcut H&E arşivlerinden yeni biyobelirteç bilgileri elde etme potansiyeli taşıyor.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka / Biyomedikal",
+    "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014262"
+  },
+  {
+    "baslik": "Popular 1990s internet search giant shuts down - Fox Business",
+    "ozet": "1990'ların popüler internet arama motorlarından Ask.com, arama hizmetini kapatma kararı aldı. Fox Business'ın haberine göre, bir dönemin efsanevi arama motoru artık faaliyet göstermeyecek.",
     "onem_skoru": "8",
     "kategori": "Teknoloji",
-    "url": "https://en.antaranews.com/news/414559/global-education-leaders-gather-in-singapore-for-landmark-ai-in-education-summit"
+    "url": "https://www.foxbusiness.com/fox-news-tech/ask-com-shuts-down-search-business"
   },
   {
-    "baslik": "A decade after the ‘Godfather of AI’ said radiologists were obsolete, their salaries are up to $571K and demand is growing fast",
-    "ozet": "Yapay zekanın babası olarak bilinen Geoffrey Hinton, 10 yıl önce yapay zeka nedeniyle radyologların mesleğinin ortadan kalkacağını öngörmüştü. Ancak gerçekleşen tam tersi oldu: Radyologlara olan talep hızla artarken, maaşları 571.000 dolara kadar yükseldi. Bu durum, yapay zekanın insan iş gücünü tamamen ikame etmek yerine tamamlayıcı bir rol oynadığını ve 'işsizlik kıyameti' senaryolarının abartılı olduğunu gösteriyor.",
-    "onem_skoru": "8",
-    "kategori": "Teknoloji & Yapay Zeka",
-    "url": "https://fortune.com/2026/05/04/godfather-of-ai-geoffrey-hinton-radiologists-future-of-work-tech-ai-job-anxiety/"
-  },
-  {
-    "baslik": "Gemini will get new third-party smart speakers, early listing reveals ahead of Google Home Speaker - 9to5Google",
-    "ozet": "Google'ın yapay zeka asistanı Gemini'nin, üçüncü taraf akıllı hoparlörlerde de kullanıma sunulacağı ortaya çıktı. Walmart üzerinden yapılan erken bir listelemeye göre, Google Home Speaker öncesinde üçüncü taraf üreticilerin Gemini destekli hoparlörler piyasaya süreceği görülüyor. Bu hamle, Google'ın Gemini ekosistemini genişleterek daha fazla donanım ortağıyla çalışma stratejisini işaret ediyor.",
-    "onem_skoru": "8",
-    "kategori": "Teknoloji",
-    "url": "http://9to5google.com/2026/05/03/google-gemini-smart-speakers-third-party-walmart/"
-  },
-  {
-    "baslik": "Instructure confirms data breach, ShinyHunters claims attack - BleepingComputer",
-    "ozet": "Instructure (Canvas öğrenme yönetim sisteminin sahibi) bir veri ihlalini resmen doğruladı. ShinyHunters adlı tehdit grubu saldırıyı üstlendi. Bu ihlal, eğitim teknolojisi sektöründe yaygın olarak kullanılan bir platformu etkilediği için önem taşımaktadır.",
-    "onem_skoru": "8",
-    "kategori": "Güvenlik",
-    "url": "https://www.bleepingcomputer.com/news/security/instructure-confirms-data-breach-shinyhunters-claims-attack/"
-  },
-  {
-    "baslik": "PS6 Early Info on Cloud Streaming, Machine Learning, and New Horror Game Uncovered - MP1st",
-    "ozet": "Sony'nin PlayStation 6'sına dair erken bilgiler ortaya çıktı. Yeni nesil konsolun bulut akış (cloud streaming) ve makine öğrenimi (machine learning) teknolojilerine odaklanacağı belirtiliyor. Ayrıca yeni bir korku oyunu projesinin de gündemde olduğu ifade ediliyor. PS6'nın bu teknolojilerle oyun deneyimini dönüştürmesi bekleniyor.",
-    "onem_skoru": "8",
-    "kategori": "Teknoloji",
-    "url": "https://mp1st.com/news/ps6-early-info-cloud-streaming-machine-learning-new-horror-game-uncovered"
-  },
-  {
-    "baslik": "Microsoft Defender wrongly flags DigiCert certs as Trojan:Win32/Cerdigent.A!dha - BleepingComputer",
-    "ozet": "Microsoft Defender, DigiCert tarafından yayınlanan meşru dijital sertifikaları yanlışlıkla 'Trojan:Win32/Cerdigent.A!dha' adlı bir trojan olarak algıladı. Bu hatalı tespit, kullanıcıların güvenilir yazılımlara erişimini engelledi ve yanlış pozitif uyarılarına yol açtı. Microsoft, sorunu kabul ederek çözüm üzerinde çalıştığını duyurdu.",
-    "onem_skoru": "8",
-    "kategori": "Güvenlik",
-    "url": "https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/"
-  },
-  {
-    "baslik": "As Formula One evolves, AI becomes part of the race",
-    "ozet": "Formula 1, yapay zeka teknolojilerini yarış stratejilerinden araç performansına, veri analizinden taraftar deneyimine kadar birçok alanda kullanmaya başladı. Yapay zeka, yarış ekiplerinin anlık karar alma süreçlerini hızlandırırken, araç optimizasyonu ve güvenlik sistemlerinde de önemli bir rol oynuyor. Bu dönüşüm, Formula 1'in hem rekabetçi yapısını hem de izleyici deneyimini kökten değiştiriyor.",
+    "baslik": "The faces of quantum",
+    "ozet": "Chicago'da kuantum bilgisayar kampüsü için yeni kiracılar ve IQMP (Illinois Quantum & Microelectronics Park) hakkında bir açıklama. Kuantum bilişim alanındaki gelişmeler ve bu kampüsün bölgeye getireceği yenilikler ele alınıyor.",
     "onem_skoru": "7",
     "kategori": "Teknoloji",
-    "url": "https://www.channelnewsasia.com/business/formula-one-evolves-ai-becomes-part-race-6098326"
+    "url": "http://chicagoreader.com/news/explainer/quantum-computing-campus-tenants-iqmp-illinois/"
   },
   {
-    "baslik": "Motor racing-As Formula One evolves, AI becomes part of the race",
-    "ozet": "Formula 1, yarış stratejilerinden araç tasarımına, sürücü performansı optimizasyonundan güvenlik iyileştirmelerine kadar pek çok alanda yapay zekayı entegre ederek evrimleşiyor. AI, büyük veri analizi sayesinde takımların daha hızlı kararlar almasını sağlarken, pist üstü ve pist dışı operasyonlarda devrim yaratıyor.",
-    "onem_skoru": "7",
-    "kategori": "Teknoloji",
-    "url": "https://sports.yahoo.com/articles/motor-racing-formula-one-evolves-093211953.html"
-  },
-  {
-    "baslik": "Credit Unions Need Data Maps Before AI Guardrails",
-    "ozet": "Kredi birliklerinin (credit unions) yapay zeka güvenlik önlemleri (AI guardrails) uygulamadan önce mutlaka veri haritaları (data maps) oluşturmaları gerektiğini vurgulayan bir görüş yazısı. Veri haritalaması, kurumların hangi verilere sahip olduğunu, bu verilerin nerede depolandığını ve nasıl kullanıldığını anlamalarını sağlayarak yapay zeka sistemlerinin güvenli ve uyumlu bir şekilde devreye alınmasının temelini oluşturuyor.",
-    "onem_skoru": "7",
-    "kategori": "Teknoloji",
-    "url": "https://www.pymnts.com/opinion/2026/credit-unions-need-data-maps-before-ai-guardrails/"
-  },
-  {
-    "baslik": "Biosimulation Market to Grow at 16%+ CAGR Reaching USD 11.3 Billion by 2031, Driven by Increasing Adoption in Drug Development and Regulatory Applications: Mordor Intelligence",
-    "ozet": "Biyosimülasyon pazarının, ilaç geliştirme ve düzenleyici uygulamalarda artan benimsenme sayesinde 2031 yılına kadar 11,3 milyar ABD dolarına ulaşarak %16'nın üzerinde bileşik yıllık büyüme oranıyla (CAGR) büyümesi bekleniyor. Mordor Intelligence raporuna göre bu büyüme, ilaç keşfi ve klinik deney süreçlerinde biyosimülasyon teknolojilerinin daha yaygın kullanılmasıyla destekleniyor.",
-    "onem_skoru": "7",
-    "kategori": "Teknoloji",
-    "url": "https://www.globenewswire.com/news-release/2026/05/04/3286456/0/en/Biosimulation-Market-to-Grow-at-16-CAGR-Reaching-USD-11-3-Billion-by-2031-Driven-by-Increasing-Adoption-in-Drug-Development-and-Regulatory-Applications-Mordor-Intelligence.html"
-  },
-  {
-    "baslik": "Leaker claims Dark Souls trilogy remake in development",
-    "ozet": "Bir sızıntı kaynağı, FromSoftware'in Dark Souls üçlemesinin tamamen yeniden yapım (remake) üzerinde çalıştığını iddia ediyor. My Nintendo News'in aktardığı bu iddiaya göre, üç oyunu da kapsayacak büyük bir remake projesi geliştirme aşamasında. Henüz resmi bir doğrulama bulunmuyor.",
-    "onem_skoru": "7",
-    "kategori": "Oyun",
-    "url": "https://mynintendonews.com/2026/05/03/leaker-claims-dark-souls-trilogy-remake-in-development/"
-  },
-  {
-    "baslik": "Gemini app getting full redesign that overhauls every part of the UI - 9to5Google",
-    "ozet": "Google'ın yapay zeka asistanı Gemini uygulaması, kapsamlı bir yeniden tasarım geçiriyor. Kullanıcı arayüzünün her bölümünü elden geçiren bu güncelleme, uygulamanın görünümünü ve kullanıcı deneyimini baştan aşağı değiştiriyor. Yeni tasarımın detayları 9to5Google tarafından paylaşıldı.",
+    "baslik": "Give your 'human-level agents' a proper head start with these 3 best practices",
+    "ozet": "ZDNet'te yayımlanan bu makale, 'ajanik yapay zeka' (agentic AI) sistemlerine başlarken uygulanması gereken üç temel en iyi uygulamayı ele alıyor. İnsan düzeyinde ajanlar (agent) oluştururken başlangıç aşamasında doğru adımlar atmanın, tüm süreci daha sorunsuz hale getireceği vurgulanıyor. Makale, yapay zeka ajanlarının geliştirilmesinde erken aşamada dikkat edilmesi gereken stratejilere odaklanıyor.",
     "onem_skoru": "7",
     "kategori": "Yapay Zeka",
-    "url": "http://9to5google.com/2026/05/03/gemini-full-redesign/"
+    "url": "https://www.zdnet.com/article/doing-these-three-things-at-the-beginning-of-agentic-ai-will-make-everything-smoother/"
   },
   {
-    "baslik": "Marvel Snap stüdyosu: 'Bu, devam etmek için zor kararlar alıyoruz, kapanma işareti değil'",
-    "ozet": "Marvel Snap'in geliştirici stüdyosu, oyunun kapanacağına dair spekülasyonlara yanıt vererek, alınan zor kararların kapanma değil, sürdürülebilirlik için olduğunu belirtti. Stüdyo, bu adımların oyunun uzun vadede devam etmesini sağlamak için atıldığını vurguluyor.",
-    "onem_skoru": "7",
-    "kategori": "Oyun",
-    "url": "https://www.eurogamer.net/marvel-snap-studio-insists-this-is-us-making-hard-decisions-to-keep-going-not-a-sign-were-winding-down"
-  },
-  {
-    "baslik": "Modern Warfare 4 Being Playtested on PS4, It’s Claimed - Insider Gaming",
-    "ozet": "Insider Gaming'in haberine göre, Call of Duty serisinin yeni oyunu Modern Warfare 4'ün PlayStation 4 üzerinde test edildiği iddia ediliyor. Bu iddia, oyunun hala bir önceki nesil konsol için optimize edildiğini ve Activision'ın geniş kitleye hitap etme stratejisini sürdürdüğünü gösteriyor. Henüz resmi bir doğrulama bulunmamakla birlikte, sızıntılar oyunun geliştirme aşamasında olduğuna işaret ediyor.",
+    "baslik": "iOS 26.5 Coming Soon With These New Features - MacRumors",
+    "ozet": "Apple'ın iOS 26.5 güncellemesi yakında yayınlanacak. Güncelleme ile birlikte yeni özellikler ve iyileştirmeler kullanıcılara sunulacak. Detaylı bilgi için MacRumors'un haberine göz atabilirsiniz.",
     "onem_skoru": "7",
     "kategori": "Teknoloji",
-    "url": "https://insider-gaming.com/modern-warfare-4-being-playtested-on-ps4-its-claimed/"
+    "url": "https://www.macrumors.com/2026/05/04/ios-26-5-coming-soon-with-these-new-features/"
   },
   {
-    "baslik": "Health Worker Administers Oral Polio Vaccine to Children in Malawi",
-    "ozet": "Malavi'de bir sağlık çalışanı, çocuklara ağızdan çocuk felci (polio) aşısı uyguluyor. Bu haber, gelişmekte olan ülkelerde çocuk felcinin eradikasyonu için yürütülen aşılama kampanyalarını ve sağlık çalışanlarının sahada yaptığı kritik çalışmaları vurguluyor.",
+    "baslik": "Borderlands 4 Boss Faces Fan Backlash After Posting AI Slop - Kotaku",
+    "ozet": "Borderlands 4'ün yöneticisi, yapay zeka tarafından üretilmiş içerik (AI slop) paylaştıktan sonra hayranlardan büyük tepki aldı. Bu durum, hayranların daha önce oyunun yama notlarında AI kullanılmasından endişe duyduğu bir dönemde yaşandı. Şirketin mevcut politikası ise 'müşterinin görebileceği hiçbir işte yapay zeka kullanılmaması' yönünde.",
+    "onem_skoru": "7",
+    "kategori": "teknoloji",
+    "url": "https://kotaku.com/borderlands-4-boss-posts-slop-after-fans-were-already-worried-about-ai-generated-patch-notes-our-policy-is-no-ai-in-any-work-that-could-ever-be-seen-by-any-customer-2000692933"
+  },
+  {
+    "baslik": "Mac mini starting price goes up to $799, may be hard to get for 'months' - Ars Technica",
+    "ozet": "Apple, Mac mini'nin başlangıç fiyatını 799 dolara yükseltti ve artan talebi karşılamakta zorlandığı için cihazın aylar boyunca bulunması zor olabilir. Ars Technica'nın haberine göre Apple'ın Mac mini ve Mac Studio talebine yetişmesi birkaç ay sürebilir.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://arstechnica.com/gadgets/2026/05/apple-may-take-several-months-to-catch-up-to-mac-mini-and-studio-demand/"
+  },
+  {
+    "baslik": "'Nobody's Taking Risks': To Keep Control Resonant Looking Unique, Remedy Avoided Other AAA Games - Push Square",
+    "ozet": "Remedy Entertainment, yeni oyunu Control Resonant için benzersiz bir görsel kimlik oluşturmak amacıyla diğer AAA oyunlardan bilinçli olarak uzak durdu. Stüdyo, günümüz AAA oyun sektöründe kimsenin risk almadığını belirterek, kendi vizyonlarına sadık kalıp farklı bir yol izlemeyi tercih etti.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://www.pushsquare.com/news/2026/05/nobodys-taking-risks-to-keep-control-resonant-looking-unique-remedy-avoided-other-aaa-games"
+  },
+  {
+    "baslik": "Former Nintendo exec explains why the company doesn’t tend to put its games on sale - Nintendo Everything",
+    "ozet": "Eski bir Nintendo yöneticisi, şirketin oyunlarını neden sık sık indirime sokmadığını açıklıyor. Nintendo, oyunlarının değerini korumak ve marka algısını güçlü tutmak amacıyla nadiren indirim yapma stratejisi izliyor. Bu yaklaşım, oyunların uzun vadede değer kaybetmemesini ve tüketicilerin oyunları tam fiyattan satın almaya daha istekli olmasını sağlıyor.",
+    "onem_skoru": "7",
+    "kategori": "teknoloji",
+    "url": "https://nintendoeverything.com/why-nintendo-games-dont-go-sale/"
+  },
+  {
+    "baslik": "‘Crimson Desert’ Just Finished Its Three Month Roadmap In Three Weeks - Forbes",
+    "ozet": "Crimson Desert oyunu, üç aylık olarak planlanmış yol haritasını (roadmap) sadece üç hafta içinde tamamlayarak oyun geliştirme sürecinde olağanüstü bir hız ve verimlilik sergiledi. Bu durum, geliştirici ekibin beklenenden çok daha hızlı ilerlediğini ve oyunun çıkış tarihinin öne çekilebileceğine işaret ediyor.",
     "onem_skoru": "6",
-    "kategori": "Sağlık Teknolojisi",
-    "url": "https://www.lifetechnology.com/blogs/life-technology-medical-news/health-worker-administers-oral-polio-vaccine-to-children-in-malawi"
+    "kategori": "Oyun",
+    "url": "https://www.forbes.com/sites/paultassi/2026/05/04/crimson-desert-just-finished-its-three-month-roadmap-in-three-weeks/"
   },
   {
-    "baslik": "Valve: 67.74% of Steam users run Windows 11 - Neowin",
-    "ozet": "Valve'ın yayınladığı Steam donanım ve yazılım anketine göre, Steam kullanıcılarının %67,74'ü Windows 11 işletim sistemini kullanıyor. Bu, Windows 11'in oyun platformunda önemli bir benimseme oranına ulaştığını gösteriyor.",
+    "baslik": "How Long Is 007 First Light? Game Length & Total Hours, Explained",
+    "ozet": "Insider Gaming, 007 First Light oyununun toplam oynanış süresini detaylandıran bir analiz yayınladı. Makale, oyunun ana hikaye ve yan görevler dahil olmak üzere ortalama tamamlanma süresini, oyuncuların bekleyebileceği saat aralıklarını ve oyunun %100 tamamlanması için gereken toplam süreyi açıklıyor.",
     "onem_skoru": "5",
-    "kategori": "Teknoloji",
-    "url": "https://www.neowin.net/news/valve-6774-of-steam-users-run-windows-11/"
+    "kategori": "Teknoloji/Oyun",
+    "url": "https://insider-gaming.com/how-long-is-007-first-light-game-length-total-hours-explained/"
   },
   {
-    "baslik": "Today’s NYT Strands Hints, Spangram, Answers For Monday, May 4 (May The Forest Be With You) - Forbes",
-    "ozet": "Forbes yazarı Paul Tassi, New York Times'ın popüler kelime bulmaca oyunu Strands için 4 Mayıs 2026 Pazartesi gününe ait ipuçlarını, spangram çözümünü ve tüm cevapları paylaşıyor. 'May the Forest Be With You' temalı bu bölümde oyunculara orman ve doğa temalı kelimeleri bulmaları için rehberlik ediliyor.",
-    "onem_skoru": "2",
-    "kategori": "Teknoloji",
-    "url": "https://www.forbes.com/sites/paultassi/2026/05/03/todays-nyt-strands-hints-spangram-answers-for-monday-may-4-may-the-forest-be-with-you/"
+    "baslik": "The History of Mood Swings - Magic: The Gathering",
+    "ozet": "Magic: The Gathering oyunundaki 'Mood Swings' isimli kartın tarihçesi, tasarım süreci ve oyun içindeki etkisi hakkında bir makale. Makale, kartın yıllar içinde nasıl değiştiğini ve oyuncular üzerindeki etkisini ele alıyor.",
+    "onem_skoru": "3",
+    "kategori": "Oyun",
+    "url": "https://magic.wizards.com/en/news/making-magic/the-history-of-mood-swings"
   }
 ]
