@@ -1,0 +1,23 @@
+[
+  {
+    "baslik": "OpenAI Yeni Dil Modelini Duyurdu: Daha Hızlı ve Verimli",
+    "ozet": "Yapay zeka devi OpenAI, yeni nesil dil modelini piyasaya sürdü. Yeni modelin önceki versiyonlara göre çok daha az enerji tüketerek yüksek performans sağladığı açıklandı.",
+    "onem_skoru": "9",
+    "kategori": "Yapay Zeka",
+    "url": "https://newsapi.org"
+  },
+  {
+    "baslik": "Sağlıkta Yapay Zeka: Erken Teşhis Oranları Artıyor",
+    "ozet": "Yeni bir makine öğrenmesi algoritması, kanser taramalarında doktorlardan çok daha erken aşamada belirtileri saptayarak başarı oranını artırdı.",
+    "onem_skoru": "8",
+    "kategori": "Sağlık ve Teknoloji",
+    "url": "https://newsapi.org"
+  },
+  {
+    "baslik": "Kodlama Asistanları Geliştiricilerin %70'i Tarafından Kullanılıyor",
+    "ozet": "Yapılan yeni bir ankete göre yazılım geliştiricilerinin büyük bir kısmı günlük iş akışlarında en az bir adet yapay zeka kod asistanından faydalanıyor.",
+    "onem_skoru": "7",
+    "kategori": "Yazılım",
+    "url": "https://newsapi.org"
+  }
+]

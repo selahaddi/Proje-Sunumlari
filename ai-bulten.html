@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Ai Bülten — Selahaddin Serttaş</title>
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-primary-container": "#014b3d",
+            "surface": "#fdfbf7",
+            "primary-fixed-dim": "#95d3c0",
+            "surface-bright": "#ffffff",
+            "error": "#ba1a1a",
+            "surface-tint": "#2b6959",
+            "primary": "#014b3d",
+            "outline": "#707975",
+            "on-secondary-fixed": "#2b1700",
+            "surface-dim": "#f2f0ec",
+            "tertiary-container": "#c9a800",
+            "outline-variant": "#dfe4e2",
+            "on-tertiary-fixed": "#221b00",
+            "on-primary": "#ffffff",
+            "secondary-fixed-dim": "#ffb868",
+            "on-tertiary-container": "#4c3e00",
+            "inverse-on-surface": "#f0f0f2",
+            "tertiary": "#705d00",
+            "surface-container": "#f5f3ef",
+            "secondary": "#885200",
+            "on-secondary-container": "#653c00",
+            "on-error": "#ffffff",
+            "on-secondary-fixed-variant": "#673d00",
+            "on-primary-fixed-variant": "#0b5042",
+            "surface-container-highest": "#e8e6e2",
+            "on-secondary": "#ffffff",
+            "inverse-surface": "#2f3132",
+            "inverse-primary": "#95d3c0",
+            "tertiary-fixed-dim": "#e9c400",
+            "on-background": "#1a1c1d",
+            "surface-variant": "#f0ede9",
+            "surface-container-high": "#ebe9e5",
+            "on-error-container": "#93000a",
+            "secondary-container": "#ffb86c",
+            "on-primary-fixed": "#002019",
+            "primary-container": "#b0efdc",
+            "tertiary-fixed": "#ffe171",
+            "surface-container-lowest": "#ffffff",
+            "error-container": "#ffdad6",
+            "secondary-fixed": "#ffddbb",
+            "on-surface": "#1a1c1d",
+            "on-tertiary": "#ffffff",
+            "primary-fixed": "#b0efdc",
+            "on-tertiary-fixed-variant": "#554600",
+            "surface-container-low": "#faf8f4",
+            "background": "#fdfbf7",
+            "on-surface-variant": "#404945"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.5rem",
+            "lg": "1rem",
+            "xl": "1.5rem",
+            "2xl": "2rem",
+            "3xl": "2.5rem",
+            "4xl": "3.5rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "grid-columns": "12",
+            "section-gap": "140px",
+            "element-gap": "32px",
+            "base": "8px",
+            "grid-gutter": "32px",
+            "container-padding": "48px"
+          }
+        },
+      },
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #fdfbf7;
+      color: theme('colors.on-background');
+      overflow-x: hidden;
+    }
+
+    /* 3D TACTILE CARDS */
+    .tactile-card {
+      background: #ffffff;
+      border-radius: 2rem;
+      box-shadow: 
+        0 20px 40px rgba(0, 0, 0, 0.05),
+        0 1px 3px rgba(0, 0, 0, 0.02),
+        inset 0 1px 0 rgba(255, 255, 255, 0.8);
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+      transform: perspective(1000px) rotateX(1deg) rotateY(-1deg);
+    }
+    .tactile-card:hover {
+      transform: perspective(1000px) rotateX(0deg) rotateY(0deg) translateY(-8px);
+      box-shadow: 0 40px 80px rgba(0, 0, 0, 0.08);
+    }
+
+    /* VOLUMETRIC BUTTONS */
+    .volumetric-btn {
+      position: relative;
+      background: linear-gradient(180deg, #014b3d 0%, #003a2f 100%);
+      box-shadow: 
+        0 10px 20px rgba(1, 75, 61, 0.2),
+        inset 0 1px 2px rgba(255, 255, 255, 0.3),
+        inset 0 -2px 4px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease;
+    }
+    .volumetric-btn:active {
+      transform: translateY(2px);
+      box-shadow: 
+        0 4px 8px rgba(1, 75, 61, 0.2),
+        inset 0 1px 4px rgba(0, 0, 0, 0.2);
+    }
+    
+    .volumetric-btn-secondary {
+      background: linear-gradient(180deg, #ffffff 0%, #f0ede9 100%);
+      box-shadow: 
+        0 8px 16px rgba(0, 0, 0, 0.05),
+        inset 0 1px 0 rgba(255, 255, 255, 1),
+        inset 0 -1px 2px rgba(0, 0, 0, 0.05);
+      color: #1a1c1d;
+    }
+
+    /* PREMIUM GLASSMORPHISM */
+    .premium-glass {
+      background: rgba(255, 255, 255, 0.6);
+      backdrop-filter: blur(30px);
+      -webkit-backdrop-filter: blur(30px);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
+    /* ORGANIC BACKGROUND */
+    .bg-blob {
+      position: fixed;
+      filter: blur(120px);
+      z-index: -1;
+      opacity: 0.4;
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .blob-orange { top: -10%; right: -5%; width: 600px; height: 600px; background: #FFB86C; animation: float 15s infinite alternate; }
+    .blob-mint { bottom: -10%; left: -5%; width: 500px; height: 500px; background: #5AF5C8; animation: float 18s infinite alternate-reverse; }
+    .blob-cream { top: 30%; left: 10%; width: 400px; height: 400px; background: #FFF4E0; }
+
+    @keyframes float {
+      0% { transform: translate(0, 0) scale(1); }
+      100% { transform: translate(50px, 50px) scale(1.1); }
+    }
+
+    /* 3D DECOR */
+    .decor-shape {
+      position: absolute;
+      background: white;
+      box-shadow: 
+        20px 20px 40px rgba(0,0,0,0.05),
+        inset -10px -10px 20px rgba(0,0,0,0.02),
+        inset 10px 10px 20px rgba(255,255,255,0.8);
+      pointer-events: none;
+      z-index: 0;
+    }
+    .sphere { border-radius: 50%; }
+    .torus { 
+      border-radius: 50%;
+      border: 40px solid white;
+      background: transparent;
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    /* MOBILE RESPONSIVE OVERRIDES */
+    @media (max-width: 767px) {
+      .tactile-card { transform: none !important; }
+      .tactile-card:hover { transform: translateY(-4px) !important; }
+    }
+
+    /* Mobile menu */
+    .mobile-menu-overlay {
+      position: fixed; inset: 0; z-index: 45;
+      background: rgba(0,0,0,0.5);
+      backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+      opacity: 0; pointer-events: none;
+      transition: opacity 0.3s ease;
+    }
+    .mobile-menu-overlay.active { opacity: 1; pointer-events: auto; }
+    .mobile-menu-panel {
+      position: fixed; top: 0; right: 0; z-index: 46;
+      width: 280px; height: 100%; background: #ffffff;
+      box-shadow: -10px 0 40px rgba(0,0,0,0.1);
+      transform: translateX(100%);
+      transition: transform 0.35s cubic-bezier(0.23, 1, 0.32, 1);
+      overflow-y: auto;
+    }
+    .mobile-menu-panel.active { transform: translateX(0); }
+    
+    /* Skeleton Loading */
+    .skeleton {
+      background: linear-gradient(90deg, #f0f0f2 25%, #e8e6e2 50%, #f0f0f2 75%);
+      background-size: 200% 100%;
+      animation: loading 1.5s infinite;
+      border-radius: 4px;
+    }
+    @keyframes loading {
+      0% { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+  </style>
+
+  <style>
+    body.lang-en .lang-tr { display: none !important; }
+    body:not(.lang-en) .lang-en { display: none !important; }
+  </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col">
+  <!-- BACKGROUND BLOBS -->
+  <div class="bg-blob blob-orange"></div>
+  <div class="bg-blob blob-mint"></div>
+  <div class="bg-blob blob-cream"></div>
+  
+  <!-- NAV -->
+  <nav class="fixed top-4 md:top-8 left-1/2 -translate-x-1/2 w-[95%] md:w-[90%] max-w-6xl premium-glass rounded-full z-50 flex justify-between items-center px-4 md:px-10 py-2.5 md:py-4 shadow-[0_15px_35px_rgba(0,0,0,0.05)]">
+    <a href="index.html" class="text-sm md:text-xl font-bold text-[#014B3D] tracking-tighter">SELAHADDİN SERTTAŞ</a>
+    <div class="hidden md:flex items-center gap-10">
+      <a class="text-on-surface-variant font-medium hover:text-primary transition-colors text-sm" href="index.html#projects"><span class="lang-tr">Projeler</span><span class="lang-en">Projects</span></a>
+      <a class="text-on-surface-variant font-medium hover:text-primary transition-colors text-sm" href="index.html#about"><span class="lang-tr">Deneyim</span><span class="lang-en">Experience</span></a>
+      <a class="text-primary font-bold transition-colors text-sm" href="ai-bulten.html"><span class="lang-tr">Ai Bülten</span><span class="lang-en">Ai News</span></a>
+    </div>
+    <div class="flex items-center gap-2 md:gap-4">
+      <button id="langToggle" onclick="toggleLanguage()" class="volumetric-btn-secondary px-3 py-2 rounded-full text-xs font-bold flex items-center gap-2 border border-surface-variant hover:bg-surface-dim transition-colors">
+        <span class="material-symbols-outlined text-[16px]">language</span>
+        <span id="langLabel">EN</span>
+      </button>
+      <a class="volumetric-btn text-white px-7 py-2.5 rounded-full text-sm font-semibold hidden md:inline-flex" href="mailto:serttas2001@gmail.com"><span class="lang-tr">İletişime Geç</span><span class="lang-en">Get in Touch</span></a>
+      <button id="mobileMenuBtn" onclick="toggleMobileMenu()" class="md:hidden w-9 h-9 rounded-full bg-surface-container-high flex items-center justify-center text-primary">
+        <span class="material-symbols-outlined text-[22px]" id="mobileMenuIcon">menu</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu-overlay md:hidden" id="mobileMenuOverlay" onclick="toggleMobileMenu()"></div>
+  <div class="mobile-menu-panel md:hidden" id="mobileMenuPanel">
+    <div class="p-8 pt-24">
+      <div class="flex flex-col gap-1">
+        <a href="index.html#projects" class="text-on-surface font-semibold text-lg py-3 px-4 rounded-xl hover:bg-surface-container transition-colors"><span class="lang-tr">Projeler</span><span class="lang-en">Projects</span></a>
+        <a href="index.html#about" class="text-on-surface font-semibold text-lg py-3 px-4 rounded-xl hover:bg-surface-container transition-colors"><span class="lang-tr">Deneyim</span><span class="lang-en">Experience</span></a>
+        <a href="ai-bulten.html" class="text-primary font-bold text-lg py-3 px-4 rounded-xl bg-primary/5 transition-colors"><span class="lang-tr">Ai Bülten</span><span class="lang-en">Ai News</span></a>
+      </div>
+      <div class="mt-8 pt-8 border-t border-surface-variant">
+        <a class="volumetric-btn text-white px-7 py-3 rounded-full text-sm font-semibold flex items-center justify-center gap-2 w-full" href="mailto:serttas2001@gmail.com">
+          <span class="material-symbols-outlined text-[18px]">mail</span>
+          <span class="lang-tr">İletişime Geç</span><span class="lang-en">Get in Touch</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="relative pt-32 pb-10 md:pt-48 md:pb-20 px-4 md:px-container-padding text-center">
+    <div class="decor-shape sphere w-24 h-24 top-[20%] left-[10%] opacity-40 blur-[1px]"></div>
+    <div class="decor-shape torus w-32 h-32 bottom-[10%] right-[15%] opacity-20 rotate-45"></div>
+    <div class="relative z-10 max-w-4xl mx-auto">
+      <div class="inline-flex items-center gap-2 px-5 py-2 rounded-full premium-glass mb-6 text-on-surface-variant reveal visible">
+        <span class="material-symbols-outlined text-[18px] text-secondary">rss_feed</span>
+        <span class="text-xs font-bold uppercase tracking-[0.2em] text-primary"><span class="lang-tr">Otomatik Haber Akışı</span><span class="lang-en">Automated News Feed</span></span>
+      </div>
+      <h1 class="text-4xl md:text-6xl font-bold text-on-background mb-6 tracking-tight reveal visible">
+        <span class="opacity-40 font-light">Ai</span> <strong class="text-primary">Bülten</strong>
+      </h1>
+      <p class="text-lg md:text-xl text-on-surface-variant max-w-2xl mx-auto leading-relaxed reveal visible">
+        <span class="lang-tr">Bu sayfa, n8n otomasyonum ve Yapay Zeka (LLM) ajanlarım tarafından her gün otomatik olarak güncellenmektedir. Sektördeki en önemli haberler yapay zeka tarafından okunur, özetlenir ve puanlanarak buraya aktarılır.</span>
+        <span class="lang-en">This page is automatically updated daily by my n8n automation and AI agents. The most important industry news is read, summarized, and scored by AI before being displayed here.</span>
+      </p>
+    </div>
+  </header>
+
+  <!-- NEWS FEED -->
+  <main class="flex-grow max-w-5xl mx-auto w-full px-4 md:px-container-padding pb-32 relative z-10">
+    <div id="news-container" class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- Skeletons (Will be replaced by JS) -->
+      <div class="tactile-card p-6 md:p-8 flex flex-col h-full">
+        <div class="skeleton h-6 w-24 mb-4 rounded-full"></div>
+        <div class="skeleton h-8 w-full mb-3"></div>
+        <div class="skeleton h-8 w-3/4 mb-6"></div>
+        <div class="skeleton h-4 w-full mb-2"></div>
+        <div class="skeleton h-4 w-full mb-2"></div>
+        <div class="skeleton h-4 w-5/6 mb-8"></div>
+        <div class="mt-auto flex justify-between items-center">
+          <div class="skeleton h-8 w-20 rounded-full"></div>
+          <div class="skeleton h-10 w-32 rounded-full"></div>
+        </div>
+      </div>
+      <div class="tactile-card p-6 md:p-8 flex flex-col h-full">
+        <div class="skeleton h-6 w-24 mb-4 rounded-full"></div>
+        <div class="skeleton h-8 w-full mb-3"></div>
+        <div class="skeleton h-8 w-3/4 mb-6"></div>
+        <div class="skeleton h-4 w-full mb-2"></div>
+        <div class="skeleton h-4 w-full mb-2"></div>
+        <div class="skeleton h-4 w-5/6 mb-8"></div>
+        <div class="mt-auto flex justify-between items-center">
+          <div class="skeleton h-8 w-20 rounded-full"></div>
+          <div class="skeleton h-10 w-32 rounded-full"></div>
+        </div>
+      </div>
+    </div>
+    <div id="error-message" class="hidden text-center p-10 tactile-card mt-8">
+      <span class="material-symbols-outlined text-[48px] text-error mb-4 opacity-50">cloud_off</span>
+      <h3 class="text-xl font-bold text-on-background mb-2"><span class="lang-tr">Haberler Yüklenemedi</span><span class="lang-en">Failed to Load News</span></h3>
+      <p class="text-on-surface-variant"><span class="lang-tr">Şu anda sunucudan verilere ulaşılamıyor. Daha sonra tekrar deneyin.</span><span class="lang-en">Cannot reach the data server right now. Please try again later.</span></p>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-surface-variant bg-surface mt-auto py-12 relative z-10">
+    <div class="max-w-7xl mx-auto px-4 md:px-container-padding flex flex-col md:flex-row justify-between items-center gap-6">
+      <div class="text-sm text-on-surface-variant font-medium">
+        © 2026 Selahaddin Serttaş. <span class="lang-tr">Tüm hakları saklıdır.</span><span class="lang-en">All rights reserved.</span>
+      </div>
+      <div class="flex gap-4">
+        <a href="https://github.com" target="_blank" class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-primary/10 transition-colors">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
+          </svg>
+        </a>
+        <a href="https://linkedin.com" target="_blank" class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-primary/10 transition-colors">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" clip-rule="evenodd" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Language Toggle logic
+    function toggleLanguage() {
+      const body = document.body;
+      const langLabel = document.getElementById('langLabel');
+      
+      if (body.classList.contains('lang-en')) {
+        body.classList.remove('lang-en');
+        langLabel.innerText = "EN";
+      } else {
+        body.classList.add('lang-en');
+        langLabel.innerText = "TR";
+      }
+      
+      // Update loaded news language if needed, but since data might be in Turkish from n8n, 
+      // we only toggle UI text.
+    }
+    
+    function toggleMobileMenu() {
+      const panel = document.getElementById('mobileMenuPanel');
+      const overlay = document.getElementById('mobileMenuOverlay');
+      const icon = document.getElementById('mobileMenuIcon');
+      
+      panel.classList.toggle('active');
+      overlay.classList.toggle('active');
+      
+      if(panel.classList.contains('active')) {
+        icon.innerText = 'close';
+      } else {
+        icon.innerText = 'menu';
+      }
+    }
+
+    // Load News Data
+    async function loadNews() {
+      const container = document.getElementById('news-container');
+      const errorMsg = document.getElementById('error-message');
+      
+      try {
+        // Fetch from the local JSON file (which should be updated by n8n or github actions)
+        const response = await fetch('ai_news.json', { cache: 'no-store' });
+        
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        
+        const data = await response.json();
+        
+        // Clear skeletons
+        container.innerHTML = '';
+        
+        if (data.length === 0) {
+          container.innerHTML = '<p class="col-span-1 md:col-span-2 text-center text-on-surface-variant">Henüz haber bulunmamaktadır.</p>';
+          return;
+        }
+
+        // Sort by importance score (descending)
+        data.sort((a, b) => {
+          return parseInt(b.onem_skoru || 0) - parseInt(a.onem_skoru || 0);
+        });
+        
+        data.forEach((news, index) => {
+          // Score color logic
+          let scoreColor = 'bg-primary/10 text-primary';
+          const score = parseInt(news.onem_skoru);
+          if (score >= 8) scoreColor = 'bg-red-100 text-red-700';
+          else if (score >= 5) scoreColor = 'bg-orange-100 text-orange-700';
+
+          const card = document.createElement('article');
+          card.className = 'tactile-card p-6 md:p-8 flex flex-col h-full reveal';
+          card.style.animationDelay = `${index * 100}ms`;
+          
+          card.innerHTML = `
+            <div class="flex items-center gap-3 mb-4">
+              <span class="px-3 py-1 rounded-full bg-surface-variant text-[11px] font-bold text-on-surface-variant uppercase tracking-wider">
+                ${news.kategori || 'Genel'}
+              </span>
+            </div>
+            <h3 class="text-xl md:text-2xl font-bold text-on-background mb-4 leading-tight">
+              ${news.baslik}
+            </h3>
+            <p class="text-on-surface-variant mb-8 leading-relaxed flex-grow">
+              ${news.ozet}
+            </p>
+            <div class="mt-auto flex justify-between items-center pt-4 border-t border-surface-variant/50">
+              <div class="flex items-center gap-2" title="Yapay Zeka Önem Skoru">
+                <span class="material-symbols-outlined text-[18px] text-on-surface-variant">temp_preferences_custom</span>
+                <span class="font-bold text-sm ${scoreColor} px-2 py-0.5 rounded-md">Skor: ${news.onem_skoru}/10</span>
+              </div>
+              <a href="${news.url}" target="_blank" rel="noopener noreferrer" class="volumetric-btn text-white px-5 py-2 rounded-full text-sm font-semibold flex items-center gap-1 group">
+                <span class="lang-tr">Haberi Oku</span><span class="lang-en">Read More</span>
+                <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_right_alt</span>
+              </a>
+            </div>
+          `;
+          container.appendChild(card);
+          
+          // Trigger reveal animation slightly after DOM insertion
+          setTimeout(() => {
+            card.classList.add('visible');
+          }, 50);
+        });
+        
+      } catch (error) {
+        console.error('Error fetching news:', error);
+        container.innerHTML = '';
+        errorMsg.classList.remove('hidden');
+      }
+    }
+
+    // Initialize
+    document.addEventListener('DOMContentLoaded', () => {
+      // Simulate network delay for effect, then load news
+      setTimeout(loadNews, 800);
+      
+      // Reveal header
+      setTimeout(() => {
+        document.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
+      }, 100);
+    });
+  </script>
+</body>
+</html>
