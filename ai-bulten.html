@@ -387,29 +387,46 @@
       const errorMsg = document.getElementById('error-message');
       
       try {
-        // Fetch from the local JSON file (which should be updated by n8n or github actions)
-        const response = await fetch('ai_news.json', { cache: 'no-store' });
+        // Adım 1: GitHub API'sinden "haberler" klasöründeki dosyaların listesini çek
+        const repoUrl = 'https://api.github.com/repos/selahaddi/Proje-Sunumlari/contents/haberler';
+        const dirResponse = await fetch(repoUrl);
         
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
+        let allNews = [];
+        
+        if (dirResponse.ok) {
+          const files = await dirResponse.json();
+          // Sadece .json uzantılı dosyaları al ve isme göre (tarih) ters sırala (en yeniler en üste)
+          const jsonFiles = files
+            .filter(f => f.name.endsWith('.json'))
+            .sort((a, b) => b.name.localeCompare(a.name))
+            .slice(0, 10); // Son 10 json dosyasını çek (performans için)
+            
+          // Adım 2: Dosyaların içeriklerini paralel olarak indir
+          const fetchPromises = jsonFiles.map(file => fetch(file.download_url, { cache: 'no-store' }).then(res => res.json()));
+          const results = await Promise.all(fetchPromises);
+          
+          // Adım 3: Bütün dosyaların içindeki haberleri tek bir listede birleştir
+          allNews = results.flat();
+        } else {
+          // Eğer klasör yoksa veya GitHub API limiti dolduysa, eski ana dosyadan (yedek) okumayı dene
+          const fallbackRes = await fetch('ai_news.json', { cache: 'no-store' });
+          if(fallbackRes.ok) allNews = await fallbackRes.json();
         }
-        
-        const data = await response.json();
         
         // Clear skeletons
         container.innerHTML = '';
         
-        if (data.length === 0) {
+        if (allNews.length === 0) {
           container.innerHTML = '<p class="col-span-1 md:col-span-2 text-center text-on-surface-variant">Henüz haber bulunmamaktadır.</p>';
           return;
         }
 
         // Sort by importance score (descending)
-        data.sort((a, b) => {
+        allNews.sort((a, b) => {
           return parseInt(b.onem_skoru || 0) - parseInt(a.onem_skoru || 0);
         });
         
-        data.forEach((news, index) => {
+        allNews.forEach((news, index) => {
           // Score color logic
           let scoreColor = 'bg-primary/10 text-primary';
           const score = parseInt(news.onem_skoru);
@@ -418,7 +435,7 @@
 
           const card = document.createElement('article');
           card.className = 'tactile-card p-6 md:p-8 flex flex-col h-full reveal';
-          card.style.animationDelay = `${index * 100}ms`;
+          card.style.animationDelay = `${index * 50}ms`;
           
           card.innerHTML = `
             <div class="flex items-center gap-3 mb-4">
