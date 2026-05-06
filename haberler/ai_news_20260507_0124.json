@@ -1,0 +1,107 @@
+[
+  {
+    "baslik": "Apple to Let Users Choose Rival AI Models Across Its iOS 27 Features",
+    "ozet": "Apple, iOS 27 ile birlikte Apple Intelligence özellikleri kapsamında kullanıcıların kendi AI modellerini seçmesine izin verecek. Bu, kullanıcıların Apple'ın kendi modeli yerine rakip yapay zeka modellerini (ChatGPT, Gemini vb.) tercih edebileceği anlamına geliyor. Bloomberg'in haberine göre bu, Apple'ın yapay zeka stratejisinde önemli bir dönüşümü işaret ediyor.",
+    "onem_skoru": "9",
+    "kategori": "Yapay Zeka",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-05/ios-27-features-apple-plans-to-let-users-swap-models-across-apple-intelligence"
+  },
+  {
+    "baslik": "Microsoft Xbox CEO'su düşen satışlar nedeniyle liderlik kadrosunda köklü değişiklik yapıyor",
+    "ozet": "Microsoft Xbox CEO'su Asha Sharma, düşen satış rakamları karşısında şirketin liderlik yapısını yeniden düzenliyor. Sharma, 'Çalışma şeklimizi geliştirmeliyiz' diyerek değişimin kaçınılmaz olduğunu vurguladı. Bu hamle, Xbox biriminin son dönemdeki satış düşüşüne karşı bir yanıt olarak görülüyor.",
+    "onem_skoru": "8",
+    "kategori": "Teknoloji",
+    "url": "https://www.cnbc.com/2026/05/05/microsoft-xbox-ceo-asha-sharma-executive-overhaul.html"
+  },
+  {
+    "baslik": "Fixes spotted: Google's May update solves its slow wireless Pixel charging - Android Central",
+    "ozet": "Google, Mayıs güvenlik güncellemesi ile Pixel telefonlardaki yavaş kablosuz şarj sorununu çözdü. Güncelleme ayrıca ekran performansında iyileştirmeler ve çeşitli hata düzeltmeleri içeriyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://www.androidcentral.com/phones/google-pixel/googles-may-security-patch-for-pixels-is-here-targeting-charging-and-display"
+  },
+  {
+    "baslik": "Apple’s most powerful Mac Studio loses its last remaining RAM upgrade option - 9to5Mac",
+    "ozet": "Apple'ın en güçlü Mac Studio modeli, son kalan RAM yükseltme seçeneğini de kaybetti. Artık kullanıcılar, bu modelde RAM'i satın alma sonrası yükseltemeyecek. Bu durum, özellikle yüksek bellek ihtiyacı olan profesyonel kullanıcılar için satın alma aşamasında doğru yapılandırmayı seçmeyi daha kritik hale getiriyor.",
+    "onem_skoru": "7",
+    "kategori": "Donanım",
+    "url": "https://9to5mac.com/2026/05/05/apples-most-powerful-mac-studio-loses-its-last-remaining-ram-upgrade-option/"
+  },
+  {
+    "baslik": "Google Home gets upgraded Gemini voice assistant and new camera controls - Ars Technica",
+    "ozet": "Google Home, Google'ın yeni nesil yapay zeka asistanı Gemini ile güncelleniyor. Bu güncelleme ile birlikte kullanıcılar daha gelişmiş sesli komut deneyimi yaşarken, akıllı ev kameraları üzerinde de yeni kontroller kazanıyor. Google'ın yapay zeka tabanlı asistanını ev cihazlarına entegre etmesi, akıllı ev ekosisteminde önemli bir adım olarak değerlendiriliyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://arstechnica.com/gadgets/2026/05/google-home-gets-upgraded-gemini-voice-assistant-and-new-camera-controls/"
+  },
+  {
+    "baslik": "Roku and TCL Accused of Bricking Smart TVs Through Software Updates",
+    "ozet": "Roku ve TCL, akıllı televizyonları yazılım güncellemeleri aracılığıyla kullanılamaz hale getirmekle (bricking) suçlanıyor. Şirketlerin gönderdiği güncellemeler sonrası bazı TV modellerinin tamamen çalışmaz duruma geldiği ve kullanıcıların mağduriyet yaşadığı bildiriliyor. Bu durum, tüketici hakları ve planlı eskitme (planned obsolescence) tartışmalarını yeniden gündeme taşıyor.",
+    "onem_skoru": "7",
+    "kategori": "teknoloji",
+    "url": "https://www.extremetech.com/electronics/roku-and-tcl-accused-of-bricking-smart-tvs-through-software-updates"
+  },
+  {
+    "baslik": "Chrome for Android will let you just share approximate location - 9to5Google",
+    "ozet": "Google, Chrome Android tarayıcısına yaklaşık konum paylaşma özelliği getiriyor. Kullanıcılar artık hassas konumları yerine yaklaşık konumlarını web siteleriyle paylaşabilecek, bu da gizliliği artıran önemli bir yenilik olarak öne çıkıyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "http://9to5google.com/2026/05/05/chrome-approximate-location/"
+  },
+  {
+    "baslik": "Diablo 4's Cow Level Found At Last, And It Rewards The Most Ludicrous Item In Diablo History - GameSpot",
+    "ozet": "Diablo 4'ün uzun süredir aranan gizli 'Cow Level' (İnek Seviyesi) nihayet oyuncular tarafından keşfedildi. Bu gizli seviye, Diablo tarihindeki en saçma/abartılı ödül item'ini veriyor. Oyuncuların yıllardır merakla beklediği bu gizli içerik, nihayet gün yüzüne çıkmış oldu.",
+    "onem_skoru": "6",
+    "kategori": "Oyun/Teknoloji",
+    "url": "https://www.gamespot.com/articles/diablo-4s-cow-level-found-at-last-and-it-rewards-the-most-ludicrous-item-in-diablo-history/1100-6539788/"
+  },
+  {
+    "baslik": "iPhone 18 Pro Rumored to Keep Aluminum Finish Amid Durability Complaints - MacRumors",
+    "ozet": "iPhone 18 Pro modelinin, dayanıklılıkla ilgili gelen şikayetler nedeniyle alüminyum kaplama tasarımını koruyacağı iddia ediliyor. Apple'ın, kullanıcı geri bildirimleri doğrultusunda bu kararı aldığı belirtiliyor.",
+    "onem_skoru": "6",
+    "kategori": "Teknoloji",
+    "url": "https://www.macrumors.com/2026/05/05/iphone-18-pro-to-keep-finish-amid-complaints/"
+  },
+  {
+    "baslik": "Multiplayer kaiju action game BeastLink announced for PS5, Xbox Series, and PC - Gematsu",
+    "ozet": "BeastLink isimli çok oyunculu kaiju (dev canavar) aksiyon oyunu PS5, Xbox Series ve PC platformları için duyuruldu. Oyuncular dev canavarları kontrol ederek birbirleriyle mücadele edebilecek.",
+    "onem_skoru": "6",
+    "kategori": "Oyun",
+    "url": "https://www.gematsu.com/2026/05/multiplayer-kaiju-action-game-beastlink-announced-for-ps5-xbox-series-and-pc"
+  },
+  {
+    "baslik": "Assassin's Creed Black Flag Resynced Kan ve Şiddet İçerecek, Shadows'tan Yeni Mekanik Eklenecek",
+    "ozet": "Assassin's Creed Black Flag'ın yeniden düzenlenmiş sürümü 'Resynced', oyuncuları endişelendiren kan ve şiddet öğelerinin sansürsüz bir şekilde oyunda yer alacağını doğruluyor. Ayrıca yapım, Assassin's Creed Shadows'tan ödünç alınan yeni bir oynanış mekaniğine de sahip olacak. Bu, oyunun hem görsel hem de mekanik açıdan yenilikler sunacağını gösteriyor.",
+    "onem_skoru": "5",
+    "kategori": "Oyun",
+    "url": "https://www.ign.com/articles/assassins-creed-black-flag-resynced-has-plenty-of-blood-after-all-and-a-gameplay-mechanic-borrowed-from-assassins-creed-shadows"
+  },
+  {
+    "baslik": "The Star Wars: Fate Of The Old Republic Team Is Full Of Mass Effect Veterans - Kotaku",
+    "ozet": "Star Wars: Fate Of The Old Republic oyununun geliştirme ekibinin, büyük ölçüde Mass Effect serisinin eski çalışanlarından oluştuğu bildiriliyor. Kotaku'nun haberine göre, Bioware ve Mass Effect geçmişine sahip deneyimli geliştiriciler, bu yeni Star Wars projesinde bir araya geliyor.",
+    "onem_skoru": "5",
+    "kategori": "Teknoloji",
+    "url": "https://kotaku.com/star-wars-fate-old-republic-casey-hudson-arcanaut-bioware-2000693261"
+  },
+  {
+    "baslik": "TPCi's TCG Vending Machines Grow 27% in Second-Biggest Year, But 1 in 7 from Last Summer Are Gone - PokeBeach",
+    "ozet": "TPCi'nin TCG (Trading Card Game) otomatları, şirketin ikinci en büyük yılında %27 oranında büyüme gösterdi. Ancak geçen yazdan bu yana faaliyette olan makinelerin yaklaşık 7'de 1'inin kaldırıldığı veya hizmet dışı olduğu bildiriliyor.",
+    "onem_skoru": "4",
+    "kategori": "teknoloji",
+    "url": "https://www.pokebeach.com/2026/05/tpcis-tcg-vending-machines-grow-27-in-second-biggest-year-but-1-in-7-from-last-summer-are-gone"
+  },
+  {
+    "baslik": "CI Games focuses on more risqué female characters in Lords of the Fallen 2 - Gamereactor UK",
+    "ozet": "CI Games, Lords of the Fallen 2 oyununda daha cesur ve cüretkar kadın karakter tasarımlarına odaklanmayı planladığını belirtti. Bu yaklaşım, oyunun karakter tasarımında yeni bir yön izleneceğini gösteriyor.",
+    "onem_skoru": "4",
+    "kategori": "teknoloji",
+    "url": "https://www.gamereactor.eu/ci-games-focuses-on-more-risque-female-characters-in-lords-of-the-fallen-2-1714603/"
+  },
+  {
+    "baslik": "Maxis Reassures Players About The Sims 4 Roadmap In The Months Ahead - Sims Community",
+    "ozet": "Maxis, The Sims 4 oyuncularına 2026 yılı için bir yol haritası hazırlandığını ve önümüzdeki aylarda oyuna yeni içeriklerin geleceğini duyurarak oyuncuları rahatlattı. Şirket, oyunun geleceği konusunda topluluğa güvence verdi.",
+    "onem_skoru": "3",
+    "kategori": "Oyun",
+    "url": "https://simscommunity.info/2026/05/05/sims-4-roadmap-maxis-confirms-2026/"
+  }
+]
