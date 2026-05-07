@@ -1,0 +1,114 @@
+[
+  {
+    "baslik": "US government warns of severe CopyFail bug affecting major versions of Linux - TechCrunch",
+    "ozet": "ABD hükümeti, büyük Linux sürümlerini etkileyen ciddi bir 'CopyFail' güvenlik açığı konusunda uyarı yayınladı. Bu açık, Linux tabanlı sistemlerde önemli bir güvenlik riski oluşturuyor ve kullanıcıların acilen güncelleme yapması öneriliyor.",
+    "onem_skoru": "10",
+    "kategori": "teknoloji",
+    "url": "https://techcrunch.com/2026/05/04/u-s-government-warns-of-severe-copyfail-bug-affecting-major-versions-of-linux/"
+  },
+  {
+    "baslik": "Meet the academics refusing to use generative AI",
+    "ozet": "Nature dergisinde yayımlanan bu makale, üretken yapay zeka araçlarını (ChatGPT gibi) kullanmayı reddeden akademisyenlerin görüşlerini ele alıyor. Akademisyenler, bu araçların etik sorunlar, akademik dürüstlük, güvenilirlik ve insan düşüncesinin yerini alma riski gibi nedenlerle kullanılmaması gerektiğini savunuyor. Makale, yapay zekanın akademide benimsenmesine yönelik önemli bir karşı duruşu belgeliyor.",
+    "onem_skoru": "8",
+    "kategori": "teknoloji",
+    "url": "https://www.nature.com/articles/d41586-026-00508-w"
+  },
+  {
+    "baslik": "Valve just imported 50 tons of game consoles in two days - The Verge",
+    "ozet": "Valve, iki gün içinde 50 ton oyun konsolu ithal etti. Bu durum, Valve'ın yeni bir donanım lansmanına (muhtemelen Steam Machine, Frame veya Deck ile ilgili) hazırlandığına işaret ediyor. İthalat kayıtlarına göre bu büyük miktardaki sevkiyat, şirketin oyun konsolu pazarındaki iddiasını artıracağını gösteriyor.",
+    "onem_skoru": "8",
+    "kategori": "teknoloji",
+    "url": "https://www.theverge.com/news/923461/valve-steam-machine-frame-deck-import-records-may-2026"
+  },
+  {
+    "baslik": "Video offers clearest look yet at foldable iPhone Ultra dummy unit - 9to5Mac",
+    "ozet": "Katlanabilir iPhone Ultra'nın maket birimi, yayınlanan yeni bir videoda şimdiye kadarki en net görüntüleriyle ortaya çıktı. Video, Apple'ın beklenen katlanabilir telefonunun tasarım detaylarını ve form faktörünü gözler önüne seriyor.",
+    "onem_skoru": "8",
+    "kategori": "Teknoloji",
+    "url": "https://9to5mac.com/2026/05/04/video-offers-clearest-look-yet-at-foldable-iphone-ultra-dummy-unit/"
+  },
+  {
+    "baslik": "Bad news for OpenClaw stans: Apple’s Mac Mini now starts at $799",
+    "ozet": "Apple, Mac Mini modelinin başlangıç fiyatını 799 dolara düşürdü. Bu fiyat indirimi, özellikle eski nesil Intel işlemci hayranları (OpenClaw) için kötü haber olarak yorumlanırken, Apple'ın yapay zeka ve kendi silikonuna geçiş stratejisinin bir parçası olarak görülüyor. Daha uygun fiyatlı Mac Mini, Apple Silicon çipli giriş seviyesi Mac erişimini artırmayı hedefliyor.",
+    "onem_skoru": "8",
+    "kategori": "donanim",
+    "url": "https://www.theregister.com/2026/05/04/mac_mini_ai_memory/"
+  },
+  {
+    "baslik": "Alpition Review: Trusted Trading System or Fraud? Results Exposed",
+    "ozet": "Alpition isimli ticaret platformunun güvenilirliğini sorgulayan bir inceleme yazısı. Platformun bir dolandırıcılık mı yoksa güvenilir bir sistem mi olduğu araştırılıyor. Kullanıcı yorumları, platform özellikleri ve sonuçlar detaylı şekilde incelenerek yatırımcılar için uyarılar ve tavsiyeler sunuluyor.",
+    "onem_skoru": "7",
+    "kategori": "teknoloji",
+    "url": "https://www.successful-blog.com/1/alpition-review/"
+  },
+  {
+    "baslik": "How Crypto Projects Are Revolutionizing Customer Acquisition Through Web3 Marketing",
+    "ozet": "Bu makale, kripto projelerinin Web3 pazarlama stratejileriyle müşteri kazanımını nasıl dönüştürdüğünü ele alıyor. Geleneksel pazarlama yöntemlerinin aksine, Web3 pazarlama, token teşvikleri, NFT'ler, topluluk odaklı büyüme, merkeziyetsiz ödül sistemleri ve akıllı sözleşme tabanlı sadakat programları gibi yenilikçi yaklaşımlar kullanarak kullanıcıları çekiyor ve elde tutuyor. Kripto projeleri, şeffaflık, kullanıcı sahipliği ve merkeziyetsiz yönetişim sayesinde geleneksel pazarlamaya kıyasla daha düşük maliyetle daha yüksek dönüşüm oranları elde ediyor. Ayrıca, blockchain tabanlı referans programları ve airdrop kampanyaları, organik büyümeyi hızlandıran önemli araçlar olarak öne çıkıyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://securitysenses.com/posts/how-crypto-projects-are-revolutionizing-customer-acquisition-through-web3-marketing"
+  },
+  {
+    "baslik": "IIT Mandi invites applications for one month residential programme in AI, Robotics, IoT",
+    "ozet": "Hindistan Teknoloji Enstitüsü (IIT) Mandi, yapay zeka, robotik ve nesnelerin interneti (IoT) alanlarında bir aylık konut programı için başvuruları kabul etmeye başladı. Program, katılımcılara bu ileri teknoloji alanlarında uygulamalı eğitim ve sertifika imkanı sunuyor.",
+    "onem_skoru": "7",
+    "kategori": "teknoloji",
+    "url": "https://indianexpress.com/article/education/iit-mandi-invites-applications-residential-programme-ai-robotics-iot-10673207/"
+  },
+  {
+    "baslik": "Nintendo Announces Switch 2 Pokémon Pokopia Bundle",
+    "ozet": "Nintendo, yeni nesil konsolu Switch 2 için özel bir Pokémon Pokopia paketi duyurdu. Bu paket, Pokémon hayranları için özel tasarlanmış bir konsol ve oyun içeriği sunuyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://www.nintendolife.com/news/2026/05/nintendo-announces-switch-2-pokemon-pokopia-bundle"
+  },
+  {
+    "baslik": "Sony'nin PlayStation Davasında 7.85 Milyon Dolarlık Anlaşması Hakkında Bilinmesi Gerekenler",
+    "ozet": "Sony, PlayStation kullanıcılarının dijital oyun satın alımlarında fahiş fiyatlandırma yaptığı iddialarıyla ilgili olarak 7.85 milyon dolarlık bir anlaşmaya vardı. Bu dava, Sony'nin PlayStation Store'da rekabeti engelleyici politikalar izleyerek kullanıcıları daha yüksek fiyatlar ödemeye zorladığı iddiasına dayanıyor. Anlaşma kapsamında, belirli tarihler arasında dijital oyun satın alan kullanıcılar tazminat almaya hak kazanabilir.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://www.wired.com/story/what-to-know-about-sony-785-million-playstation-settlement/"
+  },
+  {
+    "baslik": "Low labour costs boost Nigeria outsourcing ranking",
+    "ozet": "Nijerya, düşük işgücü maliyetleri sayesinde küresel dış kaynak kullanımı (outsourcing) sıralamasında yükselişe geçti. Ülke, uygun işgücü maliyeti avantajıyla uluslararası şirketler için cazip bir dış kaynak merkezi haline gelirken, bu durum Nijerya'nın küresel rekabet gücünü artırıyor ve yabancı yatırımları çekme potansiyelini güçlendiriyor.",
+    "onem_skoru": "6",
+    "kategori": "teknoloji",
+    "url": "https://punchng.com/low-labour-costs-boost-nigeria-outsourcing-ranking/"
+  },
+  {
+    "baslik": "Apple Plans to Let Users Build Their Own Passes in iOS 27 Wallet App - Yahoo Finance",
+    "ozet": "Apple, iOS 27 sürümüyle Wallet uygulamasına kullanıcıların kendi geçiş kartlarını (pass) oluşturmasına olanak tanıyacak yeni bir özellik eklemeyi planlıyor. Bu özellik sayesinde kullanıcılar sadakat kartları, biletler ve diğer dijital geçiş kartlarını kendileri oluşturabilecek ve yönetebilecek.",
+    "onem_skoru": "6",
+    "kategori": "Teknoloji",
+    "url": "https://finance.yahoo.com/sectors/technology/articles/apple-plans-let-users-build-173410420.html"
+  },
+  {
+    "baslik": "35.4 Patch Notes - Blizzard Entertainment",
+    "ozet": "Blizzard Entertainment, Hearthstone oyunu için 35.4 yama notlarını yayınladı. Yama ile birlikte oyunda çeşitli denge değişiklikleri, hata düzeltmeleri ve yeni içerikler oyunculara sunuluyor.",
+    "onem_skoru": "6",
+    "kategori": "oyun",
+    "url": "https://playhearthstone.com/en-us/blog/24266874/"
+  },
+  {
+    "baslik": "007 First Light's Campaign Length Reportedly Revealed - Nintendo Life",
+    "ozet": "James Bond temalı yeni oyun '007 First Light'ın kampanya modunun uzunluğu ortaya çıktı. Nintendo Life tarafından bildirilen habere göre, oyunun ana hikaye süresi hakkında yeni detaylar paylaşıldı.",
+    "onem_skoru": "6",
+    "kategori": "Oyun",
+    "url": "https://www.nintendolife.com/news/2026/05/007-first-lights-campaign-length-reportedly-revealed"
+  },
+  {
+    "baslik": "\"Notepad++ for Mac\" sürümü orijinal yaratıcısı tarafından reddedildi",
+    "ozet": "Notepad++'ın orijinal yaratıcısı, Mac için hazırlanan resmi olmayan bir 'vibe-coded' sürümünü reddetti ve onaylamadığını belirtti. Ars Technica'nın haberine göre, bu girişim orijinal yazarın itirazlarıyla karşılaştı.",
+    "onem_skoru": "6",
+    "kategori": "Teknoloji",
+    "url": "https://arstechnica.com/gadgets/2026/05/unofficial-vibe-coded-notepad-for-mac-draws-objections-from-original-author/"
+  },
+  {
+    "baslik": "Trivaxon Velquant Review: Scam or Legit Trading Platform? Truth Revealed",
+    "ozet": "Trivaxon Velquant ticaret platformunun güvenilirliğini ve yasal statüsünü mercek altına alan bir inceleme yazısı. Platformun dolandırıcılık olup olmadığı sorgulanıyor, kullanıcı yorumları ve teknik detaylar üzerinden değerlendirme yapılıyor.",
+    "onem_skoru": "3",
+    "kategori": "Teknoloji",
+    "url": "https://www.successful-blog.com/1/trivaxon-velquant-review/"
+  }
+]
