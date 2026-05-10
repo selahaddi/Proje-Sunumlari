@@ -24,6 +24,9 @@ git commit -m "!commit_msg!"
 
 :: Gonder
 echo.
+echo [+] Uzak sunucudaki yeni degisiklikler aliniyor (git pull)...
+git pull origin master
+
 echo [+] GitHub'a gonderiliyor (git push)...
 git push origin master
 
