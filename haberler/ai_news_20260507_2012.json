@@ -1,0 +1,212 @@
+[
+  {
+    "baslik": "Google's Gemma 4 open AI models use \"speculative decoding\" to get up to 3x faster - Ars Technica",
+    "ozet": "Google, yeni açık kaynak yapay zeka model serisi Gemma 4 ile 'spekülatif kod çözme' (speculative decoding) tekniğini kullanarak çıkarım hızında 3 kata kadar iyileştirme elde etti. Bu yöntem, büyük dil modellerinin daha hızlı yanıt üretmesini sağlayarak özellikle gerçek zamanlı uygulamalarda önemli bir performans artışı sunuyor.",
+    "onem_skoru": "9",
+    "kategori": "Yapay Zeka",
+    "url": "https://arstechnica.com/ai/2026/05/googles-gemma-4-open-ai-models-use-speculative-decoding-to-get-up-to-3x-faster/"
+  },
+  {
+    "baslik": "Apple may have just made one of the most important new Siri announcements - 9to5Mac",
+    "ozet": "Apple, Siri için şimdiye kadarki en önemli duyurulardan birini yapmış olabilir. Bu duyuru, Siri'nin yapay zeka yeteneklerinde büyük bir sıçrama veya yenilikçi bir özellik getirmesiyle ilgili görünüyor. Detaylar için haberin tamamının okunması önerilir.",
+    "onem_skoru": "9",
+    "kategori": "Yapay Zeka",
+    "url": "https://9to5mac.com/2026/05/06/apple-may-have-just-made-one-of-the-most-important-new-siri-announcements/"
+  },
+  {
+    "baslik": "Coinbase Cuts 14% of Workforce: Crisis or Blind Faith in AI Transformation?",
+    "ozet": "Coinbase, iş gücünün %14'ünü işten çıkarma kararı aldı. Bu hamle, şirketin bir krizle mi karşı karşıya olduğu yoksa yapay zeka dönüşümüne olan aşırı güveninin bir sonucu mu olduğu sorularını gündeme getiriyor. Kripto para borsasının bu radikal adımı, sektörde tartışma yaratmış durumda.",
+    "onem_skoru": "8",
+    "kategori": "kripto-para",
+    "url": "https://bitcoinfoundation.org/news/blockchain-news/coinbase-cuts-14-of-workforce-crisis-or-blind-faith-in-ai-transformation/"
+  },
+  {
+    "baslik": "Money Skills Launches Fully Automated AI Trading Robot, Revolutionizing the 2026 Cryptocurrency Market",
+    "ozet": "Money Skills, 2026 kripto para piyasasında devrim yaratacak tam otomatik yapay zeka destekli ticaret robotunu piyasaya sürdü. Robot, kullanıcıların kripto para ticaretini otomatikleştirerek daha verimli ve karlı işlemler yapmalarını sağlıyor.",
+    "onem_skoru": "8",
+    "kategori": "teknoloji",
+    "url": "https://www.globenewswire.com/news-release/2026/05/06/3289017/0/en/Money-Skills-Launches-Fully-Automated-AI-Trading-Robot-Revolutionizing-the-2026-Cryptocurrency-Market.html"
+  },
+  {
+    "baslik": "scHG: A supercell framework with high-order graph learning enables scalable multi-omics analysis",
+    "ozet": "PLOS Computational Biology dergisinde yayımlanan bu çalışmada, araştırmacılar scHG adında yeni bir süperhücre çerçevesi geliştirdi. Bu framework, yüksek dereceli grafik öğrenimi (high-order graph learning) kullanarak tek hücre seviyesinde multi-omik veri analizini ölçeklenebilir ve verimli bir şekilde gerçekleştirmeyi sağlıyor. Yöntem, büyük ölçekli tek hücre veri kümelerinde biyolojik anlamlı desenlerin keşfedilmesine olanak tanıyor.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka",
+    "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013851"
+  },
+  {
+    "baslik": "Tool or threat?",
+    "ozet": "Chicago Reader'daki bu haber, tiyatro sektöründe yapay zekanın yükselişini ve bunun Dramatists Guild, United Scenic Artists ve Actors' Equity gibi sendikalar üzerindeki etkisini ele alıyor. Makale, yapay zekanın tiyatro yazarları, sahne tasarımcıları ve oyuncular için bir araç mı yoksa bir tehdit mi olduğu sorusunu irdeliyor. Sendikaların yapay zeka kullanımına karşı aldığı önlemler ve sektördeki dengelerin nasıl değişebileceği tartışılıyor.",
+    "onem_skoru": "8",
+    "kategori": "Teknoloji",
+    "url": "http://chicagoreader.com/performing-arts/theater/ai-in-theater-dramatists-guild-united-scenic-artists-actors-equity/"
+  },
+  {
+    "baslik": "AI, robotics, climate tech: How VCaaS helps corporations enter deep tech safely",
+    "ozet": "Bu haberde, VCaaS (Venture Capital as a Service) modelinin şirketlerin yapay zeka, robotik ve iklim teknolojisi gibi derin teknoloji alanlarına güvenli bir şekilde giriş yapmasına nasıl yardımcı olduğu ele alınıyor. Geleneksel kurumsal yatırım modellerine kıyasla VCaaS, şirketlere daha düşük riskle yenilikçi teknolojilere erişim, portföy çeşitlendirmesi ve uzman rehberliği sunarak deep tech ekosistemine adaptasyonu kolaylaştırıyor.",
+    "onem_skoru": "8",
+    "kategori": "Teknoloji",
+    "url": "https://fortune.com/2026/05/06/ai-robotics-climate-tech-how-vcaas-helps-corporations-enter-deep-tech-safely/"
+  },
+  {
+    "baslik": "iPhone 18 Pro CAD Leak Reignites the Dynamic Island Debate - MacRumors",
+    "ozet": "iPhone 18 Pro'ya ait CAD (bilgisayar destekli tasarım) sızıntıları, Dynamic Island (Dinamik Ada) tartışmasını yeniden alevlendirdi. Sızıntılar, Apple'ın amiral gemisi telefonunda Dynamic Island boyutunu küçültebileceğine işaret ediyor ve bu durum teknoloji camiasında heyecan yaratıyor.",
+    "onem_skoru": "8",
+    "kategori": "teknoloji",
+    "url": "https://www.macrumors.com/2026/05/06/iphone-18-pro-cad-smaller-dynamic-island/"
+  },
+  {
+    "baslik": "Global Healthcare Analytics Market is Predicted to Cross the USD 380 Billion Mark by 2034 | DelveInsight",
+    "ozet": "Küresel sağlık analitiği pazarının 2034 yılına kadar 380 milyar doları aşması bekleniyor. DelveInsight tarafından yayımlanan rapora göre, sağlık sektöründe veri analitiği ve yapay zeka destekli çözümlere olan talep hızla artıyor. Büyümenin temel itici güçleri arasında dijital sağlık dönüşümü, hasta verilerinin yönetimi ve maliyet optimizasyonu ihtiyacı yer alıyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://www.globenewswire.com/news-release/2026/05/06/3289206/0/en/Global-Healthcare-Analytics-Market-is-Predicted-to-Cross-the-USD-380-Billion-Mark-by-2034-DelveInsight.html"
+  },
+  {
+    "baslik": "Why Clear Tech Content Is The Unsung Hero Of The Digital Age",
+    "ozet": "Bu makale, teknoloji alanında açık ve anlaşılır içeriklerin dijital çağda genellikle göz ardı edilen ancak kritik öneme sahip rolünü ele alıyor. Karmaşık teknolojik kavramların basit ve net bir şekilde ifade edilmesinin, kullanıcı deneyimini iyileştirdiği, erişilebilirliği artırdığı ve teknolojinin daha geniş kitleler tarafından benimsenmesine katkıda bulunduğu vurgulanıyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://bitrebels.com/technology/why-clear-tech-content-is-the-unsung-hero-of-the-digital-age/"
+  },
+  {
+    "baslik": "LAS Art Foundation Pushes Quantum Art Forward in a New Venice Commission",
+    "ozet": "LAS Art Foundation, Venedik Bienali kapsamında yeni bir komisyonla kuantum sanatını ileriye taşıyor. Sanat, yapay zeka ve kuantum teknolojilerinin kesişiminde yer alan bu proje, Bettina Kames liderliğinde dijital ve kuantum temelli sanat çalışmalarını sergilemeyi amaçlıyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji-Sanat",
+    "url": "https://observer.com/2026/05/venice-biennale-news-las-art-foundation-bettina-kames-art-ai-quantum-projects/"
+  },
+  {
+    "baslik": "India's Rs 11.2 trillion distribution capex to anchor smart metering shift towards outcomes: Central Electricity Authority",
+    "ozet": "Hindistan Merkezi Elektrik Otoritesi (CEA), ülkenin 11.2 trilyon rupi tutarındaki dağıtım sermaye harcamasının (capex) akıllı sayaç (smart metering) dönüşümünü sonuç odaklı hale getireceğini belirtti. Bu büyük yatırım, enerji dağıtımında verimliliği artırmayı ve akıllı şebeke altyapısını güçlendirmeyi hedefliyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://economictimes.indiatimes.com/industry/energy/power/indias-rs-11-2-trillion-distribution-capex-to-anchor-smart-metering-shift-towards-outcomes-central-electricity-authority/articleshow/130859114.cms"
+  },
+  {
+    "baslik": "Teacher support for generative AI use and design learning outcomes in fashion design education: A structural equation modeling study",
+    "ozet": "Bu çalışma, moda tasarımı eğitiminde üretken yapay zeka (GenAI) kullanımında öğretmen desteğinin öğrenme çıktıları üzerindeki etkisini yapısal eşitlik modellemesi (SEM) ile incelemektedir. Araştırma, öğretmenlerin sağladığı rehberlik ve desteğin, öğrencilerin GenAI araçlarını etkili bir şekilde kullanarak tasarım öğrenme hedeflerine ulaşmasında kritik bir rol oynadığını ortaya koymaktadır. Bulgular, pedagojik yaklaşımların yapay zeka entegrasyonunda başarı için belirleyici olduğunu göstermektedir.",
+    "onem_skoru": "7",
+    "kategori": "Yapay Zeka Araştırmaları",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0347428"
+  },
+  {
+    "baslik": "ATxSummit 2026 Brings Global Leaders to Singapore to Chart AI's Future Across Asia",
+    "ozet": "ATxSummit 2026, Asya genelinde yapay zekanın geleceğini şekillendirmek için küresel liderleri Singapur'da bir araya getiren önemli bir teknoloji zirvesidir. Etkinlik, yapay zeka politikaları, inovasyon ve bölgesel iş birliği konularını ele almayı hedeflemektedir.",
+    "onem_skoru": "7",
+    "kategori": "Yapay Zeka",
+    "url": "https://www.thehindubusinessline.com/brandhub/pr-release/atxsummit-2026-brings-global-leaders-to-singapore-to-chart-ais-future-across-asia/article70946531.ece"
+  },
+  {
+    "baslik": "Google teases Fitbit Air launch on Thursday, May 7 - 9to5Google",
+    "ozet": "Google, yeni giyilebilir cihazı Fitbit Air'in 7 Mayıs Perşembe günü tanıtılacağını duyurdu. Lansman yaklaşırken şirket resmi olarak cihazın lansman tarihini işaret etti.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "http://9to5google.com/2026/05/06/fitbit-air-launch-teaser/"
+  },
+  {
+    "baslik": "Ironmouse claims Neverness to Everness lied to her about AI use and cancels sponsorship - Dexerto",
+    "ozet": "Popüler VTuber Ironmouse, Neverness to Everness oyununun kendisine yapay zeka kullanımı konusunda yalan söylediğini iddia ederek sponsorluk anlaşmasını iptal etti. Ironmouse, oyunun geliştiricilerinin kendisine AI kullanımıyla ilgili doğru bilgi vermediğini ve bu durumun güven ilişkisini zedelediğini belirtti.",
+    "onem_skoru": "7",
+    "kategori": "Yapay Zeka",
+    "url": "https://www.dexerto.com/gaming/ironmouse-claims-neverness-to-everness-lied-to-her-about-ai-use-and-cancels-sponsorship-3361516/"
+  },
+  {
+    "baslik": "Google’s AI search summaries will now quote Reddit - The Verge",
+    "ozet": "Google, yapay zeka destekli arama özetlerine (AI Overviews) Reddit gönderilerini de dahil etmeye başlıyor. Bu güncellemeyle birlikte Google, kullanıcıların arama sorgularına yanıt olarak Reddit'teki ilgili tartışmalardan ve yorumlardan alıntılar yaparak daha kapsamlı ve güncel bilgiler sunmayı hedefliyor. Özellikle kullanıcı deneyimlerine dayalı sorular için Reddit içeriğinin öne çıkarılması, Google'ın arama sonuçlarını daha zengin hale getirme stratejisinin bir parçası olarak görülüyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://www.theverge.com/tech/924993/google-ai-search-mode-overviews-update-reddit-links"
+  },
+  {
+    "baslik": "Xbox changes continue with new console boot animation - The Verge",
+    "ozet": "Xbox, konsol önyükleme animasyonunda değişiklik yapmaya devam ediyor ve yeni bir boot animasyonu tanıtıyor. Bu, Xbox markasının görsel kimliğindeki güncellemelerin bir parçası olarak karşımıza çıkıyor.",
+    "onem_skoru": "6",
+    "kategori": "Teknoloji",
+    "url": "https://www.theverge.com/tech/925110/new-xbox-logo-boot-animation"
+  },
+  {
+    "baslik": "reMarkable's new Paper Pure tablet goes back to basics with a monochrome screen - TechCrunch",
+    "ozet": "reMarkable, yeni Paper Pure adlı tabletini tanıttı. Bu cihaz, monokrom (siyah-beyaz) ekran kullanarak dijital not alma ve okuma deneyiminde temellere dönüş yapıyor. Renkli ekran trendinin aksine sade ve dikkat dağıtmayan bir kullanım sunmayı hedefliyor.",
+    "onem_skoru": "6",
+    "kategori": "Teknoloji",
+    "url": "https://techcrunch.com/2026/05/06/remarkables-new-paper-pure-tablet-goes-back-to-basics-with-a-monochrome-screen/"
+  },
+  {
+    "baslik": "Samsung’s One UI 8.5 Official Rollout Starts May 6",
+    "ozet": "Samsung, One UI 8.5 güncellemesinin resmi dağıtımının 6 Mayıs'ta başlayacağını duyurdu. Bu güncelleme, Samsung kullanıcılarına yeni özellikler ve iyileştirmeler sunmayı hedefliyor.",
+    "onem_skoru": "6",
+    "kategori": "teknoloji",
+    "url": "https://news.samsung.com/global/samsungs-one-ui-8-5-official-rollout-starts-may-6"
+  },
+  {
+    "baslik": "Not Great to Spread Misinformation: Assassin's Creed Leaker Sparks Ubisoft Response After Posting Multiplayer Game Image Edited by AI - IGN",
+    "ozet": "Bir Assassin's Creed hayranı, yapay zeka ile düzenlenmiş bir görsel kullanarak yeni bir multiplayer oyununun sızdırıldığını iddia etti. Ubisoft, yanlış bilgi yaymanın iyi bir şey olmadığını belirterek bu duruma tepki gösterdi ve hayranın görseli AI ile düzenlediğini itiraf etmesinin ardından konuya açıklık getirdi.",
+    "onem_skoru": "6",
+    "kategori": "Oyun",
+    "url": "https://www.ign.com/articles/assassins-creed-multiplayer-leak-criticized-by-ubisoft-after-fan-admits-editing-image-using-ai"
+  },
+  {
+    "baslik": "Ten simple rules for an effective mentor–mentee writing partnership",
+    "ozet": "PLOS Computational Biology dergisinde yayımlanan bu makale, mentor ve mentee (danışan) arasındaki etkili yazma işbirliği için 10 basit kural sunmaktadır. Kurallar arasında net beklentiler belirleme, düzenli iletişim sağlama, yapıcı geri bildirim verme, yazma sürecini birlikte planlama ve sorumlulukları netleştirme gibi pratik öneriler yer almaktadır. Makale, özellikle akademik ortamlarda mentor-mentee ilişkisinde yazma sürecini daha verimli ve etkili hale getirmeyi hedeflemektedir.",
+    "onem_skoru": "5",
+    "kategori": "Araştırma",
+    "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014250"
+  },
+  {
+    "baslik": "Leaker claims Zelda Ocarina of Time Remake could be split into two parts - My Nintendo News",
+    "ozet": "Bir sızıntıya göre, The Legend of Zelda: Ocarina of Time oyununun yeniden yapımı (remake) iki ayrı bölüm halinde piyasaya sürülebilir. Sızıntıyı yapan kaynak, oyunun kapsamının büyük olması nedeniyle yapımcıların hikayeyi iki parçaya bölmeyi değerlendirdiğini iddia ediyor. Henüz Nintendo tarafından resmi bir doğrulama yapılmamıştır.",
+    "onem_skoru": "5",
+    "kategori": "Oyun",
+    "url": "https://mynintendonews.com/2026/05/06/leaker-claims-zelda-ocarina-of-time-remake-could-be-split-into-two-parts/"
+  },
+  {
+    "baslik": "Ars Asks: Share your shell and show us your tricked-out terminals! - Ars Technica",
+    "ozet": "Ars Technica okuyucularını, kişiselleştirilmiş ve özelleştirilmiş terminal (uçbirim) yapılandırmalarını paylaşmaya davet ediyor. Makale, teknoloji meraklılarının kendi shell ortamlarını nasıl özelleştirdiklerini göstermelerini istiyor.",
+    "onem_skoru": "5",
+    "kategori": "Teknoloji",
+    "url": "https://arstechnica.com/information-technology/2026/05/ars-asks-share-your-shell-and-show-us-your-tricked-out-terminals/"
+  },
+  {
+    "baslik": "All Of The Best Cosplay From Lvl Up Expo 2026 - Kotaku",
+    "ozet": "Kotaku'nun haberine göre, Lvl Up Expo 2026 etkinliğinde katılımcıların Clair Obscur, Marvel, Overwatch, Fallout gibi popüler yapımlardan ilham alarak hazırladıkları en iyi cosplay çalışmaları sergileniyor. Etkinlik, cosplay sanatçılarının yaratıcı kostümlerini ve detaylı işçiliklerini ön plana çıkarıyor.",
+    "onem_skoru": "4",
+    "kategori": "Eğlence",
+    "url": "https://kotaku.com/lvl-up-expo-cosplay-clair-obscur-dispatch-marvel-overwatch-fallout-2000693554"
+  },
+  {
+    "baslik": "AnyRec Video Converter 1.0.62",
+    "ozet": "AnyRec Video Converter yazılımının 1.0.62 sürümü yayınlandı. Bu güncelleme, video dönüştürme aracının performans iyileştirmeleri ve hata düzeltmelerini içeriyor olabilir.",
+    "onem_skoru": "3",
+    "kategori": "Teknoloji",
+    "url": "https://post.rlsbb.to/anyrec-video-converter-1-0-62/"
+  },
+  {
+    "baslik": "He wrote about their daughter’s sudden death. Then his wife did the same. - The Washington Post",
+    "ozet": "Bir baba, kızlarının ani ölümünün ardından yaşadığı derin acıyı ve yas sürecini anlatan bir yazı kaleme aldı. Ardından eşi (aynı gazete yazarı) aynı kaybı kendi perspektifinden anlatan bir anı kitabı yayımladı. Makale, ebeveynlerin bir çocuğun kaybıyla farklı şekillerde başa çıkma biçimlerini ve yazmanın terapötik gücünü ele alıyor.",
+    "onem_skoru": "3",
+    "kategori": "Kültür-Sanat",
+    "url": "https://www.washingtonpost.com/style/2026/05/06/dispatches-from-grief-danielle-crittenden-memoir/"
+  },
+  {
+    "baslik": "Qlarant Donates $5,000 to Partners in Giving to Support Youth Summer Program",
+    "ozet": "Qlarant, Partners in Giving kuruluşuna gençlik yaz programını desteklemek amacıyla 5.000 dolar bağışta bulundu. Bu bağış, gençlerin yaz döneminde faydalı aktivitelere katılımını teşvik etmeyi hedefliyor.",
+    "onem_skoru": "2",
+    "kategori": "sosyal sorumluluk",
+    "url": "https://www.globenewswire.com/news-release/2026/05/06/3289022/0/en/Qlarant-Donates-5-000-to-Partners-in-Giving-to-Support-Youth-Summer-Program.html"
+  },
+  {
+    "baslik": "DC/DOX To Host World Premieres Of Rory Kennedy's Boeing Expose Follow Up, Marilyn Ness Documentary And More",
+    "ozet": "DC/DOX film festivali, Rory Kennedy'nin Boeing skandalını konu alan belgeselinin devamı, Marilyn Ness belgeseli ve daha birçok yapımın dünya prömiyerlerine ev sahipliği yapacak. Festival, belgesel sinemasının önemli isimlerini bir araya getiriyor.",
+    "onem_skoru": "2",
+    "kategori": "Genel",
+    "url": "http://deadline.com/2026/05/2026-dc-dox-lineup-1236882581/"
+  },
+  {
+    "baslik": "How do you kill a tank-sized monster in Kill Team? - Warhammer Community",
+    "ozet": "Warhammer Community, Kill Team oyununda tank büyüklüğündeki canavarları nasıl alt edebileceğinize dair taktikler ve stratejiler içeren bir makale yayınladı. Oyunculara büyük düşmanlara karşı etkili hamleler ve ekipman seçimleri konusunda rehberlik ediyor.",
+    "onem_skoru": "2",
+    "kategori": "Oyun",
+    "url": "https://www.warhammer-community.com/articles/ij95ia48/how-do-you-kill-a-tank-sized-monster-in-kill-team"
+  }
+]

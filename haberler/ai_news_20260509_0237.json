@@ -1,0 +1,212 @@
+[
+  {
+    "baslik": "Researchers discover advanced language processing in the unconscious human brain",
+    "ozet": "Baylor Tıp Fakültesi araştırmacıları, insan beyninin bilinçsiz durumdayken bile karmaşık dil işleme süreçlerini gerçekleştirebildiğini keşfetti. Bu bulgu, bilinç ve dil işleme arasındaki ilişkiye dair geleneksel anlayışı sorgulatmakta olup, yapay zeka ve nörobilim alanlarında önemli etkilere sahip olabilir. Beynin bilinçdışı dil yeteneklerinin anlaşılması, hem nörolojik hastalıkların tedavisine hem de daha gelişmiş yapay zeka modellerinin tasarımına katkı sağlayabilir.",
+    "onem_skoru": "9",
+    "kategori": "bilim_ve_teknoloji",
+    "url": "https://www.bcm.edu/news/researchers-discover-advanced-language-processing-in-the-unconscious-human-brain"
+  },
+  {
+    "baslik": "Apple’s AirPods with cameras for AI are apparently close to production - The Verge",
+    "ozet": "Apple'ın yapay zeka özellikleri için kameralarla donatılmış yeni AirPods modelinin üretime yakın olduğu bildiriliyor. Bu yenilik, Apple'ın giyilebilir cihazlarında yapay zeka entegrasyonunu önemli ölçüde artıracak ve kullanıcı deneyiminde yeni bir dönem başlatabilir.",
+    "onem_skoru": "9",
+    "kategori": "Teknoloji",
+    "url": "https://www.theverge.com/tech/926376/apple-airpods-cameras-ai-production"
+  },
+  {
+    "baslik": "Google's New 24/7 AI Agent Can Make Purchases on Your Behalf - Droid Life",
+    "ozet": "Google, Project Mariner ve Gemini 2.0 temelli yeni bir AI asistan olan 'Remy'yi tanıttı. Bu yapay zeka ajanı, kullanıcı adına 7/24 görev yapabiliyor, web'de gezinip alışveriş yapabiliyor, form doldurabiliyor ve çeşitli işlemleri otomatikleştirebiliyor. Özellikle kullanıcıların yerine satın alma işlemleri gerçekleştirmesi, AI ajanlarının otonom yeteneklerinde önemli bir adım olarak değerlendiriliyor.",
+    "onem_skoru": "9",
+    "kategori": "Yapay Zeka",
+    "url": "https://www.droid-life.com/2026/05/07/google-ai-agent-remy/"
+  },
+  {
+    "baslik": "The prompt is not an interface",
+    "ozet": "Makale, yapay zeka modellerine verilen prompt'ların (istemlerin) bir kullanıcı arayüzü olmadığını savunuyor. Prompt mühendisliği ile arayüz tasarımı arasındaki farklara dikkat çekerek, kullanıcı deneyimi tasarımcılarının yapay zeka çağında yeni yaklaşımlar geliştirmesi gerektiğini vurguluyor.",
+    "onem_skoru": "8",
+    "kategori": "yapay-zeka",
+    "url": "https://uxdesign.cc/the-prompt-is-not-an-interface-41b77277681d"
+  },
+  {
+    "baslik": "California Bar Proposes Rule Requiring Lawyers To Verify Every AI Output — And Five Other AI-Focused Ethics Changes",
+    "ozet": "Kaliforniya Barosu, avukatların yapay zeka tarafından üretilen her çıktıyı doğrulamasını zorunlu kılan bir kural önerisi sundu. Bununla birlikte, yapay zeka kullanımına yönelik beş ek etik değişiklik daha getirilmesi planlanıyor. Bu düzenlemeler, hukuk alanında yapay zeka kullanımının etik sınırlarını belirlemeyi amaçlıyor.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka",
+    "url": "https://www.lawnext.com/2026/05/california-bar-proposes-rule-requiring-lawyers-to-verify-every-ai-output-and-five-other-ai-focused-ethics-changes.html"
+  },
+  {
+    "baslik": "Screen Time Concerns Lead to Backlash Against Edtech Vetting Process",
+    "ozet": "Ebeveynler ve eğitimciler, öğrencilerin okulda maruz kaldığı ekran süresinin artmasından duydukları endişe nedeniyle eğitim teknolojileri (edtech) değerlendirme ve onay sürecine karşı tepki gösteriyor. Ekran süresinin çocukların sağlığı ve gelişimi üzerindeki olası olumsuz etkileri, edtech araçlarının okullarda kullanımının daha sıkı denetlenmesi gerektiği yönünde bir tartışma başlattı.",
+    "onem_skoru": "8",
+    "kategori": "Eğitim Teknolojileri",
+    "url": "https://www.edsurge.com/news/2026-05-07-screen-time-concerns-lead-to-backlash-against-edtech-vetting-process"
+  },
+  {
+    "baslik": "Singapore innovations changing how you live",
+    "ozet": "Singapur liderliğinde geliştirilen Dyson ultra ince vakum, miyopi lensleri ve uyku apnesi çözümü gibi yenilikçi teknolojiler, günlük yaşamı dönüştürmeye hazırlanıyor. Bu inovasyonlar, daha pratik ev temizliği, göz sağlığı ve uyku kalitesi alanlarında çığır açıcı çözümler sunuyor.",
+    "onem_skoru": "8",
+    "kategori": "Teknoloji",
+    "url": "https://www.straitstimes.com/business/dyson-ultra-slim-vacuum-myopia-lenses-sleep-apnoea-solution-singapore-led-innovations"
+  },
+  {
+    "baslik": "Tech is turning increasingly to religion in a quest to create ethical AI",
+    "ozet": "Teknoloji şirketleri, etik yapay zeka oluşturma çabalarında giderek artan bir şekilde dine yöneliyor. AI sistemlerinin ahlaki kararlar alabilmesi için dini metinler, etik kodlar ve felsefi öğretilerden ilham alan yeni yaklaşımlar geliştiriliyor. Bu trend, teknolojinin insani değerlerle uyumlu hale getirilmesi amacıyla dini liderler, etik uzmanları ve mühendisler arasındaki işbirliğini artırıyor.",
+    "onem_skoru": "8",
+    "kategori": "Teknoloji/Yapay Zeka",
+    "url": "https://abcnews.com/Technology/wireStory/tech-turning-increasingly-religion-quest-create-ethical-ai-132754986"
+  },
+  {
+    "baslik": "Project Helix Stream: Xbox Game Dev Update Spring '26 Is Here - Digital Foundry",
+    "ozet": "Digital Foundry, Project Helix Stream kapsamında Xbox Game Dev Update Spring '26'yı duyurdu. Bu güncelleme, Xbox oyun geliştiricileri için yeni araçlar, performans iyileştirmeleri ve platform güncellemeleri sunuyor.",
+    "onem_skoru": "8",
+    "kategori": "Teknoloji",
+    "url": "https://www.digitalfoundry.net/news/2026/05/project-helix-stream-xbox-game-dev-update-spring-26-is-here"
+  },
+  {
+    "baslik": "A hacker ran me over with a robot lawn mower - The Verge",
+    "ozet": "Bir siber güvenlik araştırmacısı, Yarbo marka robot çim biçme makinesinin MQTT protokolü ve kamera erişimindeki güvenlik açıklarını kullanarak cihazı uzaktan ele geçirmeyi başardı. Hacker, robotu kontrol ederek bir kişinin üzerine sürmüş ve bu durum IoT cihazlarının fiziksel güvenlik risklerini gözler önüne serdi.",
+    "onem_skoru": "8",
+    "kategori": "Güvenlik",
+    "url": "https://www.theverge.com/tech/925696/yarbo-robot-lawn-mower-hack-remote-control-camera-access-mqtt"
+  },
+  {
+    "baslik": "Court didn't sentence teen to 452 years in prison. Here's how we know",
+    "ozet": "Snopes, bir gencin 452 yıl hapis cezasına çarptırıldığı iddiasını doğruluk kontrolünden geçiriyor. Bu iddianın asılsız olduğu, mahkemenin böyle bir ceza vermediği ortaya konuyor. Haber, yanlış bilginin nasıl yayıldığını ve gerçeklerin neler olduğunu açıklıyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji / Dijital Medya",
+    "url": "https://www.snopes.com//fact-check/teen-sentenced-452-years-prison/"
+  },
+  {
+    "baslik": "Genpact Reports First Quarter 2026 Results",
+    "ozet": "Genpact, 2026 yılının ilk çeyreğine ait finansal sonuçlarını açıkladı. Rapor, şirketin gelir, kârlılık ve büyüme performansına ilişkin önemli göstergeleri içermekte olup, teknoloji ve iş süreci yönetimi alanındaki stratejik hedeflerine dair bilgiler sunmaktadır.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://www.prnewswire.com/news-releases/genpact-reports-first-quarter-2026-results-302766072.html"
+  },
+  {
+    "baslik": "Menu-Order AI: Redefining Dining Decisions In A GLP-1 Driven Health Economy",
+    "ozet": "Yapay zeka destekli menü sipariş sistemleri, GLP-1 bazlı obezite ve diyabet ilaçlarının yaygınlaşmasıyla şekillenen yeni sağlık ekonomisinde, tüketicilerin yemek tercihlerini kişiselleştirerek daha sağlıklı kararlar almasına yardımcı oluyor. Restoranlar ve uygulamalar, AI kullanarak müşterilere diyet hedefleri ve sağlık durumlarına uygun öneriler sunuyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://www.ibtimes.com/menu-order-ai-redefining-dining-decisions-glp-1-driven-health-economy-3802507"
+  },
+  {
+    "baslik": "You Can Disable Gemini in Chrome if It’s Freaking You Out - WIRED",
+    "ozet": "WIRED haberine göre, Chrome tarayıcısında yer alan Gemini yapay zeka asistanını, kullanıcılar rahatsız edici buluyorsa devre dışı bırakabilir. Makale, Gemini'nin Chrome'a entegrasyonu sonrası kullanıcıların endişelerini ve bu özelliğin nasıl kapatılacağını anlatıyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://www.wired.com/story/you-can-disable-gemini-in-chrome-if-its-freaking-you-out/"
+  },
+  {
+    "baslik": "Apple Notes is a killer app, and iOS 27's rumored upgrade excites me for more - 9to5Mac",
+    "ozet": "Apple'ın not alma uygulaması Apple Notes'un mevcut güçlü özellikleri ve iOS 27 ile geleceği söylenen yeni güncellemelerin heyecan verici potansiyeli ele alınıyor. Makale, Apple Notes'un neden 'killer app' (vazgeçilmez uygulama) olarak görüldüğünü ve söylentilerdeki iOS 27 yeniliklerinin bu deneyimi daha da ileriye taşıyacağını anlatıyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://9to5mac.com/2026/05/07/apple-notes-is-a-killer-app-and-ios-27s-rumored-upgrade-excites-me-for-more/"
+  },
+  {
+    "baslik": "Perplexity AI app introduces ‘all-new native Mac experience’ for Personal Computer",
+    "ozet": "Perplexity AI, Mac bilgisayarlar için tamamen yerel (native) bir uygulama deneyimi sunmaya başladı. Yeni Mac uygulaması, kişisel bilgisayar kullanıcılarına optimize edilmiş bir yapay zeka asistanı deneyimi vaat ediyor.",
+    "onem_skoru": "7",
+    "kategori": "yapay_zeka",
+    "url": "https://9to5mac.com/2026/05/07/perplexity-ai-app-introduces-all-new-native-mac-experience-for-personal-computer/"
+  },
+  {
+    "baslik": "Failed Online Shooter Won’t Shut Down Because ‘Games Are Art And Deserve To Be Preserved’ - Kotaku",
+    "ozet": "Başarısız olan çevrimiçi nişancı oyunu Blindfire, düşük oyuncu sayısına rağmen kapanmayı reddediyor. Geliştirici ekip, oyunların sanat olduğunu ve korunmayı hak ettiğini savunarak sunucuları açık tutma kararı aldı. Oyunun geleceği belirsizliğini korurken, bu durum oyun koruma (game preservation) tartışmalarını yeniden gündeme getirdi.",
+    "onem_skoru": "7",
+    "kategori": "teknoloji",
+    "url": "https://kotaku.com/blindfire-free-to-play-steam-shooter-fps-update-shut-down-2000694020"
+  },
+  {
+    "baslik": "Valve is fighting Steam Controller scalpers with a new reservations system - The Verge",
+    "ozet": "Valve, Steam Controller alıcılarını botlardan ve karaborsacılardan korumak için yeni bir rezervasyon sistemi başlattı. Bu sistem, talebin yüksek olduğu durumlarda kullanıcıların sıraya alınarak adil bir şekilde ürüne erişmesini sağlıyor ve ölçekleyicilerin (scalper) toplu alım yapmasını engellemeyi hedefliyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://www.theverge.com/games/926286/valve-steam-controller-reservations-queue-scalpers"
+  },
+  {
+    "baslik": "ChatGPT Has 'Goblin' Mania in the US. In China It Will 'Catch You Steadily' - WIRED",
+    "ozet": "WIRED makalesi, ChatGPT'nin ABD'de büyük bir çılgınlık ve popülerlik kazanmasına karşın, Çin'de çok daha kontrollü ve temkinli bir şekilde karşılandığını inceliyor. Çin'de sıkı hükümet düzenlemeleri, sansür ve yapay zeka kontrolleri nedeniyle ChatGPT'nin erişimi kısıtlı kalırken, Çinli teknoloji şirketlerinin kendi yapay zeka modellerini geliştirdiği ve bu süreçte 'dalkavukluk' (sycophancy) eğiliminin daha belirgin olduğu vurgulanıyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji / Yapay Zeka",
+    "url": "https://www.wired.com/story/chatgpt-chinese-catch-you-steadily-sycophancy/"
+  },
+  {
+    "baslik": "Expensify Announces Q1 2026 Results",
+    "ozet": "Expensify, 2026 yılının ilk çeyrek finansal sonuçlarını açıkladı. Şirketin gelir, kârlılık ve büyüme göstergeleri gibi temel finansal metrikleri paylaşıldı.",
+    "onem_skoru": "6",
+    "kategori": "Finans",
+    "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/expensify-announces-q1-2026-results"
+  },
+  {
+    "baslik": "Slay The Spire 2 Is Getting Review Bombed Again, This Time Because Of Chuds - Kotaku",
+    "ozet": "Slay the Spire 2 oyunu, belirli bir grup oyuncu (chuds olarak adlandırılan) tarafından ikinci kez inceleme bombasına (review bomb) maruz kalıyor. Kotaku'nun haberine göre, oyun haksız yere olumsuz yorumlarla hedef alınmış durumda.",
+    "onem_skoru": "6",
+    "kategori": "Oyun",
+    "url": "https://kotaku.com/slay-the-spire-2-is-getting-review-bombed-again-this-time-because-of-chuds-2000693961"
+  },
+  {
+    "baslik": "Power and vulnerability are at play in Pragmata - AV Club",
+    "ozet": "AV Club, Capcom'un merakla beklenen oyunu Pragmata'daki güç dinamikleri ve kırılganlık temalarını inceliyor. Makale, oyunun bir baba-çocuk ilişkisi etrafında şekillenen hikayesini, özellikle ünlü oyun Ico ile karşılaştırarak analiz ediyor. Pragmata'nın, karakterler arasındaki güç dengesizliğini ve duygusal kırılganlığı nasıl oynanabilir bir mekanik olarak kullandığına dikkat çekiyor.",
+    "onem_skoru": "6",
+    "kategori": "Oyun",
+    "url": "https://www.avclub.com/pragmata-power-dynamic-dad-child-ico"
+  },
+  {
+    "baslik": "NetraMark Announces Change To Board Of Directors",
+    "ozet": "NetraMark şirketi, yönetim kurulunda bir değişiklik yapıldığını duyurdu. Şirketin yönetim kurulu yapısında gerçekleşen bu değişiklik, kurumsal yönetim açısından önemli bir adım olarak değerlendirilebilir.",
+    "onem_skoru": "5",
+    "kategori": "teknoloji",
+    "url": "https://financialpost.com/globe-newswire/netramark-announces-change-to-board-of-directors"
+  },
+  {
+    "baslik": "Caris Life Sciences Reports First Quarter 2026 Financial Results",
+    "ozet": "Hassas tıp ve moleküler profil çıkarma alanında lider olan Caris Life Sciences, 2026 yılının ilk çeyreğine ait finansal sonuçlarını açıkladı. Şirketin gelir ve karlılık performansına ilişkin önemli göstergeler raporlandı.",
+    "onem_skoru": "5",
+    "kategori": "Sağlık Teknolojisi",
+    "url": "https://www.prnewswire.com/news-releases/caris-life-sciences-reports-first-quarter-2026-financial-results-302766055.html"
+  },
+  {
+    "baslik": "Assassin’s Creed Black Flag Resynced Accessibility Spotlight - Ubisoft",
+    "ozet": "Ubisoft, Assassin's Creed Black Flag'in yeniden düzenlenmiş (Resynced) sürümü için kapsamlı bir erişilebilirlik özellikleri güncellemesi yayınladı. Bu güncelleme ile oyunda görme, işitme, motor beceri ve bilişsel engellere sahip oyuncular için çeşitli ayarlar ve iyileştirmeler sunuluyor. Oyunun daha geniş bir oyuncu kitlesi tarafından oynanabilmesini hedefleyen bu adım, Ubisoft'un erişilebilirlik konusundaki kararlılığını gösteriyor.",
+    "onem_skoru": "5",
+    "kategori": "Oyun",
+    "url": "https://news.ubisoft.com/en-us/article/759plQmVmAvQySTmxx0r09/assassins-creed-black-flag-resynced-accessibility-spotlight"
+  },
+  {
+    "baslik": "Prospect Capital Announces March 2026 Results",
+    "ozet": "Prospect Capital, Mart 2026 dönemine ait mali sonuçlarını açıkladı. Şirketin finansal performansı ve bilanço detayları kamuoyuyla paylaşıldı.",
+    "onem_skoru": "4",
+    "kategori": "Finans",
+    "url": "https://www.globenewswire.com/news-release/2026/05/07/3290680/0/en/Prospect-Capital-Announces-March-2026-Results.html"
+  },
+  {
+    "baslik": "MIT sophomore Jack Carson named 2026 Udall Scholar",
+    "ozet": "Massachusetts Teknoloji Enstitüsü'nde (MIT) ikinci sınıf öğrencisi olan Jack Carson, 2026 yılı Udall Bursu'na layık görüldü. Bu prestijli burs, çevre, sağlık ve kamu hizmeti alanlarında liderlik potansiyeli gösteren öğrencilere verilmektedir.",
+    "onem_skoru": "4",
+    "kategori": "teknoloji",
+    "url": "https://news.mit.edu/2026/jack-carson-named-udall-scholar-0507"
+  },
+  {
+    "baslik": "NetraMark Announces Change To Board Of Directors",
+    "ozet": "NetraMark, yönetim kurulunda bir değişiklik yapıldığını duyurdu. Şirketin yönetim yapısında gerçekleşen bu değişiklikle ilgili detaylar resmi açıklamada yer alıyor. Bu tür kurumsal değişiklikler, şirketin stratejik yönünü ve yönetim dinamiklerini etkileyebilir.",
+    "onem_skoru": "3",
+    "kategori": "teknoloji",
+    "url": "https://www.globenewswire.com/news-release/2026/05/07/3290662/0/en/NetraMark-Announces-Change-To-Board-Of-Directors.html"
+  },
+  {
+    "baslik": "\"Chaos Rising\" Set Guide: Full Set List, Product Lineup, Store Promos, and More! - PokeBeach",
+    "ozet": "Pokemon TCG'nin yeni 'Chaos Rising' seti için kapsamlı bir rehber yayınlandı. Rehber, setin tam kart listesini, ürün çeşitlerini, mağaza promosyonlarını ve daha fazlasını içeriyor. Pokemon hayranları için set hakkında tüm detayları sunan bir kaynak niteliğinde.",
+    "onem_skoru": "3",
+    "kategori": "Oyun",
+    "url": "https://www.pokebeach.com/2026/05/chaos-rising-set-guide-full-set-list-product-lineup-store-promos-and-more"
+  },
+  {
+    "baslik": "Bridgerton to Launch 'The Sims 4' Collaboration, Including Masquerade Ball Kit",
+    "ozet": "Bridgerton dizisi, The Sims 4 oyunu için Masquerade Ball temalı bir içerik paketi (kit) çıkarıyor. Variety'nin haberine göre bu işbirliği, oyunculara Bridgerton evreninden ilham alan maskeli balo kostümleri, eşyalar ve dekorasyon seçenekleri sunacak.",
+    "onem_skoru": "3",
+    "kategori": "Oyun",
+    "url": "https://variety.com/2026/gaming/news/bridgerton-the-sims-4-masquerade-ball-kit-1236739693/"
+  }
+]
