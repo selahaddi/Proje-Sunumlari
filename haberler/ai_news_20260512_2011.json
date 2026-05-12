@@ -1,0 +1,198 @@
+[
+  {
+    "baslik": "Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation",
+    "ozet": "Bilgisayar korsanları, yapay zeka kullanarak ilk kez kitlesel ölçekte kullanıma hazır sıfırıncı gün (zero-day) iki faktörlü kimlik doğrulama (2FA) atlatma yöntemi geliştirdi. Bu gelişme, siber güvenlik dünyasında büyük bir tehdit oluşturmakta olup, mevcut 2FA sistemlerinin yapay zeka destekli saldırılara karşı savunmasız kalabileceğini göstermektedir.",
+    "onem_skoru": "10",
+    "kategori": "Siber Güvenlik",
+    "url": "https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html"
+  },
+  {
+    "baslik": "Vulnerability Summary for the Week of May 4, 2026",
+    "ozet": "CISA (Cybersecurity and Infrastructure Security Agency) tarafından yayınlanan haftalık güvenlik açığı özet bülteni. 4 Mayıs 2026 haftasında tespit edilen kritik güvenlik açıklarını, etkilenen sistemleri ve yazılımları, yama/çözüm önerilerini ve acil müdahale gerektiren zafiyetleri listeleyen resmi bir rapordur. Bu tür bültenler, kurum ve kuruluşların siber güvenlik duruşlarını güncel tutmaları için hayati önem taşır.",
+    "onem_skoru": "9",
+    "kategori": "Siber Güvenlik",
+    "url": "https://www.cisa.gov/news-events/bulletins/sb26-131"
+  },
+  {
+    "baslik": "CUDA Proves Nvidia Is a Software Company - WIRED",
+    "ozet": "Nvidia, donanım devi olarak bilinse de CUDA yazılım platformu sayesinde aslında bir yazılım şirketi olduğunu kanıtlıyor. CUDA, GPU'ların genel amaçlı hesaplama için kullanılmasını sağlayarak Nvidia'nın yapay zeka ve bilimsel hesaplama alanlarında lider konuma gelmesine yardımcı oldu. Makale, CUDA ekosisteminin Nvidia'nın başarısındaki kritik rolünü ve şirketin yazılım odaklı stratejisini ele alıyor.",
+    "onem_skoru": "9",
+    "kategori": "Teknoloji",
+    "url": "https://www.wired.com/story/cuda-proves-nvidia-is-a-software-company/"
+  },
+  {
+    "baslik": "Global Kişiselleştirilmiş Tıp, Modern Sağlık Hizmetlerini Dönüştürecek ve 2034'e Kadar 1 Trilyon Doları Aşacak",
+    "ozet": "DelveInsight raporuna göre, kişiselleştirilmiş tıp pazarı küresel çapta hızla büyüyerek 2034 yılına kadar 1 trilyon doları aşması bekleniyor. Genetik profilleme, biyobelirteç testleri ve hedefe yönelik tedavilerin yaygınlaşmasıyla sağlık sektöründe devrim yaratması öngörülen bu alan, kanserden nadir hastalıklara kadar birçok tedavide kişiye özel yaklaşımları mümkün kılıyor. Yapay zeka ve büyük veri analitiğinin de katkısıyla teşhis ve tedavi süreçlerinin daha hassas ve etkili hale gelmesi bekleniyor.",
+    "onem_skoru": "8",
+    "kategori": "teknoloji",
+    "url": "https://www.globenewswire.com/news-release/2026/05/11/3292198/0/en/Global-Personalized-Medicine-to-Transform-Modern-Healthcare-and-Cross-USD-1-Trillion-by-2034-DelveInsight.html"
+  },
+  {
+    "baslik": "What if Future Technology Served Well-Being First?",
+    "ozet": "Psychology Today'de yayınlanan makale, teknolojinin gelecekte insan refahını (well-being) önceliklendirmesi durumunda neler olabileceğini sorguluyor. Geleneksel teknoloji geliştirme yaklaşımının aksine, insan mutluluğu, sağlığı ve psikolojik iyi oluşu merkeze alan bir teknoloji vizyonu sunarak, teknolojinin insan hayatını nasıl daha anlamlı ve dengeli hale getirebileceğini tartışıyor.",
+    "onem_skoru": "8",
+    "kategori": "Teknoloji & Toplum",
+    "url": "https://www.psychologytoday.com/us/blog/society-50/202605/what-if-future-technology-served-well-being-first"
+  },
+  {
+    "baslik": "Caris Life Sciences, Tümör Mutasyon Yükünün Tüm Ekzom Ölçümünün Hedeflenmiş Gen Panellerine Kıyasla Genel Sağkalımı Artırdığını Gösteren Çalışma Yayımladı",
+    "ozet": "Caris Life Sciences, tümör mutasyon yükünün (TMB) tüm ekzom dizileme ile ölçülmesinin, hedeflenmiş gen panellerine kıyasla daha doğru sonuçlar verdiğini ve bunun da genel sağkalım oranlarında artışa yol açtığını gösteren bir çalışma yayımladı. Çalışma, tüm ekzom temelli TMB ölçümünün, immünoterapi yanıtını tahmin etmede daha güvenilir olduğunu ortaya koyuyor.",
+    "onem_skoru": "8",
+    "kategori": "Sağlık Teknolojisi",
+    "url": "https://www.prnewswire.com/news-releases/caris-life-sciences-publishes-study-showing-whole-exome-measurement-of-tumor-mutational-burden-results-in-increased-overall-survival-compared-to-estimates-from-targeted-gene-panels-302768392.html"
+  },
+  {
+    "baslik": "Secai Partners With Mila to Accelerate AI-Powered Healthcare Across North America",
+    "ozet": "Secai, yapay zeka destekli sağlık hizmetlerini Kuzey Amerika genelinde hızlandırmak için yapay zeka araştırma enstitüsü Mila ile ortaklık kurdu. Bu iş birliği, sağlık sektöründe yapay zeka çözümlerinin geliştirilmesini ve uygulanmasını hedefliyor.",
+    "onem_skoru": "8",
+    "kategori": "Teknoloji",
+    "url": "https://financialpost.com/globe-newswire/secai-partners-with-mila-to-accelerate-ai-powered-healthcare-across-north-america"
+  },
+  {
+    "baslik": "CIAT launches CompTIA SecAI+ bootcamps focused on AI-driven cyber defense skills",
+    "ozet": "CIAT, yapay zeka destekli siber savunma becerilerine odaklanan CompTIA SecAI+ bootcamp programlarını başlattı. Bu eğitimler, siber güvenlik profesyonellerine yapay zeka teknolojilerini kullanarak siber tehditlere karşı savunma yapma yetkinliği kazandırmayı hedefliyor.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka ve Siber Güvenlik",
+    "url": "https://www.prnewswire.com/news-releases/ciat-launches-comptia-secai-bootcamps-focused-on-ai-driven-cyber-defense-skills-302768282.html"
+  },
+  {
+    "baslik": "IoT in Manufacturing Market Surges to $142.63 billion by 2031 | CAGR 10.1%",
+    "ozet": "IoT (Nesnelerin İnterneti) teknolojisinin imalat sektöründeki pazar büyüklüğünün 2031 yılına kadar 142.63 milyar dolara ulaşması bekleniyor. Yıllık bileşik büyüme oranının (CAGR) %10.1 olacağı öngörülüyor. Bu, üretim sektöründe IoT adaptasyonunun hızla arttığını ve endüstriyel dönüşümün ivme kazandığını gösteriyor.",
+    "onem_skoru": "8",
+    "kategori": "teknoloji",
+    "url": "https://www.globenewswire.com/news-release/2026/05/11/3292077/0/en/IoT-in-Manufacturing-Market-Surges-to-142-63-billion-by-2031-CAGR-10-1.html"
+  },
+  {
+    "baslik": "Google warns artificial intelligence is accelerating cyberattacks and zero-day exploits",
+    "ozet": "Google, yapay zeka teknolojilerinin siber saldırıları ve zero-day açıklarını önemli ölçüde hızlandırdığı konusunda uyarıda bulundu. Yapay zeka araçları, siber suçluların daha sofistike, otomatize edilmiş ve tespit edilmesi zor saldırılar düzenlemesine olanak tanırken, aynı zamanda savunma mekanizmalarının da güçlendirilmesi gerektiğine dikkat çekiliyor.",
+    "onem_skoru": "8",
+    "kategori": "Güvenlik",
+    "url": "https://securityaffairs.com/191984/ai/google-warns-artificial-intelligence-is-accelerating-cyberattacks-and-zero-day-exploits.html"
+  },
+  {
+    "baslik": "Behind the Claude Frenzy That Ate Up All the Mac Minis - Bloomberg.com",
+    "ozet": "Bloomberg haberi, Claude yapay zeka ajanlarının (AI agents) Mac Mini talebinde rekor kırdırmasına odaklanıyor. Yapay zeka ajanlarının yerel olarak çalıştırılması için Mac Mini'lerin yoğun şekilde tercih edilmesi, stokların tükenmesine ve büyük bir talep patlamasına yol açtı. Apple'ın kompakt masaüstü bilgisayarı, Claude gibi güçlü AI modellerini verimli çalıştırabilmesi sayesinde geliştiriciler ve kurumsal kullanıcılar arasında beklenmedik bir popülerlik kazandı.",
+    "onem_skoru": "8",
+    "kategori": "Teknoloji",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-11/why-claude-ai-agents-are-driving-record-mac-mini-demand"
+  },
+  {
+    "baslik": "Secai Partners With Mila to Accelerate AI-Powered Healthcare Across North America",
+    "ozet": "Secai, dünyaca ünlü yapay zeka araştırma enstitüsü Mila ile ortaklık kurarak Kuzey Amerika'da yapay zeka destekli sağlık hizmetlerini hızlandırmayı hedefliyor. Bu iş birliği, sağlık sektöründe yapay zeka çözümlerinin geliştirilmesi ve yaygınlaştırılmasına yönelik önemli bir adım olarak değerlendiriliyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://www.globenewswire.com/news-release/2026/05/11/3292109/0/en/Secai-Partners-With-Mila-to-Accelerate-AI-Powered-Healthcare-Across-North-America.html"
+  },
+  {
+    "baslik": "Graduation Speaker Looks Completely Shocked When Students Loudly Boo AI",
+    "ozet": "Central Florida Üniversitesi'nde (UCF) bir mezuniyet töreninde konuşmacı yapay zeka hakkında konuşurken öğrenciler tarafından yuhalandı. Konuşmacı, öğrencilerin güçlü tepkisi karşısında şaşkına döndü. Olay, yapay zekaya yönelik toplumsal tepkilerin ve özellikle genç nesil arasındaki endişelerin bir yansıması olarak dikkat çekiyor.",
+    "onem_skoru": "7",
+    "kategori": "teknoloji",
+    "url": "https://kotaku.com/university-central-florida-ucf-ai-graduation-boos-speech-2000694858"
+  },
+  {
+    "baslik": "What's Wrong with AI?",
+    "ozet": "Yapay zekanın günümüzdeki sorunlarını, eksikliklerini ve karşılaştığı zorlukları ele alan bir yazı. Başlık, yapay zeka teknolojisinin vaat edilen potansiyeline rağmen neden hala beklentileri tam olarak karşılayamadığına dair bir sorgulamayı yansıtıyor.",
+    "onem_skoru": "7",
+    "kategori": "Yapay Zeka",
+    "url": "https://kurtis.weblog.lol/2026/05/whats-wrong-with-ai"
+  },
+  {
+    "baslik": "Reddit Starts Blocking Mobile Website, Pushing Users to App Instead - MacRumors",
+    "ozet": "Reddit, mobil web sitesine erişmeye çalışan kullanıcıları engellemeye ve onları uygulamasını indirmeye yönlendirmeye başladı. Bu hamle, platformun mobil web trafiğini azaltıp kullanıcılarını kendi uygulamasına yönlendirme stratejisinin bir parçası olarak görülüyor.",
+    "onem_skoru": "7",
+    "kategori": "teknoloji",
+    "url": "https://www.macrumors.com/2026/05/11/reddit-starts-blocking-mobile-website/"
+  },
+  {
+    "baslik": "Gears of War: E-Day's release window might have been revealed through a WWE Triplemania advert - Eurogamer",
+    "ozet": "Eurogamer, Gears of War: E-Day'in çıkış tarihi aralığının WWE Triplemania reklamı aracılığıyla sızdırılmış olabileceğini bildiriyor. Reklamda oyunun 2025 yılında piyasaya sürüleceğine dair ipuçları görülüyor. Bu, popüler aksiyon serisinin yeni nesil oyunu için hayranların merakla beklediği bir duyuru niteliğinde.",
+    "onem_skoru": "7",
+    "kategori": "Oyun",
+    "url": "https://www.eurogamer.net/gears-of-war-e-day-release-window"
+  },
+  {
+    "baslik": "Discord adds a free Xbox Game Pass ‘starter edition’ for Nitro subscribers - The Verge",
+    "ozet": "Discord, Nitro abonelerine ücretsiz olarak Xbox Game Pass 'Starter Edition' sunmaya başladı. Bu yeni avantaj sayesinde Discord Nitro kullanıcıları, Xbox Game Pass'in temel sürümüne erişim kazanarak sınırlı sayıda oyunu bulut üzerinden oynayabilecek ve çevrimiçi çok oyunculu modları kullanabilecek. Bu iş birliği, hem Discord'un abonelik hizmetini daha cazip hale getirirken hem de Xbox ekosistemine yeni kullanıcılar çekmeyi amaçlıyor.",
+    "onem_skoru": "7",
+    "kategori": "teknoloji",
+    "url": "https://www.theverge.com/news/927722/discord-xbox-game-pass-starter-edition-nitro-subscribers"
+  },
+  {
+    "baslik": "Forza Horizon 6 Has Been Leaked a Week Early, After Accidental Unencrypted Steam Release - Digital Foundry",
+    "ozet": "Forza Horizon 6, Steam'de şifrelenmemiş bir sürümün yanlışlıkla yayınlanması sonucu planlanan çıkış tarihinden bir hafta önce sızdırıldı. Digital Foundry'nin haberine göre, oyunun Steam üzerindeki şifrelenmemiş dosyaları oyuncular tarafından keşfedilerek erişime açıldı ve bu durum büyük bir sızıntıya yol açtı.",
+    "onem_skoru": "7",
+    "kategori": "teknoloji",
+    "url": "https://www.digitalfoundry.net/news/2026/05/forza-horizon-6-has-been-leaked-a-week-early-after-accidental-unencrypted-steam-release"
+  },
+  {
+    "baslik": "Stellar Blade 2 PS5 Reveal This Year, But Sony Won't Publish It - Push Square",
+    "ozet": "Stellar Blade 2'nin bu yıl PS5 için duyurulması bekleniyor. Ancak ilk oyunun aksine, Sony Interactive Entertainment bu defa oyunun yayıncılığını üstlenmeyecek. Oyunun bağımsız bir yayıncı ile çıkması veya Shift Up'ın kendi yayınlaması bekleniyor.",
+    "onem_skoru": "7",
+    "kategori": "Oyun",
+    "url": "https://www.pushsquare.com/news/2026/05/stellar-blade-2-ps5-reveal-this-year-but-sony-wont-publish-it"
+  },
+  {
+    "baslik": "Windows 11 is getting a macOS-like speed boost - The Verge",
+    "ozet": "Microsoft, Windows 11'e macOS benzeri bir hız artışı getiren yeni bir güncelleme üzerinde çalışıyor. Bu özellik, kullanıcı deneyimini iyileştirmeyi ve sistem performansını artırmayı hedefliyor.",
+    "onem_skoru": "7",
+    "kategori": "teknoloji",
+    "url": "https://www.theverge.com/news/927736/windows-11-is-getting-a-macos-like-speed-boost"
+  },
+  {
+    "baslik": "Meet Lamborghini's Most Powerful Convertible Ever: Fenomeno Roadster - Motor1.com",
+    "ozet": "Lamborghini, şimdiye kadarki en güçlü üstü açık modeli olan Fenomeno Roadster'ı tanıttı. Bu hiper otomobil, markanın V12 motor mirasını üst düzey performansla birleştiriyor ve sınırlı sayıda üretilecek.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://www.motor1.com/news/795292/lamborghini-fenomeno-roadster/"
+  },
+  {
+    "baslik": "2026 NFL Schedule Powered by AWS Set for Release on May 14 with Major Tech Upgrades",
+    "ozet": "2026 NFL sezonu fikstürü, AWS (Amazon Web Services) teknolojisi desteğiyle 14 Mayıs'ta yayınlanacak. NFL, bu yıl yapay zeka ve makine öğrenimi destekli büyük teknolojik yükseltmelerle fikstür oluşturma sürecini optimize ediyor. AWS'in sağladığı gelişmiş algoritmalar sayesinde maç programlarının daha verimli, seyirci dostu ve lojistik açıdan daha akıllı bir şekilde hazırlandığı belirtiliyor.",
+    "onem_skoru": "6",
+    "kategori": "Teknoloji ve Spor",
+    "url": "https://www.ibtimes.com.au/2026-nfl-schedule-powered-aws-set-release-may-14-major-tech-upgrades-1868587"
+  },
+  {
+    "baslik": "See the Alternate Version of Uncharted 4 You Never Got to Play in Eye-Opening Video - Push Square",
+    "ozet": "Uncharted 4: A Thief's End'in geliştirme sürecinde ortaya çıkan ve daha önce hiç yayınlanmamış alternatif bir versiyonu, yeni bir videoda gösterildi. Video, oyunun bildiğimiz final sürümünden farklı sahneler, mekanikler ve hikaye öğeleri içeren bu alternatif yapımı gözler önüne seriyor.",
+    "onem_skoru": "6",
+    "kategori": "Oyun",
+    "url": "https://www.pushsquare.com/news/2026/05/see-the-alternate-version-of-uncharted-4-you-never-got-to-play-in-eye-opening-video"
+  },
+  {
+    "baslik": "Next Apple Watch Models Unlikely to Add Touch ID, Focus on Battery Life",
+    "ozet": "Apple'ın yeni Apple Watch modellerinde Touch ID sensörü eklemekten vazgeçtiği, bunun yerine pil ömrü ve güç verimliliğine odaklandığı bildiriliyor. Şirket, kullanıcı deneyimini iyileştirmek için batarya performansını önceliklendiriyor.",
+    "onem_skoru": "6",
+    "kategori": "teknoloji",
+    "url": "https://www.macrumors.com/2026/05/11/apple-prioritizing-battery-life-apple-watch/"
+  },
+  {
+    "baslik": "Govt presents Policy and Program for FY 2026/27",
+    "ozet": "Bu haber, hükümetin 2026/27 mali yılı için hazırladığı Politika ve Programı'nın sunulduğunu bildiriyor. Haberin tam metnine ulaşılamadığı için detaylı bir özet çıkarılamamıştır. Lütfen haberi doğrudan kaynaktan okuyunuz.",
+    "onem_skoru": "5",
+    "kategori": "Teknoloji",
+    "url": "https://english.khabarhub.com/2026/11/548336/"
+  },
+  {
+    "baslik": "Outbound Is Available Today With Xbox Game Pass, And Here's What The Reviews Are Saying - Pure Xbox",
+    "ozet": "Outbound oyunu bugün Xbox Game Pass ile kullanıma sunuldu. Oyunla ilgili ilk incelemeler yayınlanmaya başladı ve oyuncuların beklentileri şekilleniyor.",
+    "onem_skoru": "5",
+    "kategori": "Oyun",
+    "url": "https://www.purexbox.com/news/2026/05/outbound-is-available-today-with-xbox-game-pass-and-heres-what-the-reviews-are-saying"
+  },
+  {
+    "baslik": "My Nintendo Store Is Changing Its Name This Month",
+    "ozet": "Nintendo Life'ın haberine göre, My Nintendo Store bu ay içinde isim değiştiriyor. Nintendo'nun resmi çevrimiçi mağazasının yeni ismi ve olası değişiklikler hakkında detaylar haberde yer alıyor.",
+    "onem_skoru": "5",
+    "kategori": "Teknoloji",
+    "url": "https://www.nintendolife.com/news/2026/05/my-nintendo-store-is-changing-its-name-this-month"
+  },
+  {
+    "baslik": "Lego Batman: Legacy of the Dark Knight goes live early for some Xbox players as the PC version gets Denuvo DRM - Eurogamer",
+    "ozet": "Lego Batman: Legacy of the Dark Knight oyunu, henüz resmi çıkış tarihinden önce bazı Xbox oyuncuları için erken erişime açıldı. Bu bir ön sürüm sorunu olarak değerlendiriliyor. Aynı zamanda oyunun PC sürümüne Denuvo DRM (Dijital Hak Yönetimi) korumasının eklendiği belirtiliyor. Denuvo, oyun korsanlığını önlemek için kullanılan bir teknoloji olup, performans tartışmalarına da yol açmaktadır.",
+    "onem_skoru": "4",
+    "kategori": "Teknoloji",
+    "url": "https://www.eurogamer.net/lego-batman-legacy-of-the-dark-knight-pre-release-problems"
+  }
+]
