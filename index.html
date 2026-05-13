@@ -411,11 +411,14 @@
   .mobile-menu-overlay.active { opacity: 1; pointer-events: auto; }
   .mobile-menu-panel {
     position: fixed; top: 0; right: 0; z-index: 46;
-    width: 280px; height: 100%; background: #ffffff;
+    width: 280px; height: 100%; background: var(--surface);
     box-shadow: -10px 0 40px rgba(0,0,0,0.1);
     transform: translateX(100%);
     transition: transform 0.35s cubic-bezier(0.23, 1, 0.32, 1);
     overflow-y: auto;
+  }
+  .dark .mobile-menu-panel {
+    box-shadow: -10px 0 40px rgba(0,0,0,0.5);
   }
   .mobile-menu-panel.active { transform: translateX(0); }
 </style>
@@ -439,6 +442,7 @@
 <a class="text-on-surface-variant font-medium hover:text-primary transition-colors text-sm" href="#skills"><span class="lang-tr">Deneyim</span><span class="lang-en">Experience</span></a>
 <a class="text-on-surface-variant font-medium hover:text-primary transition-colors text-sm" href="#contact"><span class="lang-tr">İletişim</span><span class="lang-en">Contact</span></a>
 <a class="text-primary font-bold transition-colors text-sm" href="ai-bulten.html"><span class="lang-tr">Ai Bülten</span><span class="lang-en">Ai News</span></a>
+<a class="text-primary font-bold transition-colors text-sm" href="https://wwallspacee.vercel.app/" target="_blank"><span class="lang-tr">Space Wall</span><span class="lang-en">Space Wall</span></a>
 </div>
 <div class="flex items-center gap-2 md:gap-4">
 <button id="themeToggle" onclick="toggleTheme()" class="volumetric-btn-secondary px-3 py-2 rounded-full text-xs font-bold flex items-center gap-2 border border-surface-variant hover:bg-surface-dim transition-colors">
@@ -464,6 +468,7 @@
       <a href="#skills" onclick="toggleMobileMenu()" class="text-on-surface font-semibold text-lg py-3 px-4 rounded-xl hover:bg-surface-container transition-colors"><span class="lang-tr">Deneyim</span><span class="lang-en">Experience</span></a>
       <a href="#contact" onclick="toggleMobileMenu()" class="text-on-surface font-semibold text-lg py-3 px-4 rounded-xl hover:bg-surface-container transition-colors"><span class="lang-tr">İletişim</span><span class="lang-en">Contact</span></a>
       <a href="ai-bulten.html" class="text-primary font-bold text-lg py-3 px-4 rounded-xl bg-primary/5 transition-colors"><span class="lang-tr">Ai Bülten</span><span class="lang-en">Ai News</span></a>
+      <a href="https://wwallspacee.vercel.app/" target="_blank" class="text-primary font-bold text-lg py-3 px-4 rounded-xl bg-primary/5 transition-colors"><span class="lang-tr">Space Wall</span><span class="lang-en">Space Wall</span></a>
     </div>
     <div class="mt-8 pt-8 border-t border-surface-variant">
       <a class="volumetric-btn text-white px-7 py-3 rounded-full text-sm font-semibold flex items-center justify-center gap-2 w-full" href="mailto:serttas2001@gmail.com">
