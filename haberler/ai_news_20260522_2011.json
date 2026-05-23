@@ -1,0 +1,212 @@
+[
+  {
+    "baslik": "9-Year-Old Linux Kernel Flaw Enables Root Command Execution on Major Distros - The Hacker News",
+    "ozet": "Linux çekirdeğinde 9 yıldır keşfedilmemiş bir güvenlik açığı, büyük Linux dağıtımlarında (distrolarda) yetkisiz kullanıcıların root seviyesinde komut çalıştırmasına olanak tanıyor. Bu kritik kusur, sistem güvenliğini ciddi şekilde tehdit etmekte ve acil güncelleme gerektirmektedir.",
+    "onem_skoru": "9",
+    "kategori": "Güvenlik",
+    "url": "https://thehackernews.com/2026/05/9-year-old-linux-kernel-flaw-enables.html"
+  },
+  {
+    "baslik": "The Perils Of Writing With AI When You Don’t Check",
+    "ozet": "Yapay zeka ile yazılan içeriklerin, üretilen bilgiler kontrol edilmediğinde yanlış ve yanıltıcı olabileceğini vurgulayan bir makale. Makale, AI'nın yanlış bilgiler üretme eğilimini (halüsinasyon) ve bu durumun 'gerçeğin geleceği' üzerindeki tehlikelerini ele alıyor. Yazarların AI çıktılarını mutlaka doğrulaması gerektiğine dikkat çekiyor.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka",
+    "url": "https://ai-humanist.beehiiv.com/p/the-future-of-truth-fiasco-exposes-the-truth-about-ai-s-falsehoods"
+  },
+  {
+    "baslik": "SpaceX Actively Hiring Engineers and Physicists for SpaceXAI With No AI Experience Required",
+    "ozet": "SpaceX, Elon Musk önderliğinde yapay zeka alanında faaliyet gösterecek yeni bir birim (SpaceXAI) için mühendis ve fizikçi alımı yapıyor. Dikkat çekici nokta, başvuranların yapay zeka deneyimine sahip olma zorunluluğunun bulunmaması; şirket yetenekli ve öğrenmeye açık kişileri bünyesine katmayı hedefliyor.",
+    "onem_skoru": "8",
+    "kategori": "Teknoloji",
+    "url": "https://www.ibtimes.com.au/spacexai-elon-musk-hiring-engineers-1869289"
+  },
+  {
+    "baslik": "Synthetic Data Video Generator Global Market Analysis Report 2026: $9.68 Bn Opportunities, Trends, Competitive Landscape, Strategies, and Forecasts, 2020-2025, 2025-2030F, 2035F",
+    "ozet": "Sentetik Veri Video Üretici pazarına yönelik küresel bir pazar analiz raporu yayımlandı. Rapora göre, 2020-2035 dönemini kapsayan pazarın 9.68 milyar dolarlık bir fırsat alanı sunduğu belirtiliyor. Raporda trendler, rekabet ortamı, stratejiler ve pazar tahminleri detaylı bir şekilde analiz ediliyor. 2020-2025 dönemi incelenmiş, 2025-2030 ve 2035 yıllarına yönelik öngörüler paylaşılmıştır.",
+    "onem_skoru": "8",
+    "kategori": "teknoloji",
+    "url": "https://www.globenewswire.com/news-release/2026/05/21/3299541/28124/en/Synthetic-Data-Video-Generator-Global-Market-Analysis-Report-2026-9-68-Bn-Opportunities-Trends-Competitive-Landscape-Strategies-and-Forecasts-2020-2025-2025-2030F-2035F.html"
+  },
+  {
+    "baslik": "Military Health System integrates AI into medical education",
+    "ozet": "ABD Askeri Sağlık Sistemi (Military Health System), yapay zeka teknolojilerini tıp eğitimine entegre ediyor. Bu girişim, askeri sağlık personelinin eğitim süreçlerinde yapay zeka tabanlı araçlar ve simülasyonlar kullanarak daha etkili ve modern bir eğitim sağlamayı hedefliyor. Yapay zeka, tıbbi karar destek sistemleri, hasta simülasyonları ve kişiselleştirilmiş öğrenme deneyimleri gibi alanlarda kullanılarak sağlık personelinin yetkinliklerini artırmayı amaçlıyor.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka ve Sağlık",
+    "url": "https://www.dvidshub.net/news/565866/military-health-system-integrates-ai-into-medical-education"
+  },
+  {
+    "baslik": "AI in Legal Global Market Analysis Report 2026: $12.49 Bn Opportunities, Trends, Competitive Landscape, Strategies, and Forecasts, 2020-2025, 2025-2030F, 2035F",
+    "ozet": "Küresel hukuk sektöründe yapay zeka pazarının 2026 yılına kadar 12.49 milyar dolar fırsat büyüklüğüne ulaşması bekleniyor. Raporda, 2020-2025 dönemi gerçekleşen verileri, 2025-2030F ve 2035F yılları için öngörüler, trendler, rekabet ortamı, stratejiler ve pazar fırsatları detaylı şekilde analiz ediliyor. Yapay zekanın hukuk alanında belge inceleme, sözleşme analizi, içtihat taraması ve tahminsel hukuk gibi uygulamalarla dönüşüm yaratması bekleniyor.",
+    "onem_skoru": "8",
+    "kategori": "Teknoloji & Yapay Zeka",
+    "url": "https://www.globenewswire.com/news-release/2026/05/21/3299533/28124/en/AI-in-Legal-Global-Market-Analysis-Report-2026-12-49-Bn-Opportunities-Trends-Competitive-Landscape-Strategies-and-Forecasts-2020-2025-2025-2030F-2035F.html"
+  },
+  {
+    "baslik": "JPMorgan to hire more AI specialists, fewer bankers as Dimon bets big on automation",
+    "ozet": "JPMorgan Chase CEO'su Jamie Dimon, bankanın yapay zeka ve otomasyona yaptığı büyük yatırım kapsamında daha fazla yapay zeka uzmanı işe alacağını, buna karşılık daha az bankacı istihdam edeceğini duyurdu. Bu strateji değişikliği, bankacılık sektöründe yapay zekanın artan rolünü ve geleneksel iş rollerinin dönüşümünü gözler önüne seriyor.",
+    "onem_skoru": "8",
+    "kategori": "Teknoloji",
+    "url": "https://cryptobriefing.com/jpmorgan-hire-ai-specialists-fewer-bankers/"
+  },
+  {
+    "baslik": "Prediction of cognitive impairment through speech data analysis: A comparative evaluation of deep learning models",
+    "ozet": "Bu araştırma makalesi, konuşma verileri analizi yoluyla bilişsel bozukluğun (kognitif bozukluk) tahmin edilmesini ele alıyor. Çalışma, farklı derin öğrenme modellerini (deep learning) karşılaştırmalı olarak değerlendirerek, konuşma örneklerinden bilişsel gerilemeyi tespit etme başarımlarını inceliyor. Bu tür bir yaklaşım, özellikle Alzheimer hastalığı ve diğer demans türlerinin erken teşhisinde non-invaziv (cerrahi müdahale gerektirmeyen), düşük maliyetli ve kolay uygulanabilir bir yöntem olarak büyük potansiyel taşımaktadır.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka Araştırmaları",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0349412"
+  },
+  {
+    "baslik": "IDF launches new technological unit",
+    "ozet": "İsrail Savunma Kuvvetleri (IDF), yeni bir teknolojik birim kurduğunu duyurdu. Bu birim, askeri operasyonlarda teknoloji ve yapay zeka kullanımını artırmayı hedefliyor.",
+    "onem_skoru": "8",
+    "kategori": "Teknoloji",
+    "url": "https://www.israelnationalnews.com/news/427447"
+  },
+  {
+    "baslik": "I can’t believe how fast Google vibe coded my first Android app - theverge.com",
+    "ozet": "Google'ın Gemini AI Studio ile yapay zeka destekli 'vibe coding' yaklaşımı kullanılarak bir Android uygulamasının inanılmaz hızda geliştirilmesi anlatılıyor. Makale, yapay zeka araçlarının mobil uygulama geliştirme sürecini nasıl kökten dönüştürdüğünü ve hızlandırdığını gözler önüne seriyor.",
+    "onem_skoru": "8",
+    "kategori": "Teknoloji / Yapay Zeka",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/935056/google-vibe-coding-first-android-app-gemini-ai-studio"
+  },
+  {
+    "baslik": "The Company Behind the Flipper Zero Hacking Tool Is Making a Cyberdeck - Gizmodo",
+    "ozet": "Flipper Zero'nun arkasındaki şirket, siber güvenlik ve hack topluluğuna yönelik taşınabilir bir bilgisayar olan 'cyberdeck' cihazını geliştiriyor. Bu yeni cihaz, Flipper Zero'nun popülerliğinin ardından şirketin donanım hack araçları portföyünü genişletme stratejisinin bir parçası olarak öne çıkıyor.",
+    "onem_skoru": "8",
+    "kategori": "teknoloji",
+    "url": "https://gizmodo.com/the-company-behind-the-flipper-zero-hacking-tool-is-making-a-cyberdeck-2000761546"
+  },
+  {
+    "baslik": "AMD says its $4K Ryzen AI Halo workstation practically pays for itself - The Register",
+    "ozet": "AMD, yeni Ryzen AI Halo iş istasyonunun (yaklaşık 4.000 dolar fiyat etiketiyle) yapay zeka ve yüksek performanslı iş yüklerinde sağladığı verimlilik sayesinde kendi maliyetini kısa sürede amorti ettiğini iddia ediyor. Şirket, bu iş istasyonunun özellikle yapay zeka geliştirme ve uygulama çalışmalarında sunduğu performansla, ekiplerin daha hızlı sonuç almasını sağlayarak uzun vadede maliyet tasarrufuna yol açtığını vurguluyor.",
+    "onem_skoru": "8",
+    "kategori": "Donanım / Yapay Zeka",
+    "url": "https://www.theregister.com/systems/2026/05/21/amd-says-its-4k-ryzen-ai-halo-workstation-practically-pays-for-itself/5243755"
+  },
+  {
+    "baslik": "Google, Samsung Offer First Look at Android XR Smart Glasses. Here's What You Get, and What's Missing - PCMag",
+    "ozet": "Google ve Samsung, Android XR akıllı gözlüklerinin ilk görünümünü sundu. Makale, bu yeni giyilebilir teknolojinin sunduğu özellikleri ve henüz eksik olan yönleri detaylandırıyor. Android XR platformu üzerine inşa edilen gözlükler, artırılmış gerçeklik deneyimleri sunmayı hedefliyor.",
+    "onem_skoru": "8",
+    "kategori": "Teknoloji",
+    "url": "https://www.pcmag.com/news/google-samung-reveal-android-xr-smart-glasses-google-io"
+  },
+  {
+    "baslik": "Microsoft and EY Team to Promote Corporate AI Adoption",
+    "ozet": "Microsoft ve EY (Ernst & Young), şirketlerin yapay zeka benimsenmesini hızlandırmak için iş birliği yapıyor. Ortaklık, kurumsal müşterilere yapay zeka çözümleri sunmayı ve iş süreçlerinde yapay zeka entegrasyonunu kolaylaştırmayı hedefliyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/microsoft-and-ey-team-to-promote-corporate-ai-adoption/"
+  },
+  {
+    "baslik": "Bugcrowd launches reinforcement learning environments to train AI on real software vulnerabilities",
+    "ozet": "Bugcrowd, yapay zeka modellerini gerçek dünya yazılım güvenlik açıkları üzerinde eğitmek için pekiştirmeli öğrenme (reinforcement learning) ortamları başlattı. Bu yeni platform, güvenlik araştırmacılarının ve AI sistemlerinin gerçek güvenlik açıklarını tespit etme, analiz etme ve raporlama becerilerini geliştirmeyi hedefliyor. Siber güvenlik alanında yapay zeka kullanımını ilerleten önemli bir adım olarak değerlendiriliyor.",
+    "onem_skoru": "7",
+    "kategori": "yapay_zeka",
+    "url": "https://siliconangle.com/2026/05/21/bugcrowd-launches-reinforcement-learning-environments-train-ai-real-software-vulnerabilities/"
+  },
+  {
+    "baslik": "Long Island University, Yapay Zeka Eğitimi ve Araştırmaları için AI² Merkezi'ni Kurdu",
+    "ozet": "Long Island University (LIU), yapay zeka eğitimi, araştırması ve inovasyonunu ilerletmek amacıyla AI² Merkezi'ni (Yapay Zeka, Uygulama ve Geliştirme Merkezi) hayata geçirdi. Yeni merkez, öğrencilere ve akademisyenlere yapay zeka alanında ileri düzey eğitim ve araştırma imkanları sunmayı, aynı zamanda endüstri işbirlikleriyle yenilikçi projeler geliştirmeyi hedefliyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji & Eğitim",
+    "url": "https://www.prnewswire.com/news-releases/long-island-university-launches-ai-center-to-advance-artificial-intelligence-education-research-and-innovation-302779208.html"
+  },
+  {
+    "baslik": "AI in Crop Monitoring Global Market Analysis Report 2026: $8.29 Bn Opportunities, Trends, Competitive Landscape, Strategies, and Forecasts, 2020-2025, 2025-2030F, 2035F",
+    "ozet": "Yapay zekanın mahsul izleme alanındaki küresel pazarını analiz eden bu rapor, 2026 yılına kadar 8.29 milyar dolarlık bir pazar fırsatı öngörüyor. Raporda trendler, rekabet ortamı, stratejiler ve 2020-2035 dönemi için tahminler yer alıyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://www.globenewswire.com/news-release/2026/05/21/3299551/28124/en/AI-in-Crop-Monitoring-Global-Market-Analysis-Report-2026-8-29-Bn-Opportunities-Trends-Competitive-Landscape-Strategies-and-Forecasts-2020-2025-2025-2030F-2035F.html"
+  },
+  {
+    "baslik": "Vertical Farming Market Moves Food Production Indoors -- Strategic Market Research",
+    "ozet": "Dikey tarım pazarı, gıda üretimini kapalı alanlara taşıyarak büyümeye devam ediyor. Stratejik Pazar Araştırması'nın raporuna göre, bu yenilikçi tarım yöntemi şehirleşme, iklim değişikliği ve gıda güvenliği endişeleriyle daha da önem kazanıyor. Dikey tarım, kontrollü ortamlarda, topraksız ve daha az su kullanarak yıl boyunca üretim imkanı sunuyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://www.prnewswire.com/news-releases/vertical-farming-market-moves-food-production-indoors--strategic-market-research-302778952.html"
+  },
+  {
+    "baslik": "CobbleStone® Introduces AI-Powered Auto-Obligations for Automated Contract Obligation Detection and Task Creation",
+    "ozet": "CobbleStone Software, yapay zeka destekli Auto-Obligations özelliğini tanıttı. Bu yeni özellik, sözleşmelerdeki yükümlülükleri otomatik olarak tespit edip görev oluşturarak sözleşme yönetim süreçlerini hızlandırıyor ve insan hatasını azaltıyor.",
+    "onem_skoru": "7",
+    "kategori": "teknoloji",
+    "url": "https://www.prnewswire.com/news-releases/cobblestone-introduces-ai-powered-auto-obligations-for-automated-contract-obligation-detection-and-task-creation-302778518.html"
+  },
+  {
+    "baslik": "Sony Trademark’s New Game Called ‘Break In’ Ahead of PlayStation State of Play - Insider Gaming",
+    "ozet": "Sony, PlayStation State of Play etkinliği öncesinde 'Break In' adlı yeni bir oyun için ticari marka başvurusu yaptı. Bu hamle, Sony'nin yaklaşan etkinlikte yeni bir oyun duyurusu yapabileceğine işaret ediyor.",
+    "onem_skoru": "7",
+    "kategori": "oyun",
+    "url": "https://insider-gaming.com/break-in-playstation/"
+  },
+  {
+    "baslik": "Sony’s other PS Plus plans are going up in price too. - The Verge",
+    "ozet": "Sony, PlayStation Plus abonelik planlarının diğer kademelerine de zam yapıyor. Oyun abonelik hizmetindeki fiyat artışı, Essential, Extra ve Premium planlarını kapsayacak şekilde genişliyor.",
+    "onem_skoru": "7",
+    "kategori": "teknoloji",
+    "url": "https://www.theverge.com/games/935198/sonys-other-ps-plus-plans-are-going-up-in-price-too"
+  },
+  {
+    "baslik": "Former Splinter Cell Creative Director Says Realistic Graphics Are Causing Problems for Modern Stealth Games - IGN",
+    "ozet": "Eski Splinter Cell yaratıcı yönetmeni, modern oyunlardaki gerçekçi grafiklerin gizlilik (stealth) oyun mekaniklerini olumsuz etkilediğini belirtiyor. Aşırı detaylı ve gerçekçi görsellerin, oyuncuların düşmanları, gölgeleri ve çevresel ipuçlarını ayırt etmesini zorlaştırdığını, bu durumun özellikle karanlık ve gizlilik temalı oyunlarda oynanabilirliği düşürdüğünü ifade ediyor.",
+    "onem_skoru": "7",
+    "kategori": "Oyun",
+    "url": "https://www.ign.com/articles/former-splinter-cell-creative-director-says-realistic-graphics-are-causing-problems-for-modern-stealth-games"
+  },
+  {
+    "baslik": "Pokemon Japan to Require Government ID for Select TCG Purchases, Limiting Access for Scalpers and Overseas Buyers",
+    "ozet": "Pokemon Japan, Pokemon Center Online üzerinden belirli Pokemon TCG ürünlerinin satın alımında hükümet tarafından verilmiş kimlik doğrulaması zorunluluğu getiriyor. Bu yeni düzenleme, bilet ve ürün spekülatörlerini (scalpers) ve yurtdışı alıcılarını sınırlandırmayı hedefliyor. Kullanıcılar artık sınırlı stoktaki ürünleri satın almak için resmi kimliklerini doğrulamak zorunda kalacak.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://www.pokebeach.com/2026/05/pokemon-japan-to-implement-government-id-verification-for-pokemon-tcg-purchases-on-pokemon-center-online"
+  },
+  {
+    "baslik": "ACSI: Samsung edges out Apple in cell phone satisfaction, while Apple Watch ties at the top - 9to5Mac",
+    "ozet": "ACSI (American Customer Satisfaction Index) raporuna göre, Samsung akıllı telefon müşteri memnuniyetinde Apple'ı geride bırakırken, Apple Watch akıllı saat kategorisinde en üst sırada yer alıyor. Bu sonuçlar, tüketici memnuniyeti açısından markalar arasındaki rekabeti gözler önüne seriyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://9to5mac.com/2026/05/20/acsi-samsung-edges-out-apple-in-cell-phone-satisfaction-while-apple-watch-ties-at-the-top/"
+  },
+  {
+    "baslik": "Exception Management for Banking Operations Global Market Analysis Report 2026: $6.5+ Bn Opportunities, Trends, Competitive Landscape, Strategies, and Forecasts, 2020-2025, 2025-2030F, 2035F",
+    "ozet": "Bankacılık operasyonları için istisna yönetimi (Exception Management) küresel pazarına dair 2026 yılı kapsamlı pazar analiz raporu yayımlandı. Raporda, 2020-2025 dönemi verileri, 2025-2030 ve 2035 yıllarına kadar olan tahminler yer alıyor. Pazarın 6.5 milyar doların üzerinde fırsat sunduğu belirtilen çalışmada, trendler, rekabet ortamı, stratejiler ve büyüme dinamikleri detaylı şekilde inceleniyor. Bankacılık sektöründe operasyonel verimlilik ve uyumluluk yönetimi açısından kritik öneme sahip bu pazar segmentinin önümüzdeki yıllarda önemli büyüme potansiyeli taşıdığı vurgulanıyor.",
+    "onem_skoru": "6",
+    "kategori": "Teknoloji",
+    "url": "https://www.globenewswire.com/news-release/2026/05/21/3299542/28124/en/Exception-Management-for-Banking-Operations-Global-Market-Analysis-Report-2026-6-5-Bn-Opportunities-Trends-Competitive-Landscape-Strategies-and-Forecasts-2020-2025-2025-2030F-2035F.html"
+  },
+  {
+    "baslik": "007 First Light Targets 60 FPS Everywhere Except Series S, As IO Blames RAM And GPU Headroom For The Cutback - Wccftech",
+    "ozet": "IO Interactive'in yeni James Bond oyunu '007 First Light', Xbox Series S haricinde tüm platformlarda (PS5, Xbox Series X, PC) 60 FPS performansı hedefliyor. Stüdyo, Series S'teki kisitlamanin nedenini konsolun yetersiz RAM ve GPU kapasitesine bagliyor. Bu durum, Series S'in oyun gelistiricileri icin yarattigi zorluklarin bir baska ornegi olarak one cikiyor.",
+    "onem_skoru": "6",
+    "kategori": "Oyun",
+    "url": "https://wccftech.com/007-first-light-targets-60-fps-everywhere-except-series-s/"
+  },
+  {
+    "baslik": "The Expanse: Osiris Reborn Is Recasting its Protagonist After Negative Fan Feedback - IGN",
+    "ozet": "The Expanse: Osiris Reborn oyunu, hayranlardan gelen olumsuz geri bildirimler sonrasında ana karakterini yeniden oyuncu seçimine gitme kararı aldı.",
+    "onem_skoru": "5",
+    "kategori": "Oyun",
+    "url": "https://www.ign.com/articles/the-expanse-osiris-reborn-is-recasting-its-protagonist-after-negative-fan-feedback"
+  },
+  {
+    "baslik": "First Ingrid match footage released for Street Fighter 6 showcasing what the mystery magical girl is truly capable of in combat - EventHubs",
+    "ozet": "Street Fighter 6 için ilk Ingrid maç görüntüleri yayınlandı. Gizemli 'sihirli kız' karakterinin dövüşte neler yapabileceği ilk kez gözler önüne seriliyor. Ingrid, Street Fighter serisinin popüler yan karakterlerinden biri olarak oyuna ekleniyor ve yeni görüntüler onun savaş yeteneklerini detaylıca sergiliyor.",
+    "onem_skoru": "5",
+    "kategori": "Oyun",
+    "url": "https://www.eventhubs.com/news/2026/may/20/ingrid-match-footage-sf6/"
+  },
+  {
+    "baslik": "How to Get Free Ultron Cybernetic Drip Skin in Marvel Rivals - Beebom",
+    "ozet": "Marvel Rivals oyununda Ultron Cybernetic Drip skin'ini ücretsiz olarak nasıl elde edebileceğinizi anlatan bir rehber haber. Oyunculara bu özel kostümü kazanmak için izlenmesi gereken adımlar ve ipuçları sunuluyor.",
+    "onem_skoru": "4",
+    "kategori": "Oyun",
+    "url": "https://beebom.com/how-to-get-free-ultron-cybernetic-drip-skin-in-marvel-rivals/"
+  },
+  {
+    "baslik": "Subnautica 2 dev apologises for telling combat-seeking players to 'go play Sons of the Forest or something' - Eurogamer",
+    "ozet": "Subnautica 2'nin geliştiricisi, oyunda daha fazla savaş/combat mekaniği arayan oyunculara 'Sons of the Forest veya başka bir şey oynayın' şeklindeki tepkisi nedeniyle özür diledi. Geliştirici ekibi, oyunun keşif ve hayatta kalma odaklı doğasını vurgularken, aşırı tepki verdiğini kabul ederek topluluktan özür diledi.",
+    "onem_skoru": "4",
+    "kategori": "Oyun",
+    "url": "https://www.eurogamer.net/subnautica-2-combat-response-update"
+  }
+]
