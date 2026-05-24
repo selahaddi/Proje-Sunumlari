@@ -1,0 +1,170 @@
+[
+  {
+    "baslik": "Jensen Huang'dan Günün Sözü: 'Yapay Zeka Her Sektörü Etkileyecek' - Nvidia CEO'sundan Küresel Ekonomi ve AI Dönüşümü Üzerine Dersler",
+    "ozet": "Nvidia CEO'su ve GPU'nun mucidi Jensen Huang, yapay zekanın her sektörü ve her ülkeyi dönüştüreceğini vurgulayan önemli açıklamalarda bulundu. Huang, AI'nın sadece teknoloji sektörünü değil, tüm endüstrileri etkisi altına alacağını ve her ulusun bu dönüşüme hazırlıklı olması gerektiğini belirtti. Yapay zekanın küresel ekonomi üzerindeki etkilerine dikkat çeken Huang'ın sözleri, teknoloji dünyasında geniş yankı uyandırdı.",
+    "onem_skoru": "9",
+    "kategori": "Teknoloji",
+    "url": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-jensen-huang-its-very-clear-that-ai-is-going-to-impact-every-industry-i-think-that-every-nation-needs-to-lessons-on-artificial-intelligence-technology-global-economy-and-how-ai-will-transform-every-country-by-nvidia-ceo-and-gpu-inventor/articleshow/131281258.cms"
+  },
+  {
+    "baslik": "Google Just Triggered a $1 Billion AI Price War: Does It Make Alphabet Stock a Buy Right Now? - Yahoo Finance",
+    "ozet": "Google, yapay zeka alanında 1 milyar dolarlık bir fiyat savaşı başlattı. Bu gelişme, Alphabet hisselerinin şu anda satın alınıp alınmayacağı sorusunu gündeme getiriyor. Haber, Google'ın agresif fiyatlandırma stratejisinin yapay zeka pazarında yaratacağı etkileri ve yatırımcılar için Alphabet hisselerinin potansiyelini değerlendiriyor.",
+    "onem_skoru": "9",
+    "kategori": "Teknoloji",
+    "url": "https://www.fool.com/investing/2026/05/22/google-just-triggered-a-1-billion-ai-price-war-doe/"
+  },
+  {
+    "baslik": "Why College Students Are Booing AI",
+    "ozet": "The Atlantic'te yayımlanan bu makale, üniversite öğrencilerinin yapay zeka odaklı mezuniyet konuşmalarına ve genel olarak eğitimde AI'nin artan varlığına tepki olarak 'yuhalama' (booing) eyleminde bulunduklarını ele alıyor. Öğrenciler, AI'nin iş piyasasını tehdit etmesi, yaratıcılığı ve insani bağları zayıflatması gibi endişelerle teknoloji şirketlerinin ve üniversitelerin AI'yi aşırı şekilde övmesine karşı çıkıyor. Makale, genç neslin AI'ye yönelik artan şüpheciliğini ve bu teknolojinin topluma dayatılmasına karşı direnişini inceliyor.",
+    "onem_skoru": "8",
+    "kategori": "teknoloji",
+    "url": "https://www.theatlantic.com/ideas/2026/05/ai-graduation-speeches-booing/687266/"
+  },
+  {
+    "baslik": "What Are Long-Horizon AI Agents and How Do They Work in Real Life?",
+    "ozet": "Bu makale, uzun vadeli planlama ve karar alma yeteneğine sahip yapay zeka ajanları olan 'Long-Horizon AI Agents' (Uzun Ufuklu Yapay Zeka Ajanları) kavramını açıklamaktadır. Geleneksel AI ajanlarından farklı olarak, bu ajanlar karmaşık, çok adımlı görevleri yerine getirebilir, gelecekteki sonuçları tahmin edebilir ve uzun süreli hedeflere ulaşmak için stratejiler geliştirebilir. Gerçek hayattaki uygulamaları arasında otonom sürüş, robotik, tedarik zinciri yönetimi ve finansal tahmin gibi alanlar yer almaktadır. Makale, bu ajanların nasıl çalıştığını, karar verme süreçlerini ve karşılaştıkları zorlukları detaylandırmaktadır.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka",
+    "url": "https://www.c-sharpcorner.com/article/what-are-long-horizon-ai-agents-and-how-do-they-work-in-real-life/"
+  },
+  {
+    "baslik": "Distribution Fine-Tuning (Dağıtım İnce Ayarı)",
+    "ozet": "Bu makale, büyük dil modellerinin (LLM'ler) yazım kalitesini artırmak için Distribution Fine-Tuning adlı tekniği ele alıyor. Geleneksel ince ayar yöntemlerinden farklı olarak, bu yaklaşım modelin token çıktı dağılımını doğrudan optimize ederek daha doğal, akıcı ve tekrarlardan arındırılmış metin üretimini hedefliyor. Yaratıcı yazarlık, teknik dokümantasyon ve uzun form içerik üretimi gibi alanlarda LLM'lerin yaygın sorunlarına (tekrarlar, yapay dil kullanımı, tutarsızlık) çözüm sunuyor.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka",
+    "url": "https://rosmine.ai/2026/05/18/fixing-llm-writing-with-distribution-fine-tuning/"
+  },
+  {
+    "baslik": "Ordinary WiFi can now identify people with near perfect accuracy",
+    "ozet": "Sıradan WiFi sinyallerinin artık insanları neredeyse kusursuz bir doğrulukla tanımlayabildiği keşfedildi. Bu teknoloji, duvarların arkasından bile kişilerin hareketlerini ve biyometrik verilerini algılayarak kimlik tespiti yapabiliyor. Gelişmiş yapay zeka algoritmaları kullanılarak WiFi sinyallerindeki bozulmalar analiz ediliyor ve bu sayede kişilerin yürüyüş şekli, vücut yapısı gibi benzersiz özellikleri tespit edilebiliyor. Bu buluş, güvenlik, sağlık izleme ve akıllı ev sistemleri gibi alanlarda devrim yaratabilir, ancak gizlilik endişelerini de beraberinde getiriyor.",
+    "onem_skoru": "8",
+    "kategori": "Teknoloji",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260522023127.htm"
+  },
+  {
+    "baslik": "We can now track animal panic from space. Here's why it matters - BBC",
+    "ozet": "BBC'nin haberine göre, bilim insanları artık hayvanların panik ve stres tepkilerini uzaydan uydu teknolojisiyle takip edebiliyor. Bu yöntem, özellikle iklim değişikliği, habitat kaybı ve insan müdahalesi gibi faktörlerin yaban hayatı üzerindeki etkilerini anlık olarak izlemeye olanak tanıyor. Teknoloji, hayvan popülasyonlarındaki ani değişimleri tespit ederek koruma çalışmalarına ve ekosistem yönetimine önemli katkılar sağlıyor.",
+    "onem_skoru": "8",
+    "kategori": "Teknoloji",
+    "url": "https://www.bbc.com/future/article/20260521-tracking-animal-panic-from-space"
+  },
+  {
+    "baslik": "Blue Origin completes investigation into New Glenn launch failure - SpaceNews",
+    "ozet": "Blue Origin, New Glenn roketinin fırlatma başarısızlığına ilişkin soruşturmayı tamamladı. Şirket, roketin ilk fırlatma denemesinde yaşanan arızanın nedenlerini belirleyerek gerekli düzeltmeleri yapmak için çalışmalara başladı. Soruşturma sonuçlarına göre, sistemdeki belirli bir bileşenin beklenenden farklı performans göstermesi başarısızlığa yol açtı ve Blue Origin, bu sorunu çözmek için tasarım değişikliklerine gitti.",
+    "onem_skoru": "8",
+    "kategori": "Teknoloji",
+    "url": "http://spacenews.com/blue-origin-completes-investigation-into-new-glenn-launch-failure/"
+  },
+  {
+    "baslik": "Trump on new Fed Chair Kevin Warsh: 'Do your own thing' but don't lose your way like Jerome Powell did",
+    "ozet": "Donald Trump, yeni Fed Başkanı Kevin Warsh'a kendi bildiğini yapmasını ancak selefi Jerome Powell'ın yaptığı gibi yoldan çıkmaması gerektiğini söyledi. Trump, Powell'ın Fed başkanlığı dönemindeki politikalarını eleştirerek Warsh'a uyarı niteliğinde tavsiyelerde bulundu.",
+    "onem_skoru": "7",
+    "kategori": "Ekonomi",
+    "url": "https://fortune.com/2026/05/23/trump-on-new-fed-chair-kevin-warsh-do-your-own-thing-but-dont-lose-your-way-like-jerome-powell-did/"
+  },
+  {
+    "baslik": "Breitbart Business Digest: World War Warsh—The Battle Over the Fed’s Future",
+    "ozet": "Breitbart Business Digest köşesi, ABD Merkez Bankası'nın (Fed) geleceği ve başkanlık koltuğu için yaşanan siyasi ve ekonomik mücadeleyi ele alıyor. 'World War Warsh' ifadesiyle, eski Fed üyesi Kevin Warsh'ın olası adaylığı etrafında dönen tartışmalara atıfta bulunuluyor. Yazı, Fed'in bağımsızlığı, para politikasının geleceği ve Washington'daki güç dengeleri üzerine bir analiz sunuyor.",
+    "onem_skoru": "7",
+    "kategori": "Ekonomi",
+    "url": "https://www.breitbart.com/economy/2026/05/22/breitbart-business-digest-world-war-warsh-the-battle-over-the-feds-future/"
+  },
+  {
+    "baslik": "More Details About The End Of 'Destiny 2' From Inside Bungie - Forbes",
+    "ozet": "Forbes'dan Paul Tassi'nin haberine göre, Bungie iç kaynaklarından Destiny 2 oyununun sona ermesiyle ilgili yeni detaylar paylaşılıyor. Haber, oyunun geleceği ve olası sonlanma süreci hakkında Bungie'nin içinden bilgiler içermektedir.",
+    "onem_skoru": "7",
+    "kategori": "teknoloji",
+    "url": "https://www.forbes.com/sites/paultassi/2026/05/23/more-details-about-the-end-of-destiny-2-from-inside-bungie/"
+  },
+  {
+    "baslik": "I have a new go-to browser - The Verge",
+    "ozet": "The Verge editörü, Vivaldi 8 tarayıcısını kapsamlı bir şekilde inceliyor. Yeni 'Mandalorian' yükleyicisi, gelişmiş gizlilik özellikleri ve kullanıcı dostu arayüzüyle Vivaldi 8'in yazarın yeni favori tarayıcısı haline geldiği belirtiliyor. Tarayıcının özelleştirilebilir yapısı ve performans iyileştirmeleri öne çıkarılıyor.",
+    "onem_skoru": "7",
+    "kategori": "teknoloji",
+    "url": "https://www.theverge.com/tech/936395/vivaldi-8-review-mandalorian-installer"
+  },
+  {
+    "baslik": "The Team Behind The Flipper One Needs Your Help - Hackaday",
+    "ozet": "Flipper Zero'nun ardından geliştirilen yeni nesil çok amaçlı hack aracı Flipper One için geliştirici ekip, topluluktan yardım istiyor. Hackaday'de yayımlanan bu yazıda, ekibin projenin ilerlemesi için test, geri bildirim veya potansiyel olarak kitle fonlaması gibi yollarla destek arayışına girdiği belirtiliyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://hackaday.com/2026/05/22/the-team-behind-the-flipper-one-needs-your-help/"
+  },
+  {
+    "baslik": "First-gen Chromecast streamers are suddenly failing for some users, 13 years later - 9to5Google",
+    "ozet": "İlk nesil Chromecast cihazları, piyasaya sürülmelerinden 13 yıl sonra bazı kullanıcılar için aniden çalışmamaya başladı. Bu durum, eski donanımın ömrünü tamamlaması veya Google tarafından yapılan bir güncelleme kaynaklı olabilir. Kullanıcılar cihazlarının artık çalışmadığını bildiriyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "http://9to5google.com/2026/05/22/first-gen-chromecast-streamers-are-suddenly-failing-for-some-users-13-years-later/"
+  },
+  {
+    "baslik": "Gemini app for Mac adding ‘Spark’ agent and voice control this summer - 9to5Google",
+    "ozet": "Google, Mac için Gemini uygulamasına yaz aylarında 'Spark' adlı yapay zeka ajanı ve ses kontrolü özelliklerini ekleyecek. Bu güncelleme, kullanıcıların doğal dil komutlarıyla daha akıllı ve ses tabanlı etkileşim kurmasını sağlayacak.",
+    "onem_skoru": "7",
+    "kategori": "teknoloji",
+    "url": "http://9to5google.com/2026/05/22/gemini-mac-spark-control-summer/"
+  },
+  {
+    "baslik": "snn-opt added to PyPI",
+    "ozet": "snn-opt (Spiking Neural Network Optimization) adlı yeni bir Python kütüphanesi PyPI'ye eklendi. Bu kütüphane, spike tabanlı sinir ağlarının optimizasyonu için araçlar sunarak, yapay zeka araştırmacılarının ve geliştiricilerinin SNN modellerini daha verimli bir şekilde eğitmelerine ve optimize etmelerine olanak tanıyor.",
+    "onem_skoru": "6",
+    "kategori": "Yapay Zeka",
+    "url": "https://pypi.org/project/snn-opt/"
+  },
+  {
+    "baslik": "Gothic PS5 Remake Zorunlu İndirme ile Tartışma Yarattı: 'En Önemli Şey İnsanların Çıkışta Oynayabilmesi'",
+    "ozet": "Gothic PS5 remake, söylentilerin aksine fiziksel kopya sahiplerinin bile oyunu oynayabilmesi için zorunlu bir indirme gerektiriyor. Geliştirici ekip daha önce 'en önemli şeyin insanların çıkışta oynayabilmesi' olduğunu belirtmişti ancak bu zorunlu indirme politikası, bu vaatle çelişiyor ve oyuncular tarafından eleştiriliyor.",
+    "onem_skoru": "6",
+    "kategori": "teknoloji",
+    "url": "https://www.pushsquare.com/news/2026/05/the-most-important-thing-is-people-can-play-at-launch-gothic-ps5-remake-misses-the-mark-with-mandated-download"
+  },
+  {
+    "baslik": "CNN Tested 15 Travel Cameras — And This Fujifilm Model Won the Battle - Fuji Rumors",
+    "ozet": "CNN, seyahat fotoğrafçılığı için 15 farklı kamerayı test etti ve kazanan bir Fujifilm modeli oldu. Testte bu Fujifilm kamerası, taşınabilirlik, görüntü kalitesi ve kullanım kolaylığı gibi kriterlerde rakiplerini geride bırakarak birinciliği elde etti.",
+    "onem_skoru": "6",
+    "kategori": "Teknoloji",
+    "url": "https://www.fujirumors.com/cnn-tested-15-travel-cameras-and-this-fujifilm-model-won-the-battle/"
+  },
+  {
+    "baslik": "Riot Claims Valorant Anti-Cheat Software Isn't Bricking PCs - Kotaku",
+    "ozet": "Riot Games, Valorant oyununun anti-cheat yazılımıyla ilgili olarak oyuncuların PC'lerini kullanılamaz hale getirdiği (bricking) yönündeki iddiaları yalanladı. Şirket, yaptığı güncellemenin bilgisayarlara kalıcı hasar vermediğini belirtse de oyuncular endişelerini sürdürüyor.",
+    "onem_skoru": "6",
+    "kategori": "teknoloji",
+    "url": "https://kotaku.com/riot-says-its-anti-cheat-update-isnt-bricking-pcs-but-players-are-still-worried-2000698675"
+  },
+  {
+    "baslik": "iPhone 18 Pro leak reveals brand new colors that could be coming - 9to5Mac",
+    "ozet": "iPhone 18 Pro modeline ait yeni bir sızıntı, Apple'ın gelecek amiral gemisi telefonunda kullanılabilecek tamamen yeni renk seçeneklerini ortaya koyuyor. Sızıntıya göre Apple, iPhone 18 Pro serisinde mevcut renk paletini yenileyerek kullanıcılara farklı ve dikkat çekici renk alternatifleri sunmayı planlıyor.",
+    "onem_skoru": "6",
+    "kategori": "Teknoloji",
+    "url": "https://9to5mac.com/2026/05/22/iphone-18-pro-leak-reveals-brand-new-colors-that-could-be-coming/"
+  },
+  {
+    "baslik": "British general says we should be scared of 'formidable' Russian army that is 'significantly more lethal' than when it invaded Ukraine",
+    "ozet": "İngiliz bir general, Rus ordusunun Ukrayna'yı işgal ettiği döneme kıyasla 'önemli ölçüde daha ölümcül' hale geldiğini ve 'müthiş' bir güç olduğunu belirterek, Batı'nın bu konuda endişelenmesi gerektiğini söyledi. General, Rus ordusunun savaş deneyimi kazandığını ve askeri kapasitesini artırdığını vurguladı.",
+    "onem_skoru": "5",
+    "kategori": "Askeri/Savunma",
+    "url": "https://www.dailymail.com/news/article-15842873/British-general-says-scared-formidable-Russian-army-significantly-lethal-invaded-Ukraine.html"
+  },
+  {
+    "baslik": "Galgotias Üniversitesi Öğrencileri, Hong Kong'daki Küresel EDVentures Startup Yarışması 2026'da Hindistan'ı Temsil Edecek",
+    "ozet": "Galgotias Üniversitesi öğrencileri, 2026 yılında Hong Kong'da düzenlenecek olan Küresel EDVentures Startup Yarışması'nda Hindistan'ı temsil etmeye hak kazandı. Öğrencilerin girişimcilik yetenekleri ve yenilikçi iş fikirleri sayesinde uluslararası arenada ülkelerini temsil edecek olmaları, üniversitenin girişimcilik ekosistemine verdiği önemi gösteriyor.",
+    "onem_skoru": "5",
+    "kategori": "Eğitim",
+    "url": "https://www.aninews.in/news/business/galgotias-university-students-to-represent-india-at-global-edventures-startup-competition-2026-in-hong-kong20260523114511"
+  },
+  {
+    "baslik": "Paralives in Early Access VS The Sims 4 at Release: A Battle for the Ages - Sims Community",
+    "ozet": "Sims Community sitesinde yayınlanan bu makale, yaşam simülasyonu türündeki yeni oyun Paralives'ın erken erişim sürümü ile The Sims 4'ün ilk çıktığı zamanki halini karşılaştırıyor. İki oyun arasındaki içerik, özellikler ve oynanış farkları detaylandırılırken, Paralives'ın The Sims 4'e kıyasla erken erişimde sunduğu yenilikler ve potansiyel avantajlar ele alınıyor.",
+    "onem_skoru": "5",
+    "kategori": "teknoloji",
+    "url": "https://simscommunity.info/2026/05/23/paralives-vs-the-sims-4-at-release/"
+  },
+  {
+    "baslik": "LEGO Batman Comparison Shows Difference Between Xbox Series X And Series S - Pure Xbox",
+    "ozet": "Pure Xbox tarafından yayınlanan bir karşılaştırmada, LEGO Batman oyununun Xbox Series X ve Series S versiyonları arasındaki görsel ve performans farklılıkları inceleniyor. İki konsol arasındaki grafik kalitesi, çözünürlük ve kare hızı gibi teknik farklılıklar ele alınıyor.",
+    "onem_skoru": "4",
+    "kategori": "teknoloji",
+    "url": "https://www.purexbox.com/news/2026/05/lego-batman-comparison-shows-difference-between-xbox-series-x-and-series-s"
+  }
+]
