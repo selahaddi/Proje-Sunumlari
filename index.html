@@ -352,6 +352,24 @@
     opacity: 1;
     pointer-events: auto;
   }
+
+  /* Mobile: make overlay itself scrollable so full modal is reachable */
+  @media (max-width: 767px) {
+    .project-modal-overlay {
+      align-items: flex-start !important;
+      overflow-y: auto !important;
+      -webkit-overflow-scrolling: touch;
+      padding: 16px !important;
+      padding-top: 24px !important;
+      padding-bottom: 40px !important;
+    }
+    .project-modal {
+      max-height: none !important;
+      overflow-y: visible !important;
+      margin-top: 0 !important;
+      margin-bottom: 24px !important;
+    }
+  }
   .project-modal {
     background: #ffffff;
     border-radius: 2rem;
@@ -390,6 +408,7 @@
   @media (max-width: 767px) {
     .tactile-card { transform: none !important; }
     .tactile-card:hover { transform: translateY(-4px) !important; }
+    /* Slider arrows & PDF buttons always visible on touch devices */
     .aspect-video > button,
     .aspect-video > a {
       opacity: 1 !important;
@@ -398,6 +417,51 @@
     .space-y-section-gap > * + * {
       margin-top: 60px !important;
     }
+    /* Reduce blob sizes for mobile */
+    .blob-orange { width: 250px !important; height: 250px !important; right: -15% !important; }
+    .blob-mint { width: 200px !important; height: 200px !important; left: -15% !important; }
+    .blob-cream { width: 150px !important; height: 150px !important; }
+    /* Hide decorative 3D shapes on mobile */
+    .decor-shape { display: none !important; }
+    /* Fix research canvas: use shorter aspect ratio */
+    #research .aspect-square { aspect-ratio: 4/3 !important; }
+    /* Fix modal slider arrows - always visible */
+    .project-modal-overlay .aspect-video > button {
+      opacity: 1 !important;
+    }
+    /* Fix modal padding & border radius */
+    .project-modal { padding: 20px !important; border-radius: 1.25rem !important; }
+    /* Modal close button: smaller on mobile */
+    .project-modal .shrink-0.w-12.h-12 { width: 2.5rem; height: 2.5rem; }
+    /* Modal title: allow more space */
+    .project-modal .pr-8 { padding-right: 3rem !important; }
+    /* Contact buttons: stack vertically */
+    #contact .flex.justify-center.gap-6 {
+      flex-direction: column !important;
+      align-items: center !important;
+    }
+    #contact .flex.justify-center.gap-6 > a {
+      width: 100% !important;
+      max-width: 320px !important;
+      justify-content: center !important;
+      text-align: center !important;
+    }
+    /* Footer: stack and center */
+    footer .flex.gap-10 {
+      gap: 1.5rem !important;
+    }
+    /* Expertise heading fix */
+    #skills h2.text-5xl {
+      font-size: 1.875rem !important;
+      line-height: 2.25rem !important;
+    }
+  }
+
+  /* Tablet (768px – 1023px) refinements */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .blob-orange { width: 400px !important; height: 400px !important; }
+    .blob-mint { width: 350px !important; height: 350px !important; }
+    .blob-cream { width: 280px !important; height: 280px !important; }
   }
 
   /* Mobile menu */
@@ -1068,7 +1132,7 @@
 <section class="tactile-card p-6 md:p-12 lg:p-20 overflow-hidden relative reveal" id="research">
 <div class="decor-shape sphere w-64 h-64 -top-20 -left-20 opacity-10"></div>
 <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-20 items-center relative z-10">
-<div class="tactile-card aspect-square bg-primary/5 flex flex-col items-center justify-center relative overflow-hidden group p-6">
+<div class="tactile-card aspect-[4/3] md:aspect-square bg-primary/5 flex flex-col items-center justify-center relative overflow-hidden group p-4 md:p-6">
 <div class="text-[10px] font-black text-primary uppercase tracking-widest mb-4 opacity-60"><span class="lang-tr">Geçiş Zamanı (Transit) Işık Eğrisi</span><span class="lang-en">Transit Light Curve</span></div>
 <canvas class="w-full flex-1 rounded-xl" id="lightcurveCanvas"></canvas>
 <div class="flex justify-between w-full mt-3 text-[10px] text-outline font-bold uppercase tracking-widest opacity-50">
@@ -1109,7 +1173,7 @@
       <span class="lang-tr">04 — Uzmanlık</span><span class="lang-en">04 — Expertise</span>
       <div class="h-[1px] bg-primary/20 w-12"></div>
 </div>
-<h2 class="text-5xl font-bold text-on-background"><span class="lang-tr">Teknoloji <em class="text-primary not-italic opacity-40 font-light">yığını</em></span><span class="lang-en">Technical <em class="text-primary not-italic opacity-40 font-light">stack</em></span></h2>
+<h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-on-background"><span class="lang-tr">Teknoloji <em class="text-primary not-italic opacity-40 font-light">yığını</em></span><span class="lang-en">Technical <em class="text-primary not-italic opacity-40 font-light">stack</em></span></h2>
 </div>
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
 <div class="tactile-card p-6 md:p-10 hover:translate-y-[-4px]">
@@ -1157,18 +1221,18 @@
 <div class="max-w-4xl mx-auto text-center px-4 md:px-8 mb-16 md:mb-32 reveal">
 <h2 class="text-3xl sm:text-4xl md:text-6xl font-bold text-on-background mb-8 md:mb-10 leading-tight"><span class="lang-tr">Birlikte<br/><em class="text-primary not-italic opacity-40 font-light">harika</em> bir şeyler inşa edelim.</span><span class="lang-en">Let's build<br/>something <em class="text-primary not-italic opacity-40 font-light">remarkable.</em></span></h2>
 <p class="text-base md:text-xl text-on-surface-variant mb-8 md:mb-14"><span class="lang-tr">Yapay zeka otomasyon projelerine, freelance çalışmalara ve işbirliklerine açığım.</span><span class="lang-en">Open to AI automation projects, freelance work, and collaboration.</span></p>
-<div class="flex justify-center gap-6 flex-wrap">
-<a class="volumetric-btn text-white px-10 py-4 rounded-full text-sm font-bold flex items-center gap-3" href="mailto:serttas2001@gmail.com">
-<span class="material-symbols-outlined text-[20px]">mail</span> serttas2001@gmail.com
+<div class="flex justify-center gap-4 md:gap-6 flex-wrap px-4">
+<a class="volumetric-btn text-white px-6 md:px-10 py-3 md:py-4 rounded-full text-xs md:text-sm font-bold flex items-center justify-center gap-3 w-full sm:w-auto" href="mailto:serttas2001@gmail.com">
+<span class="material-symbols-outlined text-[18px] md:text-[20px]">mail</span> serttas2001@gmail.com
       </a>
-<a class="volumetric-btn-secondary px-10 py-4 rounded-full text-sm font-bold flex items-center gap-3" href="tel:+905452340502">
-<span class="material-symbols-outlined text-[20px]">call</span> +90 545 234 0502
+<a class="volumetric-btn-secondary px-6 md:px-10 py-3 md:py-4 rounded-full text-xs md:text-sm font-bold flex items-center justify-center gap-3 w-full sm:w-auto" href="tel:+905452340502">
+<span class="material-symbols-outlined text-[18px] md:text-[20px]">call</span> +90 545 234 0502
       </a>
 </div>
 </div>
-<div class="max-w-7xl mx-auto px-4 md:px-8 py-8 md:py-12 border-t border-surface-variant flex flex-col md:flex-row justify-between items-center gap-6 md:gap-10">
+<div class="max-w-7xl mx-auto px-4 md:px-8 py-8 md:py-12 border-t border-surface-variant flex flex-col md:flex-row justify-between items-center gap-4 md:gap-10">
 <div class="font-black text-primary text-xl tracking-tighter">SELAHADDİN SERTTAŞ</div>
-<div class="flex gap-10">
+<div class="flex gap-6 md:gap-10 flex-wrap justify-center">
 <a class="text-outline hover:text-primary transition-colors text-sm font-bold" href="https://www.linkedin.com/in/selahaddin-sertta%C5%9F-14a99a1aa/" target="_blank">LinkedIn</a>
 <a class="text-outline hover:text-primary transition-colors text-sm font-bold" href="https://github.com/selahaddi" target="_blank">GitHub</a>
 <a class="text-outline hover:text-primary transition-colors text-sm font-bold" href="https://dergipark.org.tr/tr/pub/tjaa/article/1592945" target="_blank"><span class="lang-tr">Yayın</span><span class="lang-en">Publication</span></a>
@@ -1386,7 +1450,7 @@ function toggleMobileMenu() {
 
 <!-- PROJECT DETAIL MODAL -->
 <div class="project-modal-overlay" id="projectModal">
-  <div class="project-modal p-8 md:p-12">
+  <div class="project-modal p-5 sm:p-8 md:p-12">
     <div class="flex justify-between items-start mb-8">
       <h2 class="text-xl sm:text-3xl md:text-4xl font-bold text-on-background leading-tight pr-8" id="modalTitle"></h2>
       <button onclick="closeProjectModal()" class="shrink-0 w-12 h-12 rounded-full bg-surface-variant hover:bg-surface-dim flex items-center justify-center transition-colors">
@@ -1396,10 +1460,10 @@ function toggleMobileMenu() {
     <!-- Modal Slider -->
     <div class="aspect-video rounded-2xl mb-8 relative overflow-hidden group shadow-lg border border-black/5 bg-white">
       <div class="w-full h-full flex transition-transform duration-500 ease-in-out" id="modal-slider-track" data-slide="0"></div>
-      <button onclick="prevSlide('modal-slider'); event.stopPropagation();" class="absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/90 backdrop-blur-md text-primary flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all hover:bg-white shadow-lg z-10">
+      <button onclick="prevSlide('modal-slider'); event.stopPropagation();" class="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 w-9 h-9 sm:w-12 sm:h-12 rounded-full bg-white/90 backdrop-blur-md text-primary flex items-center justify-center opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-all hover:bg-white shadow-lg z-10">
         <span class="material-symbols-outlined text-[22px]">arrow_back_ios_new</span>
       </button>
-      <button onclick="nextSlide('modal-slider'); event.stopPropagation();" class="absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/90 backdrop-blur-md text-primary flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all hover:bg-white shadow-lg z-10">
+      <button onclick="nextSlide('modal-slider'); event.stopPropagation();" class="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 w-9 h-9 sm:w-12 sm:h-12 rounded-full bg-white/90 backdrop-blur-md text-primary flex items-center justify-center opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-all hover:bg-white shadow-lg z-10">
         <span class="material-symbols-outlined text-[22px]">arrow_forward_ios</span>
       </button>
       <div class="absolute bottom-4 left-1/2 -translate-x-1/2 bg-black/50 text-white text-xs font-bold px-4 py-1.5 rounded-full backdrop-blur-sm z-10" id="modalSlideCounter"></div>
@@ -1516,6 +1580,8 @@ function toggleMobileMenu() {
     // Show modal
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
+    // Scroll overlay to top so modal starts at the beginning (important for mobile)
+    modal.scrollTop = 0;
     // Prevent wheel scroll from leaking to Lenis/body
     if (window.lenis) window.lenis.stop();
   };
@@ -1528,15 +1594,23 @@ function toggleMobileMenu() {
 
   // Prevent wheel events from propagating out of the modal to Lenis
   modal.addEventListener('wheel', function(e) {
-    const modalContent = modal.querySelector('.project-modal');
-    if (!modalContent) return;
-    const atTop = modalContent.scrollTop === 0;
-    const atBottom = modalContent.scrollTop + modalContent.clientHeight >= modalContent.scrollHeight;
+    // On mobile the overlay scrolls, on desktop the modal scrolls
+    const isMobile = window.innerWidth < 768;
+    const scrollEl = isMobile ? modal : modal.querySelector('.project-modal');
+    if (!scrollEl) return;
+    const atTop = scrollEl.scrollTop === 0;
+    const atBottom = scrollEl.scrollTop + scrollEl.clientHeight >= scrollEl.scrollHeight - 1;
     if ((e.deltaY < 0 && atTop) || (e.deltaY > 0 && atBottom)) {
       e.preventDefault();
     }
     e.stopPropagation();
   }, { passive: false });
+
+  // Prevent body touch-scroll while modal is open (mobile)
+  // The overlay itself handles the scrolling on mobile
+  modal.addEventListener('touchmove', function(e) {
+    e.stopPropagation();
+  }, { passive: true });
 
   // Close on overlay click
   modal.addEventListener('click', function(e) {

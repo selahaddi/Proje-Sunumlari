@@ -327,6 +327,19 @@
     @media (max-width: 767px) {
       .tactile-card { transform: none !important; }
       .tactile-card:hover { transform: translateY(-4px) !important; }
+      /* Reduce blob sizes for mobile */
+      .blob-orange { width: 250px !important; height: 250px !important; right: -15% !important; }
+      .blob-mint { width: 200px !important; height: 200px !important; left: -15% !important; }
+      .blob-cream { width: 150px !important; height: 150px !important; }
+      /* Hide decorative 3D shapes on mobile */
+      .decor-shape { display: none !important; }
+    }
+
+    /* Tablet refinements */
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .blob-orange { width: 400px !important; height: 400px !important; }
+      .blob-mint { width: 350px !important; height: 350px !important; }
+      .blob-cream { width: 280px !important; height: 280px !important; }
     }
 
   /* Mobile menu */
