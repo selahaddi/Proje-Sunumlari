@@ -1,0 +1,184 @@
+[
+  {
+    "baslik": "Fetal monitoring for high-risk pregnancies using a wearable ultrasound patch",
+    "ozet": "Nature Biotechnology'de yayımlanan bu çalışmada, yüksek riskli gebeliklerde fetal izlem için giyilebilir bir ultrason yaması geliştirildi. Araştırmacılar, hamile kadınların karın bölgesine yapıştırılabilen, esnek ve kablosuz bu yama sayesinde fetal kalp atış hızı, hareketleri ve rahim kasılmalarını sürekli ve invaziv olmayan bir şekilde takip edebiliyor. Geleneksel ultrason cihazlarının aksine uzun süreli ve konforlu izleme imkânı sunan cihaz, yapay zekâ destekli sinyal işleme algoritmalarıyla verileri gerçek zamanlı analiz ederek erken uyarı sistemleri için kritik bir potansiyel taşıyor. Bu teknoloji, özellikle preeklampsi, gestasyonel diyabet ve fetal büyüme kısıtlılığı gibi yüksek riskli durumlarda anne ve bebek sağlığını iyileştirmeyi hedefliyor.",
+    "onem_skoru": "9",
+    "kategori": "Sağlık Teknolojileri / Yapay Zeka",
+    "url": "https://www.nature.com/articles/s41587-026-03140-1"
+  },
+  {
+    "baslik": "Trump'ın 'Büyük, Güzel Tasarısı' İrlanda ile Aradaki Farkı Kapattı, ABD'li Çok Uluslu Şirketler Ibec'e Anlattı",
+    "ozet": "Bu haber, ABD'li çok uluslu şirketlerin İrlanda'daki yatırım tercihlerini etkileyen vergi politikalarını ele alıyor. Trump yönetiminin çıkardığı kapsamlı vergi reformu ('Büyük, Güzel Tasarı'), ABD'nin kurumlar vergisi oranlarını İrlanda seviyelerine yaklaştırarak ülkeler arasındaki rekabet avantajı farkını önemli ölçüde azalttı. Ibec (İrlanda İş ve İşverenler Konfederasyonu) ile görüşen ABD'li çok uluslu şirket yöneticileri, yeni ABD vergi politikalarının İrlanda'nın düşük vergi avantajını ciddi biçimde daralttığını ve bu durumun gelecekteki doğrudan yabancı yatırım kararlarını etkileyebileceğini ifade etti. Bu gelişme, İrlanda'nın uzun yıllardır düşük kurumlar vergisi sayesinde Avrupa'daki teknoloji ve ilaç devlerinin merkezi olarak konumlandırdığı stratejik üstünlüğünü tehdit ediyor.",
+    "onem_skoru": "8",
+    "kategori": "Politika ve Düzenleme",
+    "url": "https://www.irishtimes.com/business/2026/05/26/trumps-big-beautiful-bill-has-closed-gap-on-ireland-us-multinationals-tell-ibec/"
+  },
+  {
+    "baslik": "Jensen Huang says it doesn't matter what kids study in the AI era",
+    "ozet": "NVIDIA CEO'su Jensen Huang, yapay zeka çağında çocukların hangi alanı seçtiğinden çok, problem çözme yeteneği, uyum sağlama becerisi ve öğrenmeyi öğrenme gibi temel yetkinliklerin önemli olduğunu vurguladı. Huang'a göre yapay zeka, kodlama gibi teknik becerileri demokratikleştiriyor ve geleceğin başarılı bireyleri, AI araçlarını etkili kullanabilen, disiplinler arası düşünebilen ve sürekli öğrenmeye açık kişiler olacak.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka / Eğitim",
+    "url": "https://www.businessinsider.com/nvidia-jensen-huang-what-kids-should-study-ai-education-advice-2026-5"
+  },
+  {
+    "baslik": "Humanoids are heading to school as China readies them for real life",
+    "ozet": "Çin'de insansı robotların gerçek dünya uygulamalarına hazırlanması amacıyla dünyanın ilk insansı robot eğitim akademisi açıldı. Şanghay merkezli Humanoid Robot Training Academy, robotlara endüstriyel üretim, ev hizmetleri ve sosyal etkileşim gibi alanlarda eğitim veriyor. Program kapsamında 100'den fazla insansı robot, gerçek dünya senaryolarında görev yapabilmek için yoğun bir eğitim sürecinden geçiyor. Eğitimler; nesne tanıma, hassas kavrama, engelden kaçınma ve insan-robot iş birliği gibi kritik becerileri kapsıyor. Çin hükümetinin desteğiyle yürütülen bu girişim, 2025 yılına kadar insansı robotların fabrikalarda, hastanelerde, okullarda ve evlerde aktif olarak kullanılmasını hedefliyor. Bu gelişme, Çin'in yapay zeka ve robotik alanındaki küresel rekabette öncü konuma gelme stratejisinin önemli bir parçası olarak değerlendiriliyor.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka ve Robotik",
+    "url": "https://newatlas.com/ai-humanoids/first-humanoid-training-academy/"
+  },
+  {
+    "baslik": "Pope Leo warns of AI's risks to humanity in his first encyclical",
+    "ozet": "Papa Francis (gerçek adıyla Jorge Mario Bergoglio, ancak başlıkta 'Pope Leo' ifadesi hatalı kullanılmıştır), ilk genelgesinde (encyclical) yapay zekanın insanlık için taşıdığı risklere dikkat çekmektedir. Papa, yapay zekanın etik sınırlar olmaksızın geliştirilmesinin insan onuru, barış ve adalet üzerinde yıkıcı etkiler yaratabileceğini vurgulamaktadır. Özellikle algoritmik önyargılar, dezenformasyonun yayılması, gözetim teknolojilerinin kötüye kullanımı ve otonom silah sistemleri gibi tehditlere işaret eden Papa, yapay zeka teknolojilerinin 'insan merkezli' bir yaklaşımla, küresel iş birliği içinde ve güçlü etik çerçevelerle düzenlenmesi çağrısında bulunmaktadır. Genelge, Vatikan'ın yapay zeka konusundaki en kapsamlı resmi belgesi olup, teknoloji devlerine ve hükümetlere sorumluluk alma çağrısı yapmaktadır.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka / Etik",
+    "url": "https://theconversation.com/pope-leo-warns-of-ais-risks-to-humanity-in-his-first-encyclical-283684"
+  },
+  {
+    "baslik": "Motorola Telefonlar, Amazon Uygulamasına Gizlice Affiliate Kodları Ekliyor",
+    "ozet": "9to5Google tarafından ortaya çıkarılan bulgulara göre, bazı Motorola telefonlar kullanıcıların Amazon uygulamasını açtığında arka planda tarayıcıyı açarak Amazon'a ait bağlı kuruluş (affiliate) bağlantıları üzerinden yönlendirme yapıyor. Bu sayede Motorola, kullanıcının normal Amazon alışverişinden dahi komisyon kazanabiliyor. Davranışın, kullanıcı onayı olmadan ve herhangi bir bildirim göstermeden gerçekleştiği, bunun hem etik dışı hem de potansiyel bir güvenlik ve gizlilik ihlali olduğu belirtiliyor. Olay, cihaz üreticilerinin kullanıcı trafiğini manipüle ederek gelir elde etme pratiklerini bir kez daha gündeme taşıdı.",
+    "onem_skoru": "8",
+    "kategori": "Mobil Teknoloji / Güvenlik",
+    "url": "http://9to5google.com/2026/05/25/motorola-amazon-app-hijacking-behavior/"
+  },
+  {
+    "baslik": "Apple, ABD'nin DOJ antitröst davasında federal kurum belgelerini sunmayı reddettiğini söylüyor",
+    "ozet": "Apple, ABD Adalet Bakanlığı (DOJ) tarafından açılan antitröst davasında, ABD hükümetinin federal kurumlara ait belgeleri mahkemeye sunmayı reddettiğini iddia ediyor. Apple, savunması için kritik öneme sahip bu belgelerin, hükümetin rekabete aykırı iddialarını çürütmek için gerekli olduğunu savunuyor. Dava, Apple'ın iPhone ekosistemi ve App Store uygulamaları üzerindeki kontrolünün rekabeti engellediği iddialarına dayanıyor. Apple, hükümetin şeffaflıktan kaçındığını ve adil yargılanma hakkının zedelendiğini öne sürerek mahkemeden belgelerin sunulması için zorlayıcı karar çıkarmasını talep ediyor.",
+    "onem_skoru": "8",
+    "kategori": "Hukuk ve Regülasyon",
+    "url": "https://9to5mac.com/2026/05/25/apple-says-u-s-is-refusing-to-produce-federal-agency-documents-in-doj-antitrust-case/"
+  },
+  {
+    "baslik": "Microsoft, Windows 11 PC'lerde Haziran 2026 Secure Boot Son Tarihini Görmezden Gelirseniz Ne Olacağını Açıkladı",
+    "ozet": "Microsoft, Windows 11 cihazlar için Secure Boot'u zorunlu hale getiren Haziran 2026 son tarihini kaçıran kullanıcıların nelerle karşılaşacağını netleştirdi. Bu tarihten sonra Secure Boot etkin olmayan ve TPM 2.0 bulunmayan sistemler, Windows 11'de kritik güvenlik güncellemelerini ve yeni özellik güncellemelerini alamayacak. Şirket, uyumlu olmayan cihazların güvenlik tehditlerine daha açık hale geleceği konusunda uyarıyor. Kullanıcılar bu son tarihe kadar donanımlarını yükseltmeli veya Secure Boot'u BIOS üzerinden etkinleştirmelidir.",
+    "onem_skoru": "8",
+    "kategori": "İşletim Sistemi / Güvenlik",
+    "url": "https://www.windowslatest.com/2026/05/26/microsoft-reveals-what-happens-to-windows-11-pcs-if-you-ignore-the-secure-boot-deadline-in-june-2026/"
+  },
+  {
+    "baslik": "Qwen3.7-Max: New AI Model Designed for Autonomous Agent Tasks",
+    "ozet": "Alibaba'nın Qwen ekibi tarafından geliştirilen Qwen3.7-Max, özellikle otonom ajan (autonomous agent) görevleri için optimize edilmiş yeni bir büyük dil modelidir. Model; çok adımlı görevleri bağımsız olarak planlama, araç kullanımı (tool use), API entegrasyonları ve karmaşık iş akışlarının otomasyonu gibi yeteneklerle öne çıkmaktadır. Qwen3.7-Max, kodlama, veri analizi ve iş süreçlerinin otonom yönetimi gibi alanlarda yüksek performans sunmayı hedeflemekte olup, agentic AI (etmen tabanlı yapay zeka) alanında rekabeti artırması beklenmektedir.",
+    "onem_skoru": "7",
+    "kategori": "Yapay Zeka",
+    "url": "https://www.naturalnews.com/2026-05-26-qwen-new-ai-model-designed-autonomous-tasks.html"
+  },
+  {
+    "baslik": "Ignite, OST, otonom araç zorluklarını yapay zeka ile çözmek için harekete geçti",
+    "ozet": "Ignite ve OST, otonom araçların karşılaştığı karmaşık zorlukları yapay zeka teknolojileriyle aşmak için ortak bir girişim başlattı. İş birliği kapsamında, otonom sürüş sistemlerinde güvenlik, algılama ve karar verme süreçlerini iyileştirmeye yönelik yapay zeka tabanlı çözümler geliştirilmesi hedefleniyor. Gerçek dünya koşullarında otonom araç performansını artıracak bu teknolojiler, sensör verilerinin işlenmesinden anlık yol kararlarına kadar geniş bir yelpazede yenilik sunmayı amaçlıyor.",
+    "onem_skoru": "7",
+    "kategori": "Yapay Zeka / Otonom Araçlar",
+    "url": "https://www.computerweekly.com/news/366643508/Ignite-OST-drive-to-solve-autonomous-vehicle-challenges-with-AI"
+  },
+  {
+    "baslik": "Innovation starts in schools — lessons from China",
+    "ozet": "Nature dergisinde yayımlanan bu makale, Çin'in son yıllarda bilim ve teknoloji alanındaki yükselişinin temelinde eğitim sistemine yaptığı yatırımların yattığını vurgulamaktadır. Çin, STEM (fen, teknoloji, mühendislik, matematik) eğitimine erken yaşlardan itibaren büyük önem vermekte; kodlama, robotik ve yapay zeka gibi konuları ilkokul müfredatına entegre etmektedir. Ülke genelinde kurulan teknoloji laboratuvarları, öğretmenlere sağlanan sürekli mesleki gelişim programları ve okullar arası inovasyon yarışmaları, genç yeteneklerin erken tespit edilmesini sağlamaktadır. Makale, Çin'in bu yaklaşımının diğer ülkelere — özellikle Batılı ülkelere — ilham vermesi gerektiğini, okulların yalnızca mevcut teknolojilerin tüketicisi değil, geleceğin teknolojilerinin yaratıcısı olacak nesiller yetiştirmesi gerektiğini savunmaktadır.",
+    "onem_skoru": "7",
+    "kategori": "Eğitim Teknolojileri / Yapay Zeka / STEM",
+    "url": "https://www.nature.com/articles/d41586-026-01620-7"
+  },
+  {
+    "baslik": "Z386: Orijinal Mikrokod Etrafında İnşa Edilen Açık Kaynaklı 80386",
+    "ozet": "Hackaday'de yayınlanan habere göre, Z386 projesi, Intel'in efsanevi 80386 işlemcisinin orijinal mikrokodunu temel alan, tamamen açık kaynaklı bir yeniden uygulamasıdır. Proje, 80386'nın orijinal mikro mimarisini koruyarak modern FPGA donanımı üzerinde çalıştırılabilir hale getiriyor. Bu sayede, klasik x86 mimarisinin iç işleyişi şeffaf bir şekilde incelenebiliyor, eğitim ve araştırma amaçlı kullanılabiliyor. Orijinal mikrokodun kullanılması, işlemcinin davranışsal olarak birebir aynı kalmasını sağlarken, açık kaynak lisansı sayesinde topluluk katkılarına ve türev projelere de imkan tanıyor. Z386, retro bilişim meraklıları, işlemci mimarisi öğrencileri ve donanım güvenliği araştırmacıları için önemli bir kaynak niteliği taşıyor.",
+    "onem_skoru": "7",
+    "kategori": "Donanım / Açık Kaynak",
+    "url": "https://hackaday.com/2026/05/25/z386-an-open-source-80386-built-around-original-microcode/"
+  },
+  {
+    "baslik": "ABS Launches Maritime Collaboration Hub Between Athens and Houston",
+    "ozet": "ABS (American Bureau of Shipping), Atina ve Houston arasında faaliyet gösterecek bir denizcilik iş birliği merkezi (hub) kurduğunu duyurdu. Bu merkez, denizcilik sektöründe dijitalleşme, sürdürülebilirlik ve yeni teknolojilerin geliştirilmesine odaklanacak. Yunanistan ve ABD arasındaki bu stratejik inovasyon köprüsü, iki önemli denizcilik merkezini birbirine bağlayarak sektördeki teknolojik dönüşümü hızlandırmayı hedefliyor. Merkez kapsamında start-up'lar, araştırma kurumları ve endüstri paydaşları bir araya getirilerek otonom gemiler, emisyon azaltma teknolojileri ve dijital ikiz gibi ileri teknoloji alanlarında ortak projeler yürütülecek.",
+    "onem_skoru": "6",
+    "kategori": "Denizcilik Teknolojisi",
+    "url": "https://www.naftemporiki.gr/english/2115222/abs-launches-maritime-collaboration-hub-between-athens-and-houston/"
+  },
+  {
+    "baslik": "Samsung Gallery, OneDrive entegrasyonunu kaldırıyor",
+    "ozet": "Samsung, Galaxy cihazlarda bulunan Gallery (Galeri) uygulamasının OneDrive entegrasyonunu 2026 yılının ikinci yarısından itibaren sonlandıracağını duyurdu. Kullanıcılar OneDrive'a senkronize edilmiş fotoğraf ve videolarına artık Gallery uygulaması üzerinden erişemeyecek. Samsung, kullanıcıların verilerini Samsung Cloud'a taşımaları için bir geçiş aracı sunacak. Bu karar, Samsung'un kendi bulut ekosistemine (Samsung Cloud) odaklanma stratejisinin bir parçası olarak değerlendiriliyor. Microsoft OneDrive ile olan ortaklığın sonlanması, iki şirket arasındaki uzun süreli iş birliğinin zayıfladığına işaret ediyor.",
+    "onem_skoru": "6",
+    "kategori": "Mobil / Bulut",
+    "url": "http://9to5google.com/2026/05/25/samsung-gallery-is-ditching-onedrive-integration/"
+  },
+  {
+    "baslik": "Workers At TheGamer Say Site’s New Pay-Per-Session Contract Is ‘Heartbreaking’ - Aftermath",
+    "ozet": "Aftermath'in haberine göre, oyun haber sitesi TheGamer'ın sahibi Valnet, yazarlarına maaş yerine yalnızca siteye gelen kullanıcı oturum başına ödeme yapmayı öngören yeni bir sözleşme modeli sundu. Bu yeni 'oturum başına ödeme' (pay-per-session) sistemi, yazarları gelirlerini doğrudan site trafiğine bağlı hale getirerek finansal belirsizliğe sürüklüyor. TheGamer çalışanları, bu durumu 'kalp kırıcı' olarak nitelendirirken, modelin gazetecilik kalitesini düşüreceğinden ve clickbait içeriklere teşvik edeceğinden endişe ediyor. Bu gelişme, dijital medya sektöründe içerik üreticilerinin emeğinin değersizleştirilmesi ve sürdürülebilir gazetecilik modelleri konusundaki tartışmaları yeniden alevlendiriyor.",
+    "onem_skoru": "6",
+    "kategori": "Dijital Medya / Oyun Sektörü",
+    "url": "https://aftermath.site/the-gamer-valnet-pay-per-session-contract/"
+  },
+  {
+    "baslik": "Toby Fox, DELTARUNE'u Tek Başına Yapmanın Artık Mümkün Olmadığını Açıkladı",
+    "ozet": "Undertale'in yaratıcısı Toby Fox, DELTARUNE projesini tek başına geliştirmenin artık mümkün olmadığını belirtti. Fox, oyunun gerektirdiği devasa iş yükü ve kendi fiziksel durumu nedeniyle bu açıklamayı yaptı. Geliştirici, özellikle Chapter 3, 4 ve 5'in aynı anda geliştirilmesi sürecinde bir ekiple çalışmanın zorunlu hale geldiğini vurguladı. Fox'un açıklamaları, büyük ölçekli bağımsız oyun geliştirmenin getirdiği fiziksel ve zihinsel zorluklara dikkat çekerken, DELTARUNE hayranları için serinin geleceğine dair perde arkası bir bakış sunuyor.",
+    "onem_skoru": "5",
+    "kategori": "Oyun Teknolojisi",
+    "url": "https://gonintendo.com/contents/61097-toby-fox-says-creating-deltarune-by-himself-wouldn-t-be-possible-due-to-the-work"
+  },
+  {
+    "baslik": "The Shift From Marketing Campaigns to Marketing Systems",
+    "ozet": "Bu içerikte, pazarlama kampanyalarından pazarlama sistemlerine geçişin önemi ele alınmaktadır. Geleneksel pazarlama kampanyaları genellikle tek seferlik, kısa vadeli ve kopuk çabalar olarak yürütülürken; pazarlama sistemleri sürekli, birbirine bağlı ve uzun vadeli müşteri ilişkileri kurmayı hedefleyen bir yapı sunmaktadır. Sistem temelli yaklaşım; içerik pazarlaması, e-posta otomasyonları, sosyal medya yönetimi ve müşteri geri bildirim döngüleri gibi unsurları bir araya getirerek markaların tutarlı bir pazarlama deneyimi sunmasını sağlar. Bu sayede işletmeler, müşteri kazanımı ve elde tutma oranlarını artırırken, pazarlama yatırımlarından daha öngörülebilir ve ölçeklenebilir sonuçlar alabilmektedir.",
+    "onem_skoru": "4",
+    "kategori": "Dijital Pazarlama",
+    "url": "https://www.successful-blog.com/1/marketing-campaigns-to-marketing-systems/"
+  },
+  {
+    "baslik": "'Absurd': Social Media Misquotes Journalist, Erroneously Claims Sony Is Angry at Naughty Dog - Push Square",
+    "ozet": "Push Square tarafından yayınlanan habere göre, sosyal medyada bir gazetecinin sözleri çarpıtılarak Sony'nin Naughty Dog stüdyosuna kızgın olduğu yönünde asılsız iddialar ortaya atıldı. Haber, sosyal medya kullanıcılarının bir gazetecinin ifadelerini bağlamından kopararak yanlış aktardığını ve bunun sonucunda Sony ile Naughty Dog arasında bir gerilim olduğu izleniminin yaratıldığını belirtiyor. Push Square, bu iddiaları 'absürt' (saçma) olarak nitelendiriyor ve haberin doğru olmadığını vurguluyor. Bu durum, oyun endüstrisinde sosyal medyada yanlış bilginin ne kadar hızlı yayılabildiğini ve gazetecilik etiği açısından kaynakların doğrulanmasının önemini gözler önüne seriyor.",
+    "onem_skoru": "4",
+    "kategori": "Oyun / Teknoloji Medyası",
+    "url": "https://www.pushsquare.com/news/2026/05/absurd-social-media-misquotes-journalist-erroneously-claims-sony-is-angry-at-naughty-dog"
+  },
+  {
+    "baslik": "Memorial Day Apple deals: M5 MacBook Air, AirPods Pro on sale - mashable.com",
+    "ozet": "Mashable'ın 2026 Memorial Day (Anma Günü) fırsatlarını derlediği haberde, Apple ürünlerinde önemli indirimler yer alıyor. M5 çipli yeni MacBook Air modelleri, AirPods Pro (2. nesil), iPad, Apple Watch ve çeşitli aksesuarlarda dikkat çekici fiyat düşüşleri görülüyor. İndirimler Amazon, Best Buy ve Walmart gibi büyük perakendecilerde geçerli. Haberde özellikle en yeni M5 MacBook Air'de 150$'a varan indirim ve AirPods Pro'da 50$'lık düşüş öne çıkarılıyor. Kampanyaların sınırlı süreli olduğu ve stokların hızla tükenebileceği belirtiliyor.",
+    "onem_skoru": "4",
+    "kategori": "Teknoloji / Tüketici Elektroniği",
+    "url": "https://mashable.com/tech/best-memorial-day-deals-apple-airpods-macbooks-2026"
+  },
+  {
+    "baslik": "Nearly 500 Marvel Rivals Cheaters Get Permabanned by NetEase, and Most of Them Couldn't Even Climb Out of Bronze - Wccftech",
+    "ozet": "NetEase, Marvel Rivals oyununda hileyle mücadele kapsamında neredeyse 500 oyuncuyu kalıcı olarak banladı. İlginç bir şekilde, banlanan hilecilerin büyük çoğunluğu hile kullanmalarına rağmen Bronz seviyesinden yukarı çıkamamıştı. Şirket ayrıca, oyunun hile önleme sisteminin oyuncuların kişisel bilgilerine eriştiği yönündeki söylentileri de yalanladı ve bu iddiaların asılsız olduğunu açıkladı. NetEase, adil oyun ortamını korumak için hile tespit ve cezalandırma süreçlerini kararlılıkla sürdüreceğini belirtti.",
+    "onem_skoru": "4",
+    "kategori": "Oyun Teknolojileri",
+    "url": "https://wccftech.com/netease-shuts-down-marvel-rivals-anti-cheat-rumours-perma-bans-hundreds-of-cheaters/"
+  },
+  {
+    "baslik": "CGTN: Shared future: China, Serbia push comprehensive strategic partnership to new heights",
+    "ozet": "Haberde Çin ile Sırbistan arasındaki kapsamlı stratejik ortaklığın yeni seviyelere taşınması ele alınıyor. Çin Cumhurbaşkanı Xi Jinping'in Sırbistan ziyareti kapsamında iki ülke arasında altyapı, ekonomi, ticaret ve kültürel iş birliğini derinleştirecek anlaşmalar imzalandı. Kuşak ve Yol İnisiyatifi çerçevesinde ortak kalkınma ve paylaşılan gelecek vurgusu yapılırken, Sırbistan'ın Çin ile dijital ekonomi, yenilenebilir enerji ve teknoloji transferi alanlarında da iş birliğini güçlendirme niyetinde olduğu belirtiliyor. Haber esas olarak diplomatik ve jeopolitik bir çerçeveye sahip olmakla birlikte, dijital altyapı ve teknoloji iş birliği boyutuna da değiniyor.",
+    "onem_skoru": "3",
+    "kategori": "Uluslararası İlişkiler / Teknoloji",
+    "url": "https://www.prnewswire.com/news-releases/cgtn-shared-future-china-serbia-push-comprehensive-strategic-partnership-to-new-heights-302781517.html"
+  },
+  {
+    "baslik": "CGTN: Shared future: China, Serbia push comprehensive strategic partnership to new heights",
+    "ozet": "Çin Devlet Televizyonu (CGTN) tarafından yayınlanan haberde, Çin ve Sırbistan arasındaki kapsamlı stratejik ortaklığın yeni boyutlara taşındığı ele alınıyor. İki ülke arasında Kuşak ve Yol Girişimi çerçevesinde altyapı, ticaret, kültürel iş birliği ve ortak gelecek vizyonu vurgulanıyor. Haberde, Çin-Sırbistan ilişkilerinin çok taraflı platformlarda nasıl güçlendiği ve iki ülkenin karşılıklı kalkınma hedeflerine odaklanılıyor. Bu ortaklık kapsamında teknoloji transferi, dijital altyapı projeleri ve yeşil enerji yatırımları gibi alanlarda da iş birliğine değiniliyor.",
+    "onem_skoru": "3",
+    "kategori": "Uluslararası İlişkiler / Teknoloji Diplomasisi",
+    "url": "https://www.prnewswire.com/news-releases/cgtn-shared-future-china-serbia-push-comprehensive-strategic-partnership-to-new-heights-302781507.html"
+  },
+  {
+    "baslik": "Evo 2026 near-final registration leaderboard revealed with one surprising title shooting up the ranks - EventHubs",
+    "ozet": "Bu haber, dünyanın en büyük dövüş oyunu turnuvası olan Evo 2026'nın son kayıt liderlik tablosunu ele alıyor. Haberde, turnuvaya kayıt sürecinin sonuna yaklaşılırken, beklenmedik bir oyunun sıralamada hızla yükseldiği belirtiliyor. Etkinlikte Street Fighter 6, Tekken 8, Guilty Gear Strive gibi klasik dövüş oyunlarının yanı sıra yeni ve sürpriz bir yapımın da katılımcılar tarafından yoğun ilgi gördüğü ve sıralamada üst sıralara tırmandığı aktarılıyor. Turnuva organizatörleri, bu ilginin topluluk için heyecan verici olduğunu ve Evo 2026'nın şimdiye kadarki en çeşitli oyun kadrosuna sahip olabileceğini ifade ediyor. E-spor ve dövüş oyunu topluluğu için önemli bir gelişme olarak değerlendirilen bu sürpriz yükseliş, oyunun rekabetçi sahnesine olan ilgiyi de gözler önüne seriyor.",
+    "onem_skoru": "3",
+    "kategori": "Oyun / E-Spor",
+    "url": "https://www.eventhubs.com/news/2026/may/25/evo-late-entrant-leaderboard/"
+  },
+  {
+    "baslik": "These Are 11 Of The Most Powerful Semi-Truck Engines Ever Built - Jalopnik",
+    "ozet": "Jalopnik'in derlediği bu haberde, şimdiye kadar üretilmiş en güçlü 11 yarı kamyon (tır) motoru listeleniyor. Makalede Detroit Diesel DD16 (600 bg), Cummins X15 (605 bg), PACCAR MX-13 (510 bg), Volvo D16 (750 bg), Scania DC16 V8 (770 bg) gibi motorların yanı sıra, modern devlerden Volvo FH16 750, Scania R 770 ve Kuzey Amerika'nın en güçlü sınıf 8 motoru olarak gösterilen 625 bg gücündeki Cummins X15 Efficiency serisi de yer alıyor. Tarihi modeller arasında 12V71 Detroit Diesel, Caterpillar 3408 ve Cummins KTA 600 gibi efsanevi motorlar da bulunuyor. Her bir motorun teknik özellikleri (beygir gücü, tork değerleri, silindir hacmi) ve hangi araç modellerinde kullanıldığı detaylandırılıyor. Haber, ağır vasıta motor teknolojisinin yıllar içindeki evrimini ve günümüzde ulaşılan güç seviyelerini gözler önüne seriyor.",
+    "onem_skoru": "3",
+    "kategori": "Otomotiv / Ağır Vasıta Teknolojisi",
+    "url": "https://www.jalopnik.com/2180153/most-powerful-semi-truck-engines-ever-built/"
+  },
+  {
+    "baslik": "Senior Machine Learning Scientist",
+    "ozet": "Bu, NLP People platformunda yayınlanmış bir 'Senior Machine Learning Scientist' (Kıdemli Makine Öğrenmesi Bilimcisi) iş ilanıdır. İlan, doğal dil işleme (NLP) ve makine öğrenmesi alanında deneyimli bir bilim insanı arayan bir firmaya aittir. Sayfa içeriğine doğrudan erişilemediği için pozisyonun detayları, aranan nitelikler ve başvuru koşulları hakkında spesifik bilgi verilememektedir. NLP People, yapay zeka ve doğal dil işleme alanında uzmanlaşmış bir iş ilanı platformudur.",
+    "onem_skoru": "1",
+    "kategori": "İş İlanı / Kariyer",
+    "url": "https://nlppeople.com/job/senior-machine-learning-scientist-27/"
+  },
+  {
+    "baslik": "Months trapped together in Antarctic isolation reveal a risk few long missions can afford to ignore - Phys.org",
+    "ozet": "Henüz haber içeriği okunamadığı için özet oluşturulamadı.",
+    "onem_skoru": "0",
+    "kategori": "Belirlenemedi",
+    "url": "https://phys.org/news/2026-05-months-antarctic-isolation-reveal-missions.html"
+  }
+]
