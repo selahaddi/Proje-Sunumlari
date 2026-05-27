@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Klavye Küpleri - Dramatik Işık</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #0a0a0a; /* Çok koyu gri/siyah arka plan */
+        }
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <script>
+        // 1. SAHNE VE KAMERA KURULUMU
+        const scene = new THREE.Scene();
+        scene.fog = new THREE.Fog(0x0a0a0a, 10, 25); // Kenarlara doğru hafif kaybolma efekti
+        
+        const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
+        camera.position.set(6, 8, 6);
+        camera.lookAt(0, 0, 0);
+
+        const renderer = new THREE.WebGLRenderer({ antialias: true });
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        // Gölgeleri daha yumuşak ve kaliteli yapmak için ayarlar
+        renderer.shadowMap.enabled = true;
+        renderer.shadowMap.type = THREE.PCFSoftShadowMap; 
+        document.body.appendChild(renderer.domElement);
+
+        // 2. IŞIKLANDIRMA (Sol Üstten Vuran Işık)
+        // Ortam ışığını çok kıstık ki gölgeler siyah ve dramatik olsun
+        const ambientLight = new THREE.AmbientLight(0xffffff, 0.2); 
+        scene.add(ambientLight);
+
+        // Ana ışık (Sol üstten vuracak şekilde pozisyonlandırıldı)
+        const dirLight = new THREE.DirectionalLight(0xffffff, 1.2);
+        // Kameraya göre sol üstten (X ekseninde eksi, Y ekseninde yüksekte)
+        dirLight.position.set(-8, 12, 2); 
+        dirLight.castShadow = true;
+        
+        // Gölge kalitesini artırma
+        dirLight.shadow.mapSize.width = 2048;
+        dirLight.shadow.mapSize.height = 2048;
+        dirLight.shadow.bias = -0.001; // Gölge hatalarını önlemek için ufak bir ayar
+        scene.add(dirLight);
+
+        // 3. ZEMİN (Gölgelerin düşmesi için)
+        const planeGeometry = new THREE.PlaneGeometry(50, 50);
+        const planeMaterial = new THREE.MeshStandardMaterial({ 
+            color: 0x111111, // Koyu bir zemin
+            roughness: 0.8
+        });
+        const plane = new THREE.Mesh(planeGeometry, planeMaterial);
+        plane.rotation.x = -Math.PI / 2; // Zemini yatay konuma getir
+        plane.position.y = -0.35; // Kutuların tam altına hizala
+        plane.receiveShadow = true;
+        scene.add(plane);
+
+        // 4. KÜPLERİ OLUŞTURMA (3x4 Grid)
+        const cols = 3; 
+        const rows = 4; 
+        const cubeWidth = 1;
+        const cubeHeight = 0.7; // Klavye tuşu gibi biraz daha yassı
+        const gap = 0.15; 
+
+        const geometry = new THREE.BoxGeometry(cubeWidth, cubeHeight, cubeWidth);
+        
+        // Görseldeki gibi mat ve tok renkler
+        const materialWhite = new THREE.MeshStandardMaterial({ color: 0xeeeeee, roughness: 0.3, metalness: 0.1 });
+        const materialBlack = new THREE.MeshStandardMaterial({ color: 0x151515, roughness: 0.4, metalness: 0.1 });
+
+        const cubes = [];
+
+        for (let i = 0; i < cols; i++) {
+            for (let j = 0; j < rows; j++) {
+                const isWhite = (i + j) % 2 === 0;
+                const material = isWhite ? materialWhite : materialBlack;
+                
+                const cube = new THREE.Mesh(geometry, material);
+                
+                const xPos = (i - (cols - 1) / 2) * (cubeWidth + gap);
+                const zPos = (j - (rows - 1) / 2) * (cubeWidth + gap);
+                
+                cube.position.set(xPos, 0, zPos);
+                cube.castShadow = true;
+                cube.receiveShadow = true;
+                
+                cube.userData = { originalY: 0 }; 
+                
+                scene.add(cube);
+                cubes.push(cube);
+            }
+        }
+
+        // 5. ETKİLEŞİM
+        const raycaster = new THREE.Raycaster();
+        const mouse = new THREE.Vector2();
+        let activeCube = null;
+
+        window.addEventListener('mousedown', (event) => {
+            mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+            mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+
+            raycaster.setFromCamera(mouse, camera);
+            const intersects = raycaster.intersectObjects(cubes);
+
+            if (intersects.length > 0) {
+                activeCube = intersects[0].object;
+                // Tuşlar daha yassı olduğu için inme mesafesini hafif kıstık
+                gsap.to(activeCube.position, { y: -0.2, duration: 0.1 });
+            }
+        });
+
+        window.addEventListener('mouseup', () => {
+            if (activeCube) {
+                gsap.to(activeCube.position, { 
+                    y: activeCube.userData.originalY, 
+                    duration: 0.3, 
+                    ease: "back.out(2)" 
+                });
+                activeCube = null;
+            }
+        });
+
+        // 6. RENDER DÖNGÜSÜ
+        function animate() {
+            requestAnimationFrame(animate);
+            renderer.render(scene, camera);
+        }
+        animate();
+
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+    </script>
+</body>
+</html>
