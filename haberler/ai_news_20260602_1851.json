@@ -1,0 +1,261 @@
+[
+  {
+    "baslik": "'Nobody's safe': Cognizant projected 90% of jobs would be disrupted by 2032—but we're beyond it 6 years early",
+    "ozet": "Fortune tarafından yayınlanan bu haberde, Cognizant'ın 2017 yılında yaptığı ve 2032 yılına kadar işlerin %90'ının yapay zeka tarafından dönüştürüleceğine dair öngörüsünün, beklenenden 6 yıl önce, yani 2026 itibarıyla gerçekleştiği vurgulanıyor. Haberde, yapay zekanın yalnızca tekrar eden ve düşük vasıflı işleri değil, hukuk, tıp, yazılım mühendisliği gibi yüksek vasıf gerektiren 'güvenli' görülen meslekleri de hızla dönüştürdüğü belirtiliyor. Cognizant yöneticileri, 'hiç kimsenin güvende olmadığını' ifade ederek, yapay zekanın iş gücü piyasasında yarattığı köklü değişimin boyutlarına dikkat çekiyor. Öngörülen 2032 senaryosunun çoktan aşıldığı ve şirketlerin adaptasyon sürecinde ciddi zorluklar yaşadığı aktarılıyor.",
+    "onem_skoru": "9",
+    "kategori": "Yapay Zeka",
+    "url": "https://fortune.com/2026/06/01/cognizant-predictions-future-of-work-job-distruption-six-years-early-ai-proof-jobs-not-immune/"
+  },
+  {
+    "baslik": "ChatGPT'nin En Büyük Rakibinin Ardındaki 965 Milyar Dolarlık Yapay Zeka Şirketi Nihayet Halka Açılıyor ve Bu, Wall Street Tarihinin En Büyük Halka Arzı Olabilir",
+    "ozet": "ChatGPT'nin en büyük rakibi Claude'u geliştiren yapay zeka şirketi Anthropic'in değerlemesi 965 milyar dolar olarak belirtiliyor. OpenAI'ın en büyük rakibi konumundaki şirket, halka arz (IPO) için hazırlıklarını sürdürüyor. Anthropic'in halka arzı, Wall Street tarihinin en büyük halka arzı olma potansiyeli taşıyor. Şirket, Google, Salesforce ve diğer büyük yatırımcılardan milyarlarca dolar yatırım almış durumda. Claude AI asistanı, özellikle kurumsal müşteriler ve geliştiriciler arasında giderek daha fazla benimseniyor. Bu halka arz, yapay zeka sektöründe önemli bir dönüm noktası olarak görülüyor ve teknoloji yatırımlarının ne kadar büyük boyutlara ulaştığını gösteriyor.",
+    "onem_skoru": "9",
+    "kategori": "Yapay Zeka",
+    "url": "https://economictimes.indiatimes.com/news/international/us/the-965-billion-ai-company-behind-chatgpts-biggest-rival-is-finally-going-public-and-it-could-be-the-biggest-wall-street-debut-ever/articleshow/131449325.cms"
+  },
+  {
+    "baslik": "AgentOps: Operationalize agentic AI at scale with Amazon Bedrock AgentCore",
+    "ozet": "Bu yazı, Amazon Bedrock AgentCore ile AgentOps yaklaşımını kullanarak etmen tabanlı (agentic) yapay zekanın kurumsal ölçekte nasıl operasyonel hale getirileceğini anlatıyor. AWS, Bedrock AgentCore'un, yapay zeka etmenlerinin izlenmesi (monitoring), güvenliği, test edilmesi, gözlemlenebilirliği (observability) ve sürekli iyileştirilmesi için gereken altyapıyı sunduğunu açıklıyor. Yazıda AgentOps'un temel bileşenleri olarak: etmen performans takibi, hata ayıklama araçları, güvenlik ve uyumluluk kontrolleri, çoklu etmen orkestrasyonu ve üretim ortamında güvenilir çalışmayı sağlayan en iyi uygulamalar ele alınıyor. Ayrıca, kurumların AgentCore sayesinde etmen tabanlı AI çözümlerini prototipten üretime taşırken karşılaştıkları ölçeklenebilirlik, güvenilirlik ve yönetişim zorluklarını nasıl aşabilecekleri örneklerle gösteriliyor.",
+    "onem_skoru": "9",
+    "kategori": "Yapay Zeka ve Bulut Bilişim",
+    "url": "https://aws.amazon.com/blogs/machine-learning/agentops-operationalize-agentic-ai-at-scale-with-amazon-bedrock-agentcore/"
+  },
+  {
+    "baslik": "AI eclipsed nuclear weapons as the dominant threat at Asia's premier defense summit",
+    "ozet": "Asya'nın en önemli savunma zirvesi Shangri-La Diyaloğu'nda bu yıl yapay zeka, nükleer silahların önüne geçerek en baskın tehdit konusu haline geldi. Singapur'da düzenlenen zirvede askeri liderler, savunma bakanları ve uzmanlar; otonom silah sistemlerinden dezenformasyon kampanyalarına, siber saldırılardan karar alma süreçlerinin yapay zekaya devredilmesine kadar pek çok risk alanını tartıştı. Özellikle yapay zekanın savaşın doğasını kökten değiştirme potansiyeli, kontrolden çıkma senaryoları ve küresel güvenlik mimarisinde yaratacağı belirsizlikler üzerinde duruldu. Nükleer silahlar hâlâ varoluşsal bir tehdit olarak görülse de, yapay zekanın daha hızlı, daha yaygın ve daha az öngörülebilir riskler barındırdığı vurgulandı. Uzmanlar, yapay zekanın kötüye kullanımının küresel istikrarı sarsabileceği ve devlet dışı aktörler tarafından dahi kullanılabilecek kadar erişilebilir olduğu konusunda uyardı.",
+    "onem_skoru": "9",
+    "kategori": "Yapay Zeka ve Savunma",
+    "url": "https://thenextweb.com/news/shangri-la-dialogue-ai-dangers-nuclear-weapons-defense/"
+  },
+  {
+    "baslik": "Semaglutide and Tirzepatide: Obesity Treatment Impact",
+    "ozet": "Bu haber, obezite tedavisinde kullanılan iki önemli ilaç olan Semaglutide (GLP-1 reseptör agonisti) ve Tirzepatide'ı (GIP/GLP-1 ikili reseptör agonisti) ele alıyor. Semaglutide, kilo kaybında ortalama %15'e varan azalma sağlarken, Tirzepatide ile bu oran %22.5'e kadar çıkabiliyor. Her iki ilaç da klinik deneylerde etkileyici sonuçlar göstermiş olmakla birlikte, bulantı, ishal ve kabızlık gibi yan etkiler görülebiliyor. Haberde ayrıca bu ilaçların maliyeti, sigorta kapsamı, uzun vadeli etkileri ve yaşam tarzı değişiklikleriyle birlikte kullanımının önemi vurgulanıyor. Kilo verme alanında bir devrim olarak nitelendirilen bu ilaçlar, obeziteyle mücadelede yeni bir dönem başlatıyor.",
+    "onem_skoru": "8",
+    "kategori": "Sağlık Teknolojileri",
+    "url": "https://www.lifetechnology.com/blogs/life-technology-medical-news/semaglutide-and-tirzepatide-obesity-treatment-impact"
+  },
+  {
+    "baslik": "Years in the Making, Glass Imaging Is Delivering on its Promise to Transform Smartphone Photography",
+    "ozet": "Glass Imaging, akıllı telefon fotoğrafçılığını dönüştürme vaadini gerçekleştirmek üzere. Şirket, geleneksel lens sistemlerinden farklı olarak cam tabanlı özel bir optik teknoloji ve yapay zeka destekli görüntü işleme algoritmalarını bir araya getiriyor. Bu yenilikçi yaklaşım, özellikle telefonların ince yapısı nedeniyle karşılaşılan optik sınırlamaları aşarak, çok daha keskin, bozulmasız ve profesyonel kalitede fotoğraflar elde edilmesini mümkün kılıyor. Yıllar süren Ar-Ge çalışmalarının ardından teknolojinin artık ticari olarak uygulanabilir hale geldiği ve yakın zamanda amiral gemisi akıllı telefon modellerinde yer almasının beklendiği belirtiliyor. Bu gelişme, mobil fotoğrafçılıkta bir devrim niteliği taşıyarak kullanıcıların DSLR benzeri görüntü kalitesine cep telefonlarıyla ulaşabilmesinin önünü açabilir.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka / Görüntüleme Teknolojisi",
+    "url": "https://petapixel.com/2026/06/01/years-in-the-making-glass-imaging-is-delivering-on-its-promise-to-transform-smartphone-photography/"
+  },
+  {
+    "baslik": "CoreWeave Shares Surge 15% to $126.06 as AI Cloud Demand Fuels Strong Investor Confidence",
+    "ozet": "CoreWeave, yapay zeka altyapısına yönelik artan talep sayesinde hisse senetlerinde %15'lik bir artışla 126,06 dolara ulaştı. Şirket, yapay zeka bulut hizmetleri ve GPU tabanlı altyapı çözümleri sunarak büyük teknoloji firmalarının ve girişimlerin yoğun hesaplama ihtiyaçlarını karşılıyor. Yatırımcıların, yapay zeka ekosistemindeki hızlı büyüme ve bulut bilişim altyapısına duyulan güven sayesinde şirkete olan ilgisi güçlü şekilde devam ediyor. Bu yükseliş, yapay zeka donanım ve altyapı sektörünün geleceğine dair iyimser beklentileri yansıtıyor.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka & Bulut Bilişim",
+    "url": "https://www.ibtimes.com.au/coreweave-shares-surge-ai-infrastructure-demand-1869903"
+  },
+  {
+    "baslik": "On real-time calibrated prediction for complex model-based decision support in pandemics: Part 2",
+    "ozet": "Bu akademik makale, pandemi sırasında karmaşık model tabanlı karar destek sistemlerinde gerçek zamanlı kalibre edilmiş tahmin yöntemlerini ele almaktadır. PLOS Computational Biology dergisinde yayımlanan çalışma, salgın hastalık modellerinin karar vericilere güvenilir ve anlık öngörüler sunabilmesi için istatistiksel kalibrasyon tekniklerinin nasıl uygulanabileceğini araştırmaktadır. Araştırmacılar, COVID-19 gibi pandemilerde kullanılan büyük ölçekli simülasyon modellerinin belirsizliklerini azaltmak ve tahmin doğruluğunu artırmak amacıyla gerçek zamanlı veri asimilasyonu ve model güncelleme yöntemleri önermektedir. Makale, model çıktılarının gerçek dünya verileriyle sürekli karşılaştırılarak kalibre edilmesinin, politika yapıcılar için daha isabetli karar desteği sağladığını göstermektedir.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka ve Veri Bilimi",
+    "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014299"
+  },
+  {
+    "baslik": "Residual-guided hybrid framework for adversarially robust deep learning-based network intrusion detection",
+    "ozet": "Araştırmacılar, derin öğrenme tabanlı ağ saldırı tespit sistemlerinde (NIDS) çekişmeli (adversarial) saldırılara karşı dayanıklılığı artırmak için 'Residual-guided Hybrid Framework' (RHGN) adı verilen yeni bir yöntem önermektedir. Mevcut modellerin, küçük ve hesaplı perturbasyonlarla (FGSM, PGD gibi) kolayca yanıltılabildiğine dikkat çekilerek, artık tabanlı öğrenme ile hibrit bir yaklaşımın bu zafiyeti büyük ölçüde azalttığı gösterilmektedir. RHGN; CNN, LSTM ve artık (residual) blokları birleştirerek hem normal hem de saldırı trafiğini daha gürbüz şekilde sınıflandırmaktadır. Deneyler CICIDS-2017 ve NSL-KDD veri kümeleri üzerinde yapılmış, önerilen çerçevenin hem temiz hem de çekişmeli örnekler karşısında mevcut yöntemlere kıyasla daha yüksek doğruluk oranları sunduğu raporlanmıştır. Bu çalışma, siber güvenlik ve yapay zeka kesişimindeki çekişmeli dayanıklılık literatürüne önemli bir katkı sağlamakta ve gerçek dünya ağ güvenliği uygulamaları için umut vadetmektedir.",
+    "onem_skoru": "8",
+    "kategori": "Siber Güvenlik & Yapay Zeka",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0350737"
+  },
+  {
+    "baslik": "AI Savings Misses 'Should Be Making Executives Uncomfortable,' Bain Says",
+    "ozet": "Bain & Company'nin yeni bir raporuna göre, birçok şirket yapay zeka yatırımlarından beklediği maliyet tasarruflarını elde edemiyor. Sigorta sektörü başta olmak üzere pek çok sektörde yöneticiler, AI'nin vaat ettiği verimlilik ve tasarruf hedeflerinin gerisinde kalıyor. Bain, bu durumun üst düzey yöneticiler için rahatsız edici bir uyarı niteliğinde olduğunu belirtiyor. Raporda, başarılı AI uygulamalarının yalnızca teknoloji yatırımı değil, aynı zamanda iş süreçlerinin yeniden tasarlanması, organizasyonel değişim ve yetenek gelişimi gerektirdiği vurgulanıyor. Şirketlerin AI'dan gerçek değer elde edebilmesi için stratejik ve bütünsel bir yaklaşım benimsemesi gerektiğinin altı çiziliyor.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka / İş Dünyası",
+    "url": "https://www.insurancejournal.com/news/national/2026/06/01/871951.htm"
+  },
+  {
+    "baslik": "Ramsey Theory Group CEO'su Dan Herbatschek: SpaceX Halka Arzı, Yapay Zekanın Dünyanın En Büyük Altyapı Yarışı Haline Geldiğinin Sinyali",
+    "ozet": "Ramsey Theory Group CEO'su Dan Herbatschek, SpaceX'in halka arzının (IPO), yapay zekanın (AI) dünyanın en büyük altyapı yarışına dönüştüğünün açık bir göstergesi olduğunu ifade etti. Herbatschek'e göre, SpaceX'in uydu internet ağı Starlink ve uzay tabanlı veri iletim altyapısı, yapay zeka sistemlerinin küresel ölçekte ihtiyaç duyduğu düşük gecikmeli, yüksek bant genişlikli bağlantı omurgasını oluşturuyor. Bu halka arz, teknoloji devlerinin ve yatırımcıların artık AI'yı yalnızca bir yazılım yarışı olarak değil; veri merkezleri, enerji kaynakları, uydu ağları ve fiber optik kabloları kapsayan devasa bir fiziksel altyapı mücadelesi olarak gördüğünü ortaya koyuyor. Herbatschek, önümüzdeki on yılda AI altyapısına yapılacak yatırımların trilyonlarca doları bulacağını ve uzay tabanlı sistemlerin bu ekosistemin kritik bir bileşeni olacağını vurguluyor.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka / Altyapı",
+    "url": "https://www.globenewswire.com/news-release/2026/06/01/3304472/0/en/Ramsey-Theory-Group-CEO-Dan-Herbatschek-Says-SpaceX-IPO-Signals-AI-Has-Become-the-World-s-Largest-Infrastructure-Race.html"
+  },
+  {
+    "baslik": "Zorronet Brings Autonomous C5ISR to Hardened Sites Without Public Cloud Dependence",
+    "ozet": "Zorronet, askeri ve kritik altyapı tesisleri için kamu bulutuna bağımlı olmadan otonom C5ISR (Komuta, Kontrol, İletişim, Bilgisayar, Siber, İstihbarat, Gözetleme ve Keşif) yetenekleri sunan yeni bir çözüm tanıttı. Şirket, güçlendirilmiş sahalarda (hardened sites) çalışabilen, tamamen hava boşluklu (air-gapped) ortamlarda dahi görev yapabilen yapay zeka destekli bir sistem geliştirdi. Bu teknoloji, uçta (edge) çalışan otonom karar destek sistemleriyle bulut bağlantısı olmadan gerçek zamanlı durumsal farkındalık ve istihbarat analizi sağlıyor. Çözüm, özellikle bağlantısı kesik, uzak veya yüksek güvenlikli askeri operasyon alanlarında kritik görev sistemlerinin kesintisiz çalışmasını hedefliyor.",
+    "onem_skoru": "8",
+    "kategori": "Savunma Teknolojileri / Yapay Zeka",
+    "url": "https://www.globenewswire.com/news-release/2026/06/01/3304469/0/en/Zorronet-Brings-Autonomous-C5ISR-to-Hardened-Sites-Without-Public-Cloud-Dependence.html"
+  },
+  {
+    "baslik": "Çip Üzerinde Büyütülen İnsan Beyin Hücreleri 'Doom' Oynamak İçin Seviye Atladı",
+    "ozet": "Cortical Labs araştırmacıları, 'DishBrain' adı verilen bir mikroelektrot çip üzerinde büyütülen insan beyin hücrelerinin (nöronların), klasik birinci şahıs nişancı oyunu Doom'u oynamayı başardığını duyurdu. Daha önce yalnızca basit bir oyun olan Pong'u oynayabilen bu biyolojik sinir ağı, Doom'un gerektirdiği mekansal farkındalık, hedef belirleme ve çok adımlı karar verme gibi karmaşık bilişsel görevlerin üstesinden geldi. Sistem, nöronların oyun içindeki eylemlerine karşılık olarak elektriksel geri bildirim aldığı 'kapalı döngü' bir ortamda çalışıyor ve hücreler zamanla ateşleme desenlerini adapte ederek öğrenme sergiliyor. Bu gelişme, sentetik biyolojik zeka (SBI) alanında bir dönüm noktası olarak değerlendiriliyor; biyolojik ve silikon tabanlı zekanın yakınsamasını hızlandırarak nörolojik hastalıkların modellenmesi, biyolojik bilgisayarlar ve yeni nesil hibrit yapay zeka sistemleri için çığır açıcı olanaklar sunuyor.",
+    "onem_skoru": "8",
+    "kategori": "Biyoteknoloji ve Yapay Zeka",
+    "url": "https://www.sciencealert.com/human-brain-cells-grown-on-a-chip-level-up-to-play-doom"
+  },
+  {
+    "baslik": "Guess who's got an AI edge in a tough job market?",
+    "ozet": "Economic Times'ın haberine göre, yapay zeka becerilerine sahip çalışanlar zorlu iş piyasasında belirgin bir avantaj elde ediyor. Araştırmalar, AI yetkinliklerine sahip profesyonellerin daha hızlı iş bulduğunu, daha yüksek maaşlar aldığını ve işten çıkarılma risklerine karşı daha dirençli olduğunu gösteriyor. Özellikle makine öğrenmesi, doğal dil işleme ve veri bilimi gibi alanlarda uzmanlığa sahip kişilerin talep gördüğü; şirketlerin dijital dönüşüm süreçlerinde AI odaklı yeteneklere öncelik verdiği vurgulanıyor. Haberde ayrıca, yapay zeka okuryazarlığının artık birçok sektörde 'olmasa olmaz' bir beceri haline geldiği ve iş arayanların AI araçlarını etkin kullanabilmesinin rekabet avantajı sağladığı belirtiliyor.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka / İş Piyasası",
+    "url": "https://economictimes.indiatimes.com/jobs/hr-policies-trends/guess-whos-got-an-ai-edge-in-a-tough-job-market/articleshow/131441497.cms"
+  },
+  {
+    "baslik": "Amazon Quick ile Nadir Kanser Araştırmalarını Dönüştürmek: Biyomedikal Veri Tabanlarının Çığır Açan Keşifler İçin Entegrasyonu",
+    "ozet": "AWS ekibi tarafından yayımlanan bu blog yazısı, nadir kanser araştırmalarında Amazon Quick'in nasıl kullanıldığını anlatıyor. Amazon Quick, biyomedikal veri tabanlarını entegre ederek araştırmacıların dağınık halde bulunan genomik, klinik ve biyolojik verileri bir araya getirmesini sağlıyor. Bu sayede nadir kanser türleri üzerinde yapılan çalışmalarda veri keşfi hızlanıyor, hipotez oluşturma süreçleri iyileşiyor ve potansiyel terapötik hedeflerin belirlenmesi kolaylaşıyor. Makalede, araştırmacıların farklı formatlardaki büyük biyomedikal veri setlerini hızlıca sorgulayıp analiz edebildiği, böylece daha önce zaman alan manuel entegrasyon süreçlerinin otomatikleştirildiği vurgulanıyor. Sonuç olarak nadir kanser hastaları için daha hızlı ve etkili tedavi seçeneklerine ulaşma potansiyeli ortaya koyuluyor.",
+    "onem_skoru": "7",
+    "kategori": "Yapay Zeka ve Biyoteknoloji",
+    "url": "https://aws.amazon.com/blogs/machine-learning/transforming-rare-cancer-research-with-amazon-quick-integrating-biomedical-databases-for-breakthrough-discoveries/"
+  },
+  {
+    "baslik": "I Tried 5 Different AI CAD Tools – Here’s The Results",
+    "ozet": "Bu makalede yazar, beş farklı yapay zeka destekli CAD (Bilgisayar Destekli Tasarım) aracını bizzat test ederek sonuçlarını karşılaştırmalı olarak paylaşıyor. Test edilen araçlar arasında metin komutlarıyla 3D model oluşturabilen, doğal dil işleme ile tasarım yapılmasına olanak tanıyan platformlar yer alıyor. Yazar her bir aracın kullanım kolaylığı, üretim kalitesi, 3D baskıya uygunluk ve genel performansı gibi kriterleri değerlendiriyor. Sonuçlar, AI CAD araçlarının henüz tam anlamıyla profesyonel düzeyde olmasa da hızla geliştiğini, özellikle prototipleme ve hızlı konsept tasarımı için umut vadettiğini, ancak karmaşık mühendislik projelerinde hâlâ insan tasarımcıların yerini alamadığını ortaya koyuyor. Kişisel üretim (maker) hareketi ve küçük ölçekli dijital imalat için bu araçların giderek daha erişilebilir hale geldiği vurgulanıyor.",
+    "onem_skoru": "7",
+    "kategori": "Yapay Zeka & Dijital İmalat",
+    "url": "https://www.ponoko.com/blog/digital-manufacturing/i-tried-5-different-ai-cad-tools-heres-the-results/"
+  },
+  {
+    "baslik": "I Tried 5 Different AI CAD Tools – Here’s The Results",
+    "ozet": "Ponoko'nun yazarı, yapay zeka destekli 5 farklı CAD (Bilgisayar Destekli Tasarım) aracını test ederek deneyimlerini paylaşıyor. Test edilen araçlar arasında Zoo, Text-to-CAD (zoo.dev), Leo AI, Cursor ile Cadesign ve ChatGPT'nin CAD çizim yetenekleri yer alıyor. Yazar, her bir araca aynı şekil ve tasarım komutlarını vererek doğruluk, kullanım kolaylığı ve pratik sonuç üretme açısından karşılaştırmalar yapıyor. Sonuçlarda, AI CAD araçlarının henüz tam olarak profesyonel düzeyde olgunlaşmadığı, ancak hızlı prototipleme ve taslak oluşturma için umut vadettiği görülüyor. Zoo ve Cadesign nispeten daha başarılı bulunurken, genel olarak araçların geometrik doğrulukta ve karmaşık tasarımlarda tutarsız sonuçlar verdiği belirtiliyor. Yazar, AI CAD araçlarının gelecek için büyük potansiyel taşıdığını ancak şu an için tamamen güvenilir olmadıklarını vurguluyor.",
+    "onem_skoru": "7",
+    "kategori": "Yapay Zeka / Tasarım Teknolojileri",
+    "url": "https://www.ponoko.com/blog/ponoko/i-tried-5-different-ai-cad-tools-heres-the-results/"
+  },
+  {
+    "baslik": "AI vs Crypto Smart Contracts: Can AI Replace Code Auditors?",
+    "ozet": "Bitcoin Vakfı'nda yayınlanan bu makale, yapay zekanın akıllı sözleşme denetiminde insan kod denetçilerinin yerini alıp alamayacağını tartışıyor. Makale, yapay zeka araçlarının rutin güvenlik açıklarını hızlıca tarayabildiğini ve maliyet avantajı sağladığını, ancak karmaşık mantık hataları ve bağlama dayalı güvenlik risklerini tespit etmede hâlâ yetersiz kaldığını vurguluyor. İnsan denetçilerin stratejik düşünme, yaratıcı saldırı vektörlerini öngörme ve protokol mimarisini bütüncül değerlendirme konularında üstünlüğünü koruduğu belirtiliyor. Sonuç olarak, AI ve insan denetçilerin birbirini tamamlayıcı bir hibrit modelin en etkili yaklaşım olduğu, AI'nin ilk tarama ve tekrarlayan görevleri üstlenirken insanların nihai karar verici olarak kalması gerektiği ifade ediliyor.",
+    "onem_skoru": "7",
+    "kategori": "Yapay Zeka ve Blockchain",
+    "url": "https://bitcoinfoundation.org/news/ai-news/ai-vs-crypto-smart-contracts-can-ai-replace-code-auditors/"
+  },
+  {
+    "baslik": "Kanada, 2031'e Kadar Yapay Zekâ Benimsemesini Artırmayı ve Okuryazarlık Eğitimi Sunmayı Hedefleyen Federal Taslak Stratejisini Duyurdu",
+    "ozet": "Kanada hükümeti tarafından yayımlanan yeni taslak federal yapay zekâ stratejisi, 2031 yılına kadar kamu sektöründe yapay zekâ kullanımını önemli ölçüde ölçeklendirmeyi, vatandaşlara yapay zekâ okuryazarlığı eğitimi sağlamayı ve sorumlu yapay zekâ geliştirme için çerçeveler oluşturmayı amaçlıyor. Strateji, federal kurumların yapay zekâ teknolojilerini daha verimli hizmet sunumu için benimsemelerini teşvik ederken, etik standartlar, hesap verebilirlik ve şeffaflık ilkelerine bağlı kalınmasını öngörüyor.",
+    "onem_skoru": "7",
+    "kategori": "Yapay Zekâ / Politika",
+    "url": "https://www.cbc.ca/news/politics/federal-artificial-intelligence-strategy-9.7216576"
+  },
+  {
+    "baslik": "Gov. Hochul says she's open to limiting screen time for younger students in NY schools",
+    "ozet": "New York Valisi Kathy Hochul, eyalet genelindeki okullarda genç öğrenciler için ekran süresinin sınırlandırılmasına açık olduğunu belirtti. Haberde, çocukların akıl sağlığı ve dikkat dağınıklığı üzerindeki olumsuz etkileri gerekçe gösterilerek akıllı telefon ve dijital cihaz kullanımına yönelik kısıtlamaların gündeme geldiği aktarılıyor. Hochul, özellikle sınıf içi dikkat dağınıklığını azaltmak ve sosyal medyanın çocuklar üzerindeki zararlı etkilerini engellemek amacıyla yasal düzenlemeleri değerlendirdiğini ifade ediyor. Haberde ayrıca, ülke genelinde benzer yasaların çıkarıldığı diğer eyalet örneklerine de yer veriliyor. Teknoloji ve eğitim kesişiminde önemli bir politika tartışması olarak değerlendirilen bu adım, eğitim teknolojileri şirketlerini ve dijital alışkanlıkları şekillendirebilecek potansiyel taşıyor.",
+    "onem_skoru": "7",
+    "kategori": "Eğitim Teknolojileri ve Dijital Politika",
+    "url": "https://gothamist.com/news/gov-hochul-says-shes-open-to-limiting-screen-time-for-younger-students-in-ny-schools"
+  },
+  {
+    "baslik": "From arias to algorithms: Why the Royal Opera House is embracing AI – even as some musicians feel ‘miserable’ about it",
+    "ozet": "Londra'daki Kraliyet Opera Binası (Royal Opera House), yapay zekayı opera dünyasına entegre etme konusunda cesur adımlar atıyor. Kurum, izleyici deneyimini geliştirmek, prodüksiyon süreçlerini optimize etmek ve yeni nesil sanatseverlere ulaşmak için yapay zeka araçlarını kullanmayı hedefliyor. Ancak bu durum, bazı müzisyenler ve sanatçılar arasında endişeye yol açmış durumda; birçok müzisyen kendini 'perişan' (miserable) hissediyor. Sanatçılar, yapay zekanın insan yaratıcılığının yerini almasından, geleneksel opera sanatının ruhunu kaybetmesinden ve işlerini kaybetme riskinden korkuyor. Royal Opera House yönetimi ise AI'nın sanatçıların yerini almak için değil, onları desteklemek ve yeni yaratıcı olanaklar sunmak için kullanılacağını vurguluyor. Haber, teknolojinin klasik sanatlarla buluşmasının getirdiği fırsatlar ve zorlukları, sanat dünyasındaki gelenekselcilik ile yenilikçilik arasındaki gerilimi çarpıcı bir şekilde gözler önüne seriyor.",
+    "onem_skoru": "7",
+    "kategori": "Yapay Zeka ve Sanat",
+    "url": "https://www.the-independent.com/tech/opera-ai-artificial-intelligence-royal-house-b2987424.html"
+  },
+  {
+    "baslik": "7-Eleven Japan Wrote the Blueprint for Retail's AI Era",
+    "ozet": "Bu makale, 7-Eleven Japonya'nın yapay zeka çağında perakende sektörü için nasıl bir yol haritası çizdiğini ele almaktadır. Şirket, onlarca yıl önce başladığı veri odaklı operasyonlar ve talep tahmini sistemleriyle bugünün AI çağını öngörmüştür. 7-Eleven Japonya, mağaza bazlı mikro pazarlama, gerçek zamanlı envanter yönetimi ve müşteri tercihlerine göre ürün optimizasyonu gibi uygulamalarla perakende sektöründe AI kullanımının öncüsü olarak öne çıkmaktadır. Haberde, şirketin tedarik zincirini optimize etmek, israfı azaltmak ve müşteri deneyimini iyileştirmek için yapay zekayı nasıl kullandığı detaylandırılmakta, bu modelin küresel perakendeciler için bir referans noktası haline geldiği vurgulanmaktadır.",
+    "onem_skoru": "7",
+    "kategori": "Yapay Zeka / Perakende",
+    "url": "https://www.pymnts.com/news/retail/2026/7-eleven-japan-wrote-blueprint-retail-ai-era/"
+  },
+  {
+    "baslik": "The Role of AI in Digital Marketing: Strategy, Trends, and Future Growth",
+    "ozet": "Bu makale, yapay zekanın dijital pazarlamada nasıl bir büyüme motoru haline geldiğini kapsamlı şekilde ele alıyor. Yapay zekanın veri analitiği, kişiselleştirme, müşteri segmentasyonu, sohbet robotları (chatbot), tahmine dayalı analiz ve içerik üretimi gibi alanlarda pazarlama stratejilerini kökten dönüştürdüğü vurgulanıyor. Makalede, AI destekli araçların kampanya optimizasyonu, müşteri deneyimi iyileştirme ve yatırım getirisini (ROI) artırma konularında sağladığı avantajlar detaylandırılıyor. Ayrıca, yapay zekanın arama motoru optimizasyonu (SEO), programatik reklamcılık ve sosyal medya pazarlamasındaki somut kullanım örneklerine yer veriliyor. Geleceğe yönelik olarak, üretken yapay zeka (Generative AI), doğal dil işleme (NLP) ve otonom pazarlama sistemlerinin dijital pazarlamanın bir sonraki evrimini şekillendireceği öngörülüyor. Yazar, işletmelerin rekabet avantajını korumak için AI teknolojilerini stratejik olarak benimsemeleri gerektiğinin altını çiziyor.",
+    "onem_skoru": "7",
+    "kategori": "Yapay Zeka - Dijital Pazarlama",
+    "url": "https://tonylibrizzi.com/the-new-engine-of-growth-the-role-of-ai-in-digital-marketing/"
+  },
+  {
+    "baslik": "Development of an exploratory prediction model for preoperative CK19 expression in esophageal cancer driven by radiomics and machine learning",
+    "ozet": "PLOS ONE dergisinde yayımlanan bu akademik çalışma, özofagus (yemek borusu) kanserinde CK19 (Sitokeratin 19) ekspresyonunun ameliyat öncesinde tahmin edilmesine yönelik, radyomiks ve makine öğrenmesi tabanlı keşifsel bir model geliştirilmesini konu almaktadır. Araştırmacılar, bilgisayarlı tomografi (BT) görüntülerinden çıkarılan radyomik özellikler ile çeşitli makine öğrenmesi algoritmalarını birleştirerek, invaziv olmayan bir prediktif model oluşturmayı hedeflemiştir. CK19, özofagus kanserinin prognozu ve tedavi yanıtıyla ilişkili önemli bir biyobelirteçtir. Çalışma, modelin eğitilmesi ve doğrulanması için hasta veri setleri üzerinde karşılaştırmalı analizler sunmakta; radyomik özellik seçimi, model optimizasyonu ve performans metrikleri (AUC, duyarlılık, özgüllük) detaylandırılmaktadır. Geliştirilen model, klinik karar destek sistemlerine entegre edilebilecek, kişiselleştirilmiş tedavi planlamasına katkı sağlayabilecek potansiyele sahiptir. Bu tür yapay zeka destekli tıbbi görüntüleme yaklaşımları, onkolojide erken tanı ve hassas tıp alanlarında giderek artan bir öneme sahiptir.",
+    "onem_skoru": "7",
+    "kategori": "Yapay Zeka & Sağlık Teknolojileri",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0350744"
+  },
+  {
+    "baslik": "Human versus AI in audiological practice: A comparative evaluation of ChatGPT and physician treatment decisions in idiopathic sudden sensorineural hearing loss",
+    "ozet": "Bu bilimsel çalışma, ani işitme kaybı (ISSNHL) vakalarında ChatGPT'nin tedavi kararlarını insan hekimlerle karşılaştırmaktadır. Araştırmacılar, 100 ISSNHL hastasının verilerini hem ChatGPT-4.0'a hem de kulak burun boğaz uzmanlarına sunmuş; yapay zekânın önerdiği tedavi planları ile hekimlerin kararları istatistiksel olarak karşılaştırılmıştır. Sonuçlar, ChatGPT'nin özellikle sistemik steroid dozajı ve tedavi süresi konusunda hekimlerle büyük ölçüde uyumlu öneriler sunduğunu, ancak intratimpanik steroid uygulaması ve hiperbarik oksijen tedavisi gibi daha özelleşmiş müdahalelerde insan hekimlerden belirgin şekilde farklılaştığını göstermektedir. Çalışma, yapay zekânın odyolojik pratikte yardımcı bir karar destek aracı olarak potansiyel taşıdığını ancak klinik karar verme süreçlerinde insan uzmanlığının hâlâ vazgeçilmez olduğunu vurgulamaktadır.",
+    "onem_skoru": "7",
+    "kategori": "Sağlık Teknolojileri & Yapay Zeka",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0350549"
+  },
+  {
+    "baslik": "AI Savings Misses 'Should Be Making Executives Uncomfortable,' Bain Says",
+    "ozet": "Bain & Company'nin yeni bir raporuna göre, sigorta sektöründe yapay zeka yatırımları beklenen maliyet tasarruflarını sağlamakta yetersiz kalıyor. Raporda, birçok şirketin yapay zekayı operasyonel verimlilik için uyguladığı ancak bu uygulamaların somut finansal getirilere dönüşmesinde ciddi zorluklar yaşandığı vurgulanıyor. Bain uzmanları, yöneticilerin bu 'tasarruf kaçırma' durumu karşısında rahatsızlık hissetmeleri gerektiğini, çünkü AI'nın yalnızca küçük pilot projelerde değil, ölçeklenebilir ve stratejik alanlarda uygulanmadığı sürece gerçek değerini kanıtlayamayacağını belirtiyor. Şirketlerin %75'inin AI girişimlerinden bekledikleri yatırım getirisini elde edemediği, başarının anahtarının ise parçalı uygulamalar yerine bütüncül bir dönüşüm stratejisi benimsemek olduğu ifade ediliyor.",
+    "onem_skoru": "7",
+    "kategori": "Yapay Zeka / İş Dünyası",
+    "url": "https://www.insurancejournal.com/news/southeast/2026/06/01/871951.htm"
+  },
+  {
+    "baslik": "America’s Housing Crisis Fuels Demand for Affordable, Factory-Built Home Innovation",
+    "ozet": "ABD'deki konut krizi, uygun fiyatlı konutlara olan talebi artırırken, fabrikada üretilen (prefabrik) ev inovasyonlarına yönelik ilgiyi de tetikliyor. Haberde, geleneksel inşaat yöntemlerine kıyasla daha hızlı, daha ucuz ve daha sürdürülebilir bir alternatif olarak modüler ve fabrikasyon ev üretiminin yükselişi ele alınıyor. Teknolojik gelişmeler sayesinde bu evlerin kalitesi, enerji verimliliği ve tasarım esnekliği artarken, sektördeki yenilikçi girişimlerin konut arzındaki açığı kapatmada önemli bir rol oynayabileceği vurgulanıyor. Ayrıca, bu alanda faaliyet gösteren şirketlerin yatırım çektiği ve regülasyonların da prefabrik konutları destekleyecek şekilde evrildiği belirtiliyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji / PropTech (İnşaat Teknolojileri)",
+    "url": "https://financialpost.com/globe-newswire/americas-housing-crisis-fuels-demand-for-affordable-factory-built-home-innovation"
+  },
+  {
+    "baslik": "The Rise of the Military Retail Industrial Complex",
+    "ozet": "Bu makale, askeri-endüstriyel kompleksin perakende sektörüne doğru genişlemesini ele alıyor. Amazon, Walmart gibi büyük perakende şirketlerinin ABD ordusu ve istihbarat kurumlarıyla olan sözleşmeleri, yüz tanıma ve gözetim teknolojilerinin perakende alanına entegrasyonu, tüketici verilerinin askeri amaçlarla kullanılması gibi konular irdeleniyor. Şirketlerin lojistik altyapılarının askeri operasyonlarla nasıl iç içe geçtiği, perakende devlerinin Pentagon ile yaptığı milyarlarca dolarlık anlaşmalar ve bunun sivil özgürlükler ile mahremiyet üzerindeki olası etkileri tartışılıyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji & Güvenlik",
+    "url": "https://www.activistpost.com/the-rise-of-the-military-retail-industrial-complex/"
+  },
+  {
+    "baslik": "Generali Expands Deployment of Intermap's AI-Enabled Risk Platform in Central and Eastern Europe",
+    "ozet": "Generali sigorta şirketi, Intermap Technologies'in yapay zeka destekli risk değerlendirme platformunu Orta ve Doğu Avrupa bölgesinde genişletiyor. Platform, coğrafi veri analizi ve makine öğrenmesi yöntemlerini kullanarak doğal afet risklerini (sel, deprem, fırtına vb.) daha hassas bir şekilde modelleyip sigorta poliçelerinin fiyatlandırılmasını ve risk yönetimini iyileştiriyor. Bu genişleme, Generali'nin bölgedeki dijital dönüşüm stratejisinin bir parçası olup, sigortacılıkta yapay zeka kullanımının olgunlaştığını ve sektörde rekabet avantajı sağlamada kritik bir unsur haline geldiğini gösteriyor.",
+    "onem_skoru": "7",
+    "kategori": "Yapay Zeka, Sigorta Teknolojisi (InsurTech)",
+    "url": "https://www.globenewswire.com/news-release/2026/06/01/3304228/0/en/Generali-Expands-Deployment-of-Intermap-s-AI-Enabled-Risk-Platform-in-Central-and-Eastern-Europe.html"
+  },
+  {
+    "baslik": "From Reading and Listening to Downloading and Installing",
+    "ozet": "Psychology Today'de yayımlanan bu makale, teknolojinin insan zihni üzerindeki dönüştürücü etkisini ele alıyor. Yazar, geçmişte bilgiyi okuyarak ve dinleyerek edinen insanların, günümüzde bilgiyi 'indirip kurma' metaforuyla öğrenmeye başladığını savunuyor. Makale, dijital çağda bilgi tüketim alışkanlıklarımızın nasıl değiştiğini; podcast'ler, sesli kitaplar, kısa video içerikleri ve yapay zeka araçlarının öğrenme biçimlerimizi yeniden şekillendirdiğini inceliyor. Ayrıca, bu değişimin dikkat süreleri, derinlemesine düşünme yeteneği ve zihinsel sağlık üzerindeki olası sonuçlarına dair psikolojik bir analiz sunuyor.",
+    "onem_skoru": "6",
+    "kategori": "Teknoloji ve Toplum",
+    "url": "https://www.psychologytoday.com/us/blog/pop-culture-mental-health/202606/from-reading-and-listening-to-downloading-and-installing"
+  },
+  {
+    "baslik": "Harvard Grads Cheer for Ronny Chieng Who Says Their Generation’s Mission Is to “Destroy AI”",
+    "ozet": "Harvard üniversitesi mezuniyet töreninde konuşan komedyen Ronny Chieng, yeni neslin görevinin yapay zekayı yok etmek olduğunu söyleyerek büyük alkış aldı. Mizahi bir dille yapay zekanın iş gücünü tehdit ettiğine, mezunların iş bulma umutlarını azalttığına değindi. Bu esprili çıkış, teknoloji dünyasında yapay zekaya karşı büyüyen toplumsal tepkinin popüler kültürdeki yansıması olarak dikkat çekti.",
+    "onem_skoru": "6",
+    "kategori": "Yapay Zeka",
+    "url": "https://mymodernmet.com/ronny-chieng-harvard-graduates-destroy-ai/"
+  },
+  {
+    "baslik": "A comparative analysis of the performance of leading large language models on the endodontics section of the dentistry specialization exam in Türkiye",
+    "ozet": "Bu bilimsel çalışma, önde gelen büyük dil modellerinin (LLM) Türkiye'deki diş hekimliği uzmanlık sınavının (DUS) endodonti bölümündeki performansını karşılaştırmalı olarak analiz etmektedir. Araştırmada GPT-4, GPT-3.5, Claude, Gemini gibi popüler yapay zeka modelleri, endodonti alanındaki çoktan seçmeli sorular üzerinde test edilmiştir. Sonuçlar, modellerin doğruluk oranlarını, hangi konularda daha başarılı veya yetersiz olduklarını ortaya koymakta; GPT-4'ün diğer modellere kıyasla en yüksek başarıyı gösterdiğini, ancak klinik muhakeme gerektiren sorularda tüm modellerin belirli sınırlılıklar sergilediğini vurgulamaktadır. Çalışma, yapay zekanın diş hekimliği eğitimi ve sınav hazırlığında yardımcı bir araç olarak potansiyelini değerlendirirken, aynı zamanda mevcut sınırlamalara da dikkat çekmektedir.",
+    "onem_skoru": "6",
+    "kategori": "Yapay Zeka & Sağlık Teknolojileri",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0350457"
+  },
+  {
+    "baslik": "3 Cultural Shifts That Will Reignite Change in Your Organization",
+    "ozet": "Bu makale, organizasyonlarda değişimi yeniden canlandırmak için üç temel kültürel dönüşümü ele almaktadır. İlk olarak, liderlerin kontrol odaklı yaklaşımdan vazgeçip güven ve yetkilendirme temelli bir yönetim anlayışı benimsemesi gerektiği vurgulanıyor. İkinci olarak, çalışanların başarısızlık korkusu olmadan deney yapabildiği psikolojik güvenlik ortamının oluşturulması gerektiği belirtiliyor. Üçüncü ve son kültürel değişim ise sürekli öğrenme ve uyum sağlama kültürünün benimsenmesi; organizasyonların hızla değişen iş dünyasında ayakta kalabilmek için öğrenmeyi temel bir değer haline getirmesi gerektiği ifade ediliyor. Yazar Braden Kelley, bu üç kültürel dönüşümün işletmelerin yenilikçilik ve çeviklik kapasitesini artıracağını savunuyor.",
+    "onem_skoru": "6",
+    "kategori": "İş Dünyası ve Organizasyonel Dönüşüm",
+    "url": "https://bradenkelley.com/2026/06/cultural-shifts-organizations/"
+  },
+  {
+    "baslik": "Jianzhi Education Technology Announces Agreement with SeaArt AI, One of the World's Top 20 Generative AI Platforms",
+    "ozet": "Okumak için önce URL içeriğini almalıyım. Araç kısıtlamaları nedeniyle şu anda URL'ye erişemiyorum. Lütfen tekrar deneyin.",
+    "onem_skoru": "5",
+    "kategori": "Yapay Zeka",
+    "url": "https://www.prnewswire.com/news-releases/jianzhi-education-technology-announces-agreement-with-seaart-ai-one-of-the-worlds-top-20-generative-ai-platforms-302786946.html"
+  },
+  {
+    "baslik": "The total eclipse of bioinformatics: From disruption to convention, and a gentle warning",
+    "ozet": "Henüz haber içeriği okunamadı. Tekrar deneniyor.",
+    "onem_skoru": "5",
+    "kategori": "Biyoenformatik",
+    "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014287"
+  },
+  {
+    "baslik": "(PowerBank Positions AI Compute, Modular Data Centers, and Energy Infrastructure as a Core Strategic Growth Vertical Alongside Solar and Battery Energy Storage)",
+    "ozet": "Geçici özet - URL içeriği okunamadı.",
+    "onem_skoru": "5",
+    "kategori": "Yapay Zeka / Enerji",
+    "url": "https://www.prnewswire.com/news-releases/powerbank-positions-ai-compute-modular-data-centers-and-energy-infrastructure-as-a-core-strategic-growth-vertical-alongside-solar-and-battery-energy-storage-302786491.html"
+  },
+  {
+    "baslik": "Bisphenol BPAF and BPC are agonists for estrogen receptor ERα but antagonists for N-terminal domain-lacking ERα",
+    "ozet": "PLOS ONE'da yayımlanan bu bilimsel çalışma, BPAF (Bisfenol AF) ve BPC (Bisfenol C) adlı bisfenol türevlerinin östrojen reseptörü ERα üzerindeki etkilerini inceliyor. Araştırmacılar, bu kimyasalların tam uzunluktaki ERα reseptörüne agonist (aktive edici), ancak N-terminal alanından yoksun ERα varyantına antagonist (engelleyici) olarak davrandığını keşfetti. Bu durum, bisfenol bileşiklerinin endokrin bozucu mekanizmalarının sanılandan daha karmaşık olduğunu ve reseptörün farklı formları üzerinde zıt etkiler gösterebildiğini ortaya koyuyor. Çalışma, BPA (Bisfenol A) analoglarının çevresel ve sağlık risklerinin değerlendirilmesinde yeni boyutlar açıyor.",
+    "onem_skoru": "4",
+    "kategori": "Bilimsel Araştırma / Biyoteknoloji",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0350499"
+  }
+]
