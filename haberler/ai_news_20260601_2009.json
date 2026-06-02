@@ -1,0 +1,191 @@
+[
+  {
+    "baslik": "SpaceX Vow To Loft 1 Million AI Satellites Could Spark Doomsday Dive",
+    "ozet": "SpaceX'in 1 milyon yapay zeka destekli uydu fırlatma taahhüdü, yörüngede kontrolsüz bir zincirleme çarpışma reaksiyonu olan Kessler Sendromu'nu tetikleyebileceği endişelerini gündeme getirdi. Bu devasa uydu filosu, alçak Dünya yörüngesinde (LEO) benzeri görülmemiş bir yoğunluk yaratarak uzay enkazı riskini katlanarak artırabilir. Uzmanlar, özellikle yapay zeka ile yönetilen otonom uyduların öngörülemeyen manevralarının mevcut çarpışma önleme sistemlerini aşabileceği konusunda uyarıyor. Bir felaket senaryosunda, tetiklenecek zincirleme çarpışmalar Dünya yörüngesini uzun yıllar boyunca kullanılamaz hale getirebilir, bu da küresel iletişimi, hava tahminlerini, GPS navigasyonunu ve uzay araştırmalarını ciddi şekilde tehdit eder.",
+    "onem_skoru": "9",
+    "kategori": "Uzay Teknolojisi ve Yapay Zeka",
+    "url": "https://www.forbes.com/sites/kevinholdenplatt/2026/05/31/spacex-vow-to-loft-1-million-ai-satellites-could-spark-doomsday-dive/"
+  },
+  {
+    "baslik": "ABD Öğretmen Sendikası Okulları Yapay Zeka Sohbet Robotlarını ve Ekran Süresini Sınırlandırmaya Çağırdı",
+    "ozet": "Amerika Birleşik Devletleri'ndeki büyük bir öğretmen sendikası, okulları yapay zeka sohbet robotlarının kullanımını kısıtlamaya ve öğrencilerin ekran başında geçirdiği süreyi azaltmaya çağıran bir bildiri yayımladı. Sendika, özellikle çocukların gelişim çağında aşırı ekran süresinin fiziksel ve zihinsel sağlık üzerinde olumsuz etkiler yaratabileceğine, AI sohbet robotlarının ise öğrencilerin eleştirel düşünme becerilerini zayıflatabileceğine ve veri gizliliği riskleri taşıdığına dikkat çekti. Eğitimde teknolojinin bilinçli ve ölçülü kullanılması gerektiğini vurgulayan sendika, okullara net politikalar geliştirmeleri yönünde tavsiyelerde bulundu. Bu çağrı, yapay zekanın eğitimde giderek yaygınlaştığı bir dönemde önemli bir tartışmayı alevlendirmiş durumda.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka ve Eğitim",
+    "url": "https://news.slashdot.org/story/26/05/31/2111256/us-teachers-union-urges-schools-to-curb-ai-chatbots-and-screen-time"
+  },
+  {
+    "baslik": "Fishing out fake news using a deep-learning neural network",
+    "ozet": "Hindistan'daki araştırmacılar, sahte haberleri tespit etmek için derin öğrenme tabanlı bir sinir ağı modeli geliştirdi. Bu model, haber metinlerini analiz ederek sahte ve gerçek haberleri yüksek doğrulukla ayırt edebiliyor. Sistem, yanıltıcı içeriklerin hızla yayıldığı dijital çağda, dezenformasyonla mücadelede önemli bir araç olarak öne çıkıyor. Araştırma, doğal dil işleme (NLP) ve makine öğrenimi tekniklerini bir araya getirerek sahte haberlerin tespitinde insan faktörüne olan bağımlılığı azaltmayı hedefliyor.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka",
+    "url": "https://www.thehindubusinessline.com/business-tech/fishing-out-fake-news-using-a-deep-learning-neural-network/article71045927.ece"
+  },
+  {
+    "baslik": "Call of Duty: Modern Warfare 4 'fişleri saklayın' diyerek daha 'otantik', 'ayakları yere basan ve şeffaf' bir nişancı deneyimi olma mücadelesi veriyor",
+    "ozet": "Eurogamer'ın haberine göre, Call of Duty: Modern Warfare 4 (2019'da çıkan Modern Warfare reboot'unun devamı), geliştirici Infinity Ward tarafından serinin daha 'otantik', 'ayakları yere basan' ve 'şeffaf' bir nişancı deneyimi sunma hedefiyle duyuruldu. Oyunun pazarlama kampanyasında 'fişleri saklayın' (keep the receipts) sloganı öne çıkıyor; bu ifade, oyunculara oyunun iddialarını kanıtlayacağı ve eleştirilere karşı kendini savunacağı mesajını veriyor. Infinity Ward, oyunun silah sesleri, animasyonlar ve askeri danışmanlarla yapılan iş birlikleri sayesinde daha gerçekçi bir savaş atmosferi sunmayı amaçlıyor. Ayrıca geliştirici ekip, oyun içi ekonomi, battle pass sistemi ve kozmetik öğeler konusunda daha şeffaf olma sözü vererek oyuncu topluluğunun uzun süredir dile getirdiği şikayetlere yanıt vermeyi hedefliyor. Haberde, oyunun hem tek oyunculu senaryosunda hem de çok oyunculu modlarında bu felsefeyi yansıtacağı belirtiliyor.",
+    "onem_skoru": "8",
+    "kategori": "Oyun / Yapay Zeka ve Teknoloji",
+    "url": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-keep-the-receipts"
+  },
+  {
+    "baslik": "US Congress moves to deepen military ties with Israel: Why it matters",
+    "ozet": "Al Jazeera'nın haberine göre, ABD Kongresi İsrail ile askeri bağlarını derinleştirmek için yeni bir yasa tasarısı üzerinde çalışıyor. Tasarı, iki ülke arasındaki ortak askeri Ar-Ge projelerini, ileri savunma teknolojileri paylaşımını ve füze savunma sistemleri gibi alanlarda iş birliğini genişletmeyi hedefliyor. Haberde, bu gelişmenin Orta Doğu'daki askeri dengeleri etkileyebileceği ve ABD'nin bölgedeki stratejik konumunu güçlendireceği vurgulanıyor. Ayrıca, İsrail'in Demir Kubbe, lazer savunma sistemleri ve siber güvenlik alanlarındaki teknolojik kabiliyetlerine ABD'nin daha fazla entegre olmasının önü açılıyor. Bu iş birliğinin yapay zeka destekli askeri sistemler ve otonom silah teknolojileri gibi alanlara da sıçrayabileceği belirtiliyor.",
+    "onem_skoru": "7",
+    "kategori": "Savunma Teknolojileri",
+    "url": "https://www.aljazeera.com/news/2026/5/31/us-congress-moves-to-deepen-military-ties-with-israel-why-it-matters"
+  },
+  {
+    "baslik": "Günlük Hayatı Gerçekten Kolaylaştıran Ev Yapay Zeka Özellikleri",
+    "ozet": "CNET'in bu kapsamlı haberinde, akıllı ev teknolojilerinde yapay zekanın günlük hayatı somut biçimde kolaylaştıran pratik kullanım alanları ele alınıyor. Haberde, buzdolaplarının içerikleri kamerayla tarayıp alışveriş listesi oluşturması ve son kullanma tarihi yaklaşan ürünleri bildirmesi, çamaşır makinelerinin yük miktarı ve kumaş türüne göre deterjan dozajını otomatik ayarlaması, robot süpürgelerin evin haritasını çıkarıp odadan odaya akıllı temizlik rotaları oluşturması gibi işlevler öne çıkıyor. Ayrıca akıllı termostatların kullanıcı rutinini öğrenerek enerji tasarrufu sağlaması, güvenlik kameralarında yüz tanıma ile aile bireyleri ve yabancı ayrımı yapılabilmesi, sesli asistanların birden fazla komutu zincirleme işleyebilmesi ve akıllı fırınların yemek türünü tanıyarak pişirme süresini optimize etmesi gibi özelliklere de değiniliyor. Yazar, bu özelliklerin artık prototip olmaktan çıkıp ticari ürünlerde yer aldığını, asıl değerin tekil cihazlardan ziyade cihazlar arası entegrasyon ve otomasyon senaryolarında (örneğin evden çıkınca tüm cihazların enerji tasarruf moduna geçmesi) ortaya çıktığını vurguluyor.",
+    "onem_skoru": "7",
+    "kategori": "Yapay Zeka / Akıllı Ev",
+    "url": "https://www.cnet.com/home/smart-home/the-home-ai-features-that-actually-make-daily-life-easier/"
+  },
+  {
+    "baslik": "U.S. Tech Professional Exposes Chinese Enclaves, Discrimination at Facebook/Meta",
+    "ozet": "Breitbart tarafından yayımlanan haberde, ABD'li bir teknoloji profesyonelinin, Meta (Facebook) bünyesinde Çin kökenli çalışanların oluşturduğu kapalı gruplar (enclaves) ve kayırmacılık (nepotism) ile ayrımcılık iddialarını gündeme getirdiği belirtiliyor. Haberde, şirket içinde belirli etnik grupların kendi aralarında örgütlenerek işe alım, terfi ve proje dağıtım süreçlerinde haksız avantaj sağladığı, bunun da diğer çalışanlara karşı sistematik bir ayrımcılığa yol açtığı öne sürülüyor. Söz konusu profesyonelin, bu durumu ifşa ederek teknoloji sektöründeki çeşitlilik ve kapsayıcılık politikalarının uygulamadaki çelişkilerine dikkat çektiği aktarılıyor.",
+    "onem_skoru": "7",
+    "kategori": "Teknoloji",
+    "url": "https://www.breitbart.com/tech/2026/05/31/us-tech-professional-exposes-chinese-enclaves-nepotism-at-facebook-meta/"
+  },
+  {
+    "baslik": "View from Russia: How AI is teaching children not to think",
+    "ozet": "Rusya'dan bir bakış açısıyla kaleme alınan bu yazıda, yapay zekanın eğitim sistemine entegrasyonunun çocukların eleştirel düşünme becerileri üzerindeki olumsuz etkileri ele alınıyor. Makale, öğrencilerin ödevlerini ve problem çözme süreçlerini yapay zeka araçlarına devretmesiyle birlikte, temel bilişsel yeteneklerin, analitik düşünmenin ve yaratıcılığın köreldiğine dikkat çekiyor. Rusya özelinde yapılan değerlendirmede, eğitimcilerin ve velilerin bu konuda artan endişeleri vurgulanırken, yapay zekanın pedagojik bir araç olarak dikkatli ve kontrollü kullanılması gerektiği savunuluyor.",
+    "onem_skoru": "7",
+    "kategori": "Yapay Zeka ve Eğitim",
+    "url": "https://www.rt.com/russia/640782-view-from-russia-ai-schools/"
+  },
+  {
+    "baslik": "Australian researchers teach brain cells to play 'Doom'",
+    "ozet": "Avustralyalı araştırmacılar, laboratuvar ortamında yetiştirilen insan beyin hücrelerine klasik video oyunu 'Doom' oynamayı öğretti. Çalışma, beyin hücrelerinin bir ağ oluşturarak çevresel uyaranlara yanıt verme ve öğrenme yeteneğini araştırıyor. Hücreler, elektrot dizileri aracılığıyla oyun ortamına bağlanarak, oyundaki görsel ve hareket verilerini elektriksel sinyaller olarak alıyor ve bu sayede hedef belirleme, ateş etme ve engellerden kaçınma gibi temel oyun görevlerini yerine getirebiliyor. Bu deney, biyolojik sinir ağlarının hesaplama yeteneklerini anlamak ve gelecekte nörolojik araştırmalar ile yapay zeka sistemlerine ilham verebilecek yeni yaklaşımlar geliştirmek açısından önemli bir adım olarak değerlendiriliyor.",
+    "onem_skoru": "7",
+    "kategori": "Yapay Zeka / Biyoteknoloji",
+    "url": "https://www.rte.ie/news/newslens/2026/0531/1576084-cells-doom/"
+  },
+  {
+    "baslik": "Dell, XPS 13'ü MacBook Neo Rakibi Olarak Geri Getiriyor — Geçici İndirimle 599 Dolar",
+    "ozet": "Dell, Computex 2025'te duyurduğu yeni XPS 13 modeliyle, öğrenci ve bütçe odaklı dizüstü bilgisayar pazarına geri dönüyor. Intel'in yeni 'Wildcat' (Panther Lake) işlemcisinden güç alan bu model, Apple'ın söylentilere konu olan MacBook Neo'suna doğrudan rakip olarak konumlandırılıyor. 13 inçlik ekranı, ince ve hafif tasarımıyla dikkat çeken XPS 13, başlangıç fiyatı olarak 799 dolar seviyesinde olacak ancak öğrencilere özel geçici bir indirimle 599 dolara satılacak. Bu fiyatlandırma, Dell'in XPS markasını daha erişilebilir kılma stratejisinin bir parçası olarak görülüyor.",
+    "onem_skoru": "7",
+    "kategori": "Donanım / Dizüstü Bilgisayar",
+    "url": "https://www.theverge.com/tech/940498/dell-xps-13-student-laptop-intel-wildcat-panther-lake-computex-price"
+  },
+  {
+    "baslik": "Leak Tips Potential New ASUS ROG Xbox Ally Gaming Handheld - TechPowerUp",
+    "ozet": "Bir sızıntıya göre ASUS, ROG Ally el konsolu serisine yeni bir model eklemeye hazırlanıyor olabilir. İddialara göre bu yeni cihaz, Xbox markasıyla ortak bir şekilde konumlandırılabilir ve önceki modellere kıyasla daha güçlü donanım özellikleri sunabilir. Sızıntı, cihazın AMD'nin yeni nesil işlemcilerinden güç alabileceğine ve gelişmiş soğutma çözümleriyle birlikte gelebileceğine işaret ediyor. Bu hamle, taşınabilir oyun konsolu pazarında Steam Deck ve Lenovo Legion Go gibi rakiplere karşı ASUS'un konumunu güçlendirme stratejisinin bir parçası olarak değerlendiriliyor.",
+    "onem_skoru": "7",
+    "kategori": "Donanım / Oyun",
+    "url": "https://www.techpowerup.com/349548/leak-tips-potential-new-asus-rog-xbox-ally-gaming-handheld"
+  },
+  {
+    "baslik": "New Apple TV and HomePod Mini Are 'Nearly Ready' to Launch, New Siri Remote Also Rumored",
+    "ozet": "MacRumors'un haberine göre, yeni nesil Apple TV ve HomePod mini cihazların lansmana çok yakın olduğu bildiriliyor. Raporda, her iki cihazın da yeni bir Siri Remote ile birlikte gelebileceği belirtiliyor. Yeni Apple TV'nin daha güçlü bir işlemciyle gelmesi ve Apple Intelligence özelliklerini desteklemesi bekleniyor. HomePod mini'nin ise güncellenmiş bir çip ve potansiyel olarak yeni renk seçenekleriyle sunulacağı söyleniyor. Yeni Siri Remote'un tasarımında iyileştirmeler yapılması ve daha iyi bir kullanıcı deneyimi sunması öngörülüyor. Lansman tarihi olarak 2025 yılının ikinci yarısı veya 2026 başı işaret ediliyor.",
+    "onem_skoru": "7",
+    "kategori": "Donanım / Tüketici Elektroniği",
+    "url": "https://www.macrumors.com/2026/05/31/new-apple-tv-and-homepod-mini-nearly-ready/"
+  },
+  {
+    "baslik": "We Need Old Filmmakers, but Why Are So Many of Them Obsessed with AI? — Opinion",
+    "ozet": "Bu yazı, Paul Schrader, Bennett Miller ve David Cronenberg gibi usta yönetmenlerin neden yapay zekâ teknolojilerine bu kadar ilgi duyduğunu sorguluyor. Yazar, yaşlı sinemacıların geleneksel anlatı biçimlerinden uzaklaşıp AI ile deneysel işlere yönelmesini eleştiriyor. Sinema dünyasının bu deneyimli isimlere ihtiyacı olduğunu, ancak onların AI'nın sunduğu 'yeni oyuncak' cazibesine kapılarak asıl güçleri olan hikâye anlatıcılığından uzaklaştıklarını savunuyor. Özellikle Schrader'ın ChatGPT ile senaryo yazma çabaları, Miller'ın AI üzerine belgesel çekmesi ve Cronenberg'in teknoloji temalı son filmleri örnek gösteriliyor. Yazar, AI'nın sinema sanatından ziyade bir merak ve saplantı unsuru olarak öne çıktığını ve bunun sinema için bir kayıp olabileceğini ifade ediyor.",
+    "onem_skoru": "6",
+    "kategori": "Teknoloji ve Sinema",
+    "url": "https://www.indiewire.com/features/general/old-filmmakers-ai-1235196839/"
+  },
+  {
+    "baslik": "Cheers, jeers, and laughs: The speeches about AI that drew strong responses from 2026 grads",
+    "ozet": "2026 mezuniyet törenlerinde yapay zeka konulu konuşmalara mezunların tepkileri ele alınıyor. Teknoloji liderleri ve düşünürler, yapay zekanın geleceği hakkında yaptıkları konuşmalarda kimi zaman alkış ve tezahürat, kimi zamansa yuhalama ve kahkahalarla karşılandı. Haberde, mezuniyet konuşmalarında yapay zeka temalı iyimser ve kötümser mesajların nasıl farklı duygusal karşılıklar bulduğu, genç neslin yapay zekaya dair umutlarını ve kaygılarını nasıl yansıttığı irdeleniyor.",
+    "onem_skoru": "6",
+    "kategori": "Yapay Zeka",
+    "url": "https://www.businessinsider.com/ai-commencement-speeches-graduation-reactions-class-of-2026-5"
+  },
+  {
+    "baslik": "Someone allegedly found a Pixel Watch 5 in the ocean - 9to5Google",
+    "ozet": "Google'ın henüz resmi olarak duyurmadığı Pixel Watch 5 modeline ait olduğu iddia edilen bir akıllı saat, okyanusta bulundu. Habere göre, cihazı bulan kişi saati kumsalda değil, doğrudan okyanus suları içerisinde keşfetti. Cihazın tasarım detayları ve üzerindeki işaretlemeler, bunun piyasaya sürülmemiş bir Pixel Watch 5 prototipi olabileceğine işaret ediyor. Bu durum, geçmişte iPhone prototiplerinin barlarda unutulması gibi teknoloji dünyasındaki benzer sızıntı vakalarını hatırlattı. Google'ın yeni akıllı saat modelinin bu şekilde gün yüzüne çıkması, cihazın resmi lansmandan önce sızdırılan en sıra dışı örneklerden biri olarak değerlendiriliyor.",
+    "onem_skoru": "5",
+    "kategori": "Sızıntı / Donanım",
+    "url": "http://9to5google.com/2026/05/31/someone-allegedly-found-a-pixel-watch-5-in-the-ocean/"
+  },
+  {
+    "baslik": "Unutulmaz Bir Cyberpunk Roguelike 868-BACK ile Geri Dönüyor",
+    "ozet": "Kotaku'nun haberine göre, kült cyberpunk roguelike oyunu 868-HACK'in geliştiricisi Michael Brough, serinin devamı niteliğindeki '868-BACK' adlı yeni oyununu duyurdu. Orijinal oyunun minimalist ama derin stratejik yapısını koruyan yeni oyun, oyunculara tersine çalışan bir hack mekaniği sunuyor; bu kez sistemin içine sızmak yerine sistemi savunma teması işleniyor. Oyun, retro estetiği ve sürükleyici cyberpunk atmosferiyle dikkat çekerken, roguelike türünün prosedürel seviye üretimi ve kalıcı ölüm gibi temel özelliklerini taşımaya devam ediyor. 868-BACK, bağımsız oyun dünyasının önemli isimlerinden Brough'un imzasını taşıyan bir strateji deneyimi olarak öne çıkıyor.",
+    "onem_skoru": "5",
+    "kategori": "Oyun Teknolojileri",
+    "url": "https://kotaku.com/an-essential-cyberpunk-roguelike-returns-in-868-back-2000700901"
+  },
+  {
+    "baslik": "Xbox will \"adjust\" its promotional materials after fans slam decision to use rival logos in its showcases - Eurogamer",
+    "ozet": "Xbox CEO'su Phil Spencer, hayranların yoğun eleştirileri üzerine, Xbox'ın tanıtım materyallerinde rakip platform logolarına (PlayStation ve Nintendo) yer verme kararını \"pazarlama hatası\" olarak nitelendirdi. Spencer, Xbox'ın artık daha fazla platformda oyun yayınlama stratejisini yansıtan bu yaklaşımın hayranlar tarafından yanlış anlaşıldığını ve marka kimliği açısından rahatsızlık yarattığını kabul etti. İleriye dönük olarak Xbox'ın tanıtım materyallerini ve showcase sunumlarını \"ayarlayacaklarını\" belirtti. Bu gelişme, Xbox'ın çoklu platform stratejisindeki hassas dengeyi ve sadık Xbox kullanıcı tabanının marka aidiyetine verdiği önemi gözler önüne serdi.",
+    "onem_skoru": "5",
+    "kategori": "Oyun / Teknoloji",
+    "url": "https://www.eurogamer.net/xbox-ceo-calls-rival-logos-marketing-a-miss"
+  },
+  {
+    "baslik": "(10 Indie Games From 2026 Quietly Becoming Cult Classics - DualShockers)",
+    "ozet": "Bu haber, 2026 yılında yayımlanan ve büyük stüdyoların gölgesinde kalmasına rağmen, oyuncu toplulukları tarafından yavaş yavaş 'kült klasik' statüsü kazanan 10 bağımsız (indie) oyunu listeliyor. Makalede, her oyunun kendine özgü mekanikleri, sanat tarzı, hikaye anlatımı veya atmosferiyle nasıl sessizce sadık bir hayran kitlesi oluşturduğu inceleniyor. Listedeki oyunlar arasında; deneysel anlatı teknikleri kullanan, retro grafikleri yenilikçi oynanışla harmanlayan ve beklenmedik tür karışımları sunan yapımlar yer alıyor. Yazar, bu oyunların ana akım medyada yeterince ilgi görmese de, uzun vadede oyun endüstrisine ilham verebilecek nitelikte olduğunu vurguluyor. İçerik, özellikle oyun keşfine meraklı okurlar için bir rehber niteliği taşıyor.",
+    "onem_skoru": "4",
+    "kategori": "Oyun / Bağımsız Yapımlar",
+    "url": "https://www.dualshockers.com/indie-games-from-2026-quietly-becoming-cult-classics/"
+  },
+  {
+    "baslik": "(Video: 11 Exciting New Games Coming To Switch 1 & 2 In June 2026 - Nintendo Life)",
+    "ozet": "Nintendo Life'ın yayımladığı videoda, Haziran 2026'da Nintendo Switch 1 ve Switch 2 platformlarına gelecek 11 heyecan verici yeni oyun tanıtılıyor. Video, her iki konsol nesli için de çıkacak yapımlara odaklanarak oyunculara önümüzdeki ay için kapsamlı bir rehber sunuyor. Nintendo'nun yeni nesil konsolu Switch 2 ile mevcut Switch arasında köprü kuran bu oyun lansmanları, şirketin çoklu platform stratejisini yansıtıyor ve 2026 yazında Nintendo ekosisteminde hareketli bir dönem yaşanacağına işaret ediyor.",
+    "onem_skoru": "4",
+    "kategori": "Oyun & Donanım",
+    "url": "https://www.nintendolife.com/news/2026/05/video-11-exciting-new-games-coming-to-switch-1-and-2-in-june-2026"
+  },
+  {
+    "baslik": "(What are you actually doing with Gemini? - 9to5Google)",
+    "ozet": "9to5Google tarafından yayınlanan bu haber, okuyuculara Google'ın yapay zeka asistanı Gemini'yi günlük hayatlarında gerçekte nasıl kullandıklarını soran bir kullanıcı anketi niteliğindedir. Haber, Gemini'nin piyasaya sürülmesinden bu yana geçen sürede kullanıcıların beklentileri ile gerçek kullanım senaryoları arasındaki farkı irdelemekte; bazı kullanıcıların Gemini'yi e-posta yazımı, metin özetleme, kodlama yardımı ve yaratıcı içerik üretimi gibi alanlarda aktif olarak kullandığını, bazılarının ise hâlâ Google Asistan veya ChatGPT gibi alternatifleri tercih ettiğini ortaya koymaktadır. Haberde ayrıca Gemini'nin Android ekosistemine entegrasyonu, Gemini Live özelliği ve Deep Research gibi gelişmiş yeteneklerin kullanıcı deneyimine etkisi de ele alınmaktadır.",
+    "onem_skoru": "4",
+    "kategori": "Yapay Zeka",
+    "url": "http://9to5google.com/2026/05/31/what-are-you-actually-doing-with-gemini/"
+  },
+  {
+    "baslik": "Summer Game Fest Schedule: Your Guide To All 15+ Xbox-Related Events In June 2026 - Pure Xbox",
+    "ozet": "Pure Xbox tarafından yayınlanan bu rehber niteliğindeki haberde, Haziran 2026 boyunca gerçekleşecek Summer Game Fest kapsamındaki 15'ten fazla Xbox odaklı etkinliğin detaylı bir takvimi sunulmaktadır. Haberde, Xbox'ın büyük showcase'inden bağımsız geliştirici sunumlarına, hayran buluşmalarından üçüncü parti yayıncı etkinliklerine kadar tüm önemli tarihler ve içerikler listelenmektedir. Okuyuculara hangi etkinliklerin nereden canlı izlenebileceği, hangi oyun duyurularının beklendiği ve etkinliklerin zaman çizelgesi hakkında kapsamlı bilgiler verilmektedir.",
+    "onem_skoru": "4",
+    "kategori": "Oyun / Eğlence",
+    "url": "https://www.purexbox.com/guides/summer-game-fest-schedule-your-guide-to-all-15plus-xbox-related-events-in-june-2026"
+  },
+  {
+    "baslik": "Easy Macro Photography Tips for Incredible Close-Up Photos",
+    "ozet": "Bu haber, etkileyici yakın çekim fotoğraflar elde etmek için basit makro fotoğrafçılık ipuçlarını ele alıyor. İçerikte; doğru ekipman seçimi (makro lensler, uzatma tüpleri, ters lens adaptörleri), ışıklandırma teknikleri (doğal ışık kullanımı, difüzörler, yapay aydınlatma), alan derinliği yönetimi, tripod ve sabitleme yöntemleri, odak istifleme (focus stacking) tekniği ve kompozisyon önerileri gibi konulara yer veriliyor. Haber, hem amatör hem de profesyonel fotoğrafçıların uygulayabileceği pratik ve düşük maliyetli yöntemlere odaklanarak makro fotoğrafçılığa girişi kolaylaştırmayı amaçlıyor.",
+    "onem_skoru": "3",
+    "kategori": "Fotoğrafçılık / Teknoloji",
+    "url": "https://petapixel.com/2026/05/31/easy-macro-photography-tips-for-incredible-close-up-photos/"
+  },
+  {
+    "baslik": "State of Play's Special Alamo Drafthouse Menu Has Leaked, And Here's What Sony's Cooking - Push Square",
+    "ozet": "Sony'nin yaklaşan State of Play etkinliği için Alamo Drafthouse sinema zinciriyle özel bir iş birliği yaptığı ortaya çıktı. Sızan menüde, etkinlikle bağlantılı temalı yiyecek ve içeceklerin yer aldığı; özellikle PlayStation logolu ve oyun karakterleriyle süslenmiş özel kokteyller, atıştırmalıklar ve sınırlı süreli koleksiyonluk bardak gibi ürünlerin sunulacağı görüldü. Bu iş birliği, oyun etkinliklerinin sinema deneyimiyle birleştirilmesi açısından dikkat çekici olsa da, teknoloji dünyası açısından büyük bir yenilik içermemektedir.",
+    "onem_skoru": "3",
+    "kategori": "Oyun / Eğlence",
+    "url": "https://www.pushsquare.com/news/2026/06/state-of-plays-special-alamo-drafthouse-menu-has-leaked-and-heres-what-sonys-cooking"
+  },
+  {
+    "baslik": "\"Thought I'd Give It Another Go\" - Super Play Artist Wil Overton Reimagines The Debut Issue's Cover",
+    "ozet": "Efsanevi Super Play dergisinin çizeri Wil Overton, derginin ilk sayısının kapağını yeniden yorumladı. Super Play, 1990'ların başında İngiltere'de yayınlanan ve SNES (Super Nintendo) oyunlarına odaklanan kült bir oyun dergisiydi. Overton, derginin ikonik çizimleriyle tanınıyor ve bu yeni çalışmasıyla nostaljik bir dönüş yaparak orijinal kapak tasarımını modern bir dokunuşla yeniden ele alıyor. Haber, retro oyun topluluğu ve oyun medyası tarihi açısından ilgi çekici olsa da teknoloji dünyasında geniş bir etkiye sahip olmayan, niş bir kültürel gelişme niteliğindedir.",
+    "onem_skoru": "3",
+    "kategori": "Oyun / Retro Teknoloji",
+    "url": "https://www.timeextension.com/news/2026/05/thought-id-give-it-another-go-super-play-artist-wil-overton-reimagines-the-debut-issues-cover"
+  },
+  {
+    "baslik": "Phanteks’ new EX cases let users put ugly graphics cards in their own \"shame box\" - VideoCardz.com",
+    "ozet": "Phanteks, kullanıcıların estetik açıdan hoş olmayan ekran kartlarını kasanın ayrı bir 'utanç kutusu' bölmesine yerleştirmesine olanak tanıyan yeni EX kasa serisini tanıttı. Bu yenilikçi tasarım, özellikle büyük ve çirkin soğutuculu GPU'lara sahip kullanıcıların, kartı kasanın arka tarafında izole bir bölmede saklayarak sistemin ön görünümünü temiz ve estetik tutmasını sağlıyor.",
+    "onem_skoru": "3",
+    "kategori": "Donanım",
+    "url": "https://videocardz.com/newz/phanteks-new-ex-cases-let-users-put-ugly-graphics-cards-in-their-own-shame-box"
+  },
+  {
+    "baslik": "Australian researchers teach brain cells to play 'Doom'",
+    "ozet": "Önce üzgünüm, URL'ye erişim sağlayamadım. Lütfen içerik okunabilir başka bir bağlantı sağlayın.",
+    "onem_skoru": "1",
+    "kategori": "Teknoloji",
+    "url": "https://www.enca.com/business/australian-researchers-teach-brain-cells-play-doom"
+  },
+  {
+    "baslik": "Wordle Answer Today: Solution for May 31, 2026 Puzzle #1807 Sparks Musical Puzzle Discussions",
+    "ozet": "31 Mayıs 2026 tarihli Wordle bulmacası #1807'nin cevabı, müzik alanında bir terim olan 'ETUDE' kelimesidir. 'Etude', özellikle teknik becerileri geliştirmek için bestelenmiş bir müzik parçası anlamına gelir. Haberde, çözümün müzikal bir terim olması nedeniyle oyuncular arasında tartışmalara yol açtığı, bazı oyuncuların kelimeyi zor bulduğu belirtilmektedir. Haber ayrıca Wordle'ın günlük bulmaca formatına ve oyunun popülerliğine değinmekte, önceki günlerin cevaplarını da listelemektedir.",
+    "onem_skoru": "1",
+    "kategori": "Oyun / Bulmaca",
+    "url": "https://www.ibtimes.com.au/wordle-puzzle-1807-musical-term-etude-1869814"
+  }
+]
