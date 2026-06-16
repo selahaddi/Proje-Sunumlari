@@ -1,0 +1,142 @@
+[
+  {
+    "baslik": "ABD Hükümeti Anthropic'in Son Claude AI Modelini Neden Durdurdu?",
+    "ozet": "ABD hükümeti, Anthropic'in en yeni Claude AI modelinin ihracat kontrolleri kapsamında devreye alınmasını geçici olarak durdurdu. Olay, Yapay Zeka Yayılma Kuralı (AI Diffusion Rule) çerçevesinde gerçekleşti. Bu düzenleme, gelişmiş AI modellerinin belirli ülkelere ihraç edilmesini veya bu ülkelerde kullanılmasını kısıtlıyor. Anthropic, modelinin yalnızca ABD içinde kullanıma sunulmasını planlamıştı ancak hükümet, modelin teknik özelliklerinin ihracat kontrollerine tabi olabilecek düzeyde olduğuna karar verdi. Bu durum, AI güvenliği ile inovasyon arasındaki hassas dengeyi ve ABD'nin stratejik teknolojileri koruma çabasını gözler önüne seriyor. Uzmanlar, bu tür düzenlemelerin AI geliştirme hızını yavaşlatabileceği, ancak ulusal güvenlik açısından kritik öneme sahip olduğu yorumunda bulunuyor.",
+    "onem_skoru": "9",
+    "kategori": "Yapay Zeka / Politika",
+    "url": "https://theconversation.com/why-the-us-government-shut-down-anthropics-latest-claude-ai-model-285223"
+  },
+  {
+    "baslik": "3D multi-omics tumour atlases: from technology to biology and clinical translation",
+    "ozet": "Nature Reviews Cancer'da yayımlanan bu kapsamlı derleme makalesi, tümörlerin üç boyutlu (3D) multi-omik atlaslarının oluşturulmasında kullanılan en son teknolojileri ve bu atlasların kanser biyolojisine ve klinik uygulamalara nasıl çevrilebileceğini ele almaktadır. Makale, uzaysal transkriptomik, proteomik, metabolomik ve genomik gibi çoklu omik verilerin 3D doku mimarisi bağlamında birleştirilmesiyle, tümör heterojenitesinin, mikroçevre etkileşimlerinin ve metastatik süreçlerin daha önce görülmemiş bir çözünürlükte haritalanmasını sağlayan yenilikçi yaklaşımları incelemektedir. Araştırmacılar, bu entegre 3D atlasların erken tanı, ilaç direncinin anlaşılması, kişiselleştirilmiş tedavi stratejilerinin geliştirilmesi ve hassas onkoloji alanında dönüştürücü bir rol oynayabileceğini vurgulamaktadır. Çalışma ayrıca veri entegrasyonu, hesaplamalı altyapı ve yapay zeka destekli analiz yöntemlerinin bu alandaki kritik önemine dikkat çekmektedir.",
+    "onem_skoru": "9",
+    "kategori": "Sağlık Teknolojileri / Biyoteknoloji",
+    "url": "https://www.nature.com/articles/s41568-026-00940-0"
+  },
+  {
+    "baslik": "‘Toy Story 5’ and the great debate over AI’s threat to childhood",
+    "ozet": "New York Post'ta yayımlanan bu görüş yazısı, 'Toy Story 5' üzerinden yapay zekanın çocukluk üzerindeki etkisine dair büyüyen tartışmayı ele alıyor. Yazı, Pixar'ın klasik serisinin yeni filminde oyuncakların dijital dünyayla rekabet etmek zorunda kaldığına dikkat çekerek, günümüz çocuklarının giderek daha fazla ekran ve yapay zeka destekli içeriklerle büyüdüğünü vurguluyor. Yapay zeka sohbet robotları, kişiselleştirilmiş algoritmalar ve sanal karakterlerin çocukların hayal gücünü, sosyal becerilerini ve gerçek dünya etkileşimlerini nasıl etkilediği sorgulanıyor. Yazar, AI'nin çocuklar için hem fırsatlar (eğitim, yaratıcılık araçları) hem de riskler (bağımlılık, gerçeklikten kopma, veri gizliliği) sunduğunu belirtiyor. Tartışmanın merkezinde, ebeveynlerin ve toplumun bu teknolojik dönüşüm karşısında nasıl bir denge kuracağı sorusu yer alıyor.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka ve Toplum",
+    "url": "https://nypost.com/2026/06/15/opinion/toy-story-5-and-the-great-debate-over-ai-vs-childhood/"
+  },
+  {
+    "baslik": "AI in Healthcare Market Expected to Reach US$ 1078.42 Billion by 2034 at CAGR of 45.3% | The Insight Partners",
+    "ozet": "The Insight Partners'ın yayımladığı kapsamlı pazar araştırması raporuna göre, küresel sağlık hizmetlerinde yapay zeka pazarı 2024 yılında yaklaşık 48,22 milyar ABD doları seviyesindeyken, 2034 yılına kadar %45,3'lük bileşik yıllık büyüme oranı (CAGR) ile 1.078,42 milyar ABD dolarına ulaşması bekleniyor. Raporda, bu olağanüstü büyümenin temel itici güçleri arasında tıbbi görüntüleme ve teşhiste yapay zeka kullanımının yaygınlaşması, kişiselleştirilmiş tıp uygulamaları, ilaç keşfi süreçlerinin hızlanması, elektronik sağlık kayıtlarının (EHR) yapay zeka ile entegrasyonu ve robotik cerrahi sistemlerindeki ilerlemeler sayılıyor. Pazar segmentasyonu incelendiğinde; yazılım, donanım ve hizmetler olarak üç ana kategoriye ayrıldığı, teknoloji tarafında ise doğal dil işleme (NLP), makine öğrenimi, derin öğrenme ve bağlamsal farkındalık çözümlerinin öne çıktığı belirtiliyor. Coğrafi dağılıma bakıldığında Kuzey Amerika'nın pazar lideri konumunu sürdürdüğü, ancak Asya-Pasifik bölgesinin en hızlı büyüyen pazar olarak öne çıktığı vurgulanıyor. Raporda ayrıca IBM Watson Health, Google Health, Microsoft, NVIDIA, Siemens Healthineers, Philips Healthcare ve GE Healthcare gibi büyük teknoloji ve sağlık şirketlerinin sektördeki rekabeti şekillendirdiği, veri gizliliği ve düzenleyici çerçeveler bağlamında bazı zorlukların da mevcut olduğu ifade ediliyor.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka / Sağlık Teknolojileri",
+    "url": "https://www.globenewswire.com/news-release/2026/06/15/3311558/0/en/AI-in-Healthcare-Market-Expected-to-Reach-US-1078-42-Billion-by-2034-at-CAGR-of-45-3-The-Insight-Partners.html"
+  },
+  {
+    "baslik": "AI Moves Compliance From Detection to Investigation",
+    "ozet": "PYMNTS'in bu haberine göre, yapay zeka (AI) uyumluluk (compliance) alanında köklü bir dönüşüm yaratarak, odağı basit ihlal tespitinden derinlemesine soruşturma ve araştırmaya kaydırıyor. Geleneksel kural tabanlı sistemler şüpheli işlemleri yalnızca işaretleyip insan incelemesine bırakırken, yeni nesil üretken yapay zeka (GenAI) ve büyük dil modelleri (LLM'ler) bu işlemleri bağlamsal olarak analiz edebiliyor, ilgili kanıtları bir araya getirebiliyor ve hatta ön soruşturma raporları taslağı oluşturabiliyor. Haberde, finansal kuruluşların AI tabanlı sistemler sayesinde kara para aklama (AML) ve dolandırıcılık incelemelerinde süreleri haftalardan saatlere indirdiği, yanlış pozitif oranlarını önemli ölçüde düşürdüğü ve uyum ekiplerinin daha stratejik kararlara odaklanmasına imkan tanıdığı vurgulanıyor. Ayrıca, düzenleyici kurumların da bu teknolojiye uyum sağlamaya başladığı ve AI odaklı soruşturma süreçlerinin şeffaflık ve izlenebilirlik gereksinimlerini karşılamak üzere 'açıklanabilir AI' (explainable AI) yaklaşımlarının önem kazandığı belirtiliyor.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-moves-compliance-from-detection-to-investigation/"
+  },
+  {
+    "baslik": "AI Governance Workflows for Enterprise Software Development Teams",
+    "ozet": "Bu makale, kurumsal yazılım geliştirme ekipleri için yapay zeka yönetişim (AI governance) iş akışlarını ele almaktadır. Yapay zeka sistemlerinin güvenli, etik ve uyumlu bir şekilde geliştirilmesi için gerekli politika, süreç ve kontrolleri detaylandırmaktadır. Makalede; risk değerlendirmesi, veri yönetimi, model şeffaflığı, hesap verebilirlik ve regülasyonlara uyum (EU AI Act gibi) başlıklarına yer verilmekte, ekiplerin yapay zeka projelerinde yaşam döngüsü boyunca takip etmesi gereken adımlar pratik bir çerçeveyle sunulmaktadır. Özellikle kurumsal ölçekte yapay zeka benimseyen yazılım ekiplerinin karşılaştığı yönetişim zorluklarına odaklanılmaktadır.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka / Kurumsal Teknoloji",
+    "url": "https://www.c-sharpcorner.com/article/ai-governance-workflows-for-enterprise-software-development-teams/"
+  },
+  {
+    "baslik": "European Union unveils €8m 6G smart networks security project",
+    "ozet": "The European Union has announced an €8 million project focused on 6G smart networks security. The initiative aims to develop robust security frameworks for next-generation 6G networks, addressing vulnerabilities in intelligent and autonomous network infrastructures. The project brings together industry, academia, and research institutions to ensure that future 6G networks are secure by design, covering areas such as AI-driven network management, edge computing security, and resilience against emerging cyber threats.",
+    "onem_skoru": "8",
+    "kategori": "Siber Güvenlik",
+    "url": "https://www.computerweekly.com/news/366644393/European-Union-unveils-8m-6G-smart-networks-security-project"
+  },
+  {
+    "baslik": "‘I lost my job to AI’: 24-year-old Meta data scientist says layoff was more relief than pain, big tech jobs are no longer safe",
+    "ozet": "Meta'da veri bilimci olarak çalışan 24 yaşındaki genç profesyonel, yapay zeka nedeniyle işini kaybettiğini açıkladı. Şirketin yapay zeka yatırımları ve otomasyon süreçleri kapsamında gerçekleşen işten çıkarmalardan etkilendiğini belirten eski Meta çalışanı, bu durumu bir acıdan çok rahatlama olarak tanımladı. Büyük teknoloji şirketlerindeki işlerin artık güvenli olmadığını vurgulayan genç veri bilimci, yapay zekanın veri bilimi alanındaki rutin görevleri devralmasıyla birlikte insan çalışanlara olan ihtiyacın azaldığını, özellikle büyük teknoloji firmalarında hiçbir pozisyonun yapay zeka kaynaklı işten çıkarmalara karşı tamamen güvende olmadığını dile getirdi.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka / Kariyer",
+    "url": "https://economictimes.indiatimes.com/news/new-updates/i-lost-my-job-to-ai-24-year-old-meta-data-scientist-opens-up-about-layoff-says-big-company-tech-jobs-are-no-longer-safe/articleshow/131732060.cms"
+  },
+  {
+    "baslik": "How AI is revealing the secret lives of animals from hummingbirds to pumas",
+    "ozet": "Nature dergisinde yayımlanan bu haberde, yapay zekanın hayvan davranışlarını izleme ve anlamada nasıl devrim yarattığı ele alınıyor. Araştırmacılar, sinek kuşlarından pumalara kadar birçok türün gizli yaşamlarını ortaya çıkarmak için kamera tuzakları, drone'lar ve biyo-akustik sensörlerle toplanan devasa veri setlerini derin öğrenme ve bilgisayarla görü modelleriyle analiz ediyor. Yapay zeka; hayvanların bireysel tanımlanmasını, hareket kalıplarının haritalanmasını, sosyal etkileşimlerin çözümlenmesini ve daha önce gözlemlenemeyen davranışların keşfedilmesini mümkün kılıyor. Bu teknolojiler sayesinde biyoçeşitliliğin izlenmesi, koruma stratejilerinin geliştirilmesi ve iklim değişikliğinin türler üzerindeki etkilerinin daha hassas ölçülmesi sağlanıyor.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka ve Biyoloji",
+    "url": "https://www.nature.com/articles/d41586-026-01887-w"
+  },
+  {
+    "baslik": "Castellum Joint Venture Wins Position on $250 Million U.S. Navy Logistics IT Multiple Award Contract",
+    "ozet": "Castellum, Inc., Corvus Consulting LLC ile kurduğu Castellum-Corvus Joint Venture (CCJV) aracılığıyla, ABD Donanması'nın Deniz Savaş Bilgi Sistemleri Komutanlığı (NAVWAR) tarafından yürütülen 250 milyon dolarlık Lojistik BT Çoklu Ödül Sözleşmesi'nde (Seaport NxG programı kapsamında) pozisyon kazandığını duyurdu. Bu sözleşme kapsamında CCJV; yapay zeka, makine öğrenimi, veri bilimi, siber güvenlik, lojistik bilgi teknolojileri, sistem entegrasyonu, bulut bilişim ve yazılım geliştirme gibi alanlarda ABD Donanması'na destek sağlayacak. Sözleşme, donanmanın lojistik ve tedarik zinciri operasyonlarının dijital dönüşümünü hedefliyor. Castellum CEO'su Glen Ives, bu sözleşmenin şirketin savunma teknolojisi alanındaki konumunu güçlendirdiğini ve donanmanın kritik lojistik sistemlerini modernize etmeye katkıda bulunmaktan gurur duyduklarını belirtti.",
+    "onem_skoru": "7",
+    "kategori": "Savunma Teknolojisi / Yapay Zeka",
+    "url": "https://www.globenewswire.com/news-release/2026/06/15/3311641/0/en/Castellum-Joint-Venture-Wins-Position-on-250-Million-U-S-Navy-Logistics-IT-Multiple-Award-Contract.html"
+  },
+  {
+    "baslik": "RADAR Wants to Make the Physical Store as Smart as Its Website",
+    "ozet": "Bu haber, perakende teknolojisi alanında faaliyet gösteren RADAR şirketinin fiziksel mağazaları tıpkı web siteleri kadar 'akıllı' hale getirme vizyonunu ele alıyor. RADAR, RFID (Radyo Frekansı ile Tanımlama) ve bilgisayarlı görü (computer vision) teknolojilerini bir araya getirerek gerçek zamanlı envanter takibi, müşteri davranışı analizi ve kişiselleştirilmiş alışveriş deneyimleri sunmayı hedefliyor. Şirketin geliştirdiği platform sayesinde fiziksel mağazalar, tıpkı e-ticaret siteleri gibi müşteri etkileşimlerini ölçebilecek, hangi ürünlerin denendiğini ancak satın alınmadığını tespit edebilecek ve stok yönetimini optimize edebilecek. Bu yaklaşım, çevrimiçi ve çevrimdışı perakende arasındaki veri uçurumunu kapatmayı ve mağaza içi dönüşüm oranlarını artırmayı amaçlıyor. Haber, fiziksel perakendenin dijitalleşmesi bağlamında önemli bir teknolojik dönüşümü işaret ediyor.",
+    "onem_skoru": "7",
+    "kategori": "Perakende Teknolojisi",
+    "url": "https://www.pymnts.com/news/retail/2026/radar-wants-to-make-the-physical-store-as-smart-as-its-website/"
+  },
+  {
+    "baslik": "Building AI-Powered Architecture Review Systems with .NET",
+    "ozet": "Bu makale, .NET ekosistemi kullanılarak yapay zeka destekli mimari inceleme sistemlerinin nasıl oluşturulacağını ele alıyor. Yazar, büyük ölçekli yazılım projelerinde mimari kararların otomatik olarak gözden geçirilmesi ve değerlendirilmesi için yapay zeka tekniklerinin .NET araçlarıyla nasıl entegre edilebileceğini adım adım anlatıyor. Makalede, ML.NET, Semantic Kernel ve Azure AI servisleri gibi .NET bileşenleri kullanılarak; kod kalitesi, tasarım desenleri, bağımlılık analizi ve güvenlik açıkları gibi konularda otomatik geri bildirim sağlayan bir sistemin mimarisi ve uygulama detayları paylaşılıyor. Bu tür sistemlerin, geliştirici ekiplerinin manuel kod inceleme süreçlerini hızlandırarak daha tutarlı ve ölçeklenebilir mimari standartlar yakalamasına yardımcı olduğu vurgulanıyor.",
+    "onem_skoru": "7",
+    "kategori": "Yapay Zeka / Yazılım Mimarisi",
+    "url": "https://www.c-sharpcorner.com/article/building-ai-powered-architecture-review-systems-with-net/"
+  },
+  {
+    "baslik": "MicroLED Interconnect Market to Reach USD 722.0 Million by 2033, Driven by AI Infrastructure Expansion and High-Performance Computing Demand",
+    "ozet": "MicroLED ara bağlantı (interconnect) pazarının 2033 yılına kadar 722 milyon ABD dolarına ulaşması bekleniyor. 2024 yılında 63,2 milyon dolar seviyesinde olan pazarın, %30,9'luk yıllık bileşik büyüme oranı (CAGR) ile büyüyeceği öngörülüyor. Bu büyümenin temel itici güçleri arasında yapay zeka altyapısının genişlemesi, yüksek performanslı bilgi işlem (HPC) talebi, veri merkezlerindeki artış ve yeni nesil ekran teknolojilerine olan ihtiyaç yer alıyor. MicroLED ara bağlantı teknolojisi; artırılmış gerçeklik (AR), sanal gerçeklik (VR), otomotiv ekranları, giyilebilir cihazlar ve büyük ölçekli dijital tabelalar gibi çeşitli uygulama alanlarında kritik bir rol oynuyor. Raporda, özellikle Asya-Pasifik bölgesinin pazara liderlik ettiği, Kuzey Amerika'nın ise yapay zeka ve HPC yatırımları sayesinde hızla büyüdüğü vurgulanıyor.",
+    "onem_skoru": "7",
+    "kategori": "Donanım / Yarı İletken Teknolojisi",
+    "url": "https://www.prnewswire.com/news-releases/microled-interconnect-market-to-reach-usd-722-0-million-by-2033--driven-by-ai-infrastructure-expansion-and-high-performance-computing-demand-302799111.html"
+  },
+  {
+    "baslik": "BenQ bets big on AI classrooms, but its biggest opportunity may still be in home entertainment",
+    "ozet": "BenQ, Hindistan'daki EduTech 2.0 etkinliğinde yapay zeka destekli akıllı sınıf çözümlerini tanıttı. Şirket, Google sertifikalı interaktif düz paneller, AI destekli gürültü engelleme ve otomatik ders özetleme gibi özelliklerle eğitim kurumlarını hedefliyor. Bununla birlikte BenQ'nun asıl büyüme potansiyelinin ev eğlencesi pazarında yattığı vurgulanıyor; şirketin oyun monitörleri ve projektör segmentlerinde güçlü bir marka bilinirliği bulunuyor. Hindistan genelinde 600'den fazla servis merkeziyle eğitim ve ev eğlencesi sektörlerini eş zamanlı olarak büyütmeyi planlayan BenQ, AI sınıflarını geleceğin yatırımı olarak görürken, kısa vadede ev eğlencesi ürünlerinin gelir artışında daha etkili olacağını öngörüyor.",
+    "onem_skoru": "6",
+    "kategori": "Yapay Zeka ve Tüketici Elektroniği",
+    "url": "https://economictimes.indiatimes.com/magazines/panache/benq-bets-big-on-ai-classrooms-but-its-biggest-opportunity-may-still-be-at-home/articleshow/131741400.cms"
+  },
+  {
+    "baslik": "Focus on structural trends, ignore market noise: Hiren Ved",
+    "ozet": "Hiren Ved, piyasalardaki kısa vadeli dalgalanmalara ve 'gürültüye' takılmak yerine, yatırımcıların uzun vadeli yapısal trendlere odaklanması gerektiğini vurguluyor. Teknoloji, dijitalleşme, yapay zeka ve yeşil enerji gibi dönüştürücü mega trendlerin önümüzdeki yıllarda büyümenin temel itici güçleri olacağını belirtiyor. Kısa vadeli piyasa oynaklıklarının yatırımcıları bu büyük resimden uzaklaştırmaması gerektiğini, asıl değerin yapısal değişimleri erkenden tespit edip bunlara yatırım yapmakta olduğunu ifade ediyor.",
+    "onem_skoru": "6",
+    "kategori": "Yapay Zeka / Teknoloji Stratejisi",
+    "url": "https://economictimes.indiatimes.com/markets/expert-view/focus-on-structural-trends-ignore-market-noise-hiren-ved/articleshow/131735245.cms"
+  },
+  {
+    "baslik": "Powerfleet Reports Results for Fourth Quarter and Full-Year Fiscal 2026",
+    "ozet": "Henüz haber içeriği okunamadı. URL üzerinden sayfa içeriği çekilmeye çalışılacak.",
+    "onem_skoru": "5",
+    "kategori": "Teknoloji / Finans",
+    "url": "https://www.prnewswire.com/news-releases/powerfleet-reports-results-for-fourth-quarter-and-full-year-fiscal-2026-302799808.html"
+  },
+  {
+    "baslik": "Sustainable closed-loop supply chain management for a two-warehouse system with trade-credit and emissions constraints under dynamic demand",
+    "ozet": "Nature Scientific Reports'ta yayımlanan bu akademik çalışma, dinamik (zamana bağlı değişen) talep koşullarında çalışan iki depolu bir kapalı döngü tedarik zinciri sistemini matematiksel olarak modelliyor. Araştırma; ticari kredi (tedarikçilerin alıcılara vadeli ödeme imkanı tanıması), karbon emisyon kısıtları ve sürdürülebilirlik hedeflerini aynı anda optimize eden bir yönetim çerçevesi sunuyor. Kapalı döngü yapısı sayesinde ürünlerin geri dönüşümü ve yeniden üretimi de modele dahil edilerek, işletmelerin hem finansal hem de çevresel performansını artıracak stratejiler öneriliyor. Çalışma, tedarik zinciri yöneticilerine karbon ayak izini azaltırken maliyetleri de düşürecek nicel karar destek araçları sağlamayı amaçlıyor.",
+    "onem_skoru": "4",
+    "kategori": "Akademik Araştırma / Tedarik Zinciri ve Sürdürülebilirlik",
+    "url": "https://www.nature.com/articles/s41598-026-43484-x"
+  },
+  {
+    "baslik": "Machine Learning Research Scientist",
+    "ozet": "NLP People platformunda yayınlanan bu iş ilanı, bir kuruluşun Makine Öğrenmesi Araştırma Bilimcisi pozisyonu için yetenek aradığını duyurmaktadır. İlan, doğal dil işleme (NLP) ve makine öğrenmesi alanlarında uzmanlaşmış, araştırma odaklı bir rolü tanımlamaktadır. Adaylardan genellikle derin öğrenme, büyük dil modelleri (LLM'ler) ve ilgili ML framework'lerinde deneyim beklendiği öngörülmektedir. Bu tür ilanlar, yapay zeka sektöründeki nitelikli araştırmacı talebinin sürekliliğini yansıtmaktadır.",
+    "onem_skoru": "3",
+    "kategori": "Yapay Zeka / İş İlanı",
+    "url": "https://nlppeople.com/job/machine-learning-research-scientist-15/"
+  },
+  {
+    "baslik": "(Machine Learning Scientist, Scientific Reasoning Models, AI for Drug Discovery)",
+    "ozet": "URL içeriği okunamadı. Lütfen geçerli ve erişilebilir bir haber linki sağlayın.",
+    "onem_skoru": "1",
+    "kategori": "Teknoloji / Yapay Zeka",
+    "url": "https://nlppeople.com/job/machine-learning-scientist-scientific-reasoning-models-ai-for-drug-discovery-26/"
+  },
+  {
+    "baslik": "What If It All Came Out?",
+    "ozet": "Haberin sayfa içeriğine erişmeye çalıştım ancak bağlantı kurulamadı veya içerik alınamadı. Lütfen URL'nin doğru ve erişilebilir olduğundan emin olup tekrar deneyiniz.",
+    "onem_skoru": "0",
+    "kategori": "Teknoloji / Yapay Zeka",
+    "url": "http://nymag.com/intelligencer/article/your-digital-self-is-vulnerable.html"
+  }
+]
