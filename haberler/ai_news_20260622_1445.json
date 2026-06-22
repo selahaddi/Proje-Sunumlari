@@ -1,0 +1,58 @@
+[
+  {
+    "baslik": "The AI Ghost in the Nuclear War Machine",
+    "ozet": "Bu makale, yapay zekanın nükleer komuta-kontrol sistemlerine entegre edilmesinin yarattığı büyük riskleri ele alıyor. ABD Savunma Bakanlığı'nın, nükleer silahlarla ilgili karar alma süreçlerine yapay zekayı dahil etme yönündeki adımları inceleniyor. Yazıda, yapay zekanın karar hızını artırma vaadinin, aslında feci sonuçlara yol açabilecek hatalı alarmlar, önyargılı veri setleri ve kontrol kaybı risklerini beraberinde getirdiği vurgulanıyor. Nükleer caydırıcılık stratejilerinde insan muhakemesinin yerini algoritmaların almasının, 'anlam karmaşası' (semantic ambiguity) ve yanlış pozitif sinyallerle bir krizi hızla tırmandırabileceği uyarısı yapılıyor. Soğuk Savaş dönemindeki yakın kazalara atıfta bulunularak, otonom sistemlerin benzer hataları çok daha hızlı ve geri döndürülemez şekilde yapabileceği belirtiliyor. Makale, teknoloji şirketleri ile Pentagon arasındaki derinleşen iş birliğini sorgularken, nükleer silahların kontrolünde 'anlamlı insan kontrolü' ilkesinin korunması gerektiğinin altını çiziyor. Sonuç olarak, yapay zekanın nükleer savaş makinesine entegrasyonunun, varoluşsal bir tehdit olarak insanlığın geleceğini tehlikeye attığı ifade ediliyor.",
+    "onem_skoru": "10",
+    "kategori": "Yapay Zeka ve Savunma",
+    "url": "https://newrepublic.com/article/204327/ai-integration-nuclear-war-machine"
+  },
+  {
+    "baslik": "Can Labor handle a backlash over AI and data centres?",
+    "ozet": "ABC News Australia'nın bu haberi, Avustralya İşçi Partisi (Labor) hükümetinin yapay zeka altyapı yatırımları ve veri merkezi inşaatları konusunda karşılaştığı büyüyen siyasi ve toplumsal tepkiyi inceliyor. Habere göre hükümet, yapay zeka ekosistemini büyütme hedefiyle veri merkezi projelerini hızlandırırken; bu tesislerin devasa enerji tüketimi, elektrik şebekesine getirdiği yük, su kaynakları üzerindeki baskı ve yerel toplulukların çevresel kaygıları ciddi bir muhalefete dönüşüyor. Özellikle kırsal bölgelerde kurulması planlanan büyük ölçekli veri merkezlerine karşı yerel protestolar artarken, muhalefet partileri de konuyu seçim gündemine taşıyor. Haber, Labor hükümetinin bir yandan teknolojik dönüşümü ve ekonomik büyümeyi hedeflerken, diğer yandan iklim taahhütleri ve enerji güvenliği arasında sıkıştığını ve bu gerilimin 2025 seçimleri öncesinde parti için önemli bir siyasi risk oluşturduğunu vurguluyor.",
+    "onem_skoru": "8",
+    "kategori": "Yapay Zeka / Altyapı",
+    "url": "https://www.abc.net.au/news/2026-06-22/ai-data-centre-is-a-political-risk-for-labor/106817752"
+  },
+  {
+    "baslik": "How TikTok-style videos keep human brains hooked on content",
+    "ozet": "Deutsche Welle'nin bu haberinde, TikTok tarzı kısa videoların insan beynini nasıl bağımlı hale getirdiği bilimsel olarak inceleniyor. Makale, kısa biçimli videoların dopamine dayalı ödül sistemiyle beynin \"değişken ödül\" mekanizmasını tetiklediğini, her kaydırmada yeni bir içerik beklentisinin rastgele gelmesiyle kumar makinelerine benzer bir bağımlılık yarattığını anlatıyor. Uzmanlar, bu platformların sonsuz kaydırma (infinite scroll) ve otomatik oynatma gibi tasarım öğeleriyle kullanıcıların dikkat sürelerini kısalttığını, prefrontal korteks aktivitesini azaltarak dürtü kontrolünü zayıflattığını belirtiyor. Haberde, özellikle gençlerde artan ekran süresinin sosyal medya bağımlılığına, anksiyeteye ve odaklanma sorunlarına yol açtığı vurgulanıyor. Ayrıca, Çin'in Douyin (TikTok'un Çin versiyonu) üzerinde getirdiği günlük kullanım sınırlamaları gibi düzenleyici yaklaşımlara da yer veriliyor.",
+    "onem_skoru": "8",
+    "kategori": "Teknoloji ve Yapay Zeka",
+    "url": "https://www.dw.com/en/how-tiktok-style-videos-keep-human-brains-hooked-on-content/a-77627720"
+  },
+  {
+    "baslik": "(As world populations crash, is this Japanese robot city our future?)",
+    "ozet": "Bu haber, Japonya'da robotların ve yapay zekanın entegre edildiği bir 'robot şehri' projesini ele alıyor. Dünya nüfusunun azalması ve Japonya'daki yaşlanan nüfus krizine dikkat çekilerek, bu tür teknolojik çözümlerin gelecekteki şehir yaşamının bir önizlemesi olabileceği tartışılıyor. Haberde, robotların günlük yaşam hizmetlerinde, altyapıda ve endüstride insan iş gücünün yerini alması, sürdürülebilir şehir modelleri ve demografik sorunlara teknolojik yanıtlar gibi temalar işleniyor.",
+    "onem_skoru": "7",
+    "kategori": "Robotik ve Yapay Zeka",
+    "url": "https://www.theblaze.com/tech/as-world-populations-crash-is-this-japanese-robot-city-our-future"
+  },
+  {
+    "baslik": "My teenage son is using AI to do his math homework. I'm now helping his school write its first AI policy.",
+    "ozet": "Bir anne, genç oğlunun matematik ödevlerini yapmak için yapay zeka araçlarını kullandığını fark edince, bu durumu anlamaya çalışırken aynı zamanda okulun ilk yapay zeka politikasını yazmasına yardımcı oluyor. Haberde, öğrencinin ödevleri tamamen yapay zekaya yaptırmak yerine, kavramları anlamak için bir araç olarak kullandığı; ancak okulların bu yeni teknoloji karşısında net politikalara sahip olmadığı vurgulanıyor. Ebeveyn, yapay zekanın eğitimde hem fırsatlar hem de riskler barındırdığını, intihal ve öğrenme kaybı gibi sorunlara yol açabileceğini, fakat doğru kullanıldığında kişiselleştirilmiş öğrenme desteği sunabileceğini ifade ediyor.",
+    "onem_skoru": "7",
+    "kategori": "Yapay Zeka ve Eğitim",
+    "url": "https://www.businessinsider.com/teenager-uses-ai-homework-mom-helped-school-write-ai-policy-2026-6#article"
+  },
+  {
+    "baslik": "My teenage son is using AI to do his math homework. I'm now helping his school write its first AI policy.",
+    "ozet": "Business Insider'da yayımlanan bu haberde, bir annenin ergen oğlunun matematik ödevlerini yapmak için yapay zeka araçlarını kullandığını fark etmesi ve bunun üzerine oğlunun okulunun ilk yapay zeka politikasını yazmasına yardımcı olma süreci anlatılıyor. Anne, oğlunun ChatGPT gibi araçlarla ödevleri kolayca çözdüğünü ancak konuları gerçekten öğrenmediğini fark ediyor. Bu durum karşısında okul yönetimiyle iletişime geçerek, öğrencilerin yapay zekayı etik ve eğitici bir şekilde nasıl kullanabileceğine dair kapsamlı bir politika oluşturulmasına öncülük ediyor. Haber, eğitimde yapay zeka kullanımının getirdiği fırsatlar ve riskler arasındaki dengeyi, akademik dürüstlük kaygılarını ve okulların bu yeni teknolojiye ne kadar hazırlıksız yakalandığını çarpıcı bir kişisel hikaye üzerinden ele alıyor.",
+    "onem_skoru": "7",
+    "kategori": "Yapay Zeka ve Eğitim",
+    "url": "https://www.businessinsider.com/teenager-uses-ai-homework-mom-helped-school-write-ai-policy-2026-6"
+  },
+  {
+    "baslik": "Hindistan'ın en büyük bankası daha iyi bir değerleme hak ediyor, diyor banka şefi. Piyasa da aynı fikre varmaya başladı.",
+    "ozet": "Hindistan Devlet Bankası (SBI) Başkanı Challa Sreenivasulu Setty, bankanın mevcut piyasa değerlemesinin gerçek potansiyelini yansıtmadığını savunuyor. SBI, Hindistan'ın en büyük kredi kuruluşu olmasına ve son yıllarda varlık kalitesinde önemli iyileşmeler kaydetmesine rağmen, özel sektör bankalarına kıyasla daha düşük bir çarpanda işlem görüyor. Setty, bankanın teknoloji yatırımları, dijital dönüşümü ve YONO dijital platformu sayesinde operasyonel verimliliğini artırdığını belirtiyor. Son dönemde bankanın hisselerinde yaşanan yükseliş, piyasanın da bu görüşe katılmaya başladığını gösteriyor. Haber, büyük ölçekli bir finans kuruluşunun dijital dönüşüm yoluyla değer yaratma çabasını ele almakta olup, teknoloji odağı sınırlı düzeydedir.",
+    "onem_skoru": "4",
+    "kategori": "Finansal Teknoloji",
+    "url": "https://www.livemint.com/companies/news/why-sbi-deserves-a-better-valuation-11782036427413.html"
+  },
+  {
+    "baslik": "Betty and Fred’s Story: Building a Life Together -- The Waiting, Early June 1944",
+    "ozet": "Bu başlık, Haziran 1944'te geçen kişisel bir hikayeyi anlatıyor gibi görünmektedir. Ancak verilen URL (Blogger 'tarayıcı desteklenmiyor' hata sayfası) erişilebilir değildir ve içerik okunamamıştır. Başlık ve bağlam itibarıyla bu bir teknoloji ya da yapay zeka haberi değildir; teknoloji dünyasıyla ilgili herhangi bir etkisi bulunmamaktadır.",
+    "onem_skoru": "1",
+    "kategori": "Diğer / Teknoloji Dışı",
+    "url": "https://www.blogger.com/browser-not-supported/?ref=/comment/fullpage/post/26204193/2114958108980802046"
+  }
+]
